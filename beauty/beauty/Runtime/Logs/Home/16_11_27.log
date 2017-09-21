@@ -1,0 +1,505 @@
+[ 2016-11-27T16:55:22+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T16:55:25+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T16:55:46+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T16:55:51+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T16:55:55+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T16:55:57+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T16:55:58+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T16:55:58+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_sign` SET `sign`=sign+3 WHERE `mid` = 5 [ RunTime:0.0630s ]
+SQL: UPDATE `beauty_sign` SET `signcount`=signcount+1 WHERE `mid` = 5 [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_sign` SET `signtag`='1',`signtime`='1480236958',`stopsign`='1480262400' WHERE `mid` = 5 [ RunTime:0.0590s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-11-27T16:56:00+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T16:56:02+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T16:57:28+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T16:57:28+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-27T16:57:29+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T16:57:29+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-27T16:57:29+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-27T16:57:29+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T16:57:30+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T16:57:30+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-27T16:57:30+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T16:57:30+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-27T16:57:30+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-27T16:57:30+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:00:15+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:00:48+08:00 ] 127.0.0.1 /index.php/Home/Lucky/Lucky/lucky?prize=0&message=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_sign` SET `stoptime`='1480262400' WHERE `mid` = 5 [ RunTime:0.0640s ]
+SQL: UPDATE `beauty_sign` SET `luckytag`=luckytag+1 WHERE `mid` = 5 [ RunTime:0.0330s ]
+
+[ 2016-11-27T17:01:08+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:01:11+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:01:18+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:01:20+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:01:21+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:01:25+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:01:44+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:01:47+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:03:01+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:03:10+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:03:11+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:03:16+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:03:51+08:00 ] 127.0.0.1 /index.php/Home/MyCart/getcartlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_cart` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT g.imageurl,g.imagename,g.saleprice,g.goodsname,c.buynum,c.sumprice,c.id,g.id gid,c.ml FROM beauty_goods g,beauty_cart c WHERE ( g.id=c.gid ) AND c.mid = '5' ORDER BY c.addtime desc  [ RunTime:0.0010s ]
+
+[ 2016-11-27T17:03:52+08:00 ] 127.0.0.1 /index.php/Home/MyCart/getcartlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_cart` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT g.imageurl,g.imagename,g.saleprice,g.goodsname,c.buynum,c.sumprice,c.id,g.id gid,c.ml FROM beauty_goods g,beauty_cart c WHERE ( g.id=c.gid ) AND c.mid = '5' ORDER BY c.addtime desc  [ RunTime:0.0010s ]
+
+[ 2016-11-27T17:04:33+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:04:37+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:04:38+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:04:38+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_sign` SET `sign`=sign+3 WHERE `mid` = 5 [ RunTime:0.0600s ]
+SQL: UPDATE `beauty_sign` SET `signcount`=signcount+1 WHERE `mid` = 5 [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_sign` SET `signtag`='1',`signtime`='1480237478',`stopsign`='1480262400' WHERE `mid` = 5 [ RunTime:0.0590s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-27T17:04:42+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:04:44+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:04:55+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:04:58+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-bypage1.php?checkedDay=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:List-data-json-bypage1.php
+
+[ 2016-11-27T17:04:58+08:00 ] 127.0.0.1 /index.php/Home/Sign/addSign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_sign` SET `sign`=sign+3 WHERE `mid` = 5 [ RunTime:0.0590s ]
+SQL: UPDATE `beauty_sign` SET `signcount`=signcount+1 WHERE `mid` = 5 [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_sign` SET `signtag`='1',`signtime`='1480237498',`stopsign`='1480262400' WHERE `mid` = 5 [ RunTime:0.0590s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-27T17:05:03+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:05:28+08:00 ] 127.0.0.1 /index.php/Home/list-data-json-pagecount1.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:List-data-json-pagecount1.php
+
+[ 2016-11-27T17:23:03+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=87
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=87 and g.show=1 ORDER  by addtime desc limit 0,3  [ RunTime:0.0010s ]
+
+[ 2016-11-27T17:23:03+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=83
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=83 and g.show=1 ORDER  by addtime desc limit 0,3  [ RunTime:0.0010s ]
+
+[ 2016-11-27T17:25:17+08:00 ] 127.0.0.1 /index.php/Home/Footprint/deletefoot.html?gid=76
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_footprint` [ RunTime:0.0060s ]
+SQL: DELETE FROM `beauty_footprint` WHERE `mid` = 5 AND `gid` = 76 [ RunTime:0.0520s ]
+
+[ 2016-11-27T17:26:00+08:00 ] 127.0.0.1 /index.php/Home/Footprint/deletefoot.html?gid=26
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_footprint` [ RunTime:0.0060s ]
+SQL: DELETE FROM `beauty_footprint` WHERE `mid` = 5 AND `gid` = 26 [ RunTime:0.0570s ]
+
+[ 2016-11-27T17:33:54+08:00 ] 127.0.0.1 /index.php/Home/MyCart/getcartlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_cart` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT g.imageurl,g.imagename,g.saleprice,g.goodsname,c.buynum,c.sumprice,c.id,g.id gid,c.ml FROM beauty_goods g,beauty_cart c WHERE ( g.id=c.gid ) AND c.mid = '5' ORDER BY c.addtime desc  [ RunTime:0.0010s ]
+
+[ 2016-11-27T17:41:43+08:00 ] 127.0.0.1 /index.php/Home/Search/index/saledesc/salenum+desc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum+desc LIMIT 1  
+
+[ 2016-11-27T17:42:14+08:00 ] 127.0.0.1 /index.php/Home/Search/index/saledesc/salenum+desc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum+desc LIMIT 1  
+
+[ 2016-11-27T17:42:15+08:00 ] 127.0.0.1 /index.php/Home/Search/index/saledesc/salenum+desc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum+desc LIMIT 1  
+
+[ 2016-11-27T17:42:16+08:00 ] 127.0.0.1 /index.php/Home/Search/index/saledesc/salenum+desc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum+desc LIMIT 1  
+
+[ 2016-11-27T17:42:20+08:00 ] 127.0.0.1 /index.php/Home/Search/index/saledesc/salenum+desc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum+desc LIMIT 1  
+
+[ 2016-11-27T17:42:29+08:00 ] 127.0.0.1 /index.php/Home/Search/index/saledesc/salenum+desc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum+desc LIMIT 1  
+
+[ 2016-11-27T17:42:30+08:00 ] 127.0.0.1 /index.php/Home/Search/index/saledesc/salenum+desc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum+desc LIMIT 1  
+
+[ 2016-11-27T17:53:14+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:53:55+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:53:56+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:53:56+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:53:56+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:54:14+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:54:15+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:56:44+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:56:45+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:56:45+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:56:45+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:56:46+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:57:26+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:27+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:27+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:27+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:27+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:28+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:28+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:28+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:28+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:28+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array,`saleprice` Array LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` Array,`saleprice` Array LIMIT 1  
+
+[ 2016-11-27T17:57:55+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:57:56+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:57:56+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:57:56+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'salenum desc,`saleprice` saleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY `salenum` salenum desc,`saleprice` saleprice LIMIT 1  
+
+[ 2016-11-27T17:59:40+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'descsaleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum descsaleprice LIMIT 1  
+
+[ 2016-11-27T17:59:58+08:00 ] 127.0.0.1 /index.php/Home/Search/index/pricedesc/saleprice.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'descsaleprice LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%面膜%' ORDER BY salenum descsaleprice LIMIT 1  
+

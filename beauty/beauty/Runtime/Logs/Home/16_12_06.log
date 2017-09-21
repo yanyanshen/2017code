@@ -1,0 +1,287 @@
+[ 2016-12-06T10:45:05+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0050s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=22 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0010s ]
+
+[ 2016-12-06T10:45:06+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=53
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0050s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=53 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0010s ]
+
+[ 2016-12-06T10:45:06+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=70
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=70 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0000s ]
+
+[ 2016-12-06T10:45:07+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=70
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0070s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=70 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0000s ]
+
+[ 2016-12-06T10:45:07+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=53
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0050s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=53 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0010s ]
+
+[ 2016-12-06T10:45:08+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=70
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0050s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=70 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0020s ]
+
+[ 2016-12-06T10:45:08+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=83
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0050s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=83 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0010s ]
+
+[ 2016-12-06T10:45:08+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=87
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0070s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=87 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0000s ]
+
+[ 2016-12-06T10:45:16+08:00 ] 127.0.0.1 /index.php/Home/MyCart/mycart.html?gid=65&xinghao=50ml&salenum=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_cart` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_type` [ RunTime:0.0000s ]
+SQL: SELECT `saleprice` FROM `beauty_type` WHERE `gid` = '65' AND `ml` = '50' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T10:45:45+08:00 ] 127.0.0.1 /index.php/Home/MyCart/mycart.html?gid=65&xinghao=50ml&salenum=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_cart` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `beauty_type` [ RunTime:0.0050s ]
+SQL: SELECT `saleprice` FROM `beauty_type` WHERE `gid` = '65' AND `ml` = '50' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T10:46:02+08:00 ] 127.0.0.1 /index.php/Home/Order/saleprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_type` [ RunTime:0.0050s ]
+SQL: SELECT `saleprice` FROM `beauty_type` WHERE `ml` = '150,200' AND `gid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-06T10:49:59+08:00 ] 127.0.0.1 /index.php/Home/Order/saleprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_type` [ RunTime:0.0040s ]
+SQL: SELECT `saleprice` FROM `beauty_type` WHERE `ml` = '200' AND `gid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T10:50:04+08:00 ] 127.0.0.1 /index.php/Home/MyCart/tocartdelete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:50:09+08:00 ] 127.0.0.1 /index.php/Home/MyCart/mycart.html?gid=65&xinghao=50ml&salenum=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_cart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_type` [ RunTime:0.0000s ]
+SQL: SELECT `saleprice` FROM `beauty_type` WHERE `gid` = '65' AND `ml` = '50' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T12:47:24+08:00 ] 127.0.0.1 /index.php/Home/sign/addOrder.html?gid=67&price=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T12:47:25+08:00 ] 127.0.0.1 /index.php/Home/Test/geetest_show_verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T12:47:35+08:00 ] 127.0.0.1 /index.php/Home/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T12:47:37+08:00 ] 127.0.0.1 /index.php/Home/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T12:47:37+08:00 ] 127.0.0.1 /index.php/Home/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T12:47:40+08:00 ] 127.0.0.1 /index.php/Home/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T12:47:41+08:00 ] 127.0.0.1 /index.php/Home/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T12:47:42+08:00 ] 127.0.0.1 /index.php/Home/Login/doLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_user` SET `lastlogin`='1480999662' WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' [ RunTime:0.0610s ]
+
+[ 2016-12-06T12:47:46+08:00 ] 127.0.0.1 /index.php/Home/Collect/collect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_collect` WHERE `mid` = 5 LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_collect` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T12:47:51+08:00 ] 127.0.0.1 /index.php/Home/sign/addOrder.html?gid=67&price=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `beauty_sign` SET `sign`=sign-20 WHERE `mid` = 5 [ RunTime:0.0810s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0060s ]
+SQL: INSERT INTO `beauty_order` (`orderno`,`price`,`create_time`,`mid`) VALUES ('428b5c475c68fb9','2','1480999670','5') [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: INSERT INTO `beauty_order_goods` (`oid`,`gid`,`buynum`,`saleprice`) VALUES ('3','67','1','2') [ RunTime:0.0530s ]
+
+[ 2016-12-06T12:47:58+08:00 ] 127.0.0.1 /index.php/Home/MyCart/tosubmit1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0050s ]
+SQL: SELECT `orderno` FROM `beauty_order` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `beauty_order` SET `address`='29',`inform`='',`status`='2' WHERE `id` = 3 AND `mid` = 5 [ RunTime:0.0970s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0050s ]
+SQL: UPDATE `beauty_golds` SET `salenum`=salenum+1 WHERE `id` = 67 [ RunTime:0.0780s ]
+
+[ 2016-12-06T12:48:11+08:00 ] 127.0.0.1 /index.php/Home/Collect/collect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_collect` WHERE `mid` = 5 LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_collect` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T13:26:23+08:00 ] 127.0.0.1 /index.php/Home/Collect/collect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_collect` WHERE `mid` = 5 LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_collect` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-06T13:26:33+08:00 ] 127.0.0.1 /index.php/Home/sign/addOrder.html?gid=67&price=1.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_sign` SET `sign`=sign-1.00 WHERE `mid` = 5 [ RunTime:0.1190s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0050s ]
+SQL: INSERT INTO `beauty_order` (`orderno`,`price`,`create_time`,`mid`) VALUES ('a5b0432b780afbd','0','1481001993','5') [ RunTime:0.1180s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: INSERT INTO `beauty_order_goods` (`oid`,`gid`,`buynum`,`saleprice`) VALUES ('43','67','1','0.1') [ RunTime:0.1260s ]
+
+[ 2016-12-06T13:26:36+08:00 ] 127.0.0.1 /index.php/Home/MyCart/tosubmit1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0040s ]
+SQL: SELECT `orderno` FROM `beauty_order` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `beauty_order` SET `address`='29',`inform`='',`status`='2' WHERE `id` = 43 AND `mid` = 5 [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0050s ]
+SQL: UPDATE `beauty_golds` SET `salenum`=salenum+1 WHERE `id` = 67 [ RunTime:0.0540s ]
+
+[ 2016-12-06T13:27:22+08:00 ] 127.0.0.1 /index.php/Home/sign/addOrder.html?gid=68&price=2.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_sign` SET `sign`=sign-2.00 WHERE `mid` = 5 [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0050s ]
+SQL: INSERT INTO `beauty_order` (`orderno`,`price`,`create_time`,`mid`) VALUES ('f7e586c236cee74','0','1481002042','5') [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: INSERT INTO `beauty_order_goods` (`oid`,`gid`,`buynum`,`saleprice`) VALUES ('44','68','1','0.2') [ RunTime:0.0550s ]
+
+[ 2016-12-06T13:41:59+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=70
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0070s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=70 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0020s ]
+
+[ 2016-12-06T13:41:59+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsImg.html?cid=87
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0070s ]
+SQL: SELECT g.imageurl,g.imagename,g.id FROM beauty_goods g
+            where g.bid not in (select bid from beauty_activity where astatus=1)
+                    and g.cid=87 and g.show=1 and g.ismember=0 ORDER  by addtime desc limit 0,3  [ RunTime:0.0010s ]
+
+[ 2016-12-06T13:42:39+08:00 ] 127.0.0.1 /index.php/Home/Collect/collect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_collect` WHERE `mid` = 5 LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_collect` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+

@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/yhcss/style.css" />
+    <!--[if IE 6]>
+    <script src="__PUBLIC__/Home/map/yhjs/iepng.map" type="text/javascript"></script>
+    <script type="text/javascript">
+        EvPNG.fix('div, ul, img, li, input, a');
+    </script>
+    <![endif]-->
+
+    <!--<script type="text/javascript" src="__PUBLIC__/Home/map/yhjs/jquery-1.8.2.min.map"></script>-->
+
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/menu.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/select.js"></script>
+    <title>beauty</title>
+    <!--<script type="text/javascript" src="__PUBLIC__/Home/map/jquery.min.1.8.2.map"></script>-->
+    <style>
+        ul,li{list-style:none;}
+        body{background: #fff; }
+        .checkin{margin: auto auto auto auto; }
+        .clear {clear:both; height:0; overflow:hidden; display:block; line-height:0}
+        .clearfix:after {clear:both;font-size:0; height:0; display:block; visibility:hidden; content:" "; line-height:0}
+        .clearfix {zoom:1}/* for IE6 IE7 */
+        .title{height: 36px;line-height: 36px;font-size: 24px;margin-bottom: 10px;}
+        .title p{float: left;width: 80%;height: 36px;line-height: 36px;font-size: 24px;}
+        .title a{display: inline-block;width: 20%;height: 36px;line-height: 36px;text-align: center;background: #42941a;border-radius: 5px;color: #fff;text-decoration: none;font-size: 24px;}
+        .checkin li{background: #fee684; float: left;padding: 10px;text-align: center;}
+
+        li.able-qiandao{background: #e9c530; }
+        li.checked{background:#fee684 url(__PUBLIC__/Home/images/ok.png) no-repeat bottom;}
+        .mask{ width: 100%;height: 100%;position: absolute;top: 0;left: 0; background-color: rgba(0,0,0,0.55);visibility: hidden;transition: all 0.25s ease}
+        .modal{background:#fff;width: 450px;height: 400px;border-radius: 10px;position: absolute;margin-top: -200px;margin-left:-225px;left: 50%;top: 50%;border:5px solid #42941a;box-sizing:border-box;overflow: hidden;transform: translateY(-200%);transition: all 0.25s ease}
+        a.closeBtn{display: block;position: absolute;right: 10px;top: 5px;font-family: 'simsun';font-size: 18px;text-decoration: none;font-weight: bolder;color: #333}
+        .title_h1{text-align: center;font-size: 40px;font-weight: normal;padding-top: 80px;display: block;width: 100%}
+        .title_h1 span{display: inline-block;width: 40px;height: 40px;border-radius: 100%;background: #42941a;color: #fff;position: relative;float: left;margin-left: 30%;margin-top: 7px;}
+        .title_h1 span::before{width: 10px;height: 2px;background: #fff;position: absolute;left: 8px;top: 23px;display: block;line-height: 0;font-size: 0;content: ""; transform: rotate(52deg);}
+        .title_h1 span::after{width: 24px;height: 2px;background: #fff;position: absolute;left: 12px;top: 20px;display: block;line-height: 0;font-size: 0;content: "";transform: rotate(-45deg);}
+        .title_h1 em{display: inline-block;font-size: 30px;float: left;margin-left: 10px;}
+        .title_h1 i{display: inline-block;font-size: 16px;float: left;margin: 14px 0 0 10px;}
+        .title_h2{text-align: center;font-size: 16px;display: block;padding-top: 20px;}
+        .title_h2 span{font-size: 36px;color: #b25d06;}
+
+        #test {
+            font-size: 20px;font-style: italic;margin-top: 15px;margin: 0 auto;
+            width: 379px;height: 240px;color: #f5f5f5;line-height: 30px ;
+            word-spacing: 5px;
+            overflow:hidden;
+            padding: 5px;
+        }
+
+        .able-qiandao{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<!--Begin Header Begin-->
+<include file="public/header"/>
+<!--End Header End-->
+<div class="i_bg bg_color">
+    <!--Begin 用户中心 Begin -->
+    <div class="m_content" style="margin: 0 auto">
+        <div class="m_left">
+            <div class="left_n">管理中心</div>
+            <div class="left_m">
+                <div class="left_m_t t_bg1">订单中心</div>
+                <ul>
+                    <li><a href="{:U('Home/Member/Orderform')}">我的订单</a></li>
+                    <li><a href="{:U('Home/Member/Orderform1')}">金币兑换订单</a></li>
+                    <li><a href="{:U('Home/Member/address')}">收货地址</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg2">会员中心</div>
+                <ul>
+                    <li><a href="{:U('Home/Member/MemberCentre')}">用户信息</a></li>
+                    <li><a href="{:U('Home/Member/showCollect')}">我的收藏</a></li>
+                    <li><a href="{:U('Home/Member/showcomment')}">我的评论</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg3">账户中心</div>
+                <ul>
+                    <li><a href="{:U('Member/safe')}">账户安全</a></li>
+                    <li><a href="{:U('Member/packet')}">我的红包</a></li>
+                    <li><a href="{:U('Member/money')}">资金管理</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">分销中心</div>
+                <ul>
+                    <li><a href="{:U('Member/myMember')}">我的会员</a></li>
+                </ul>
+            </div>
+
+            <div class="left_m">
+                <div class="left_m_t t_bg4">金币中心</div>
+                <ul>
+                    <li><a class="now" href="{:U('Sign/sign')}">我的金币</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_right">
+
+            <div class="m_des">
+                <table border="0" style="width:870px; line-height:22px;" cellspacing="0" cellpadding="0">
+                    <tr valign="top">
+                        <td width="115"><img src="/UserImg/photo{$imgpath}{$imgname}" width="90" height="90" id="photo"/>
+                            <a href="{:U('Member/addImg')}" style="color: orange; cursor: pointer; display: block;margin-left: -10px " >点击更换头像</a></td>
+                        <td>
+                            <div class="m_user">{$Think.session.mname}</div>
+                            <p>
+                                <!--等级：{$order} <br />-->
+                                <font color="#ff4e00">您当前金币&nbsp;&nbsp;
+                                    <if condition="$sign['sign'] gt 0">
+                                    <span id="sign1">{$sign['sign']}</span>&nbsp;&nbsp;!
+                                        <else/>
+                                        <span>0</span>&nbsp;&nbsp;!
+                                     </if>
+                                        <a href="{:U('Home/Sign/signCity')}" style="color: red;font-size: 20px;font-weight: bolder">点击这里</a>
+                                        <span> <a href="{:U('Home/Sign/signCity')}">
+                                            <img style="vertical-align: middle;margin-bottom:5px;"  src="__PUBLIC__/Home/images/jin.png" />
+                                        </a>进入金币商城兑换礼品吧！！</span>
+                                </font><br />
+
+                                <!--最后签到时间: {$signtime|date='Y-m-d H:i:s',###}<br />-->
+                            </p>
+                            <!--<span style="margin-left:30px;text-align: center;color: purple;font-size: 16px">签到总次数{$sign['signcount']}</span>-->
+                            <div class="m_notice">
+                                用户中心公告！
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="checkin" style="float: left">
+            </div>
+            <div class="checkin2" style="float: left;width: 430px;margin-left: 10px;
+            height:405px;background: #FE9C37;border-radius: 11px;padding: 13px">
+                <span style="margin-left:30px;text-align: center;color:#dfdfdf;font-size: 18px">
+                    签到总次数为
+                    <span id="count" style="font-size: 18px;color: red">{$sign['signcount']?$sign['signcount']:0}</span>
+                    <if condition="($sign['signcount'] gt 0) && ($sign['signcount'] lt 500) ">
+                        <br><span style="margin-left:30px;font-size: 18px;color:#dfdfdf">再坚持</span>
+                        <span id="day" style="font-size: 18px;color: red ">{$day}</span>天每天就可领取
+                        <span id="daysign" style="font-size: 18px;color: red ">{$daysign}</span>金币<br>
+                        <elseif condition="$sign['signcount'] gt 500"/>
+                        <p style="font-size: 16px;color: red">恭喜您可享有每天领取10金币的权限</p>
+                    </if>
+                </span>
+                <span  style="margin-left:30px;text-align: center;color:#dfdfdf;font-size: 20px" >
+                    最后签到时间为: <span id="time1" style="font-size: 16px;color: #f5f5f5">{$sign['signtime']|date='Y-m-d H:i:s',###}</span>
+                </span>
+                <div id="test" style="margin-top: 20px;font-size: 16px;color:#fffecc ">
+                    <div id="test1" style="margin-top: 20px;font-size: 16px">
+                        <span style="text-align: center;font-size: 16px">签到规则</span><br>
+                        1)每天签到都有金币相送,金币可以兑换商品哦<br>
+                        2)数量有限，每天只能签到一次<br>
+                        3)每次签到我们都会统计您的签到总次数<br>
+                        4)签到次数小于<span style="color: red"> 50 </span>时每次签到相送 <span style="color: red">1</span> 个金币<br>
+                        5)签到次数大于<span style="color: red"> 50 </span>小于<span style="color: red"> 200 </span>时每次签到相送<span style="color: red"> 3 </span>个金币<br>
+                        6)签到次数大于<span style="color: red"> 200 </span>小于<span style="color: red"> 500 </span>时每次签到相送<span style="color: red"> 6 </span>个金币<br>
+                        7)签到次数大于<span style="color: red"> 500 </span>时享有每天领取<span style="color: red"> 10 </span>金币的权限<br>
+                    </div>
+                    <div id="test2" style="margin-top: 20px;font-size: 16px"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <input class="signtag" type="hidden" signtag="{$sign['signtag']}"/>
+    <input class="day" type="hidden" day="{$sign['day']}"/>
+    <!--End 用户中心 End-->
+    <include file="public/footer"/>
+    <!--End Footer End -->
+</div>
+<include file="public/right"/>
+</body>
+<!--[if IE 6]>
+<script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.map"></script>
+<![endif]-->
+
+<script>
+    var test=document.getElementById("test");
+    var test1=document.getElementById("test1");
+    var test2=document.getElementById("test2");
+
+    test2.innerHTML=test1.innerHTML;
+    function move(){
+        if(test1.offsetHeight - test.scrollTop <= 0){
+            test.scrollTop-=test1.offsetHeight;
+        }
+        test.scrollTop++;
+    }
+    setInterval("move()", 100);
+
+    $(function(){
+        $('.able-qiandao').click(function(){
+                $.get('{:U("Home/Sign/addSign")}',function(res){
+                    if(res.status==1){
+                        $("#sign1").text(res.info['sign']);
+                        $("#count").text(res.info['signcount']);
+                        var time=new Date();
+                        var y=time.getFullYear();
+                        var  m1=time.getMonth()+1;
+                        var dd=time.getDate();
+                        var hh=time.getHours();
+                        var  mm=time.getMinutes();
+                        var  ss=time.getSeconds();
+                        var aa=y+'-'+m1+'-'+dd+' '+hh+':'+mm+':'+ss;
+                        $("#time1").text(aa);
+                        if(res.info['signcount']<50){
+                            var day=parseInt(50-res.info['signcount']);
+                            $('#day').text(day);
+                            $('#daysign').text(3);
+                            layer.msg('成功领取1个金币',{icon:1})
+                        }else if(res.info['signcount']>=50 && res.info['signcount']<200){
+                            var day1=parseInt(200-res.info['signcount']);
+                            $('#day').text(day1);
+                            $('#daysign').text(6);
+                            layer.msg('成功领取3个金币',{icon:1})
+                        }else if(res.info['signcount']>=200 && res.info['signcount']<500){
+                            var day2=parseInt(500-res.info['signcount']);
+                            $('#day').text(day2);
+                            $('#daysign').text(10);
+                            layer.msg('成功领取6个金币',{icon:1})
+                        }else if(res.info['signcount']>500){
+                            layer.msg('成功领取10个金币',{icon:1})
+                        }
+                    }else{
+                        layer.msg('明天再来吧',{icon:2})
+                    }
+                });
+        })
+    })
+
+
+
+
+</script>
+
+
+<script>
+
+    ;(function($) {
+
+        var Checkin = function(ele, options) {
+            this.ele = ele;
+            this.opt = options;
+            //设置初始值
+            this.defaults = {
+                width: 453,
+                height: 410,
+                background: '#f90',
+                radius: 10,
+                color: '#fff',
+                padding: 10,
+                dateArray:arr()
+            };
+            this.obj = $.extend({}, this.defaults, this.opt);
+        }
+        Checkin.prototype.init = function() {
+            var _self = this.ele,
+                    html = '',
+                    myDate = new Date(),
+                    year = myDate.getFullYear(),
+                    month = myDate.getMonth(),
+                    day = myDate.getDate(),
+                    weekText = ['日', '一', '二', '三', '四', '五', '六'];
+
+            if($('.signtag').attr('signtag')==1){
+                _self.css({
+                    width: this.obj.width + 'px',
+                    height: this.obj.height,
+                    background: this.obj.background,
+                    borderRadius: this.obj.radius,
+                    color: this.obj.color,
+                    padding: this.obj.padding
+                }).append("<div class='title'><p>" + year + '年' + (month + 1) + '月' + day + '日' + "</p>" +
+                "<a class=\'checkBtn\' href=\"javascript:;\">已签到</a>" +
+                "</div>");
+            }else{
+                _self.css({
+                    width: this.obj.width + 'px',
+                    height: this.obj.height,
+                    background: this.obj.background,
+                    borderRadius: this.obj.radius,
+                    color: this.obj.color,
+                    padding: this.obj.padding
+                }).append("<div class='title'><p>" + year + '年' + (month + 1) + '月' + day + '日' + "</p>" +
+                "<a class=\'checkBtn\' href=\"javascript:;\">签到</a>" +
+                "</div>");
+            }
+
+
+
+            $("<ul class='week clearfix'></ul><ul class='calendarList clearfix'></ul>").appendTo(_self);
+            for (var i = 0; i < 7; i++) {
+                _self.find(".week").append("<li>" + weekText[i] + "</li>")
+            };
+            for (var i = 0; i < 42; i++) {
+                html += "<li></li>"
+            };
+            _self.find(".calendarList").append(html);
+            var $li = _self.find(".calendarList").find("li");
+            _self.find(".week li").css({
+                width: (_self.width() / 7) + 'px',
+                height: 50 + 'px',
+                borderRight: '1px solid #f90',
+                boxSizing: 'border-box',
+                background: '#b25d06'
+            });
+            //这里是设置css样式的初始化
+            $li.css({
+                width: (_self.width() / 7) + 'px',
+                height: 47 + 'px',
+                borderRight: '1px solid #f90',
+                borderBottom: '1px solid #f90',
+                boxSizing: 'border-box',
+                color: "#b25d06"
+            });
+            _self.find(".calendarList").find("li:nth-child(7n)").css('borderRight', 'none');
+            _self.find(".week li:nth-child(7n)").css('borderRight', 'none');
+
+            var monthFirst = new Date(year, month, 1).getDay();//获取一月第一天是周几
+
+            var d = new Date(year, (month + 1), 0)
+//			console.log(d);
+            var totalDay = d.getDate(); //获取当前月的天数
+//			console.log(totalDay);
+            for (var i = 0; i < totalDay; i++) {
+                $li.eq(i + monthFirst).html(i + 1);
+                $li.eq(i + monthFirst).addClass('data' + (i + 1))
+                if (isArray(this.obj.dateArray)) {
+                    for (var j = 0; j < this.obj.dateArray.length; j++) {
+                        if (i == this.obj.dateArray[j]) {
+                            // 假设已经签到的
+                            $li.eq(i + monthFirst).addClass('checked');
+                        }
+                    }
+                }
+            }
+            //$li.eq(monthFirst+day-1).css('background','#f7ca8e')
+            _self.find($(".data" + day)).addClass('able-qiandao');
+
+        }
+        var isChecked = false;
+        Checkin.prototype.events = function() {
+            var _self = this.ele;
+            var $li = _self.find(".calendarList").find("li");
+            $li.on('click', function(event) {
+                event.preventDefault();
+                /* Act on the event */
+                if ($(this).hasClass('able-qiandao')) {
+                    $('.able-qiandao').addClass('checked');
+                    modal(_self);
+                    dateArrayTotal();
+                    isChecked = true;
+                }
+
+            });
+            if($('.signtag').attr('signtag')==1){
+                $('.able-qiandao').addClass('checked');
+            }
+            $('.sign').addClass('checked');
+            var checkBtn = _self.find(".checkBtn");
+            checkBtn.click(function(event) {
+                modal(_self);
+                _self.find('.able-qiandao').addClass('checked');
+                isChecked = true;
+                this.contenteditable="false";
+                dateArrayTotal();
+            });
+        }
+        //右上角的签到字样
+        var modal = function(e) {
+            var mask = e.parents().find(".mask");
+            var close = e.parents().find(".closeBtn");
+            if (mask && !isChecked) {
+                mask.addClass('trf');
+            } else {
+                return
+            };
+            e.parents().find('.checkBtn').text("已签到");
+
+        }
+        //获取签到信息并传给后台
+        var dateArrayTotal=function(i){
+            //返回今天签到的日期
+            var checkedDay=$('.checkin').find('.checked:last').text();
+            $.ajax({
+                type:"get",
+                data:{
+                    "checkedDay":checkedDay
+                },
+                url:"../list-data-json-bypage1.php",
+                async:true,
+                success: function(){
+//					modal(_self);
+                }
+            });
+        }
+        //从数据库获取签到的天数并渲染
+        var arr = function(){
+            var dateArray = [];
+            $.ajax({
+                url: "../list-data-json-pagecount1.php",
+                dataType: "json",
+                async:false,
+                success: function(data){
+                    $.each(data,function(i,el){
+                        //获取签到的天数
+                        dateArray.push(el.checkedDay);
+                    });
+                }
+            });
+            return dateArray;
+        }
+
+        //插件函数调用
+        $.fn.Checkin = function(options) {
+            var checkin = new Checkin(this, options);
+            var obj = [checkin.init(), checkin.events()]
+            return obj
+        }
+        var isArray = function(arg) {
+            return Object.prototype.toString.call(arg) === '[object Array]';
+        };
+    })(jQuery);
+    // 插件调用
+    $(".checkin").Checkin({'width':460});
+//    $(".checkin").css('marginTop',parseInt(($(window).innerHeight()-$(".checkin").outerHeight()))+'px');
+</script>
+</html>

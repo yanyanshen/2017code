@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;
+            border: 1px solid #c2d2d7;
+        }
+        #page a:hover{
+            background: #333;
+            color:#fff;
+        }
+
+        #page span{
+            background: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+<title>列表页</title>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<!--<script type="text/javascript" src="/Public/Pay/map/jquery.map"></script>-->
+    <script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/editor/kindeditor.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/time/abc/timer/WdatePicker.js"></script>
+
+    <script type="text/javascript" src="/Public/Admin/js/layer/layer.js"></script>
+
+<script type="text/javascript">
+    KE.show({
+        id : 'content7',
+        cssPath : './index.css'
+    });
+  </script>
+
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".select1").uedSelect({
+		width : 345
+	});
+	$(".select2").uedSelect({
+		width : 167
+	});
+	$(".select3").uedSelect({
+		width : 100
+	});
+});
+</script>
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">系统设置</a></li>
+    </ul>
+    </div>
+
+    <div class="formbody">
+
+
+    <div id="usual1" class="usual">
+  	<div id="tab2" class="tabson">
+
+        <form action="/index.php/Admin/Category/index.html" method="get">
+            <ul class="seachform">
+                <li><label>按名称查询</label><input name="keywords" type="text" value="面部" class="scinput" /></li>
+                <li>
+                    <label>按时间时间：</label>
+                    <input id="d11" name="time1" value="" type="text" onClick="WdatePicker()" style="width: 120px;height: 25px;border: 1px solid #cccccc;"/>
+                    <span style="display: inline-block;">-</span>
+                    <input class="Wdate"  name="time2" value="" type="text" id="d15" onFocus="WdatePicker({isShowClear:false,readOnly:true})" style="width: 120px;height: 25px;border: 1px solid #cccccc;"/>
+                </li>
+                <li><label>&nbsp;</label><input type="submit" class="scbtn" value="查询"/></li>
+                <li><label>&nbsp;</label>
+                    <input type="button" class="scbtn" id="exportdata" value="Excel表导出" style="width: 90px;height: 35px;margin:0;padding: 0;"/></li>
+            </ul>
+        </form>
+
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+            <th><input name="" type="checkbox" value="" checked="checked"/></th>
+            <th>编号<i class="sort"><img src="/Public/Admin/images/px.gif" /></i></th>
+            <th>分类名称</th>
+            <th>分类Id</th>
+            <th>上级分类</th>
+            <th>分类父Id</th>
+            <th>添加时间</th>
+            <th>是否展示</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td><input name="" type="checkbox" value="" /></td>
+                    <td>1</td>
+                    <td>面部护理</td>
+                    <td>1</td>
+                    <td>面部护理</td>
+                     <td>0</td>
+                    <td>2016-10-26</td>
+                    <td class="zhuangtai">展示</td>
+                    <td class="par">
+                        <a href="javascript:;" pid="0" id="1" class="tablelink click">下架</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/index.php/Admin/Category/editorCate/id/1.html" class="tablelink">编辑</a>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+
+       <div class="pagin">
+        <div class="message">共<i class="blue">1</i>条记录，当前显示第&nbsp;<i class="blue">1</i>页</div>
+        <ul class="paginList">
+            <div id="page"><div>    </div></div>
+        </ul>
+    </div>
+
+	</div>
+
+    </div>
+</div>
+
+</body>
+<script type="text/javascript">
+    $("#usual1 ul").idTabs();
+</script>
+
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+</html>
+
+<script>
+    $(function(){
+        $("#exportdata").click(function(){
+            $.post("/index.php/Admin/Category/export.html?time1=&time2=&keywords=面部",'',function(res){
+                if(res.status==1){
+                    window.open("/index.php/Admin/Category/export.html?time1=&time2=&keywords=面部");
+                }else{
+                    layer.msg(res.info,{icon:5});
+                }
+            })
+        })
+    })
+
+
+    $(function(){
+        $('.click').click(function(){
+            id=$(this).attr('id');
+            pid=$(this).attr('pid');
+            cur=$(this);
+            $.post("/index.php/Admin/Category/updateshow.html",{id:id,pid:pid},function(response){
+                if(response.status){
+                    if(response.info==1){
+                        cur.text('下架');
+                        cur.parents('.par').prev('.zhuangtai').text('展示');
+                        layer.msg('展示成功',{icon:1},function(){
+                            location='/index.php/Admin/Category/index.html';
+                        });
+                    }if(response.info==0){
+                        cur.text('展示');
+                        cur.parents('.par').prev('.zhuangtai').text('下架');
+                        layer.msg('下架成功',{icon:1},function(){
+                            location='/index.php/Admin/Category/index.html';
+                        });
+                    }
+                }
+            })
+        })
+    })
+
+
+
+</script>

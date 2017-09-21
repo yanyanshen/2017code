@@ -1,0 +1,809 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/yhcss/style.css" />
+    <!--[if IE 6]>
+    <script src="__PUBLIC__/Home/map/map/iepng.map" type="text/javascript"></script>
+    <script type="text/javascript">
+        EvPNG.fix('div, ul, img, li, input, a');
+    </script>
+    <![endif]-->
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.min.1.8.2.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/lrscroll_1.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/n_nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/yhcss/ShopShow.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/yhcss/MagicZoom.css" />
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/MagicZoom.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/num.js">
+        var jq = jQuery.noConflict();
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/p_tab.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/shade.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/layer/layer.js"></script>
+    <title>详情页</title>
+    <style type="text/css">
+        #form3 dl div{margin: 10px 0;}
+        #form3 dl div input{width: 200px;height: 30px;}
+        #form3 dl .div4 input{width: 100px;margin: 0 10px;}
+        #form3 dl .div6 dd{float: left;margin: 0 16px;}
+        #form3 dl dd label.error{font-size: 12px;font-weight: bold;color: red;display:block;text-align: center;}
+        #form3 dl dd label.ok{display:block; color:green;text-align: center;}
+        ul li{margin: 25px 0;}
+        #layercart ul{text-align: center;}
+        #layercart ul li:first-child{font-weight: bold;font-size: 16px;}
+        #layercart ul li a{display: inline-block;background-color: red;width: 80px;height: 30px;
+            margin: 0 25px;text-align: center;line-height: 30px;color: white;}
+
+
+        .ul,.active,.greate2,.middle2,.bad2,.commentcontent,#div1{margin:0;padding: 0;}
+        .ul{width: 950px;height: 35px;background-color: lightgray;}
+        .ul li{list-style: none;float:left;width:100px;height: 35px;line-height: 35px;text-align: center;cursor: pointer;}
+        #div1>div{width: 950px;display: none;}
+        #div1 .commentcontent{display:block;}
+        .active{background-color: red;color:white;}
+        .current{color:red}
+        .pagelist a{border: 1px solid #CCCCCC;display: inline-block;width: 40px;height: 25px;line-height: 25px;text-align: center;}
+
+    </style>
+    <title>详情页</title>
+</head>
+<!--评价选项卡的JS-->
+<script type="text/javascript">
+</script>
+<script>
+
+    jQuery(function(){
+       jQuery("#collect").click(function(){
+           jQuery.get("{:U('Home/Collect/collectGoods')}",jQuery("#goods").serialize(),function(res){
+               if(res.status==1){
+                   layer.msg('您已成功收藏该商品',{icon:1},{time:500});
+               }else{
+                   if(res.info=='该商品已经在收藏夹里哦'){
+                       layer.msg(res.info);
+                   }else if(res.info=='请先登录'){
+                           location.href='{:U("Login/Login")}'
+                   }
+               }
+           })
+        })
+    })
+</script>
+
+
+<script>
+    jQuery(function() {
+        jQuery('#OUT1').click(function () {
+            jQuery.post("{:U('Home/Login/LoginOut')}", '', function (res) {
+                if (res.status == 1) {
+                    layer.msg('退出成功',{icon: 1,time:1000},function () {
+                                location.href = "{:U('Home/Index/index')}";
+                            }
+                    )
+                } else {
+                    layer.open({
+                        content: res.info,
+                        icon: 2,
+                        title: '错误提示'
+                    });
+                }
+            }, 'json')
+        })
+
+    })
+
+</script>
+
+
+
+
+
+<body>
+<!--Begin Header Begin-->
+<div class="soubg">
+    <div class="sou">
+        <!--End 所在收货地区 End-->
+        <span class="fr">
+        	<span class="fl">你好{:session('mname')?session('mname'):''}欢迎光临!<a id="OUT1"  style="color: #ff0000; cursor: pointer">
+                {:session('mname')?'退出':''}</a><em></em>
+                <a href="{:U('Home/Login/Login')}">{:session('mname')?'':'请登录'}</a>&nbsp;
+                <a href="{:U('Home/Register/Register')}" style="color:#ff4e00;">{:session('mname')?'':'免费注册'}</a>
+                &nbsp;|&nbsp;<a href="{:U('Home/Index/index')}">我的首页</a><a href="{:U('Home/Member/Orderform')}">&nbsp;|&nbsp;我的订单</a>&nbsp;|
+                <a href="{:U('Home/MyCart/tocart')}">购物车</a>
+            </span>
+        	<span class="ss">
+                <div class="ss_list">
+                    <a href="#">网站导航</a>
+                    <div class="ss_list_bg">
+                        <div class="s_city_t"></div>
+                        <div class="ss_list_c">
+                            <ul>
+                                <li><a href="{:U('Home/Footprint/footprint')}">足迹</a></li>
+                                <li><a href="{:U('Home/Feedback/index')}">反馈</a></li>
+                                <li><a href="{:U('Home/Member/index')}">用户中心</a></li>
+                                <li><a href="{:U('Home/Member/showCollect')}">我的收藏</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="__PUBLIC__/Home/images/yhimages/s_tel.png" align="absmiddle" /></a></span>
+        </span>
+    </div>
+</div>
+<div class="top">
+    <div class="logo" style="width: 250px;"><a href="Index.html"><img src="__PUBLIC__/Home/images/logo.png" /></a></div>
+    <div class="search">
+        <form action="{:U('Home/Search/index')}" method="get">
+            <input name="keywords" value="{$keywords}" type="text"  class="s_ipt" />
+            <input type="submit" value="搜索" class="s_btn" />
+        </form>
+
+        <span class="fl">
+            <!--显示一些顶级分类-->
+            <volist name="catelist" id="cate">
+            <a href="{:U('Home/Search/index',array('cid'=>$cate['id']))}">{$cate.cname}</a>
+            </volist>
+        </span>
+    </div>
+</div>
+<!--//<div>每日必看</div>-->
+<!--End Header End-->
+<!--Begin Menu Begin-->
+<div class="menu_bg">
+
+</div>
+<!--End Menu End-->
+<div class="i_bg">
+    <div class="postion">
+        <span class="fl">{$pathinfo}</span>
+    </div>
+    <div class="content">
+
+        <div id="tsShopContainer">
+            <!--商品的主图-->
+            <volist name="zhugoodsimage" id="zhu">
+            <div id="tsImgS"><a href="/Uploads/{$zhu.imageurl}{$zhu.imagename}" title="Images" class="MagicZoom" id="MagicZoom"><img src="/Uploads/{$zhu.imageurl}{$zhu.imagename}" width="390" height="390" /></a></div>
+            </volist>
+                <div id="tsPicContainer">
+                <div id="tsImgSArrL" onclick="tsScrollArrLeft()"></div>
+                <div id="tsImgSCon">
+                    <ul>
+                        <!--商品的副图-->
+                        <volist name="fugoodsimage" id="fu1">
+                        <li onclick="showPic(0)" rel="MagicZoom" class="tsSelectImg"><img src="/Uploads/{$fu1.picurl}{$fu1.picname}" tsImgS="/Uploads/{$fu1.picurl}{$fu1.picname}" width="79" height="79" /></li>
+                        </volist>
+                    </ul>
+                </div>
+                <div id="tsImgSArrR" onclick="tsScrollArrRight()"></div>
+            </div>
+            <img class="MagicZoomLoading" width="16" height="16" src="__PUBLIC__/Home/images/yhimages/loading.gif" alt="Loading..." />
+        </div>
+        <form action="{:U('Home/Huiyuan/tobuy')}" id="goods" method="post">
+            <volist name="goodsdetail1" id="val">
+                <input type="hidden" name="gid" value="{$val.id}" id="gid"/>
+        <div class="pro_des">
+            <div class="des_name">
+                <p>{$val.goodsname}</p>
+                {$val.goodsname}
+            </div>
+            <div class="des_price">
+                本店销售价格：<b style="color: #CCCCCC;"><del><b  style="color: #CCCCCC;">￥</b><b class="memprice"  style="color: #CCCCCC;">{$val.saleprice}</b></del></b><br />
+                黄金会员价格：<b>￥</b><b class="saleprice" style="margin-right: 20px;">{$val.memprice}</b>
+                消费积分：<span>{$val.score}R</span>
+            </div>
+            <div class="des_choice">
+                <span class="fl">型号选择：</span>
+                <ul id="des_li">
+                        <div class="theme-options">
+                            <ul>
+                                <volist name="type" id="type">
+                                <li class="sku-line"><i>{$type['ml']}ml</i></li>
+                                </volist>
+                                <input type="hidden" name="xinghao"/>
+                            </ul>
+                        </div>
+                </ul>
+            </div>
+
+            <div class="des_share">
+                <div class="d_sh" style="margin-left: 0;">
+                    分享
+                    <div class="bdsharebuttonbox">
+                        <a href="#" class="bds_more" data-cmd="more"></a>
+                        <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    window._bd_share_config={
+                        "common":{
+                            "bdPopTitle":"您的自定义pop窗口标题",
+                            "bdSnsKey":{},
+                            "bdText":"此处填写自定义的分享内容",
+                            "bdMini":"2",
+                            "bdMiniList":false,
+                            "bdPic":"http://localhost/centlight/public/attachment/201410/24/14/5449ef39574f5_282x220.jpg", /* 此处填写要分享图片地址 */
+                            "bdStyle":"0",
+                            "bdSize":"16"
+                        },
+                        "share":{}
+                    };
+                    with(document)0[
+                            (getElementsByTagName('head')[0]||body).
+                                    appendChild(createElement('script')).
+                                    src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)
+                            ];
+                </script>
+                <div class="d_care" style="margin-right: 50px;">
+                       <a id="collect">收藏商品</a>
+                </div>
+                <div>剩余:<span style="margin-right: 50px;">{$val.num}&nbsp;件</span>月销量:<span>{$val.salenum}</span>件</div>
+            </div>
+            <div class="des_join">
+                <div class="j_nums">
+                    <input type="text" value="1" id="buynum" name="salenum" class="n_ipt" readonly/>
+                    <input type="button" value="+" onclick="addUpdate(jq(this));" class="n_btn_1" />
+                    <input type="button" value="-" onclick="jianUpdate(jq(this));" class="n_btn_2" />
+                </div>
+                <span class="fl"><a  href="javascript:layerUser();" style="display:inline-block;text-align:center;font-size:16px;line-height:50px;color:white;width: 120px;height:50px;background-color: red;">立即购买</a></span>
+            </div>
+        </div>
+        </volist>
+        </form>
+<!--显示品牌logo和进入品牌专区-->
+        <div class="s_brand">
+            <volist name="brandInfo" id="brand">
+            <div class="s_brand_img"><img src="/Upload/logo{$brand['blogopath']}{$brand['blogoname']}" width="188" height="132" /></div>
+            <div class="s_brand_c"><a href="{:U('Home/BrandGoods/showBrand',array('bid'=>$brand['id']))}">进入品牌专区</a></div>
+            </volist>
+        </div>
+
+    </div>
+    <div class="content mar_20">
+        <div class="l_history">
+            <!--用户还喜欢的商品-->
+            <div class="fav_t">用户还喜欢</div>
+            <ul>
+                <volist name="likegoods" id="like">
+                <li>
+                    <div class="img"><a href="{:U('Home/Order/goodsdetail',array('gid'=>$like['id']))}"><img src="/Uploads/{$like.imageurl}300_{$like.imagename}" width="200" height="200" /></a></div>
+                    <div class="name"><a href="{:U('Home/Order/goodsdetail',array('gid'=>$like['id']))}">{$like.goodsname}</a></div>
+                    <div class="price">
+                        <font>￥<span>{$like.saleprice}</span></font> &nbsp; {$like.score}R
+                    </div>
+                </li>
+                </volist>
+            </ul>
+        </div>
+        <div class="l_list">
+            <script type="text/javascript">
+                jQuery(function(){
+                    var le=jQuery('.saleprice').length;
+                    totalprice=0;
+                    for(var i=1;i<le;i++){
+                        saleprice=parseInt(jQuery('.saleprice').eq(i).text());
+                        totalprice+=saleprice;
+                    }
+                    jQuery('.totalprice1').val(totalprice);
+                });
+                flag=true;
+                jQuery('.layui-layer-ico').live({
+                    click:function(){
+                        flag=true;
+                    }
+                });
+            </script>
+            <div class="des_border">
+                <div class="des_tit">
+                    <ul>
+                        <li class="current"><a href="#p_attribute">商品详情</a></li>
+                        <li><a href="#p_comment">商品评论<span name="totalcount">({$totalcount})</span></a></li>
+                    </ul>
+                </div>
+                <div class="des_con" id="p_attribute">
+
+                </div>
+            </div>
+
+            <div class="des_border" id="p_details">
+                <div class="des_t">商品详情</div>
+                <div class="des_con">
+                    <table border="0" align="center" style="width:745px; font-size:14px; font-family:'宋体';" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <volist name="zhugoodsimage" id="zhu1">
+                            <td width="300"><img src="/Uploads/{$zhu1.imageurl}300_{$zhu1.imagename}" width="300" height="300" style="margin-right: 40px;"/></td>
+                            </volist>
+                                <td>
+                                <b name="goodsname">{$goodsname}</b><br />
+                                【商品规格】：<span name="ml">{$ml}</span><br />
+                                【商品质地】：<span name="shape">{$shape}</span><br/>
+                                【商品日期】：与专柜同步更新<br/>
+                                【商品产地】：中国<br/>
+                                【商品包装】：<span name="pack">{$pack}</span><br/>
+                                【适用人群】：<span name="apply">{$apply}</span><br />
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p align="center">
+                        <volist name="fugoodsimage" id="fu">
+                        <img src="/Uploads/{$fu.picurl}{$fu.picname}" width="746" height="425" /><br /><br />
+                        </volist>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="des_border" id="p_comment">
+                <!--<div class="des_t">商品评论</div>-->
+
+                <table border="0" class="jud_tab" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="175" class="jud_per">
+                            <p name="greate">{$greate|round=2}%</p>好评度
+                        </td>
+                        <td width="300">
+                            <table border="0" style="width:100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="90" name="greate">好评<font color="#999999">（{$greate|round=2}%）</font></td>
+                                    <td><div style="height: 13px;background: red;float: left;width: {$greate*3/2}px;"></div>
+                                        <div style="height: 13px;background: #DADADA;float: left;width: {-$greate*3/2+150}px;"></div>
+                                    </td>
+                                    <td>{$greate|round=2}%</td>
+                                </tr>
+                                <tr>
+                                    <td>中评<font color="#999999" name="middle">（{$middle|round=2}%）</font></td>
+                                    <td><div style="width: {$middle*3/2}px;height: 13px;background: red;float: left"></div>
+                                        <div style="width: {-$middle*3/2+150}px;height: 13px;background: #DADADA;float: left"></div>
+                                    </td>
+                                    <td>{$middle|round=2}%</td>
+                                </tr>
+                                <tr>
+                                    <td>差评<font color="#999999" name="bad">（{$bad|round=2}%）</font></td>
+                                    <td><div style="width: {$bad*3/2}px;height: 13px;background: red;float: left"></div>
+                                        <div style="width: {-$bad*3/2+150}px;height: 13px;background: #DADADA;float: left"></div>
+                                    </td>
+                                    <td>{$bad|round=2}%</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="185" class="jud_bg" name="goodsname">
+                            购买过{$goodsname}的顾客，在收到商品才可以对该商品发表评论
+                        </td>
+                        <td class="jud_bg">您可对已购买商品进行评价<br /><a href="{:U('Home/Member/Orderform')}"><img src="__PUBLIC__/Home/images/yhimages/btn_jud.gif" /></a></td>
+                    </tr>
+                </table>
+
+                <ul class="ul">
+                    <li style="margin: 0" class="active" cosid="0">全部评价({$totalcount})</li>
+                    <li style="margin: 0" class="greate2" cosid="1" >好评({$greatecount})</li>
+                    <li style="margin: 0" class="middle2" cosid="2">中评({$middlecount})</li>
+                    <li style="margin: 0" class="bad2" cosid="3" >差评({$badcount})</li>
+                </ul>
+                <div id="div1">
+                    <div class="commentcontent" id="allreview">
+                        <table border="0" class="jud_list" style="width:100%; margin-top:30px;" cellspacing="0" cellpadding="0">
+                            <volist name="commresponlist1" id="comment1">
+                                <tr valign="top">
+                                    <td width="160"><img src="/UserImg/photo{$comment1.imgpath}{$comment1.imgname}" width="20" height="20" align="absmiddle" />&nbsp;{$comment1.username} <br /><font color="#999999">（匿名用户）</font></td>
+                                    <td width="180">
+                                        型号：<font color="#999999">{$comment1.ml}ml</font>
+                                        <br /><font color="orange">{$comment1.costatus}</font>
+                                    </td>
+                                    <td>
+                                        {$comment1.content}<br />
+                                        <if condition="$comment1.imageurl neq ''&&$comment1.imagename neq ''">
+                                            <a href="javascript:;" class="showimg" ><img src="/CommentImg/{$comment1.imageurl}{$comment1.imagename}" alt="" style="width: 50px;height: 50px;"/></a>
+                                            <a href="{:U('Home/Order/seeimg',array('cid'=>$comment1['id']))}" target="_blank" class="seebigimg" style="margin-left: 10px;">查看原图</a><br/>
+                                        </if>
+                                        <font color="#999999">{$comment1.coaddtime|date='Y-m-d',###}</font>
+                                    </td>
+                                    <td>
+                                        <if condition="$comment1.respid eq 2">
+                                            <span style="color:orange;">卖家回复:</span>{$comment1.response}<br />
+                                            <font color="#999999">{$comment1.readdtime|date='Y-m-d',###}</font>
+                                        </if>
+                                    </td>
+                                </tr>
+                            </volist>
+                        </table>
+                        <div class="pagelist">
+                            {$page1}
+                        </div>
+                    </div>
+                  <div class="commentcontent" style="display: none"  id="goodreview">
+                        <table border="0" class="jud_list" style="width:100%; margin-top:30px;" cellspacing="0" cellpadding="0">
+                            <volist name="commresponlist2" id="val1">
+                                <tr valign="top">
+                                    <td width="160"><img src="/UserImg/photo{$val1.imgpath}{$val1.imgname}" width="20" height="20" align="absmiddle" />&nbsp;{$val1.username} <br /><font color="#999999">（匿名用户）</font></td>
+                                    <td width="180">
+                                        型号：<font color="#999999">{$val1.ml}ml</font>
+                                        <br /><font color="orange">{$val1.costatus}</font>
+                                    </td>
+                                    <td>
+                                        {$val1.content}<br />
+                                        <if condition="$val1.imageurl neq ''&&$val1.imagename neq ''">
+                                            <a href="javascript:;" class="showimg" ><img src="/CommentImg/{$val1.imageurl}{$val1.imagename}" alt="" style="width: 50px;height: 50px;"/></a>
+                                            <a href="{:U('Home/Order/seeimg',array('cid'=>$val1['id']))}" target="_blank" class="seebigimg" style="margin-left: 10px;">查看原图</a><br/>
+                                        </if>
+                                        <font color="#999999">{$val1.coaddtime|date='Y-m-d',###}</font>
+                                    </td>
+                                    <td>
+                                        <if condition="$val1.respid eq 2">
+                                            <span style="color:orange;">卖家回复:</span>{$val1.response}<br />
+                                            <font color="#999999">{$val1.readdtime|date='Y-m-d',###}</font>
+                                        </if>
+                                    </td>
+                                </tr>
+                            </volist>
+                        </table>
+                        <div class="pagelist">
+                            {$page2}
+                        </div>
+                    </div>
+                    <div class="commentcontent" style="display: none"  id="middlereview">
+                        <table border="0" class="jud_list" style="width:100%; margin-top:30px;" cellspacing="0" cellpadding="0">
+                            <volist name="commresponlist3" id="val2">
+                                <tr valign="top">
+                                    <td width="160"><img src="/UserImg/photo{$val2.imgpath}{$val2.imgname}" width="20" height="20" align="absmiddle" />&nbsp;{$val2.username} <br /><font color="#999999">（匿名用户）</font></td>
+                                    <td width="180">
+                                        型号：<font color="#999999">{$val2.ml}ml</font>
+                                        <br /><font color="orange">{$val2.costatus}</font>
+                                    </td>
+                                    <td>
+                                        {$val2.content}<br />
+                                        <if condition="$val2.imageurl neq ''&&$val2.imagename neq ''">
+                                            <a href="javascript:;" class="showimg" ><img src="/CommentImg/{$val2.imageurl}{$val2.imagename}" alt="" style="width: 50px;height: 50px;"/></a>
+                                            <a href="{:U('Home/Order/seeimg',array('cid'=>$val2['id']))}" target="_blank" class="seebigimg" style="margin-left: 10px;">查看原图</a><br/>
+                                        </if>
+                                        <font color="#999999">{$val2.coaddtime|date='Y-m-d',###}</font>
+                                    </td>
+                                    <td>
+                                        <if condition="$comment1.respid eq 2">
+                                            <span style="color:orange;">卖家回复:</span>{$val2.response}<br />
+                                            <font color="#999999">{$val2.readdtime|date='Y-m-d',###}</font>
+                                        </if>
+                                    </td>
+                                </tr>
+                            </volist>
+                        </table>
+                        <div class="pagelist">
+                            {$page3}
+                        </div>
+                    </div>
+                    <div class="commentcontent" style="display: none" id="badreview">
+                        <table border="0" class="jud_list" style="width:100%; margin-top:30px;" cellspacing="0" cellpadding="0">
+                            <volist name="commresponlist4" id="val3">
+                                <tr valign="top">
+                                    <td width="160"><img src="/UserImg/photo{$val3.imgpath}{$val3.imgname}" width="20" height="20" align="absmiddle" />&nbsp;{$val3.username} <br /><font color="#999999">（匿名用户）</font></td>
+                                    <td width="180">
+                                        型号：<font color="#999999">{$val3.ml}ml</font>
+                                        <br /><font color="orange">{$val3.costatus}</font>
+                                    </td>
+                                    <td>
+                                        {$val3.content}<br />
+                                        <if condition="$val3.imageurl neq ''&&$val3.imagename neq ''">
+                                            <a href="javascript:;" class="showimg" ><img src="/CommentImg/{$val3.imageurl}{$val3.imagename}" alt="" style="width: 50px;height: 50px;"/></a>
+                                            <a href="{:U('Home/Order/seeimg',array('cid'=>$val3['id']))}" target="_blank" class="seebigimg" style="margin-left: 10px;">查看原图</a><br/>
+                                        </if>
+                                        <font color="#999999">{$val3.coaddtime|date='Y-m-d',###}</font>
+                                    </td>
+                                    <td>
+                                        <if condition="$val3.respid eq 2">
+                                            <span style="color:orange;">卖家回复:</span>{$val3.response}<br />
+                                            <font color="#999999">{$val3.readdtime|date='Y-m-d',###}</font>
+                                        </if>
+                                    </td>
+                                </tr>
+                            </volist>
+                        </table>
+                        <div class="pagelist">
+                            {$page4}
+                        </div>
+                    </div>
+                </div>
+         </div>
+        </div>
+    </div>
+
+
+    <!--Begin 弹出层-收藏成功 Begin-->
+    <div id="fade" class="black_overlay"></div>
+    <div id="MyDiv" class="white_content">
+        <div class="white_d">
+            <div class="notice_t">
+                <span class="fr" style="margin-top:10px; cursor:pointer;" onclick="CloseDiv('MyDiv','fade')"><img src="__PUBLIC__/Home/images/yhimages/close.gif" /></span>
+            </div>
+            <div class="notice_c">
+
+                <table border="0" align="center" cellspacing="0" cellpadding="0">
+                    <tr valign="top">
+                        <td width="40"><img src="__PUBLIC__/Home/images/yhimages/suc.png" /></td>
+                        <td>
+                            <span style="color:#3e3e3e; font-size:18px; font-weight:bold;">您已成功收藏该商品</span><br />
+                            <a href="#">查看我的关注 >></a>
+                        </td>
+                    </tr>
+                    <tr height="50" valign="bottom">
+                        <td>&nbsp;</td>
+                        <td><a href="#" class="b_sure">确定</a></td>
+                    </tr>
+                </table>
+                <div>
+                    {$page}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End 弹出层-收藏成功 End-->
+    <!--Begin Footer Begin -->
+    <div class="b_btm_bg bg_color">
+        <div class="b_btm">
+            <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="72"><img src="__PUBLIC__/Home/images/yhimages/b1.png" width="62" height="62" /></td>
+                    <td><h2>正品保障</h2>正品行货  放心购买</td>
+                </tr>
+            </table>
+            <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="72"><img src="__PUBLIC__/Home/images/yhimages/b2.png" width="62" height="62" /></td>
+                    <td><h2>满38包邮</h2>满38包邮 免运费</td>
+                </tr>
+            </table>
+            <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="72"><img src="__PUBLIC__/Home/images/yhimages/b3.png" width="62" height="62" /></td>
+                    <td><h2>天天低价</h2>天天低价 畅选无忧</td>
+                </tr>
+            </table>
+            <table border="0" style="width:210px; height:62px; float:left; margin-left:75px; margin-top:30px;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="72"><img src="__PUBLIC__/Home/images/yhimages/b4.png" width="62" height="62" /></td>
+                    <td><h2>准时送达</h2>收货时间由你做主</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="b_nav">
+        <dl>
+            <dt><a href="#">新手上路</a></dt>
+            <dd><a href="#">售后流程</a></dd>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">订购方式</a></dd>
+            <dd><a href="#">隐私声明</a></dd>
+            <dd><a href="#">推荐分享说明</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">配送与支付</a></dt>
+            <dd><a href="#">货到付款区域</a></dd>
+            <dd><a href="#">配送支付查询</a></dd>
+            <dd><a href="#">支付方式说明</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">会员中心</a></dt>
+            <dd><a href="#">资金管理</a></dd>
+            <dd><a href="#">我的收藏</a></dd>
+            <dd><a href="#">我的订单</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">服务保证</a></dt>
+            <dd><a href="#">退换货原则</a></dd>
+            <dd><a href="#">售后服务保证</a></dd>
+            <dd><a href="#">产品质量保证</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">联系我们</a></dt>
+            <dd><a href="#">网站故障报告</a></dd>
+            <dd><a href="#">购物咨询</a></dd>
+            <dd><a href="#">投诉与建议</a></dd>
+        </dl>
+        <div class="b_tel_bg">
+            <a href="#" class="b_sh1">新浪微博</a>
+            <a href="#" class="b_sh2">腾讯微博</a>
+            <p>
+                服务热线：<br />
+                <span>400-123-4567</span>
+            </p>
+        </div>
+        <div class="b_er">
+            <div class="b_er_c"><img src="__PUBLIC__/Home/images/yhimages/er.gif" width="118" height="118" /></div>
+            <img src="__PUBLIC__/Home/images/yhimages/ss.png" />
+        </div>
+    </div>
+    <div class="btmbg">
+        <div class="btm">
+            备案/许可证编号：蜀ICP备12009302号-1-www.dingguagua.com   Copyright © 2015-2018 尤洪商城网 All Rights Reserved. 复制必究 , Technical Support: Dgg Group <br />
+            <img src="__PUBLIC__/Home/images/yhimages/b_1.gif" width="98" height="33" /><img src="__PUBLIC__/Home/images/yhimages/b_2.gif" width="98" height="33" /><img src="__PUBLIC__/Home/images/yhimages/b_3.gif" width="98" height="33" /><img src="__PUBLIC__/Home/images/yhimages/b_4.gif" width="98" height="33" /><img src="__PUBLIC__/Home/images/yhimages/b_5.gif" width="98" height="33" /><img src="__PUBLIC__/Home/images/yhimages/b_6.gif" width="98" height="33" />
+        </div>
+    </div>
+    <!--End Footer End -->
+</div>
+<input type="hidden" id="mid" value="{$Think.session.mid}"/>
+<input type="hidden" name="uservip" value="{$uservip}"/>
+</body>
+
+<script src="__PUBLIC__/Home/js/yhjs/ShopShow.js"></script>
+
+<!--[if IE 6]>
+<script src="__PUBLIC__/Home/map/map/zh_CN.map"></script>
+<![endif]-->
+<script type="text/javascript">
+    //商品规格选择
+    jQuery(function() {
+        jQuery(".theme-options").each(function() {
+            var i = jQuery(this);
+            var p = i.find("ul>li");
+            jQuery(".theme-options ul li").first('li').addClass('checked');
+            jQuery(".theme-options ul li").siblings('input').val(jQuery(".theme-options ul li").first('li').text());
+            p.click(function() {
+                if (!!jQuery(this).hasClass("checked")) {
+                    jQuery(this).removeClass("checked");
+
+                } else {
+                    jQuery(this).addClass("checked").siblings("li").removeClass("checked");
+                    jQuery(this).siblings('input').val(jQuery(this).text())
+
+                }
+
+            })
+        })
+
+    })
+</script>
+<script type="text/javascript">
+    jQuery(function(){
+        gid=jQuery('input[name="gid"]').val();
+        jQuery('.theme-options ul li').click(function(){
+            ml=jQuery('input[name="xinghao"]').val();
+            jQuery.post("{:U('Home/Huiyuan/saleprice')}",{gid:gid,xinghao:ml},function(resinfo){
+                if(resinfo.status){
+                    jQuery('.des_price .saleprice').text(resinfo.info['memprice']);
+                    jQuery('.des_price .memprice').text(resinfo.info['saleprice']);
+                }
+            })
+        })
+    })
+</script>
+
+<script type="text/javascript">
+    //立即购买的登录弹框
+    flag=true;
+    jQuery('.layui-layer-ico').live('click',function(){
+        flag=true;
+    });
+    function layerUser() {
+    var mid=jQuery('#mid').val();
+    var uservip=jQuery('input[name="uservip"]').val();
+     var   gid=jQuery('input[name="gid"]').val();
+    if(mid){
+        if(uservip==3){
+            jQuery('#goods').submit();
+        }else{
+            layer.msg('黄金会员才能购买哦,去消费升级会员吧');
+        }
+    }else {
+        if (flag) {
+            flag = false;
+            layer.open({
+                type: 1,
+                shade: false,
+                title: "登录",//false为不显示标题
+                content: "<div style='width:300px;height:350px;background:white;padding:30px'>" +
+                '<form id="form3" method="post" enctype="multipart/form-data" action="">' +
+                '<dl>' +
+                '<div class="div1">' +
+                '<dd><img src="__PUBLIC__/Mobile/images/Image-1.png"/></dd>' +
+                '</div>' +
+                '<div class="div2">' +
+                '<dd>用户名：<input name="username" type="text" style="margin-left: 15px;"/></dd>' +
+                '</div>' +
+                '<div class="div3">' +
+                '<dd>密&nbsp;&nbsp;&nbsp;码：<input name="password" type="password" style="margin-left: 15px;"/></dd>' +
+                '</div>' +
+                '<div class="div5">' +
+                '<input type="submit" value="登录" style="width: 300px;border-radius: 5px;height: 30px;background-color: red;"/>' +
+                '</div>' +
+                '<div class="div6">' +
+                '<dd>还没有商城会员</dd>' +
+                '<dd><a href="{:U('Home/Register/register')}">立即注册</a></dd>' +
+                '<dd><a href="{:U('Home/ChangPassword/index')}">忘记密码</a></dd>' +
+                '</div>' +
+                '</dl>' +
+                '</form>' +
+                '</div>' + ';'
+        })
+    }
+}
+    var validate=jQuery('#form3').validate({
+        rules:{
+            username:{
+                required:true,
+                remote:{
+                    url:'{:U("Home/Order/layer")}',
+                    type:'post'
+                }
+            },
+            password: {
+                required: true
+            }
+        },
+        messages:{
+            username:{
+                required:'用户名不能为空',
+                remote:'用户名不存在'
+            },
+            password: {
+                required:'密码不能为空'
+            }
+        },
+        success: function(label) {
+            label.addClass("ok").text('验证通过');
+        },
+        validClass: "ok"
+    })
+        jQuery('#form3').submit(function(){
+            if(validate.form()){
+                jQuery.post("{:U('Home/Order/layerLogin')}",jQuery('#form3').serialize(),function(response){
+                    if(response.status==0){
+                      layer.msg('用户名或密码错误');
+                    }else{
+                        layer.msg('登陆成功',function(){
+                            if(uservip==3){
+                                jQuery('#goods').submit();
+                            }else{
+                                location="{:U('Home/Huiyuan/goodsdetail')}?gid="+gid;
+                            }
+                        });
+                    }
+                },'json');
+            }
+            return false;
+        })
+}
+</script>
+</html>
+
+<script type="text/javascript">
+    jQuery(function(){
+        jQuery('.ul li').click(function(){
+            i=jQuery(this).index();
+            jQuery('.ul li').removeClass('active').eq(i).addClass('active');
+            jQuery('#div1>div').hide().eq(i).show();
+        })
+
+    });
+    function goodsdetail1(id){
+        var gid=jQuery('input[name="gid"]').val();
+        var id=id?id:1;
+        jQuery.get("{:U('Home/Order/goodsdetail')}",{"p":id,"gid":gid,cid:1},function(res){
+            jQuery('#div1>div').eq(0).html(res);
+        })
+    }
+    function goodsdetail2(id){
+        var gid=jQuery('input[name="gid"]').val();
+        var id=id?id:1;
+        jQuery.get("{:U('Home/Order/goodsdetail')}",{"p":id,"gid":gid,cid:2},function(res){
+            jQuery('#div1>div').eq(1).html(res);
+        })
+    }
+    function goodsdetail3(id){
+        var gid=jQuery('input[name="gid"]').val();
+        var id=id?id:1;
+        jQuery.get("{:U('Home/Order/goodsdetail')}",{"p":id,"gid":gid,cid:3},function(res){
+            jQuery('#div1>div').eq(2).html(res);
+        })
+    }
+    function goodsdetail4(id){
+        var gid=jQuery('input[name="gid"]').val();
+        var id=id?id:1;
+        jQuery.get("{:U('Home/Order/goodsdetail')}",{"p":id,"gid":gid,cid:4},function(res){
+            jQuery('#div1>div').eq(3).html(res);
+        })
+    }
+</script>
+

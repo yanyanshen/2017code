@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>购物车 - 订单结算</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="拍鞋网,拍鞋网官方网站,拍鞋网商城" />
+    <meta name="description" content="买鞋子哪个网站好，当然首选拍鞋网!中国最早成立的正品鞋子购物网站,国内最大的品牌鞋子销售广场。所售鞋子100%厂家授权,全国包邮,货到付款,提供最完美的购物体验！" />
+    <link rel="icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" />
+    <link rel="bookmark" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" />
+    <meta content=" width = device-width , initial-scale = 1.0 , maximum-scale = 1.0 , user-scalable = no " id="viewport" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+</head>
+<body>
+<!--改版后 com1-3.css可以去掉-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/com1-3.css?2015091516" />
+<!--新改的-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/com1-4.css?2015091516" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/download.css?2015091516" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/public-adaptation1-1.css?2015091516" />
+<script src="__PUBLIC__/Mobile/js/jquery.js?2015091516"></script>
+<script>var PX_HELP_DATA=['416148489@qq.com','i2jioq5184gbv9ts2qudnsgth4',['touch','order','trolly'],'2015/09/15 16:10:43',0,false]; var DOMIN = {MAIN:"http://m.paixie.net",HELP:"http://help.paixie.net",TUAN:"http://tuan.paixie.net",WAP:"http://wap.paixie.net",UNION:"http://union.weixiaodian.com",VIPSHOP:"http://go.paixie.net"};</script>
+<script>
+    var JAVASCRIPT_LIB = (('\v' !== 'v') ? 'zepto' : 'jquery');
+    JAVASCRIPT_LIB="jquery";
+    DOMIN.MAIN = 'http://m.paixie.net';
+    DOMIN.PAIXIE = 'http://www.paixie.net';
+    // uc浏览器添加书签功能
+    window.onmessage = function(event){
+        if(event.data.message != ''){
+            $('#otherPage').remove();
+        }else{
+            $('#otherPage').show();
+        }
+    };
+</script>
+<link rel="stylesheet" href="__PUBLIC__/Mobile/css/zip.touch.cart2_0._all_.v39013.css" type="text/css" />
+<!--红包分享，临时添加-->
+<!-- uc 浏览器添加书签 start --->
+<iframe src="http://app.uc.cn/appstore/AppCenter/frame?uc_param_str=nieidnutssvebipfcp&amp;api_ver=2.0&amp;id=1904" width="100%" height="160" style="display:none" id="otherPage"></iframe>
+<!-- uc 浏览器添加书签 end   ---->
+<script>
+</script>
+<div class="mask hidden"></div>
+<!--content-->
+<div class="page-role cart-page cart-trolly-page" id="js-cart-trolly-page">
+    <div class="com-title" >
+        <div style="float: left;margin-left: 10px;">
+            <a title="返回" href="javascript:history.back(-1);" style="color: white;">
+                &lt;&nbsp;&nbsp;管理收货地址
+            </a>
+        </div>
+    </div>
+    <div class="pxui-area" id="js-trolly" style="display:block;">
+        <volist name="address" id="ress">
+        <div class="address" style="margin-top: 10px;">
+            <div style="">
+                 <span style="font-size: 16px;">
+                    <span id="js-trolly-address-name" style="margin-left:10px;float: left;font-size: 16px;">{$ress.username}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="js-trolly-address-phone" style="margin-right: 10px;float: right;font-size: 16px;">{$ress.mobile}</span><br/><br/>
+                    <span id="js-trolly-address-province" style="margin-left: 10px;font-size: 16px;">{$ress.province}</span>
+                    <span id="js-trolly-address-city">{$ress.country}</span>
+                    <span id="js-trolly-address-area">{$ress.city}</span>
+                    <span id="js-trolly-address-address">{$ress.address}</span>
+                    <span id="js-trolly-address-zipcode">{$ress.ecode}</span><br/>
+                    <!--显示地址的id-->
+                    <input type="hidden" id="js-trolly-address-id" value="3182547" name="addressid"/>
+                 </span>
+            </div>
+            <hr/>
+            <div style="height: 25px;line-height: 25px;">
+                <div  class="setdefault" style="float: left;margin-left: 10px;font-size: 16px;">
+                    <if condition="$ress.isdefault eq 0">
+                     <input type="checkbox" class="default" value="{$ress.id}"/>
+                     <lable class="default1">设为默认</lable>
+
+                        <else/>
+                        <lable class="default2" style="color: orangered;">[默认地址]</lable>
+                    </if>
+                </div>
+                <a href="javascript:;" addid="{$ress.id}" class="editor" style="float:right;margin-right: 20px;font-size: 16px;">编辑</a>
+                <a href="javascript:;" addid="{$ress.id}" class="delete" style="float: right;margin-right: 20px;font-size: 16px;">删除</a>
+            </div>
+            <div style="height: 8px;background-color: lightgray;"></div>
+        </div>
+      </volist>
+    </div>
+    <!--对地址进行删除，编辑，设为默认-->
+    <script type="text/javascript">
+
+    </script>
+    <div class="fixed_price" style="width: 100%;padding: 0;height: 0.8rem;">
+        <a href="{:U('Mobile/ManageAddress/addAddress')}" style="width: 100%;display: inline-block;height: 100%;background-color: orangered;color: white;font-size: 16px;text-align: center;line-height: 35px;">添加新地址</a>
+    </div>
+</div>
+<include file="public/footer1"/>
+</body>
+</html>
+<script type="text/javascript" src="__PUBLIC__/Mobile/js/layer_mobile/layer.js"></script>
+<script type="text/javascript">
+    $(function(){
+            a=$('.default2').parents('.setdefault').index('.setdefault');
+        //设置默认地址
+        $('.setdefault').click(function(){
+            var index=$(this).index('.setdefault');
+                if(index!=a){
+                    if(index>a){
+                        index-=1;
+                    }
+                    $('input[class="default"]').prop('checked',false).eq(index).prop('checked','checked');
+                    addid=$(this).children('input[class="default"]').val();
+                    $.post('{:U("Mobile/ManageAddress/setdefault")}',{id:addid},function(res2){
+                        if(res2.status==1){
+                            layer.open({
+                                content: '设置成功'
+                                ,skin: 'msg'
+                                ,time: 2//2秒后自动关闭
+                                ,style:'line-heght:100px;'
+                                ,end:function(){
+                                    location.reload()
+                                }
+                            });
+                        }else{
+                            layer.open({
+                                content: '请稍后进行设置'
+                                ,skin: 'msg'
+                                ,time: 5//2秒后自动关闭
+                                ,style:'line-heght:100px;'
+                            });
+                        }
+                    })
+                }
+        });
+
+        //删除地址
+       $('.delete').click(function(){
+           a=$(this);
+           addid=$(this).attr('addid');
+           $.post('{:U("Mobile/ManageAddress/deleteAddress")}',{id:addid},function(res3){
+               if(res3.status==1){
+                   layer.open({
+                       content: '删除成功'
+                       ,skin: 'msg'
+                       ,time: 2//2秒后自动关闭
+                       ,style:'line-heght:100px;'
+                       ,end:function(){
+                          a.parents('.address').hide();
+                       }
+                   });
+               }else{
+                   layer.open({
+                       content: '请稍后进行删除'
+                       ,skin: 'msg'
+                       ,time: 2//2秒后自动关闭
+                       ,style:'line-heght:100px;'
+                   });
+               }
+           })
+       })
+
+        //修改地址
+        $('.editor').click(function(){
+            addid=$(this).attr('addid');
+            location='{:U("Mobile/ManageAddress/editorlist")}'+'?id='+addid;
+        })
+    })
+</script>
+

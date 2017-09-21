@@ -1,0 +1,317 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/editor/kindeditor.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/layer/layer.js"></script>
+
+    <style type="text/css">
+        input.error{border-color: #F27602;background: #EEEEEE;}
+        lable.error{font-size: 14px;font-weight: bold;color: #FF0000;}
+        lable.ok{font-size: 14px;font-weight: bold;color: #38D63B;}
+        li span{width: 111px;height: 30px;display: inline-block;border: 1px solid #eeeeee;text-align: center;
+                line-height: 30px;font-weight: bold;margin-bottom: 10px;border-radius: 6px;}
+        .btn{margin-left: 80px;margin-top: 15px;margin-bottom: 30px;border-radius: 10px}
+    </style>
+<script type="text/javascript">
+    KE.show({
+        id : 'content7',
+        cssPath : './index.css'
+    });
+$(document).ready(function(e) {
+    $(".select1").uedSelect({
+		width : 345			  
+	});
+	$(".select2").uedSelect({
+		width : 167  
+	});
+	$(".select3").uedSelect({
+		width : 100
+	});
+});
+</script>
+    <script>
+        $(function(){
+
+            //密码修改验证;
+            var validate1=$('#form1').validate({
+                rules:{
+                    mobile:{
+                        required:true,
+                        mobile:true,
+                        remote:{
+                            url:"<?php echo U('Admin/chkMobile');?>",
+                            type:'post'
+                        }
+                    },
+                    password:{
+                        required:true,
+                        rangelength:[5,12]
+                    },
+                    repwd:{
+                        required:true,
+                        equalTo:'#password'
+                    }
+                },
+                messages:{
+                    mobile:{
+                        required:' * 密保手机号不能为空！',
+                        mobile:' * 手机号码格式不正确！',
+                        remote:' * 密保手机不存在！'
+                    },
+                    password:{
+                        required:' * 密码不能为空！',
+                        rangelength:' * 密码长度必须在5到18位之间！'
+                    },
+                    repwd:{
+                        required:' * 确认密码不能为空!',
+                        equalTo:' * 两次密码输入不一致!'
+                    }
+                },
+                success:function(lable){
+                    lable.addClass('ok').text(' * 通过验证');
+                },
+                validClass:'ok',
+                errorElement:'lable'
+            })
+
+            //修改手机号验证;
+            var validate2=$('#form2').validate({
+                rules:{
+                    pwd:{
+                        required:true,
+                        remote:{
+                            url:"<?php echo U('Admin/chkPwd');?>",
+                            type:'post'
+                        }
+                    },
+                    mobile:{
+                        required:true,
+                        mobile:true,
+                        remote:{
+                            url:"<?php echo U('Admin/chkMobile');?>",
+                            type:'post'
+                        }
+                    },
+                    newmobile:{
+                        required:true,
+                        mobile:true
+                    },
+                    remobile:{
+                        required:true,
+                        equalTo:'#newmobile'
+                    }
+                },
+                messages:{
+                    pwd:{
+                        required:' * 密码不能为空！',
+                        remote:' * 密码不正确！'
+                    },
+                    mobile:{
+                        required:' * 密保手机号不能为空！',
+                        mobile:' * 手机号码格式不正确！',
+                        remote:' * 密保手机不存在！'
+                    },
+                    newmobile:{
+                        required:' * 新密保手机号不能为空！',
+                        mobile:' * 手机号码格式不正确！'
+                    },
+                    remobile:{
+                        required:' * 确认密保手机不能为空!',
+                        equalTo:' * 两次手机号输入不一致!'
+                    }
+                },
+                success:function(lable){
+                    lable.addClass('ok').text(' * 通过验证');
+                },
+                validClass:'ok',
+                errorElement:'lable'
+            })
+            // 手机号码验证
+            jQuery.validator.addMethod("mobile", function(value, element) {
+                var mobileReg = /^1[34578]{1}[0-9]{9}$/;
+                return this.optional(element) || (mobileReg.test(value));
+            }, "请正确填写您的手机号码");
+
+            $('.chgpwd').click(function(){
+                $('#form1').submit();
+            })
+            $('.chgmobile').click(function(){
+                $('#form2').submit();
+            })
+            $('#form1').submit(function(){
+                if(validate1.form()){
+                    $.post("<?php echo U('Admin/changePwd');?>",$('#form1').serialize(),function(res){
+                        if(res.status==1){
+                            layer.msg('修改密码成功',{time:2000,icon:6},function(){
+                                location="<?php echo U('Admin/changeInfo');?>";
+                            })
+                        }else{
+                            layer.msg('修改密码失败',{time:3000,icon:5},function(){
+                                location="<?php echo U('Admin/changeInfo');?>";
+                            })
+                        }
+                    },'json')
+                    return false;
+                }
+            })
+            $('#form2').submit(function(){
+                if(validate2.form()){
+                    $.post("<?php echo U('Admin/changeMobile');?>",$('#form2').serialize(),function(res){
+                        if(res.status==1){
+                            layer.msg('修改密保手机成功',{time:2000,icon:6},function(){
+                                location="<?php echo U('Admin/changeInfo');?>";
+                            })
+                        }else{
+                            layer.msg('修改密保手机失败',{time:3000,icon:5},function(){
+                                location="<?php echo U('Admin/changeInfo');?>";
+                            })
+                        }
+                    },'json')
+                    return false;
+                }
+            })
+        })
+    </script>
+    <script>
+            //判断输入密码的类型
+            function CharMode(iN){
+                //数字;大写;小写;
+                if (iN>=48 && iN <=57){
+                    return 1;
+                }else if(iN>=65 && iN <=90) {
+                    return 2;
+                }else if(iN>=97 && iN <=122){
+                    return 4;
+                }else{
+                    return 8;
+                }
+            }
+            //bitTotal函数
+            //计算密码模式
+            function bitTotal(num){
+                modes=0;
+                for (i=0;i<4;i++){
+                    if (num & 1) modes++;
+                    num>>>=1;
+                }
+                return modes;
+            }
+            //返回强度级别
+            function checkStrong(sPW){
+                //密码太短，不检测级别
+                if (sPW.length<5) {
+                    return 0;
+                }
+                Modes=0;
+                for (i=0;i<sPW.length;i++){
+                    //密码模式
+                    Modes|=CharMode(sPW.charCodeAt(i));
+                }
+                return bitTotal(Modes);
+            }
+
+            //显示颜色
+            function pwStrength(pwd){
+                Dfault_color="#eeeeee";     //默认颜色
+                L_color="#FF0000";          //低强度的颜色，且只显示在最左边的单元格中
+                M_color="#FF9900";          //中等强度的颜色，且只显示在左边两个单元格中
+                H_color="#33CC00";          //高强度的颜色，三个单元格都显示
+                if (pwd==null||pwd==''){
+                    Lcolor=Mcolor=Hcolor=Dfault_color;
+                }
+                else{
+                    S_level=checkStrong(pwd);
+                    switch(S_level) {
+                        case 0:
+                            Lcolor=Mcolor=Hcolor=Dfault_color;
+                            break;
+                        case 1:
+                            Lcolor=L_color;
+                            Mcolor=Hcolor=Dfault_color;
+                            break;
+                        case 2:
+                            Lcolor=Mcolor=M_color;
+                            Hcolor=Dfault_color;
+                            break;
+                        default:
+                            Lcolor=Mcolor=Hcolor=H_color;
+                    }
+                }
+                document.getElementById("strength_L").style.background=Lcolor;
+                document.getElementById("strength_M").style.background=Mcolor;
+                document.getElementById("strength_H").style.background=Hcolor;
+                //return;
+            }
+    </script>
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">信息管理</a></li>
+    <li><a href="#">修改密码</a></li>
+    </ul>
+    </div>
+    
+    <div class="formbody">
+    <div id="usual1" class="usual"> 
+  	<div id="tab1" class="tabson">
+
+
+    <form  method="post" id="form1">
+    <ul class="forminfo">
+    <li><label>密保手机号<b>*</b></label><input name="mobile" type="text" class="dfinput" placeholder="请填写密保手机号" /></li>
+<!--
+    <li><label>短信验证码<b>*</b></label><input name="verify" type="text" class="dfinput" placeholder="请填写短信验证码" style="width: 245px" /><input  type="button" value="短信验证码" style="width: 100px;height: 34px"/></li>
+-->
+    <li><label>新密码<b>*</b></label><input name="password" onKeyUp="pwStrength(this.value)" onBlur="pwStrength(this.value)" id="password" type="password" class="dfinput" placeholder="请填写新密码" /></li>
+    <li><label>密码强度<b>*</b></label>
+        <span id="strength_L" bgcolor="#eeeeee">弱</span>
+        <span id="strength_M" bgcolor="#eeeeee">中</span>
+        <span id="strength_H" bgcolor="#eeeeee">强</span>
+    </li>
+    <li><label>确认密码<b>*</b></label><input name="repwd" type="password" class="dfinput" placeholder="请确认密码" /></li>
+    <li><label>&nbsp;</label><input type="button" class="btn chgpwd" value="确定修改"/></li>
+    </ul>
+    </form>
+
+
+        <form  method="post" id="form2" style="margin-top: 50px">
+            <ul class="forminfo">
+                <li><label>密码<b>*</b></label><input name="pwd" type="password" class="dfinput" placeholder="请填写密码" /></li>
+                <li><label>原手机号<b>*</b></label><input name="mobile" type="text" class="dfinput" placeholder="请填写原密保手机号" /></li>
+                <li><label>新手机号<b>*</b></label><input name="newmobile" id="newmobile" type="text" class="dfinput" placeholder="请填写新密保手机号" /></li>
+                <li><label>确认手机号<b>*</b></label><input name="remobile" type="text" class="dfinput" placeholder="请再次输入新密保手机号" /></li>
+                <li><label>&nbsp;</label><input type="button" class="btn chgmobile" value="确定修改"/></li>
+            </ul>
+        </form>
+    </div> 
+    
+    
+  	
+       
+	</div> 
+ 
+	
+
+    
+    
+    
+    
+    </div>
+
+
+</body>
+
+</html>

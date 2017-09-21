@@ -1,0 +1,639 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>列表页</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
+
+    <script type="text/javascript">
+
+        function setPriority(nav,id){
+            var priority=$(nav).val();
+            $.post("/index.php/Admin/AdminNav/setPriority.html",{'priority':priority,'id':id},function(res){
+                if(res.status==1){
+                    layer.tips(res.info, '#pri'+id, {
+                        tips: [2, '#3EAFE0']
+                    });
+                }
+            })
+        }
+        $(function(){
+            $('.del').click(function(){
+                var id=$(this).attr('id');
+                $.post("/index.php/Admin/AdminNav/del.html",{id:id},function(res){
+                    if(res.status==1){
+                        layer.msg(res.info,{icon:1},function(){
+                            location.href=res.url;
+                        })
+                    }else{
+                        layer.msg(res.info,{icon:5});
+                    }
+                })
+            })
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $(".select1").uedSelect({
+                width : 345
+            });
+            $(".select2").uedSelect({
+                width : 167
+            });
+            $(".select3").uedSelect({
+                width : 100
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">系统设置</a></li>
+    </ul>
+</div>
+
+<div class="formbody">
+    <div id="usual1" class="usual">
+        <div id="tab2" class="tabson">
+            <table class="tablelist">
+                <thead>
+                <tr>
+                    <th>排序</th>
+                    <th>菜单名</th>
+                    <th>链接</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                        <td width="100"><input type="text" id="pri1" value="0" onchange="setPriority(this,1)"  style="height:30px;width: 50px"/></td>
+                        <td>|--后台首页</td>
+                        <td>Admin/Index/main</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/1/pname/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/1.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="1" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/1.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri2" value="50" onchange="setPriority(this,2)"  style="height:30px;width: 50px"/></td>
+                        <td>|--系统管理</td>
+                        <td>Admin/Nav/System</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/2/pname/%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/2.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="2" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/2.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri13" value="51" onchange="setPriority(this,13)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--菜单列表</td>
+                        <td>Admin/AdminNav/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/13/pname/%E8%8F%9C%E5%8D%95%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/13.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="13" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/13.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri14" value="52" onchange="setPriority(this,14)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加菜单</td>
+                        <td>Admin/AdminNav/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/14/pname/%E6%B7%BB%E5%8A%A0%E8%8F%9C%E5%8D%95.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/14.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="14" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/14.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri48" value="80" onchange="setPriority(this,48)"  style="height:30px;width: 50px"/></td>
+                        <td>|--信息管理</td>
+                        <td>Admin/Nav/Message</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/48/pname/%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/48.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="48" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/48.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri17" value="81" onchange="setPriority(this,17)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--个人信息修改</td>
+                        <td>Admin/Admin/changeInfo</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/17/pname/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%BF%AE%E6%94%B9.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/17.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="17" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/17.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri49" value="82" onchange="setPriority(this,49)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--我的站内信</td>
+                        <td>Admin/Message/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/49/pname/%E6%88%91%E7%9A%84%E7%AB%99%E5%86%85%E4%BF%A1.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/49.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="49" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/49.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri50" value="83" onchange="setPriority(this,50)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--发送站内信</td>
+                        <td>Admin/Message/sendMessage</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/50/pname/%E5%8F%91%E9%80%81%E7%AB%99%E5%86%85%E4%BF%A1.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/50.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="50" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/50.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri3" value="100" onchange="setPriority(this,3)"  style="height:30px;width: 50px"/></td>
+                        <td>|--权限管理</td>
+                        <td>Admin/Nav/Auth</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/3/pname/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/3.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="3" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/3.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri15" value="110" onchange="setPriority(this,15)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--管理员列表</td>
+                        <td>Admin/Admin/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/15/pname/%E7%AE%A1%E7%90%86%E5%91%98%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/15.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="15" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/15.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri16" value="120" onchange="setPriority(this,16)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加管理员</td>
+                        <td>Admin/Admin/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/16/pname/%E6%B7%BB%E5%8A%A0%E7%AE%A1%E7%90%86%E5%91%98.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/16.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="16" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/16.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri18" value="140" onchange="setPriority(this,18)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--管理组列表</td>
+                        <td>Admin/AuthGroup/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/18/pname/%E7%AE%A1%E7%90%86%E7%BB%84%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/18.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="18" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/18.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri19" value="150" onchange="setPriority(this,19)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加管理组</td>
+                        <td>Admin/AuthGroup/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/19/pname/%E6%B7%BB%E5%8A%A0%E7%AE%A1%E7%90%86%E7%BB%84.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/19.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="19" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/19.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri20" value="160" onchange="setPriority(this,20)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--权限列表</td>
+                        <td>Admin/AuthRule/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/20/pname/%E6%9D%83%E9%99%90%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/20.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="20" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/20.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri21" value="170" onchange="setPriority(this,21)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加权限</td>
+                        <td>Admin/AuthRule/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/21/pname/%E6%B7%BB%E5%8A%A0%E6%9D%83%E9%99%90.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/21.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="21" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/21.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri4" value="200" onchange="setPriority(this,4)"  style="height:30px;width: 50px"/></td>
+                        <td>|--品牌管理</td>
+                        <td>Admin/Nav/Brand</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/4/pname/%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/4.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="4" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/4.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri22" value="201" onchange="setPriority(this,22)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--品牌列表</td>
+                        <td>Admin/Brand/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/22/pname/%E5%93%81%E7%89%8C%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/22.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="22" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/22.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri23" value="202" onchange="setPriority(this,23)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加品牌</td>
+                        <td>Admin/AddBrand/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/23/pname/%E6%B7%BB%E5%8A%A0%E5%93%81%E7%89%8C.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/23.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="23" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/23.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri5" value="300" onchange="setPriority(this,5)"  style="height:30px;width: 50px"/></td>
+                        <td>|--分类管理</td>
+                        <td>Admin/Nav/Category</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/5/pname/%E5%88%86%E7%B1%BB%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/5.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="5" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/5.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri24" value="301" onchange="setPriority(this,24)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--分类列表</td>
+                        <td>Admin/Category/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/24/pname/%E5%88%86%E7%B1%BB%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/24.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="24" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/24.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri25" value="302" onchange="setPriority(this,25)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加分类</td>
+                        <td>Admin/Category/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/25/pname/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/25.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="25" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/25.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri6" value="400" onchange="setPriority(this,6)"  style="height:30px;width: 50px"/></td>
+                        <td>|--商品管理</td>
+                        <td>Admin/Nav/Goods</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/6/pname/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/6.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="6" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/6.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri26" value="401" onchange="setPriority(this,26)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--商品列表</td>
+                        <td>Admin/Goods/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/26/pname/%E5%95%86%E5%93%81%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/26.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="26" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/26.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri27" value="402" onchange="setPriority(this,27)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加商品</td>
+                        <td>Admin/Goods/addAct</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/27/pname/%E6%B7%BB%E5%8A%A0%E5%95%86%E5%93%81.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/27.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="27" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/27.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri7" value="500" onchange="setPriority(this,7)"  style="height:30px;width: 50px"/></td>
+                        <td>|--会员管理</td>
+                        <td>Admin/Nav/User</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/7/pname/%E4%BC%9A%E5%91%98%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/7.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="7" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/7.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri28" value="501" onchange="setPriority(this,28)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--会员列表</td>
+                        <td>Admin/User/UserList</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/28/pname/%E4%BC%9A%E5%91%98%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/28.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="28" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/28.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri51" value="502" onchange="setPriority(this,51)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--发送站内信</td>
+                        <td>Admin/User/sendUserMessage</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/51/pname/%E5%8F%91%E9%80%81%E7%AB%99%E5%86%85%E4%BF%A1.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/51.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="51" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/51.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri8" value="600" onchange="setPriority(this,8)"  style="height:30px;width: 50px"/></td>
+                        <td>|--订单管理</td>
+                        <td>Admin/Nav/Order</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/8/pname/%E8%AE%A2%E5%8D%95%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/8.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="8" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/8.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri29" value="601" onchange="setPriority(this,29)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--订单列表</td>
+                        <td>Admin/Order/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/29/pname/%E8%AE%A2%E5%8D%95%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/29.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="29" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/29.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri30" value="602" onchange="setPriority(this,30)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--待付款订单</td>
+                        <td>Admin/Order/dfk</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/30/pname/%E5%BE%85%E4%BB%98%E6%AC%BE%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/30.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="30" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/30.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri31" value="603" onchange="setPriority(this,31)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--待发货订单</td>
+                        <td>Admin/Order/dfh</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/31/pname/%E5%BE%85%E5%8F%91%E8%B4%A7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/31.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="31" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/31.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri32" value="604" onchange="setPriority(this,32)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已发货订单</td>
+                        <td>Admin/Order/yfh</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/32/pname/%E5%B7%B2%E5%8F%91%E8%B4%A7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/32.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="32" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/32.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri33" value="605" onchange="setPriority(this,33)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已收货订单</td>
+                        <td>Admin/Order/ysh</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/33/pname/%E5%B7%B2%E6%94%B6%E8%B4%A7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/33.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="33" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/33.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri54" value="606" onchange="setPriority(this,54)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已评价订单</td>
+                        <td>Admin/Order/ypj</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/54/pname/%E5%B7%B2%E8%AF%84%E4%BB%B7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/54.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="54" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/54.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri9" value="700" onchange="setPriority(this,9)"  style="height:30px;width: 50px"/></td>
+                        <td>|--广告管理</td>
+                        <td>Admin/Nav/Advertise</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/9/pname/%E5%B9%BF%E5%91%8A%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/9.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="9" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/9.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri34" value="701" onchange="setPriority(this,34)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--广告列表</td>
+                        <td>Admin/Advertise/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/34/pname/%E5%B9%BF%E5%91%8A%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/34.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="34" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/34.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri35" value="702" onchange="setPriority(this,35)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加广告</td>
+                        <td>Admin/Advertise/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/35/pname/%E6%B7%BB%E5%8A%A0%E5%B9%BF%E5%91%8A.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/35.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="35" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/35.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri10" value="800" onchange="setPriority(this,10)"  style="height:30px;width: 50px"/></td>
+                        <td>|--活动发布</td>
+                        <td>Admin/Nav/Sale</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/10/pname/%E6%B4%BB%E5%8A%A8%E5%8F%91%E5%B8%83.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/10.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="10" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/10.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri36" value="801" onchange="setPriority(this,36)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--活动列表</td>
+                        <td>Admin/Sale/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/36/pname/%E6%B4%BB%E5%8A%A8%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/36.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="36" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/36.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri37" value="802" onchange="setPriority(this,37)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加活动</td>
+                        <td>Admin/Sale/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/37/pname/%E6%B7%BB%E5%8A%A0%E6%B4%BB%E5%8A%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/37.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="37" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/37.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri11" value="900" onchange="setPriority(this,11)"  style="height:30px;width: 50px"/></td>
+                        <td>|--评论管理</td>
+                        <td>Admin/Nav/Comment</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/11/pname/%E8%AF%84%E8%AE%BA%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/11.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="11" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/11.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri38" value="901" onchange="setPriority(this,38)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--评论列表</td>
+                        <td>Admin/Comment/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/38/pname/%E8%AF%84%E8%AE%BA%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/38.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="38" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/38.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri52" value="902" onchange="setPriority(this,52)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已回复列表</td>
+                        <td>Admin/Comment/yiresponse</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/52/pname/%E5%B7%B2%E5%9B%9E%E5%A4%8D%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/52.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="52" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/52.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri53" value="903" onchange="setPriority(this,53)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--未回复列表</td>
+                        <td>Admin/Comment/weiresponse</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/53/pname/%E6%9C%AA%E5%9B%9E%E5%A4%8D%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/53.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="53" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/53.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri12" value="1000" onchange="setPriority(this,12)"  style="height:30px;width: 50px"/></td>
+                        <td>|--反馈管理</td>
+                        <td>Admin/Nav/Feedback</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/12/pname/%E5%8F%8D%E9%A6%88%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/12.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="12" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/12.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri39" value="1001" onchange="setPriority(this,39)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--反馈列表</td>
+                        <td>Admin/Feedback/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/39/pname/%E5%8F%8D%E9%A6%88%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/39.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="39" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/39.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri45" value="1100" onchange="setPriority(this,45)"  style="height:30px;width: 50px"/></td>
+                        <td>|--金币管理</td>
+                        <td>Admin/Nav/Golds</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/45/pname/%E9%87%91%E5%B8%81%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/45.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="45" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/45.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri46" value="1101" onchange="setPriority(this,46)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--金币商品列表</td>
+                        <td>Admin/Golds/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/46/pname/%E9%87%91%E5%B8%81%E5%95%86%E5%93%81%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/46.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="46" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/46.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri47" value="1102" onchange="setPriority(this,47)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加金币商品</td>
+                        <td>Admin/Golds/addAct</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/47/pname/%E6%B7%BB%E5%8A%A0%E9%87%91%E5%B8%81%E5%95%86%E5%93%81.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/47.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="47" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/47.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri55" value="1200" onchange="setPriority(this,55)"  style="height:30px;width: 50px"/></td>
+                        <td>|--底部管理</td>
+                        <td>Admin/Nav/Footer</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/55/pname/%E5%BA%95%E9%83%A8%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/55.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="55" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/55.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri56" value="1201" onchange="setPriority(this,56)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--底部列表</td>
+                        <td>Admin/Foote/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/56/pname/%E5%BA%95%E9%83%A8%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/56.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="56" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/56.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri57" value="1202" onchange="setPriority(this,57)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加底部</td>
+                        <td>Admin/Foote/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/57/pname/%E6%B7%BB%E5%8A%A0%E5%BA%95%E9%83%A8.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/57.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="57" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/57.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri58" value="1300" onchange="setPriority(this,58)"  style="height:30px;width: 50px"/></td>
+                        <td>|--微信管理</td>
+                        <td>Admin/Nav/WeiXin</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/58/pname/%E5%BE%AE%E4%BF%A1%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/58.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="58" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/58.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr><tr>
+                        <td width="100"><input type="text" id="pri59" value="1301" onchange="setPriority(this,59)"  style="height:30px;width: 50px"/></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--微信菜单</td>
+                        <td>Admin/WeiXin/createMenu</td>
+                        <td>
+                            <a href="/index.php/Admin/AdminNav/add/pid/59/pname/%E5%BE%AE%E4%BF%A1%E8%8F%9C%E5%8D%95.html" class="tablelink">添加子菜单</a>&nbsp;&nbsp;
+                            <a href="/index.php/Admin/AdminNav/edit/id/59.html" class="tablelink">编辑</a>&nbsp;&nbsp;
+                            <a href="#" id="59" class="tablelink del">删除</a>
+                            <!--<a href="/index.php/Admin/AdminNav/delete/id/59.html" class="tablelink">删除</a>-->
+                        </td>
+                    </tr>                </tbody>
+            </table>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+        $("#usual1 ul").idTabs();
+        $('.tablelist tbody tr:odd').addClass('odd');
+    })
+
+</script>
+</html>

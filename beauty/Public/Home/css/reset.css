@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+/*定义重置样式和公用样式*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,input,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0}
+body{font-family:Arial,Verdana,"微软雅黑",Helvetica,sans-serif;font-size:14px;color:#999;}
+ul,li{list-style:none;}
+img,li,input{border:0;vertical-align:top;}
+a:link{color:#999;text-decoration:none;}
+a:visited{color:#999;text-decoration:none;}
+a:hover{color:#e80040;text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+i,em{font-style:normal;}
+.clearfix:after{content:".";display:block;height:0;font-size:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.frm_sty{width:1200px;margin:0 auto;}
+
+

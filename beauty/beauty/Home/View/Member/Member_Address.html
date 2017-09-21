@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/yhcss/style.css" />
+    <!--[if IE 6]>
+    <script src="__PUBLIC__/Home/map/yhjs/iepng.map" type="text/javascript"></script>
+    <script type="text/javascript">
+        EvPNG.fix('div, ul, img, li, input, a');
+    </script>
+    <![endif]-->
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/menu.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/geo.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/select.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/layer/layer.js"></script>
+    <style type="text/css">
+        #address li{margin-left: 20px;margin-top: 5px}
+    </style>
+    <div id="div_map_hw" style=" Z-INDEX: 100;visibility:hidden;POSITION: absolute;height:453px;width: 523px;"> <img src="__PUBLIC__/Home/map/images/china.jpg" alt="中国" width="527" height="457" border="0" usemap="#Map" />
+        <map name="Map">
+            <area shape="rect" coords="321,423,355,441" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/hainan.htm&#39;);return false;">
+            <area shape="rect" coords="368,401,402,418" href="http://www.chinawutong.com/#" onclick="rt(&#39;澳门&#39;);return false;">
+            <area shape="rect" coords="398,387,430,403" href="http://www.chinawutong.com/#" onclick="rt(&#39;香港&#39;);return false;">
+            <area shape="rect" coords="440,361,476,376" href="http://www.chinawutong.com/#" onclick="rt(&#39;台湾&#39;);return false;">
+            <area shape="rect" coords="405,337,441,353" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/fujian.htm&#39;);return false;">
+            <area shape="rect" coords="235,364,271,380" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/yunnan.htm&#39;);return false;">
+            <area shape="rect" coords="285,335,321,354" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/guizhou.htm&#39;);return false;">
+            <area shape="rect" coords="359,368,396,387" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/guangdong.htm&#39;);return false;">
+            <area shape="rect" coords="309,370,345,387" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/guangxi.htm&#39;);return false;">
+            <area shape="rect" coords="87,245,126,272" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/xizang.htm&#39;);return false;">
+            <area shape="rect" coords="334,324,370,342" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/hunan.htm&#39;);return false;">
+            <area shape="rect" coords="245,289,282,305" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/sichuan.htm&#39;);return false;">
+            <area shape="rect" coords="290,299,327,316" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/chongqing.htm&#39;);return false;">
+            <area shape="rect" coords="339,283,374,301" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/hubei.htm&#39;);return false;">
+            <area shape="rect" coords="388,276,424,294" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/anhui.htm&#39;);return false;">
+            <area shape="rect" coords="381,316,413,333" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/jiangxi.htm&#39;);return false;">
+            <area shape="rect" coords="419,301,454,318" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/zhejiang.htm&#39;);return false;">
+            <area shape="rect" coords="447,276,483,293" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/shanghai.htm&#39;);return false;">
+            <area shape="rect" coords="277,173,321,190" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/neimenggu.htm&#39;);return false;">
+            <area shape="rect" coords="343,252,380,269" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/henan.htm&#39;);return false;">
+            <area shape="rect" coords="415,253,450,270" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/jiangsu.htm&#39;);return false;">
+            <area shape="rect" coords="358,205,394,220" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/hebei.htm&#39;);return false;">
+            <area shape="rect" coords="330,221,366,237" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/shanxi.htm&#39;);return false;">
+            <area shape="rect" coords="388,220,427,240" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/shandong.htm&#39;);return false;">
+            <area shape="rect" coords="370,179,402,196" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/beijing.htm&#39;);return false;">
+            <area shape="rect" coords="178,220,228,244" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/qinghai.htm&#39;);return false;">
+            <area shape="rect" coords="420,159,454,176" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/liaoning.htm&#39;);return false;">
+            <area shape="rect" coords="279,214,316,231" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/ningxia.htm&#39;);return false;">
+            <area shape="rect" coords="403,196,438,212" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/tianjin.htm&#39;);return false;">
+            <area shape="rect" coords="446,123,480,142" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/jilin.htm&#39;);return false;">
+            <area shape="rect" coords="444,90,488,108" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/heilongjiang.htm&#39;);return false;">
+            <area shape="rect" coords="191,177,234,200" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/gansu.htm&#39;);return false;">
+            <area shape="rect" coords="85,150,126,181" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/xinjiang.htm&#39;);return false;">
+            <area shape="rect" coords="301,254,336,271" href="http://www.chinawutong.com/#" onclick="openW(&#39;/WebParts/SelectArea/sx.htm&#39;);return false;">
+            <area shape="rect" coords="497,0,526,23" href="http://www.chinawutong.com/#" onclick="document.getElementById(&#39;div_map_hw&#39;).style.visibility=&#39;hidden&#39;;document.getElementById(&#39;frm_map_hw&#39;).style.visibility=&#39;hidden&#39;;return false;">
+        </map>
+    </div>
+    <link href="__PUBLIC__/Home/map/css/WTMap.css" rel="stylesheet" />
+    <link href="__PUBLIC__/Home/map/css/mapstyle.css" type="text/css" />
+    <script type="text/javascript" src="__PUBLIC__/Home/map/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/map/js/WTMap.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/map/js/mapjs.js"></script>
+    <title>收货地址</title>
+</head>
+<body>
+<!--Begin Header Begin-->
+<include file="public/header"/>
+<!--End Header End-->
+<div class="i_bg bg_color" >
+    <!--Begin 用户中心 Begin -->
+    <div class="m_content" style="margin: 0 auto">
+        <div class="m_left">
+            <div class="left_n">管理中心</div>
+            <div class="left_m">
+                <div class="left_m_t t_bg1">订单中心</div>
+                <ul>
+                    <li><a href="{:U('Home/Member/Orderform')}">我的订单</a></li>
+                    <li><a href="{:U('Home/Member/Orderform1')}">金币兑换订单</a></li>
+                    <li><a href="{:U('Home/Member/address')}" class="now">收货地址</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg2">会员中心</div>
+                <ul>
+
+                    <li><a href="{:U('Home/Member/MemberCentre')}">用户信息</a></li>
+                    <li><a href="{:U('Home/Member/showCollect')}">我的收藏</a></li>
+                    <li><a href="{:U('Home/Member/showcomment')}">我的评论</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg3">账户中心</div>
+                <ul>
+                    <li><a href="{:U('Member/safe')}">账户安全</a></li>
+                    <li><a href="{:U('Member/packet')}">我的红包</a></li>
+                    <li><a href="{:U('Member/money')}">资金管理</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">分销中心</div>
+                <ul>
+                    <li><a href="{:U('Member/myMember')}">我的会员</a></li>
+
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">金币中心</div>
+                <ul>
+                    <li><a href="{:U('Sign/sign')}">我的金币</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="m_right">
+            <p></p>
+            <div class="mem_tit">收货地址</div>
+            <volist name="addressList" id="val" key="k">
+                <div class="addressdelete" id="address" style="width: 48%;height:220px; border: 2px solid #f6f6f6;margin-left: 8px;float: left;">
+                    <ul>
+                        <li><span>收货人姓名：</span><span>{$val.username}</span> <a href="javascript:edit({$val['id']});" class="modify_btn"><span style="float: right;margin-right: 20px;color: #ef5b00">编辑地址</span></a></li>
+                        <li><span>&nbsp;&nbsp;&nbsp;配送区域：</span><span>{$val.area}</span></li>
+                        <li><span>&nbsp;&nbsp;&nbsp;详细地址：</span><span>{$val.address}</span></li>
+                        <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机：</span><span>{$val.mobile}</span></li>
+                        <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮编：</span><span>{$val.ecode}</span></li>
+                        <li><span>&nbsp;&nbsp;&nbsp;电子邮箱：</span><span>{$val.email}</span></li>
+                    </ul>
+                    <div style="float: right">
+                    <p align="right" >
+                        <if condition="$val['isdefault'] eq 1">
+                            <div class="default">
+                               <a style="color:blue;">默认地址</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                                <a href="javascript:;" class="layer" id="{$val.id}" style="color:#ff4e00;">删除</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                            </div>
+                        <else/>
+                            <a href="{:U('Home/Member/set_default',array('id'=>$val['id']))}"  style="color:#ff4e00;margin-bottom: 10px">设为默认</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                            <a href="javascript:;" class="layer" id="{$val.id} " style="color:#ff4e00;">删除</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                        </if>
+                    </p>
+                    </div>
+                </div>
+            </volist>
+
+            <script type="text/javascript">
+                function edit(aid){
+                    layer.open({
+                        type:2,
+                        shade:false,
+                        title:"编辑地址",//false为不显示标题
+                        area:["700px",'600px'],
+                        content:"{:U('Home/MyCart/showAddresslist')}?aid="+aid
+                    });
+                }
+            </script>
+
+
+            <script type="text/javascript">
+                $(function() {
+                    $('.layer').click(function () {
+                        var id=$(this).attr('id');
+                       // var a=$(this);
+                        $.post('{:U("Home/Member/deleteAddress")}',{id:id},function(res){
+                            if(res.status==1){
+                                layer.msg('删除成功',{time:1000},function(){
+                                  location="{:U('Home/Member/address')}";
+                                   //a.parents('div').hasClass('addressdelete').hide();
+
+                                });
+                            }
+                        })
+                        return false;
+                    })
+                });
+            </script>
+            <div class="mem_tit">
+                <a href="#"><img src="__PUBLIC__/Home/images/yhimages/add_ad.gif" /></a>
+            </div>
+            <form action="" method="post" id="form">
+                <table border="0" class="add_tab" style="width:930px;border: 1px solid black"  cellspacing="0" cellpadding="0">
+                    <tr>
+                       <!-- <td width="135" align="right">配送地区</td>
+                        <td colspan="3" style="font-family:'宋体';"></td>-->
+                        <td class="chose" width="135" align="right"><label for="port">收货地址</label></td>
+                        <td colspan="3" style="font-family:'宋体';"> <input class="qi" id="tc_from" name="area" type="text" placeholder="您的货物要发往哪里？" wtmap="{c:&#39;tc_from&#39;,cb:true}" readonly="readonly" />&nbsp;<span style="color: red;">（必填）</span></td>
+
+                    </tr>
+                    <tr>
+                        <td align="right">收货人姓名</td>
+                        <td style="font-family:'宋体';"><input type="text" value="" name="username"  class="add_ipt" />&nbsp;<span style="color: red;">（必填）</span></td>
+                        <td align="right">电子邮箱</td>
+                        <td style="font-family:'宋体';"><input type="text" value="" name="email" class="add_ipt" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">详细地址</td>
+                        <td style="font-family:'宋体';"><input type="text" value="" name="address" class="add_ipt" />&nbsp;<span style="color: red;">（必填）</span></td>
+                        <td align="right">邮政编码</td>
+                        <td style="font-family:'宋体';"><input type="text" value="" name="ecode" class="add_ipt" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">手机</td>
+                        <td style="font-family:'宋体';"><input type="text" value="" name="mobile" class="add_ipt" />&nbsp;<span style="color: red;">（必填）</span></td>
+                        <td align="right">电话</td>
+                        <td style="font-family:'宋体';"><input type="text" value="" name="telephone" class="add_ipt" /></td>
+                    </tr>
+                </table>
+                <p align="right">
+                    &nbsp; &nbsp; <button type="button" class="add_b">确认添加</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <!--End 用户中心 End-->
+    <!--Begin Footer Begin -->
+    <include file="public/footer"/>
+    <!--End Footer End -->
+</div>
+<include file="public/right"/>
+
+
+</body>
+
+
+<!--[if IE 6]>
+<script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+</html>
+
+<script type="text/javascript">
+    $(function(){
+        $('.add_b').click(function(){
+            $.post('{:U("Home/Member/addAddress")}',$('#form').serialize(),function(res){
+                if(res.status==1){
+                    var str="";
+                    str+='<tr> <td align="right" width="80">收货人姓名：</td> <td>'+res.info["username"]+'</td> </tr>';
+                    str+='<tr> <td align="right">配送区域：</td> <td>'+res.info["area"]+'</td> </tr>';
+                    str+='<tr> <td align="right">详细地址：</td> <td>'+res.info["address"]+'</td> </tr>';
+                    str+='<tr> <td align="right">手机：</td> <td>'+res.info["mobile"]+'</td> </tr>';
+                    str+='<tr> <td align="right">邮编：</td> <td>'+res.info["ecode"]+'</td> </tr>';
+                    str+='<tr> <td align="right">电子邮箱：</td> <td>'+res.info["email"]+'</td> </tr>';
+                    $('#add_default').html(str);
+                    location="{:U('Member/address')}";
+
+                }else{
+                    if(res.info=="必填项不能为空"){
+                            layer.msg('必填项不能为空',{icon: 5, time: 2000 })
+                    }else{
+                        layer.msg('已达到添加地址上限',{icon: 5, time: 2000 })
+                    }
+                }
+            },'json')
+        });
+
+    })
+</script>

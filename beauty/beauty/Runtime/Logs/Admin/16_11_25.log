@@ -1,0 +1,609 @@
+[ 2016-11-25T08:35:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-25T08:35:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-25T08:35:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480034103',`lastip`='127.0.0.1' WHERE `id` = 7 [ RunTime:0.0690s ]
+
+[ 2016-11-25T08:35:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:35:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:35:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:35:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-25T08:35:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-25T08:35:16+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 1  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:35:31+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034131','2016-11-25/','5837875330b10.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034131','2016-11-25/','5837875330b10.jpg')
+
+[ 2016-11-25T08:35:37+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034137','2016-11-25/','58378758c14cf.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034137','2016-11-25/','58378758c14cf.jpg')
+
+[ 2016-11-25T08:35:40+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034140','2016-11-25/','5837875bf26af.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034140','2016-11-25/','5837875bf26af.jpg')
+
+[ 2016-11-25T08:35:40+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034140','2016-11-25/','5837875c58dbc.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034140','2016-11-25/','5837875c58dbc.jpg')
+
+[ 2016-11-25T08:35:41+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034141','2016-11-25/','5837875cb2b51.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034141','2016-11-25/','5837875cb2b51.jpg')
+
+[ 2016-11-25T08:35:41+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034141','2016-11-25/','5837875d1c527.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034141','2016-11-25/','5837875d1c527.jpg')
+
+[ 2016-11-25T08:35:41+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034141','2016-11-25/','5837875d76a8c.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034141','2016-11-25/','5837875d76a8c.jpg')
+
+[ 2016-11-25T08:35:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:35:45+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:35:45+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-25T08:35:51+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-25T08:35:57+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-25T08:36:03+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034163','2016-11-25/','5837877330296.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034163','2016-11-25/','5837877330296.jpg')
+
+[ 2016-11-25T08:36:06+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034166','2016-11-25/','58378775cd2e5.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034166','2016-11-25/','58378775cd2e5.jpg')
+
+[ 2016-11-25T08:36:06+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034166','2016-11-25/','583787762e401.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034166','2016-11-25/','583787762e401.jpg')
+
+[ 2016-11-25T08:36:06+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034166','2016-11-25/','583787768569d.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034166','2016-11-25/','583787768569d.jpg')
+
+[ 2016-11-25T08:36:07+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034167','2016-11-25/','58378776e369b.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034167','2016-11-25/','58378776e369b.jpg')
+
+[ 2016-11-25T08:36:12+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034172','2016-11-25/','5837877bb5d37.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034172','2016-11-25/','5837877bb5d37.jpg')
+
+[ 2016-11-25T08:36:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034173','2016-11-25/','5837877cad89e.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034173','2016-11-25/','5837877cad89e.jpg')
+
+[ 2016-11-25T08:36:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034173','2016-11-25/','5837877d3accc.jpg')
+ERR: 1364:Field 'goodsname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `beauty_golds` (`cid`,`addtime`,`imageurl`,`imagename`) VALUES ('1','1480034173','2016-11-25/','5837877d3accc.jpg')
+
+[ 2016-11-25T08:36:24+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 1  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:36:36+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `beauty_golds` (`goodsname`,`score`,`marketprice`,`discount`,`saleprice`,`num`,`description`,`cid`,`bid`,`addtime`,`imageurl`,`imagename`) VALUES ('123','231','412','13','213','31','3','1','2','1480034196','2016-11-25/','5837879420051.jpg') [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `beauty_gtype` [ RunTime:0.0260s ]
+SQL: INSERT INTO `beauty_gtype` (`ml`,`gid`) VALUES ('321','65') [ RunTime:0.0810s ]
+
+[ 2016-11-25T08:37:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:37:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-25T08:37:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:37:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:37:18+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-25T08:37:18+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:37:18+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:37:18+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:37:31+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 1  [ RunTime:0.0010s ]
+
+[ 2016-11-25T08:39:14+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `beauty_golds` (`goodsname`,`score`,`marketprice`,`discount`,`saleprice`,`num`,`description`,`cid`,`bid`,`addtime`,`imageurl`,`imagename`) VALUES ('面膜','0','66','0','25','123456','适合所有人','1','19','1480034354','2016-11-25/','5837883248cd8.jpg') [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `beauty_gtype` [ RunTime:0.0070s ]
+SQL: INSERT INTO `beauty_gtype` (`ml`,`gid`) VALUES ('100','66') [ RunTime:0.0590s ]
+
+[ 2016-11-25T09:01:19+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-25T09:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-25T09:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480035689',`lastip`='127.0.0.1' WHERE `id` = 7 [ RunTime:0.1030s ]
+
+[ 2016-11-25T09:01:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0140s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0060s ]
+
+[ 2016-11-25T10:03:22+08:00 ] 127.0.0.1 /index.php/Admin/Sale/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0080s ]
+SQL: SELECT `id` FROM `beauty_brands` WHERE `bname` = '御泥坊' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_activity` SET `starttime`='1477497600',`stoptime`='1481817600',`aname`='限时团购',`rules`='团购减20',`bid`='3' WHERE `id` = 2 [ RunTime:0.0590s ]
+
+[ 2016-11-25T13:01:55+08:00 ] 127.0.0.1 /index.php/Admin/Admin/loginout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-25T13:01:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2016-11-25T13:01:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/loginout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-25T13:01:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2016-11-25T13:08:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-25T13:08:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-25T13:08:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480050518',`lastip`='127.0.0.1' WHERE `id` = 7 [ RunTime:0.0700s ]
+
+[ 2016-11-25T13:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480050518',`lastip`='127.0.0.1' WHERE `id` = 7 [ RunTime:0.0650s ]
+
+[ 2016-11-25T13:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-11-25T13:08:44+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T13:08:44+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-25T13:09:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 1  [ RunTime:0.0020s ]
+
+[ 2016-11-25T13:10:58+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `beauty_golds` (`goodsname`,`score`,`marketprice`,`discount`,`saleprice`,`num`,`description`,`cid`,`bid`,`addtime`,`imageurl`,`imagename`) VALUES ('温碧泉保湿面膜','0','88','0','26','124589','适合任何人群','1','19','1480050658','2016-11-25/','5837c7e1e23fa.jpg') [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `beauty_gtype` [ RunTime:0.0220s ]
+SQL: INSERT INTO `beauty_gtype` (`ml`,`gid`) VALUES ('130','67') [ RunTime:0.0620s ]
+
+[ 2016-11-25T13:11:29+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T13:11:29+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-25T13:11:30+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T13:11:30+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0040s ]
+
+[ 2016-11-25T13:11:47+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T13:11:47+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0030s ]
+
+[ 2016-11-25T13:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T13:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-25T13:12:45+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-25T13:12:45+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-25T13:12:54+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-25T13:12:54+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+

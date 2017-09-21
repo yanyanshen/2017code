@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>列表页</title>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/editor/kindeditor.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/layer/layer.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
+
+    <script type="text/javascript">
+    KE.show({
+        id : 'content7',
+        cssPath : './index.css'
+    });
+  </script>
+  
+<!--<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".select1").uedSelect({
+		width : 345			  
+	});
+	$(".select2").uedSelect({
+		width : 167  
+	});
+	$(".select3").uedSelect({
+		width : 100
+	});
+});
+</script>-->
+    <style>
+        #page a,#page span{display: inline-block;width:18px;height:18px;padding: 5px;
+            margin: 2px;text-decoration: none;text-align: center;line-height: 18px;
+            background: #f0ead8;color:#000000;border: 1px solid #c2d2d7;
+        }
+        #page a:hover{background:#F27602;color:#FF0000;}
+        #page span{background:#F27602;color:#FF0000;font-weight: bold;}
+        #page{float: right;}
+        .message,.blue{font-size: 15px  }
+        .btn1,.btn2,.btn3{width: 100px;height: 25px;border-radius: 6px;background-color: #F5F5F5;float: left;
+            text-align: center;line-height: 25px;font-size: 14px;margin:15px 15px 20px 20px;cursor: pointer;border: 1px solid #333333;
+        }
+        #mail{height: 30px;line-height: 30px;margin: 10px 20px 0;}
+        #mail b{font-size: 15px}
+        #mail p,#mail span{display: inline-block;font-size: 14px}
+        #mail span{color: #A3E356;}
+        .read{cursor: pointer}
+    </style>
+
+    <script>
+
+        $(function(){
+            $('#form').submit(function(){
+                var check=$("input:checked").val();
+                if(!check){
+                    layer.msg('您还没有选择要操作的信息哦',{time:2000,icon:2});
+                    return false;
+                }
+            });
+
+            $('.btn1').click(function(){
+                $(this).css({background:'#FF7534',color:'#683B69'});
+                $('#form').submit();
+                $.post("/index.php/Admin/Message/delMessage.html", $('#form').serialize(), function (res) {
+                    if (res.status == 1) {
+                       layer.msg(res.info,{icon:6,time:2000},function(){
+                           location="/index.php/Admin/Message/index.html";
+                        });
+                    } else {
+                        layer.msg(res.info,{icon:5,time:2000},function(){
+                            location="/index.php/Admin/Message/index.html";
+                        });
+                    }
+                }, 'json')
+            })
+            $('.btn2').click(function(){
+                $(this).css({background:'#FF7534',color:'#683B69'});
+                $('#form').submit();
+                $.post("/index.php/Admin/Message/packMessage.html", $('#form').serialize(), function (res) {
+                    if (res.status == 1) {
+                        layer.msg(res.info,{icon:6,time:2000},function(){
+                            location="/index.php/Admin/Message/index.html";
+                        });
+                    } else {
+                        layer.msg(res.info,{icon:5,time:2000},function(){
+                            location="/index.php/Admin/Message/index.html";
+                        });
+                    }
+                }, 'json')
+            })
+            $('.btn3').click(function(){
+                $(this).css({background:'#FF7534',color:'#683B69'});
+                $('#form').submit();
+                $.post("/index.php/Admin/Message/readMessage.html", $('#form').serialize(), function (res) {
+                    if (res.status == 1) {
+                        layer.msg(res.info,{icon:6,time:2000},function(){
+                            location="/index.php/Admin/Message/index.html";
+                        });
+                    } else {
+                        layer.msg(res.info,{icon:5,time:2000},function(){
+                            location="/index.php/Admin/Message/index.html"
+                        });
+                    }
+                }, 'json')
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">信息管理</a></li>
+        <li><a href="#">我的站内信</a></li>
+
+    </ul>
+    </div>
+    <form id="form">
+    <div id="mail"><b>收件箱 </b><p> (共 3 封，其中 <span>未读邮件</span> 3 封)</p></div>
+    <div><div class="btn1">删除</div><div class="btn2">彻底删除</div><div class="btn3">标为已读</div></div>
+    <div class="formbody">
+    
+    
+    <div id="usual1" class="usual"> 
+    
+  
+     
+  	<div id="tab2" class="tabson">
+
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th><input name="checkAll" type="checkbox" value="" id="checkAll" /></th>
+        <th>编号</th>
+        <th>发件人</th>
+        <th>主题</th>
+        <th>内容</th>
+        <th>时间</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr style="font-weight: bold">
+                    <td><input name="checkbox[]" type="checkbox" class="che" value="22"></td>
+                    <td>1</td>
+                    <td>dawang</td>
+                    <td class="read"><a href="/index.php/Admin/Message/messageContent/id/22.html">天气预报</a></td>
+                    <td class="read"><a href="/index.php/Admin/Message/messageContent/id/22.html">郑州 多云 2-14  微风 1级</a></td>
+                    <td>2016-12-02 09:06:11</td>
+                </tr>
+                <tr style="font-weight: bold">
+                    <td><input name="checkbox[]" type="checkbox" class="che" value="14"></td>
+                    <td>2</td>
+                    <td>admin</td>
+                    <td class="read"><a href="/index.php/Admin/Message/messageContent/id/14.html">感恩节</a></td>
+                    <td class="read"><a href="/index.php/Admin/Message/messageContent/id/14.html">感恩节里送你一副对联，表达我对你的祝愿，上联：感谢身边所有人，人人有恩；下联：恩泽周围亲和友，人人来报；横批：感恩快乐</a></td>
+                    <td>2016-11-26 16:18:33</td>
+                </tr>
+                <tr style="font-weight: bold">
+                    <td><input name="checkbox[]" type="checkbox" class="che" value="6"></td>
+                    <td>3</td>
+                    <td>admin</td>
+                    <td class="read"><a href="/index.php/Admin/Message/messageContent/id/6.html">欢迎新人</a></td>
+                    <td class="read"><a href="/index.php/Admin/Message/messageContent/id/6.html">大家好，欢迎来到后台！</a></td>
+                    <td>2016-11-26 16:18:18</td>
+                </tr>
+                
+        </tbody>
+    </table>
+        <div class="pagin">
+            <div class="message">共<i class="blue"> 3 </i>条记录，当前显示第&nbsp;<i class="blue">1&nbsp;</i>页</div>
+            <div id="page"><div>    </div></div>
+        </div>
+  
+    </div>
+    </div>  
+       
+	</div>
+    </form>
+
+    <script type="text/javascript">
+      $("#usual1 ul").idTabs(); 
+    </script>
+    
+    <script type="text/javascript">
+	$('.tablelist tbody tr:odd').addClass('odd');
+	</script>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function(){
+        $('#checkAll').toggle(
+                function(){$('input[type="checkbox"]').attr('checked','checked')},
+                function(){$('input[type="checkbox"]').removeAttr('checked')}
+        )
+        /*$('#checkAll').click(function(){
+            $('#checkAll').toggle(
+                    function(){$('input[type="checkbox"]').attr('checked','checked')},
+                    function(){$('input[type="checkbox"]').removeAttr('checked')}
+            )
+        })*/
+    })
+</script>

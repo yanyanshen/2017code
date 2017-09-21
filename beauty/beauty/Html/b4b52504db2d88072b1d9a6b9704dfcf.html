@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>品牌列表</title>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/editor/kindeditor.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/layer/layer.js"></script>
+
+    <style type="text/css">
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;
+            border: 1px solid #c2d2d7;
+        }
+        #page a:hover{
+            background:#F27602;
+            color:#FF0000;
+        }
+        #page span{
+            background:#F27602;
+            color:#FF0000;
+            font-weight: bold;
+        }
+        #page{
+            float: right
+        }
+
+
+    </style>
+
+<script type="text/javascript">
+    KE.show({
+        id : 'content7',
+        cssPath : './index.css'
+    });
+  </script>
+</head>
+
+<body>
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">系统设置</a></li>
+    </ul>
+    </div>
+    <div class="formbody">
+    <div id="usual1" class="usual">
+  	<div id="tab2" class="tabson">
+    <form action="/index.php/Admin/Brand/index.html" method="get" class="form">
+    <ul class="seachform">
+    <li><label>综合查询</label><input name="chaXun" type="text" class="scinput" placeholder="请输入品牌关键字" /></li>
+    <li><label>&nbsp;</label><input name="" type="submit" class="scbtn" value="查询"/></li>
+    </ul>
+    </form>
+    <table class="tablelist">
+    	<thead>
+            <tr>
+
+            <th>编号<i class="sort"><img src="/Public/Admin/images/px.gif" /></i></th>
+            <th>品牌名称</th>
+            <th>品牌LOGO</th>
+            <th>发布时间</th>
+            <th>品牌展示状态</th>
+            <th>操作</th>
+            <th>品牌类型</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+                <td>1</td>
+                <td>韩束</td>
+                <td><img src="/Upload/logo2016-11-10/58242daaa5f5e.jpg" alt="韩束"/></td>
+                <td>2016-11-10</td>
+                <td>展示</td>
+                <td><a href="#"  onclick="return false" class="tablelink" id="1" >下架</a>
+                  <!--  href="/index.php/Pay/Brand/upData/id/1.html"-->
+                <td>
+                国际大牌
+                                   </td>
+            </tr><tr>
+                <td>2</td>
+                <td>雅思兰黛</td>
+                <td><img src="/Upload/logo2016-11-10/58243a3d6643c.jpg" alt="雅思兰黛"/></td>
+                <td>2016-11-10</td>
+                <td>展示</td>
+                <td><a href="#"  onclick="return false" class="tablelink" id="2" >下架</a>
+                  <!--  href="/index.php/Pay/Brand/upData/id/2.html"-->
+                <td>
+                国际大牌
+                                   </td>
+            </tr><tr>
+                <td>3</td>
+                <td>御泥坊</td>
+                <td><img src="/Upload/logo2016-11-10/58243a7dc0c35.jpg" alt="御泥坊"/></td>
+                <td>2016-11-10</td>
+                <td>展示</td>
+                <td><a href="#"  onclick="return false" class="tablelink" id="3" >下架</a>
+                  <!--  href="/index.php/Pay/Brand/upData/id/3.html"-->
+                <td>
+                 国货精品               </td>
+            </tr><tr>
+                <td>4</td>
+                <td>拉芳</td>
+                <td><img src="/Upload/logo2016-11-10/58243b5a01039.jpg" alt="拉芳"/></td>
+                <td>2016-11-10</td>
+                <td>展示</td>
+                <td><a href="#"  onclick="return false" class="tablelink" id="4" >下架</a>
+                  <!--  href="/index.php/Pay/Brand/upData/id/4.html"-->
+                <td>
+                 推荐品牌
+                                   </td>
+            </tr><tr>
+                <td>5</td>
+                <td>卡姿兰</td>
+                <td><img src="/Upload/logo2016-11-10/58245973cdd65.jpg" alt="卡姿兰"/></td>
+                <td>2016-11-10</td>
+                <td>展示</td>
+                <td><a href="#"  onclick="return false" class="tablelink" id="5" >下架</a>
+                  <!--  href="/index.php/Pay/Brand/upData/id/5.html"-->
+                <td>
+                 推荐品牌
+                                   </td>
+            </tr>        </tbody>
+    </table>
+    <div class="pagin">
+       <div class="message">共<i class="blue">20</i>条记录，当前显示第&nbsp;<i class="blue">1&nbsp;</i>页</div>
+        <div id="page"><div>  <span class="current">1</span><a class="num" href="/index.php/Admin/Brand/index/p/2.html">2</a><a class="num" href="/index.php/Admin/Brand/index/p/3.html">3</a><a class="num" href="/index.php/Admin/Brand/index/p/4.html">4</a> <a class="next" href="/index.php/Admin/Brand/index/p/2.html">>></a> </div></div>
+    </div>
+    </div>
+	</div> 
+
+       <script>
+           $(function() {
+               $('.tablelink').click(function () {
+                   var id = $(this).attr('id');
+                   $.post("/index.php/Admin/Brand/upData.html",{id:id}, function (res) {
+                       if (res.status == 1) {
+                           layer.msg('品牌状态更改成功', {icon: 6, time: 1000}, function () {
+                               location = "/index.php/Admin/Brand/index.html";
+                           });
+                       } else {
+                           layer.msg('品牌状态更改失败', {icon: 5, time: 1000}, function () {
+                               location = "/index.php/Admin/Brand/index.html"
+                           });
+                       }
+                   }, 'json')
+               });
+           })
+        </script>
+    </div>
+
+
+</body>
+
+</html>

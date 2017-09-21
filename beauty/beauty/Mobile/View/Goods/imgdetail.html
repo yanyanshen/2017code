@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link href="__PUBLIC__/Mobile/goodsdetail/css/mall.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="child_header">
+    <!--可以返回到上一个页面，相当于是历史页面-->
+    <div class="goback"><a href="javascript:history.back(-1)"><i></i></a></div>
+    <div class="current_location"><span>图文详情</span></div>
+</div>
+<div class="goods_box">
+    <volist name="fuimg" id="fu">
+        <img src="/Uploads/{$fu.picurl}{$fu.picname}" width="100%">
+    </volist>
+</div>
+</body>
+</html>

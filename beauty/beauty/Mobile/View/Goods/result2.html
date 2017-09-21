@@ -1,0 +1,28 @@
+<table border="0" class="jud_list" style="width:100%; margin-top:15px;" cellspacing="0" cellpadding="0">
+    <volist name="commresponlist2" id="val1">
+        <tr valign="top" style="margin:15px 0;">
+            <td width="20%" style="font-size: 12px;"><img src="/UserImg/photo{$val1.imgpath}{$val1.imgname}" width="20" height="20" align="absmiddle" />&nbsp;{$val1.username} <br /><font color="#999999">（匿名用户）</font></td>
+            <td width="20%" style="font-size: 12px;">
+                型号：<font color="#999999">{$val1.ml}ml</font>
+                <br /><font color="orange">{$val1.costatus}</font>
+            </td>
+            <td width="30%" style="font-size: 12px;">
+                {$val1.content}<br />
+                <if condition="$val1.imageurl neq ''&&$val1.imagename neq ''">
+                    <a href="javascript:;" class="showimg" ><img src="/CommentImg/{$val1.imageurl}{$val1.imagename}" alt="" style="width: 50px;height: 50px;"/></a>
+                    <a href="{:U('Home/Order/seeimg',array('cid'=>$val1['id']))}" target="_blank" class="seebigimg" style="margin-left: 10px;">查看原图</a><br/>
+                </if>
+                <font color="#999999">{$val1.coaddtime|date='Y-m-d',###}</font>
+            </td>
+            <td width="30%" style="font-size: 12px;">
+                <if condition="$val1.respid eq 2">
+                    <span style="color:orange;">卖家回复:</span>{$val1.response}<br />
+                    <font color="#999999">{$val1.readdtime|date='Y-m-d',###}</font>
+                </if>
+            </td>
+        </tr>
+    </volist>
+</table>
+<div class="pagelist">
+    {$page2}
+</div>

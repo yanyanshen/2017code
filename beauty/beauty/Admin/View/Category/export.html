@@ -1,0 +1,45 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:x="urn:schemas-microsoft-com:office:excel"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <meta name=Generator content="Microsoft Excel 11">
+</head>
+<body>
+<table class="tablelist">
+    <thead>
+    <tr>
+        <th><input name="" type="checkbox" value="" checked="checked"/></th>
+        <th>编号<i class="sort"><img src="__PUBLIC__/Admin/images/px.gif" /></i></th>
+        <th>分类名称</th>
+        <th>分类Id</th>
+        <th>上级分类</th>
+        <th>分类父Id</th>
+        <th>添加时间</th>
+        <th>是否展示</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <volist name="list1" id="date" key="k">
+        <tr>
+            <td><input name="" type="checkbox" value="" /></td>
+            <td>{$k+$firstRow}</td>
+            <td>{$date.cname}</td>
+            <td>{$date.id}</td>
+            <td>{$list3[$k-1]['path']|substr=0,-2}</td>
+            <td>{$date.pid}</td>
+            <td>{$date.addtime|date='Y-m-d',###}</td>
+            <td>{$date['show']?'展示':'下架'}</td>
+            <td><a href="{:U('Admin/Category/showCate',array('id'=>$date['id']))}" class="tablelink">{$date['show']?'下架':'展示'}</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="{:U('Admin/Category/editorCate',array('id'=>$date['id']))}" class="tablelink">编辑</a></td>
+        </tr>
+    </volist>
+
+    </tbody>
+</table>
+
+</body>
+</html>

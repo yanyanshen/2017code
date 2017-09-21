@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/Home/fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<!--<script src="__PUBLIC__/Home/map/jquery-1.9.1.min.map" type="text/javascript"></script>-->
+<script src="__PUBLIC__/Home/js/lrtk.js" type="text/javascript"></script>
+<link href="__PUBLIC__/Home/css/common.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Home/fonts/iconfont.css"  rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="__PUBLIC__/Admin/js/jquery.min.1.8.2.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Admin/js/jquery.form.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/common_js.js" type="text/javascript"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/layer/layer.js"></script>
+<script src="__PUBLIC__/Home/js/footer.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/jquery.lazyload.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/jquery.reveal.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/jquery.sumoselect.min.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/jquery.jumpto.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/search.css">
+
+</head>
+<script>
+    $(function() {
+        $('#OUT').click(function () {
+            $.post("{:U('Home/Login/LoginOut')}",'', function (res) {
+                if (res.status == 1) {
+                    layer.open({
+                        content: res.info,
+                        icon: 1,
+                        yes: function () {
+                            location.href = "{:U('Home/index/index')}";
+                        }
+                    })
+                } else {
+                    layer.open({
+                        content: res.info,
+                        icon: 2,
+                        title: '错误提示'
+                    });
+                }
+            }, 'json')
+        });
+
+/*头部我的收藏沈艳艳*/
+        $(".s_cart").mouseenter(function(){
+            $.post('{:U("Home/Collect/collect")}',function(res){
+                var str='';
+                var count=''
+                if(res.status==1){
+                    for(var i in res.info){
+                        str+='<li>'
+                        str+='<div class="img">' + '<img src="/Uploads/'+res.info[i]['imageurl']+res.info[i]['imagename']+'">' +
+                        '</div>'
+                        str+='<div class="content"><p>'
+                        str+='<a href="'+'{:U("Home/Order/goodsdetail")}?gid='+res.info[i]['gid']+'">';
+                        str+=res.info[i]['goodsname'].substr(0,10)+'</a></p><p>价格：￥'+res.info[i]['saleprice']+'</p></div>'
+                        str+='<div class="Operations">'
+                        str+='<p>'
+                        str+='<a href="javascript:;" class="deleteCollect" gid="'+res.info[i]['gid']+'">';
+                        str+= '删除</a>'
+                        str+='</p></div></li>'
+                    }if(res.info==1){
+                        str='<div class="prompt"></div>' +
+                        '<div class="nogoods"><b></b>您的收藏夹还没有宝贝哦，赶紧添加吧！！！！</div>'
+                    }
+                    $(".p_s_list").html(str);
+                }else{
+                        str='<div class="prompt"></div>' +
+                        '<div class="nogoods"><b></b>登录之后才能看哦！！！</div>'
+                         $(".dorpdown-layer").html(str);
+                }
+            });
+        });
+            $(".deleteCollect").live('click',function(){
+                var a=$(this);
+                var gid=$(this).attr('gid');
+                $.get("{:U('Collect/deleteCollect')}?gid="+gid,function(res){
+                    a.parents('li').hide();
+                })
+            });
+/*头部我的收藏*/
+    })
+</script>
+
+<div id="header_top">
+    <div id="top">
+        <div class="Inside_pages">
+            <div class="Collection">您好，欢迎光临{:session('mname')?session('mname'):''}！<a id="OUT"  style="color: #ff0000; cursor: pointer">{:session('mname')?'退出':''}</a>
+            </div>
+            <div class="hd_top_manu clearfix">
+                <ul class="clearfix">
+                    <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">
+                        欢迎光临本店！
+                        <a href="{:U('Home/Login/Login')}" class="red">
+                        {:session('mname')?'':'[请登录]'}
+                    </a>
+                        {:session('mname')?'':'新用户'}
+                        <a href="{:U('Home/Register/Register')}" class="red">
+                            {:session('mname')?' ':'[免费注册]'}
+                        </a>
+                    </li>
+                    <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="{:U('Home/Index/index')}">我的首页</a></li>
+                    <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="{:U('Home/Member/Orderform')}">我的订单</a></li>
+                    <li class="hd_menu_tit" data-addclass="hd_menu_hover"> <a href="{:U('Home/MyCart/tocart')}">购物车</a> </li>
+                    <li class="hd_menu_tit list_name" data-addclass="hd_menu_hover">
+                        <a href="#" class="hd_menu">网站导航</a>
+                        <div class="hd_menu_list">
+                            <ul>
+                                <li><a href="{:U('Home/Footprint/footprint')}">足迹</a></li>
+                                <li><a href="{:U('Home/Feedback/index')}">反馈</a></li>
+                                <li><a href="{:U('Home/Member/index')}">用户中心</a></li>
+                                <li><a href="{:U('Home/Member/showCollect')}">我的收藏</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="hd_menu_tit phone_c" data-addclass="hd_menu_hover"><a href="#" class="hd_menu "><em class="iconfont icon-shouji"></em>手机版</a>
+                        <div class="hd_menu_list erweima">
+                            <ul>
+                                <img src="__PUBLIC__/Home/images/mobile.png"  width="100px" height="100"/>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--样式-->
+    <!--顶部样式2-->
+<div id="header "  class="header page_style">
+
+    <div class="logo"><a href="{:U('Index/index')}">
+
+        <img style="width: 210px;height: 122px" src="/Public/Mobile/images/Image-1.png" /></a></div>
+        <!--结束图层-->
+    <form action="{:U('Home/Search/index')}" method="get">
+        <div class="Search">
+                <p><input name="keywords" value="{$keywords?$keywords:'面膜'}" type="text"  class="text" style="width: 450px;height: 32px"/>
+                <input name="" type="submit" value="搜 索"  class="Search_btn" style="padding: 0 15px;height: 38px"/></p>
+                <p class="Words">
+                    <a href="{:U('Home/Search/index',array('cid'=>1))}">面部护理</a>
+                    <a href="{:U('Home/Search/index',array('cid'=>22))}">身体护理</a>
+                    <a href="{:U('Home/Search/index',array('cid'=>33))}">香水彩妆</a>
+                    <a href="{:U('Home/Search/index',array('cid'=>53))}">洗发护发</a>
+                    <a href="{:U('Home/Search/index',array('cid'=>70))}">男性护理</a>
+                    <a href="{:U('Home/Search/index',array('cid'=>83))}">推荐品牌</a>
+                </p>
+        </div>
+    </form>
+        <!--购物车样式-->
+    <div class="hd_Shopping_list" id="Shopping_list">
+        <div class="s_cart"><a href="">我的收藏</a> <i class="ci-right">&gt;</i><i id="shopping-amount"></i></div>
+        <div class="dorpdown-layer">
+            <div class="spacer"></div>
+            <ul class="p_s_list">
+            </ul>
+            <div class="Shopping_style">
+                    <div class="p-total"></div>
+                    <a href="{:U('Home/Member/showCollect')}" title="" id="btn-payforgoods" class="Shopping">查看更多</a>
+            </div>
+        </div>
+    </div>
+</div>

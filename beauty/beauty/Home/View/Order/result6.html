@@ -1,0 +1,29 @@
+<table border="0" class="jud_list" style="width:100%; margin-top:30px;" cellspacing="0" cellpadding="0">
+    <volist name="commresponlist6" id="val6">
+        <tr valign="top">
+            <td width="160"><img src="/UserImg/photo{$val6.imgpath}{$val6.imgname}" width="20" height="20" align="absmiddle" />&nbsp;{$val6.username} <br /><font color="#999999">（匿名用户）</font></td>
+            <td width="180">
+                型号：<font color="#999999">{$val6.ml}ml</font>
+                <br /><font color="orange">{$val6.costatus}</font>
+            </td>
+            <td>
+                {$val6.content}<br />
+                <if condition="$val6.picurl neq ''&&$val6.picname neq ''">
+                    <a href="javascript:;" class="showimg" ><img src="/CommentImg/{$val6.picurl}{$val6.picname}" alt="" style="width: 50px;height: 50px;"/></a>
+                    <a href="{:U('Home/Order/seeimg',array('cid'=>$val6['id']))}" target="_blank" class="seebigimg" style="margin-left: 10px;">查看原图</a><br/>
+                </if>
+                <font color="#999999">{$val6.coaddtime|date='Y-m-d',###}</font>
+            </td>
+            <td>
+                <if condition="$val6.zuijiatime eq 1">
+                    <span style="color:orange;">[当天追加]:</span>{$val6.zuijia}<br/>
+                    <else/>
+                    <span style="color:orange;">[{$val6.zuijiatime}天后追加]:</span>{$val6.zuijia}<br />
+                </if>
+            </td>
+        </tr>
+    </volist>
+</table>
+<div class="pagelist">
+    {$page6}
+</div>

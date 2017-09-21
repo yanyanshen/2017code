@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>首页</title> 
+  <meta name="keywords" content="拍鞋网,拍鞋网官方网站,拍鞋网商城" /> 
+  <meta name="description" content="买鞋子哪个网站好，当然首选拍鞋网!中国最早成立的正品鞋子购物网站,国内最大的品牌鞋子销售广场。所售鞋子100%厂家授权,全国包邮,货到付款,提供最完美的购物体验！" /> 
+  <meta charset="utf-8" /> 
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" /> 
+
+  <link rel="stylesheet" href="/Public/Mobile/css/zip.touch.home._all_.v390312.css 
+
+" type="text/css" /> 
+  <!--<script type="text/javascript" src="/Public/Mobile/map/zepto.min.map"></script>-->
+  <script type="text/javascript" src="/Public/Mobile/js/jquery.min.1.8.2.js"></script>
+     <script type="text/javascript" src="/Public/Mobile/js/layer_mobile/layer.js"></script>
+     <script type="text/javascript">function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>1200){w = 1200;};$('html').css('font-size',100/640*w+'px');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};</script>
+ </head> 
+ <body> 
+  <div class="body"> 
+   <div class="m_header m_head"> 
+    <div class="head_content"> 
+     <a class="logo" href="index.html"> <img src="/Public/Mobile/images/Image-1.png" /> </a>
+     <a class="search" href="/index.php/Mobile/Search/index.html"> <i class="m_icon m_icon m_icon_search"></i> 热门搜索 </a>
+                    <a href="/index.php/Mobile/Login/Dologin.html">
+                <i class="m_icon m_icon_head_user"></i>
+            </a>
+     <img class="m_head_bg" src="/Public/Mobile/images/1440741194a58a4c.png" /> 
+    </div> 
+   </div> 
+   <div class="lib_content" id="js_lib_content">
+    <div class="placeholder"></div> 
+    <div class="p_notice"> 
+     <i class="m_icon m_icon_notice"></i> 
+     <ul class="p_notice_list"> 
+      <!--<li><a href="javascript:;">【beauty一岁啦！】</a></li>
+      <li><a href="javascript:;">【谨防诈骗温馨提醒】</a></li>-->
+              </ul> 
+    </div> 
+    <div class="p_navegate"> 
+     <div class="m_zepto_slide" data-auto="ture" data-time="3000" data-type="left" data-index="0"> 
+      <div class="content" data-link="ture">
+<!--顶部广告-->
+      <a class="item" href="/index.php/Mobile/Category/index.html"><img src="/Uploads/Advertises/2016-11-30/583ec1ab5f2f2.png" /><dfn></dfn></a>      </div> 
+      <p class="index"> <a class="selected" href="http://m.paixie.net/topic/8903.html?site=pc"></a> <a href="http://m.paixie.net/topic/9107.html?site=pc"></a> <a href="http://m.paixie.net/spike"></a> </p> 
+     </div> 
+     <div class="placeholder"></div> 
+     <div class="p_menu"> 
+      <a href="/index.php/Mobile/Category/index.html"> <i class="m_icon m_icon_menu"></i> <span>分类</span> </a>
+      <a href="/index.php/Mobile/MyCart/mycart.html"> <i class="m_icon m_icon_car"></i> <span>购物车</span> </a>
+      <a href="/index.php/Mobile/Huiyuan/index.html"> <i class="m_icon m_icon_logistics"></i> <span>黄金会员专享</span> </a>
+      <a href="javascript:;" class="sign"> <i class="m_icon m_icon_coin"></i> <span>每日签到</span> </a>
+         <input type="hidden" value="" name="mid"/>
+     </div> 
+    </div>
+       <script type="text/javascript">
+           mid=$('input[name="mid"]').val();
+           $('.sign').click(function(){
+               if(mid){
+                   location="/index.php/Mobile/Sign/sign.html";
+               }else{
+                   location="/index.php/Mobile/Login/Dologin.html";
+               }
+           })
+       </script>
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div>
+       <div class="time" style="font-size: 15px;">
+           <span style="margin: 0 5%;font-size: 16px;color: red">限时抢购</span>
+           <span style="" class="day"></span>:
+           <span class="house1"></span>:
+           <span class="minite1"></span>:
+           <span class="second1"></span>
+           <span style="border:1px solid red;margin-left: 75%;border-radius: 5px;background-color: red;color: #f5f5f5">
+               <a href="/index.php/Mobile/GoodsList/temai/temai/temai.html" style="color: #f5f5f5">立即抢购&gt;</a>
+           </span>
+       </div>
+       <script>
+           function timer(){
+               var ts = $(".input").attr('restTime'); //设置目标时间，并计算剩余的毫秒数
+               var dd = parseInt(ts/60/60/24);  //计算剩余天数
+               var today=new Date();
+               var hh=today.getHours();
+               var mm=today.getMinutes();
+               var ss=today.getSeconds();
+//                 $('.icon-time').eq(a).text('还剩:'+dd+'天'+parseInt(24-hh)+'小时'+parseInt(60-mm)+'分'+parseInt(60-ss)+'秒')
+               $(".day").text(dd+'天');
+               $(".house1").text(parseInt(24-hh));
+               $(".minite1").text(60-mm);
+               $(".second1").text(60-ss)
+           }
+           setInterval('timer()',1000); // 每隔1S执行一次
+       </script>
+    <ul class="limit_list">
+        <input type="hidden" class="input" restTime="17481546"/>
+             <li style="width:30%;">
+                 <a href="/index.php/Mobile/GoodsList/temai/temai/temai.html">
+                    <img class="img200" style="width: 100%;"
+                      src="/Uploads/2016-11-10/58245935bdf8a.jpg" /><br>
+                         <span style="color:black;font-size: 0.05rem">惊人价:</span>
+                     <span style="font-size: 0.05rem">满299减100</span>
+                 </a>
+             </li><input type="hidden" class="input" restTime="17481546"/>
+             <li style="width:30%;">
+                 <a href="/index.php/Mobile/GoodsList/temai/temai/temai.html">
+                    <img class="img200" style="width: 100%;"
+                      src="/Uploads/2016-11-10/58245b07e14a0.jpg" /><br>
+                         <span style="color:black;font-size: 0.05rem">惊人价:</span>
+                     <span style="font-size: 0.05rem">满299减100</span>
+                 </a>
+             </li>     <li class="clock" style="width:31%;">
+         <a href="/index.php/Mobile/GoodsList/temai.html">
+         <img style="width: 100%;" src="/Public/Mobile/images/goods.png"/>
+        </a>
+     </li>
+    </ul> 
+
+    <div class="p_title">
+     <i class="m_icon m_icon_especially"></i> 女士专区
+    </div>
+       <div class="ad_field_two">
+           <a href="/index.php/Mobile/GoodsList/girl/girl/lady.html"> <img style="width:80%;" src="/Uploads/2016-11-10/5824308e9b4fc.jpg"/> </a><a href="/index.php/Mobile/GoodsList/girl/girl/lady.html"> <img style="width:80%;" src="/Uploads/2016-11-10/5824317e7ac5c.jpg"/> </a>       </div>
+       <div class="p_title" style="float: left">
+           <i class="m_icon m_icon_especially"></i> 男士专区
+       </div>
+       <div class="ad_field_two">
+           <div class="ad_field_two">
+               <a href="/index.php/Mobile/GoodsList/boy/boy/man.html">
+                       <img style="width:80%;" src="/Uploads/2016-11-10/58245418bf77c.jpg"/>
+                   </a><a href="/index.php/Mobile/GoodsList/boy/boy/man.html">
+                       <img style="width:80%;" src="/Uploads/2016-11-10/58245461b4860.jpg"/>
+                   </a>           </div>
+       </div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="p_title"> 
+     <i class="m_icon m_icon_brand"></i> 品牌优惠
+    </div>
+    <div class="brand"> 
+     <div class="brand_left_feild">
+         <a href="/index.php/Mobile/GoodsList/brandList/bid/1.html"><img src="/Upload/logo2016-11-10/58242daaa5f5e.jpg" /></a><a href="/index.php/Mobile/GoodsList/brandList/bid/2.html"><img src="/Upload/logo2016-11-10/58243a3d6643c.jpg" /></a><a href="/index.php/Mobile/GoodsList/brandList/bid/3.html"><img src="/Upload/logo2016-11-10/58243a7dc0c35.jpg" /></a><a href="/index.php/Mobile/GoodsList/brandList/bid/4.html"><img src="/Upload/logo2016-11-10/58243b5a01039.jpg" /></a><a href="/index.php/Mobile/GoodsList/brandList/bid/5.html"><img src="/Upload/logo2016-11-10/58245973cdd65.jpg" /></a><a href="/index.php/Mobile/GoodsList/brandList/bid/6.html"><img src="/Upload/logo2016-11-10/5824612cd2bd4.jpg" /></a><a href="/index.php/Mobile/GoodsList/brandList/bid/7.html"><img src="/Upload/logo2016-11-11/582596db6df57.jpg" /></a><a href="/index.php/Mobile/GoodsList/brandList/bid/8.html"><img src="/Upload/logo2016-11-15/582afc47f362a.jpg" /></a>     </div>
+     <div class="brand_right_feild">
+         <a href="/index.php/Mobile/GoodsList/index/bid/10.html"><img src="/Upload/logo2016-11-15/582afcd76d66f.jpg" /></a><a href="/index.php/Mobile/GoodsList/index/bid/12.html"><img src="/Upload/logo2016-11-16/582bb1e8966ea.jpg" /></a>     </div> 
+    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div>
+<!--广告图片-->
+    <div class="ad_field_one">
+
+        <a class="item" href="/index.php/Mobile/Category/index.html"><img src="/Uploads/Advertises/2016-12-01/583f9ceb03354.png" /><dfn></dfn></a>    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="p_home_menu"> 
+     <div>
+         <a href="/index.php/Mobile/GoodsList/goodslist/cid/13.html" style="font-size:0.2rem;text-align: center;">面部护理          <img src="/Uploads/2016-12-02/584124c2e38c3.jpg" style="width: 1.23rem;vertical-align: middle;margin-left: 20%;"/> </a>         <a href="/index.php/Mobile/GoodsList/goodslist/cid/22.html" style="font-size:0.2rem;text-align: center">身体护理             <img src="/Uploads/2016-11-10/5824308e9b4fc.jpg" style="width: 1.13rem;vertical-align: middle;margin-left: 20%;"/> </a>     </div>
+     <div>
+         <a href="/index.php/Mobile/GoodsList/goodslist/cid/33.html" style="font-size:0.2rem;text-align: center">香水彩妆             <img src="/Uploads/2016-11-10/58245e2547df7.jpg" style="width: 1.13rem;vertical-align: middle;margin-left: 20%;"/> </a>         <a href="/index.php/Mobile/GoodsList/goodslist/cid/99.html" style="font-size:0.2rem;text-align: center">美妆单品                 <img src="/Uploads/2016-11-10/58243f254f07d.jpg" style="width: 1.13rem;vertical-align: middle;margin-left: 20%;"/> </a>     </div>
+     <div>
+         <a href="/index.php/Mobile/GoodsList/goodslist/cid/54.html" style="font-size:0.2rem;text-align: center">洗发护发             <img src="/Uploads/2016-12-02/5840ff1e430f0.jpg" style="width: 1.13rem;vertical-align: middle;margin-left: 20%;"/> </a>             <a href="/index.php/Mobile/GoodsList/goodslist/cid/83.html" style="font-size:0.2rem;text-align: center">护肤单品                 <img src="/Uploads/2016-11-10/582453d3e3dc2.jpg" style="width: 1.13rem;vertical-align: middle;margin-left: 20%;"/> </a>     </div>
+    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="p_favorite"> 
+     <span>您可能会喜欢</span> 
+    </div> 
+    <div class="m_list m_goods_list">
+     <div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/1.html">
+                <img class="img" src="/Uploads/2016-11-10/5824302e8ff5f.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束红BB六件套装红...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div><div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/2.html">
+                <img class="img" src="/Uploads/2016-11-10/5824308e9b4fc.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束紫竹控油八件套装...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div><div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/3.html">
+                <img class="img" src="/Uploads/2016-11-10/582430ff31b4b.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束墨菊巨补水秋冬化...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div><div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/4.html">
+                <img class="img" src="/Uploads/2016-11-10/5824317e7ac5c.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束雪白肌护肤品套装...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div><div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/5.html">
+                <img class="img" src="/Uploads/2016-11-10/58243202b92a9.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束伊然美丽赋活九件...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div><div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/6.html">
+                <img class="img" src="/Uploads/2016-11-10/58243439b4a1e.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束玻尿酸补水面膜亮...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div><div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/7.html">
+                <img class="img" src="/Uploads/2016-11-10/582434a1ae459.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束红石榴面膜贴 美...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div><div class="m_goods_cell">
+             <a href="/index.php/Mobile/Goods/goodsdetail/gid/8.html">
+                <img class="img" src="/Uploads/2016-11-10/58243529a3799.jpg" />
+                <p class="title f26 gray6 ellipsis">韩束雪莲玻尿酸补水亮...</p>
+                 <span class="fact_price f28 orange">&yen;0.10</span>
+             </a>
+         </div>    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+       <!--底部广告-->
+    <div class="ad_field_one">
+        <a class="item" href="/index.php/Mobile/Category/index.html"><img src="/Uploads/Advertises/2016-12-01/583f9d359287c.jpg" /><dfn></dfn></a>    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+   </div> 
+   <div class="m_footer clear"> 
+    <a class="m_icon m_icon_gotop hidden" href="javascript:void(0);"></a> 
+    <div class="home_links"> 
+     <p>  <a href="http://m.haosou.com/" target="_blank">360好搜</a> <a href="http://m.baidu.com" target="_blank">百度</a> <a href="http://123hw.com/" rel="nofollow" target="_blank">123好网址</a> <a href="http://dh.sogou.com/?fr=0005-001s" rel="nofollow" target="_blank">搜狗网址导航</a> <a href="http://m.hao123.com" rel="nofollow" target="_blank">好123</a> </p>
+
+    </div>
+       <script type="text/javascript" src="/Public/Mobile/js/layer_mobile/layer.js"></script>
+
+<div class="userinfo">
+     <a style="color:#666666 " href="/index.php/Mobile/Login/Dologin.html"> 登录</a>
+    <span></span>
+    <a class="gray6" href="/index.php/Mobile/Register/index.html">注册</a>    <span></span>
+            <a class="gray6" href="/index.php/Mobile/Login/Dologin.html">用户反馈</a>    <span></span>
+    <a class="gray6" href="/help/app.html#button">客户端</a>
+</div>
+<div class="copyright gray9">© 2007-2015 Paixie All Rights Reserved<br>闽B2-20110084</div>
+<script>
+    $(function() {
+        $('#OUT').click(function () {
+            $.post("/index.php/Mobile/Login/LoginOut.html", '', function (res) {
+                if (res.status == 1) {
+                    layer.open({
+                        content: res.info,
+                        type:1,
+                        skin:'msg',
+                        time:3,
+                        end: function () {
+                            location.href = "/index.php/Mobile/index/index.html";
+                        }
+                    })
+                } else {
+                    layer.open({
+                        content: res.info,
+                        type:1
+                    });
+                }
+            }, 'json')
+        });
+    })
+ </script>
+   </div>
+   <div style="display:none;">
+   </div>
+  </div>
+  <script type="text/javascript" src="/Public/Mobile/js/zip.touch.home._all_.v36912.js"></script> 
+  <script type="text/javascript" src="/Public/Mobile/js/jweixin-1.0.0.js"></script> 
+
+ </body>
+</html>

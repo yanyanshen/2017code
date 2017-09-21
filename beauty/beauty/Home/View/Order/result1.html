@@ -1,0 +1,29 @@
+<table border="0" class="jud_list" style="width:100%; margin-top:30px;" cellspacing="0" cellpadding="0">
+    <volist name="commresponlist1" id="comment1" empty="$empty1">
+        <tr valign="top">
+            <td width="160"><img src="/UserImg/photo{$comment1.imgpath}{$comment1.imgname}" width="20" height="20" align="absmiddle" />&nbsp;{$comment1.username} <br /><font color="#999999">（匿名用户）</font></td>
+            <td width="180">
+                型号：<font color="#999999">{$comment1.ml}ml</font>
+                <br /><font color="orange">{$comment1.costatus}</font>
+            </td>
+            <td>
+                {$comment1.content}<br />
+                <if condition="$comment1.imageurl neq ''&&$comment1.imagename neq ''">
+                    <a href="javascript:;" class="showimg" ><img src="/CommentImg/{$comment1.imageurl}{$comment1.imagename}" alt="" style="width: 50px;height: 50px;"/></a>
+                    <a href="{:U('Home/Order/seeimg',array('cid'=>$comment1['id']))}" target="_blank" class="seebigimg" style="margin-left: 10px;">查看原图</a><br/>
+                </if>
+                <font color="#999999">{$comment1.coaddtime|date='Y-m-d',###}</font>
+            </td>
+            <td>
+                <if condition="$comment1.respid eq 2">
+                    <span style="color:orange;">卖家回复:</span>{$comment1.response}<br />
+                    <font color="#999999">{$comment1.readdtime|date='Y-m-d',###}</font>
+                </if>
+            </td>
+        </tr>
+    </volist>
+</table>
+<div>
+   {$page1}
+</div>
+

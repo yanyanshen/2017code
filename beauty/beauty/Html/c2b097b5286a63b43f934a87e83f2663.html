@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>列表页</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
+    <style>
+        table.tablelist tr td{
+
+            border: dotted 1px #c7c7c7;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">权限管理</a></li>
+        <li><a href="#">管理组列表</a></li>
+    </ul>
+</div>
+
+<div class="formbody">
+    <div id="usual1" class="usual">
+        <div id="tab2" class="tabson">
+           <form action="/index.php/Admin/AuthGroup/allocateRule.html" method="post" id="form1">
+               <input type="hidden" name='id' value="13"/>
+            <table class="tablelist" border="1" style="padding: 5px;border:1px solid #ccc;">
+                <thead>
+                <tr>
+                    <th colspan="2">为分配权限</th>
+                </tr>
+                </thead>
+                <tbody style="padding: 5px;border:1px solid #ccc;">
+                 <tr class="chkList">
+                        <td width="10%">
+                            <label for="1">后台首页                                <input id="1" type="checkbox" value="1" name="rules[]" onclick="checkAll(this)"  checked />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="41">后台尾部                                                <input id="41" type="checkbox" value="41" name="rules[]" onclick="checkAll(this)"  checked  />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="40">后台头部                                                <input id="40" type="checkbox" value="40" name="rules[]" onclick="checkAll(this)"  checked  />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="42">后台主页                                                <input id="42" type="checkbox" value="42" name="rules[]" onclick="checkAll(this)"  checked  />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="43">后台左边                                                <input id="43" type="checkbox" value="43" name="rules[]" onclick="checkAll(this)"  checked  />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="44">后台退出                                                <input id="44" type="checkbox" value="44" name="rules[]" onclick="checkAll(this)"  checked  />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="2">系统管理                                <input id="2" type="checkbox" value="2" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="13">菜单列表                                                <input id="13" type="checkbox" value="13" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="14">添加菜单                                                <input id="14" type="checkbox" value="14" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="3">权限管理                                <input id="3" type="checkbox" value="3" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="15">管理员列表                                                <input id="15" type="checkbox" value="15" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="16">添加管理员                                                <input id="16" type="checkbox" value="16" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="18">管理组列表                                                <input id="18" type="checkbox" value="18" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="20">权限列表                                                <input id="20" type="checkbox" value="20" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="21">添加权限                                                <input id="21" type="checkbox" value="21" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="19">添加管理组                                                <input id="19" type="checkbox" value="19" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="4">品牌管理                                <input id="4" type="checkbox" value="4" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="22">品牌列表                                                <input id="22" type="checkbox" value="22" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="23">添加品牌                                                <input id="23" type="checkbox" value="23" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="5">分类管理                                <input id="5" type="checkbox" value="5" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="24">分类列表                                                <input id="24" type="checkbox" value="24" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="25">添加分类                                                <input id="25" type="checkbox" value="25" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="6">商品管理                                <input id="6" type="checkbox" value="6" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="26">商品列表                                                <input id="26" type="checkbox" value="26" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="27">添加商品                                                <input id="27" type="checkbox" value="27" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="7">会员管理                                <input id="7" type="checkbox" value="7" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="28">会员列表                                                <input id="28" type="checkbox" value="28" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="51">发送站内信                                                <input id="51" type="checkbox" value="51" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="9">广告管理                                <input id="9" type="checkbox" value="9" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="34">广告列表                                                <input id="34" type="checkbox" value="34" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="35">添加广告                                                <input id="35" type="checkbox" value="35" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="8">订单管理                                <input id="8" type="checkbox" value="8" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="29">订单列表                                                <input id="29" type="checkbox" value="29" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="30">待付款订单                                                <input id="30" type="checkbox" value="30" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="31">待发货订单                                                <input id="31" type="checkbox" value="31" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="32">已发货订单                                                <input id="32" type="checkbox" value="32" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="33">已收货订单                                                <input id="33" type="checkbox" value="33" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="54">已评价订单                                                <input id="54" type="checkbox" value="54" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="10">活动管理                                <input id="10" type="checkbox" value="10" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="36">活动列表                                                <input id="36" type="checkbox" value="36" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="37">添加活动                                                <input id="37" type="checkbox" value="37" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="11">评论管理                                <input id="11" type="checkbox" value="11" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="38">评论列表                                                <input id="38" type="checkbox" value="38" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="52">已回复列表                                                <input id="52" type="checkbox" value="52" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="53">未回复列表                                                <input id="53" type="checkbox" value="53" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="45">金币管理                                <input id="45" type="checkbox" value="45" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="46">金币商品列表                                                <input id="46" type="checkbox" value="46" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="47">添加金币商品                                                <input id="47" type="checkbox" value="47" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="12">反馈管理                                <input id="12" type="checkbox" value="12" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="39">反馈列表                                                <input id="39" type="checkbox" value="39" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="48">信息管理                                <input id="48" type="checkbox" value="48" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="17">个人信息修改                                                <input id="17" type="checkbox" value="17" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="49">我的站内信                                                <input id="49" type="checkbox" value="49" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="50">发送站内信                                                <input id="50" type="checkbox" value="50" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="55">底部管理                                <input id="55" type="checkbox" value="55" name="rules[]" onclick="checkAll(this)"  checked />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="56">底部列表                                                <input id="56" type="checkbox" value="56" name="rules[]" onclick="checkAll(this)"  checked  />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table><table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="57">添加底部                                                <input id="57" type="checkbox" value="57" name="rules[]" onclick="checkAll(this)"  checked  />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr><tr class="chkList">
+                        <td width="10%">
+                            <label for="58">微信管理                                <input id="58" type="checkbox" value="58" name="rules[]" onclick="checkAll(this)"   />
+                            </label>
+                        </td>
+                        <td>
+                          <table width="100%" cellpadding="20"   style="margin: 15px;">
+                                    <tr class="chkList">
+                                        <td width="10%">
+                                            <label for="59">微信菜单                                                <input id="59" type="checkbox" value="59" name="rules[]" onclick="checkAll(this)"    />
+                                            </label>
+                                        </td>
+                                        <td >
+                                                                                    </td>
+                                    </tr>
+                                </table>                        </td>
+                    </tr>                    <tr>
+                        <td></td>
+                        <td  style="padding:15px;">
+                            <input type="submit" value="确定分配" class="btn"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </div>
+    </div>
+
+</div>
+</body>
+
+<script type="text/javascript">
+
+    function checkAll(obj){
+        $(obj).parents('.chkList').eq(0).find("input[type='checkbox']").prop('checked', $(obj).prop('checked'));
+    }
+    $(function(){
+        $('#form1').submit(function(){
+            $.post("/index.php/Admin/AuthGroup/allocateRule.html",$(this).serialize(),function(res){
+                if(res.status==1){
+                    layer.msg(res.info, {icon:1}, function(){
+                        location.href=res.url;
+                    });
+                }else{
+                    layer.msg(res.info,{icon:5});
+                }
+            })
+            return false;
+        })
+    })
+
+</script>
+
+</html>

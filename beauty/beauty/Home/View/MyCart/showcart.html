@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <link rel="shortcut icon" href="images/bitbug_favicon .icon" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/showcart.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset1.css" />
+    <script src="__PUBLIC__/Home/js/jquery.min.1.8.2.js"></script>
+    <script src="__PUBLIC__/Home/js/layer/layer.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>beauty</title>
+    <style>
+        .paypassword{border: 1px solid black;width: 300px;height: 150px;}
+        .paypassword .dd1{width: 250px;height: 20px;font-weight: bold;font-size: 16px;}
+        .paypassword .dd2{margin: 30px;}
+        .paypassword .dd2 input{width: 250px;height: 25px;}
+        .paypassword .dd3{width: 250px;height: 25px;text-align: center;}
+        .paypassword .dd3 a:first-child{margin-left: 80px;}
+        .paypassword .dd3 a{height: 20px;background: red;margin: 0 30px;border-radius: 5px;padding: 10px 15px;color:white;}
+        .paypassword .dd3 a:hover{cursor: pointer;}
+        .li{border: 1px solid #CCCCCC;padding: 0;width: 100px;height:35px;line-height: 35px;text-align: center;
+            cursor: pointer;margin: 18px 20px;}
+        .zfborder{
+            height:35px; line-height:35px; padding:0 14px; overflow:hidden; border:2px solid #ff4e00;width: 100px;
+        }
+    </style>
+</head>
+<body>
+<!-- top 开始 -->
+
+<!-- nav 开始 -->
+
+<!-- nav结束 -->
+<!-- 购物车的内容 开始-->
+<div class="Process" style="text-align: center;"><img src="__PUBLIC__/Home/images/Process_img_03.png" /></div>
+<div class="shoppingMain">
+    <ul class="title clearfix">
+        <li class="xuanzhong">
+            <a href="show.html"><p  class="mycar"><span>1</span>我的购物车</p></a>
+        </li>
+        <li>
+            <a href="order.html"><p  class="write"><span>2</span>填写订单</p></a>
+        </li>
+        <li>
+            <a href="showcart.html"><p class="pay"><span>3</span>订单支付</p></a>
+        </li>
+    </ul>
+    <div class="border">
+       <!-- {:U('Home/Order/topay')}-->
+        <form action="" method="post" id="pay">
+        <div class="myCar">
+            <div class="success">
+                <h3>订单已提交成功，请尽快付款！</h3>
+                <input type="hidden" name="oid1" value="{$oid}"/>
+                <p class="p1">您的订单号：<input name="orderno" value="{$orderno}" style="border: none;color: green;font-weight: bold;" readonly>
+                <p class="p2">订单金额：<input name="trueprice" value="{$trueprice}" style="border: none;width: 30px;color: green;font-weight: bold;" readonly/>元</p>
+            </div>
+            <div class="pay1">
+                <div class="chir_pay">
+                    <a href="#" >支付方式</a>
+                    <a href="#" class="ac">支付平台</a>
+                    <a href="#" >网上银行</a>
+                </div>
+                <div class="pay2">
+                    <span></span>支付平台
+                </div>
+                <div class="pay3">
+                    <ul style="margin: 0;padding: 0;" id="zf">
+                        <li id="account" class="li zfborder">余额<img src="__PUBLIC__/Home/images/yue.jpg" alt="" style="width: 40px;height: 35px;margin: 0;padding: 0;"/>
+                            <input type="hidden" value="1"/></li>
+                        <li class="li"><img style="width: 100px;height: 35px;" src="__PUBLIC__/Home/images/logo_alipay.gif" alt="" />
+                            <input type="hidden" value="2"/></li>
+                        <li class="li"><img style="width: 100px;height: 35px;" src="__PUBLIC__/Home/images/logo_yeepay.gif" alt="" />
+                            <input type="hidden" value="3"/></li>
+                        <li class="li"><img style="width: 100px;height: 35px;" src="__PUBLIC__/Home/images/logo_weixin.gif" alt="" />
+                            <input type="hidden" value="4"/></li>
+                        <input type="hidden" name="zhfs1"/>
+                    </ul>
+                </div>
+
+            </div>
+            <p class="p3">在线支付成功后，请勿关闭支付成功页面，等待返回到商城</p>
+           <!-- <input type="submit" value="确认无误，点击支付" name="submit" class="input1" style="margin-left: 250px;" onclick="layerpay()">-->
+            <a href="javascript:layerpay();" style="background-color:red;display:inline-block;width: 212px;height: 52px;color:#ffffff;text-align: center;line-height: 52px;margin-left: 250px;font-weight: bold;font-size: 14px;">确认无误，点击支付</a>
+            <a href="{:U('Home/Member/Orderform')}" style="background-color:red;display:inline-block;width: 212px;height: 52px;color:#ffffff;text-align: center;line-height: 52px;margin-left: 30px;font-weight: bold;font-size: 14px;">返回 我的订单</a>
+        </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    //付款方式的选择
+    jQuery(function() {
+        jQuery("#zf").each(function() {
+            var i = jQuery(this);
+            var p= i.find('li');
+            p.click(function() {
+                if (!!jQuery(this).hasClass("zfborder")) {
+                    jQuery(this).removeClass("zfborder");
+                } else {
+                    jQuery(this).addClass("zfborder").siblings("li").removeClass("zfborder");
+                    jQuery(this).siblings('input').val(jQuery(this).children('input').val());
+                }
+            })
+        })
+
+    })
+</script>
+<!-- 购物车为0时界面结束 -->
+<!-- footer开始 -->
+<div class="footer fom_sty fom_w">
+    <ul >
+        <li class="fli1">
+            <p></p>
+            <h2>获取帮助<br /><span><a href="#">联系我们</a>|<a href="#">加入我们</a></span></h2>
+        </li>
+        <li class="fli2">
+            <p></p>
+            <h2>防伪查询<br /><span><a href="#">输入查询码</a></span></h2>
+        </li>
+        <li class="fli3">
+            <p></p>
+            <h2>售后服务<br /><span><a href="#">使用说明</a></span></h2>
+        </li>
+    </ul>
+    <h5>温馨提示：近日有不法分子假冒+4006100011冒充官方客服人员进行电话诈骗，请您提高警惕，注意保护个人账户信息，切勿泄漏他人。如遇类似问题， 请勿回拨来电号码，直接拨打客服电话400-610-0011询问。</h5>
+    <h5>沪ICP备14035278号-2 上海电子商务有限公司版权所有 ©1990-2016</h5>
+    <h5><a href="#">关于李宁</a> | <a href="#">法律声明</a> | 投资者关系 Investor Relations | <a href="#">特许经营 </a>
+        | <a href="#">客服热线</a>
+    </h5>
+</div>
+<!-- footer结束 -->
+
+<!-- 右侧导航 -->
+
+<!-- 右侧栏结束 -->
+</body>
+</html>
+<script type="text/javascript">
+    flag=true;
+    jQuery('.layui-layer-ico').live('click',function(){
+        flag=true;
+    });
+  function layerpay(){
+      oid1=$('input[name="oid1"]').val();
+      trueprice1=$('input[name="trueprice"]').val();
+      if(flag){
+          flag=false;
+          layer.open({
+              type:1,
+              shade:false,
+              title:false,//false为不显示标题
+              content: "<div style='width:300px;height:150px;background:white;padding:30px'>"+
+              '<dl class="paypassword">' +
+              '<dd class="dd1">请输入支付密码</dd>'+
+              '<dd class="dd2"><input type="password" name="password"/></dd>'+
+              '<dd class="dd3">' +
+              '<a id="confirm">确定</a>' +
+              '<a id="cancel">取消</a>'+
+              '</dd>'+
+              '</dl>'+
+              '</div>'+';'
+          });
+      }
+//输入支付密码的
+      $('#confirm').click(function(){
+          password=$('input[name="password"]').val();
+          zffs=$('input[name="zhfs1"]').val();
+          $.post('{:U("Home/Order/topay")}',{oid:oid1,paypwd:password,trueprice:trueprice1,zffs:zffs},function(res){
+              if(res.status==1){
+                  layer.msg('支付成功',{time:800},function(){
+                      location='{:U("Home/Order/paysuccess")}?oid='+oid1;
+                  });
+              }else{
+                  layer.msg(res.info,{time:800});
+              }
+          })
+      });
+
+      //取消支付的订单
+      $('#cancel').click(function(){
+          layer.msg('订单还没有支付，请尽快支付',{time:500},function(){
+              parent.layer.closeAll();
+          });
+      })
+  }
+</script>

@@ -1,0 +1,77 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:x="urn:schemas-microsoft-com:office:excel"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <meta name=Generator content="Microsoft Excel 11">
+</head>
+<body>
+<table class="tablelist">
+    <thead>
+    <tr>
+        <th style="font-size: 10px;">编号<i class="sort"><img src="__PUBLIC__/Admin/images/px.gif" /></i></th>
+        <th style="font-size: 10px;">图片</th>
+        <th style="font-size: 10px;">名称</th>
+        <th style="font-size: 10px;">分类</th>
+        <th style="font-size: 10px;">品牌</th>
+        <th style="font-size: 10px;">市场价格</th>
+        <th style="font-size: 10px;">所需积分</th>
+        <th style="font-size: 10px;">描述</th>
+        <th style="font-size: 10px;">库存</th>
+        <th style="font-size: 10px;">销售数量</th>
+        <th style="font-size: 10px;">发布时间</th>
+        <th style="font-size: 10px;">是否展示</th>
+        <th style="font-size: 10px;">操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <volist name="goodslist" id="val" key="k" empty="$empty">
+        <tr>
+            <td style="font-size: 10px;">{$k+$firstRow}</td>
+            <td><img src="/Uploads/{$val.imageurl}100_{$val.imagename}" alt="" width="50" height="50"/></td>
+            <td style="font-size: 10px;">{:mb_substr($val['goodsname'],0,10,'utf-8')}...</td>
+            <td style="font-size: 10px;">{$val.cname}</td>
+            <td style="font-size: 10px;">{$val.bname}</td>
+            <td style="font-size: 10px;">{$val.marketprice}</td>
+            <td style="font-size: 10px;">{$val.saleprice}</td>
+            <td style="font-size: 10px;">{$val.description}</td>
+            <td style="font-size: 10px;">{$val.num}</td>
+            <td style="font-size: 10px;">{$val.salenum}</td>
+            <td style="font-size: 10px;">{:date('Y-m-d H:i:s',$val['addtime'])}</td>
+            <td style="font-size: 10px;">{$val['show']==1?'展示':'下架'}</td>
+            <td style="font-size: 10px;"><a href="{:U('Admin/Golds/editor',array('gid'=>$val['id']))}" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="{:U('Admin/Golds/updateshow',array('gid'=>$val['id']))}" class="tablelink">{$val['show']==1?'下架':'展示'}</a></td>
+        </tr>
+    </volist>
+    </tbody>
+</table>
+
+<table border=1 cellpadding=0 cellspacing=0 width="100%" >
+
+    <tr>
+        <td style='width:54pt' align="center">编号</td>
+        <td style='width:54pt' align="center">名称</td>
+        <td style='width:54pt' align="center">分类</td>
+        <td style='width:54pt' align="center">品牌</td>
+        <td style='width:54pt' align="center">市场价格</td>
+        <td style='width:54pt' align="center">所需积分</td>
+        <td style='width:54pt' align="center">描述</td>
+        <td style='width:54pt' align="center">库存</td>
+        <td style='width:54pt' align="center">销售数量</td>
+    </tr>
+    <volist name="goodsinfo" id="v" key="k">
+        <tr>
+            <td style="font-size: 10px;">{$k}</td>
+            <td style="text-align: center;width: 240px;">{$v.goodsname}</td>
+            <td style="text-align: center;width: 200px;">{$v.cname}</td>
+            <td style="text-align: center;width: 100px;">{$v.bname}</td>
+            <td style="text-align: center;width: 60px;">{$v.marketprice}</td>
+            <td style="text-align: center;width: 100px;">{$v.saleprice}</td>
+            <td style="text-align: center;width: 100px;">{$v.description}</td>
+            <td style="text-align: center;width: 100px;">{$v.num}</td>
+            <td style="text-align: center;width: 100px;">{$v.salenum}</td>
+        </tr>
+    </volist>
+</table>
+</body>
+</html>

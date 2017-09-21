@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/yhcss/style.css" />
+    <!--[if IE 6]>
+    <script src="__PUBLIC__/Home/map/yhjs/iepng.map" type="text/javascript"></script>
+    <script type="text/javascript">
+        EvPNG.fix('div, ul, img, li, input, a');
+    </script>
+    <![endif]-->
+
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/menu.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/select.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.min.1.8.2.js"></script>
+
+
+    <title>我的订单</title>
+    <style type="text/css" >
+        #page a,#page span{display: inline-block; width:18px;height:18px ;  padding: 5px;  margin: 2px;  text-decoration: none;  text-align: center;  line-height: 18px;  background: #f0ead8;  color:#000000;  border: 1px solid #c2d2d7;  }
+        #page a:hover{background: #EDF6FA;color:#333;}
+        #page span{background: #333;color: #fff;font-weight: bold;}
+        #page div{float:right;}
+        .seachform{margin-top: 30px;margin-bottom: 20px;height: 40px}
+        .seachform li{float: left;line-height: 40px;font-size: 15px;margin-left: 10px;margin-right: 15px}
+        .seachform li label{font-size: 16px}
+        .order_tab tr td a{color: #ef5b00;padding: 0}
+        .order_tab tr td a:hover{color: #00ffff}
+    </style>
+    <script>
+        $(function(){
+            $('.delOrder').click(function(){
+                oid=$(this).attr('id');
+                gid=$(this).attr('name');
+                /*alert(oid);
+                alert(gid);*/
+                $.post("{:U('Member/delOrder')}",{oid:oid,gid:gid},function(res){
+                    if(res.status==1){
+                        layer.msg('订单商品删除成功',{icon:6,time:2000},function(){
+                            location="{:U('Member/Orderform')}";
+                        })
+                    }else{
+                        layer.msg('订单商品删除失败',{icon:5,time:2000},function(){
+                            location="{:U('Member/Orderform')}";
+                        })
+                    }
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<!--Begin Header Begin-->
+<include file="public/header"/>
+<!--End Header End-->
+<!--End Header End-->
+<div class="i_bg bg_color">
+    <!--Begin 用户中心 Begin -->
+    <div class="m_content" style="margin: 0 auto">
+        <div class="m_left">
+            <div class="left_n">管理中心</div>
+            <div class="left_m">
+                <div class="left_m_t t_bg1">订单中心</div>
+                <ul>
+                    <li><a href="{:U('Home/Member/Orderform')}" class="now">我的订单</a></li>
+                    <li><a href="{:U('Home/Member/Orderform1')}">金币兑换订单</a></li>
+                    <li><a href="{:U('Home/Member/address')}">收货地址</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg2">会员中心</div>
+                <ul>
+
+                    <li><a href="{:U('Home/Member/MemberCentre')}">用户信息</a></li>
+                    <li><a href="{:U('Home/Member/showCollect')}">我的收藏</a></li>
+                    <li><a href="{:U('Home/Member/showcomment')}">我的评论</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg3">账户中心</div>
+                <ul>
+                    <li><a href="{:U('Member/safe')}">账户安全</a></li>
+                    <li><a href="{:U('Member/packet')}">我的红包</a></li>
+                    <li><a href="{:U('Member/money')}">资金管理</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">分销中心</div>
+                <ul>
+                    <li><a href="{:U('Member/myMember')}">我的会员</a></li>
+
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">金币中心</div>
+                <ul>
+                    <li><a href="{:U('Sign/sign')}">我的金币</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_right">
+            <div>
+                <form action="{:U('Home/Member/orderform')}" method="get">
+                    <ul class="seachform">
+                        <li><label>订单编号查询</label>
+                            &nbsp;<input name="keywords1" type="text"  class="scinput" value="{$keywords1}"/></li>
+                        <li><label>订单状态查询</label>
+                            &nbsp;<select name="keywords2" id="" style="width: 150px;height: 28px;">
+                                <option value="0">请选择</option>
+                                <option value="1">待付款</option>
+                                <option value="2">已付款</option>
+                                <option value="3">已发货</option>
+                                <option value="4">已收货</option>
+                                <option value="5">已评价</option>
+                            </select>
+                        </li>
+                        <li><label>&nbsp;</label><input type="submit" class="scbtn" value="查询"/></li>
+                    </ul>
+                </form>
+            </div>
+
+            <table border="0" class="order_tab" style="width:930px;text-align:center;margin-bottom:30px;margin-top: 35px;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="15%">订单号</td>
+                    <td width="15%">图片</td>
+                    <td width="15%">商品名称</td>
+                    <td width="20%">下单时间</td>
+                    <td width="10%">商品价格</td>
+                    <td width="10%">订单状态</td>
+                    <td width="15%">订单操作</td>
+                </tr>
+                <volist name="list" id="val" key="k">
+                    <input type="hidden" name="oid" value="{$val.id}"/>
+                    <tr>
+                        <td><font color="#ff4e00">{$val.orderno}</font></td>
+                        <td><img src="/Uploads/{$val.imageurl}{$val.imagename}" width="50" height="50"/></td>
+                        <td>{:mb_substr($val['goodsname'],0,9,utf8)}...</td>
+                        <td>{$val['create_time']|date='Y-m-d H:i:s',###}</td>
+                        <td>￥{$val.saleprice}</td>
+                        <td>{$val.statusname}</td>
+                        <td>
+                            <switch name="val.memberstatus">
+                                <case value="付款"><a href="{:U('Home/Member/topay1',array('oid'=>$val['id']))}">付款</a>
+                                    <a href="#" class="delOrder" id="{$val.id}" name="{$val.gid}">删除</a></case>
+                                <case value="查看物流详情"><a href="#">查看物流</a></case>
+                                <case value="确认收货"><a href="{:U('Home/Member/confirm_goods',array('oid'=>$val['id'],'gid'=>$val['gid']))}">确认收货</a></case>
+                                <case value="交易完成"><a href="#">交易完成</a></case>
+                                <case value="评价"><a href="{:U('Home/Member/usercomment',array('oid'=>$val['id'],'gid'=>$val['gid']))}">评价</a></case>
+                                <case value="追加评价"><a href="{:U('Home/Member/zuijiacomment',array('oid'=>$val['id'],'gid'=>$val['gid']))}">追加评价</a></case>
+                                <case value="删除订单"><a href="javascript:;" class="deleteorder">删除订单</a></case>
+                            </switch>
+                        </td>
+                    </tr>
+                </volist>
+            </table>
+            <div id="page">{$page}</div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            oid=$('input[name="oid"]').val();
+            $('.deleteorder').click(function(){
+                $.post("{:U('Home/Member/deleteorder')}",{oid:oid},function(res){
+                    if(res.status){
+                        layer.msg('删除成功',{time:800,icon:1},function(){
+                            location="{:U('Home/Member/Orderform')}";
+                        });
+                    }else{
+                        layer.msg('请稍后再试',{time:800,icon:1});
+                    }
+                })
+            })
+        })
+    </script>
+    <!--End 用户中心 End-->
+    <!--Begin Footer Begin -->
+    <include file="public/footer"/>
+    <!--End Footer End -->
+</div>
+<include file="public/right"/>
+</body>
+
+
+<!--[if IE 6]>
+<script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->

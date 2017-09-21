@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/yhcss/style.css" />
+    <!--[if IE 6]>
+    <script src="__PUBLIC__/Home/map/yhjs/iepng.map" type="text/javascript"></script>
+    <script type="text/javascript">
+        EvPNG.fix('div, ul, img, li, input, a');
+    </script>
+    <![endif]-->
+
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/menu.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/select.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/webuploader/webuploader.js"></script>
+    <!--<script type="text/javascript" src="__PUBLIC__/Home/map/upload.map"></script>-->
+    <title>beauty</title>
+
+    <style>
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;
+            border: 1px solid #c2d2d7;
+        }
+        #page a:hover{
+            background: #333;
+            color:#fff;
+        }
+
+        #page span{
+            background: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+        .commlist td{text-align: center;line-height: 50px;margin: 0;padding: 0;}
+        .commlist tr{text-align: center;line-height: 50px;margin: 0;padding: 0;}
+        .commlist img{margin: 0;padding: 0;}
+    </style>
+    <script type="text/javascript">
+//        var uploadUrl = '{:U("uploadGoodsPic")}';
+//        var listUrl = '{:U("index")}';
+    </script>
+</head>
+
+<body>
+<!--Begin Header Begin-->
+<include file="public/header"/>
+<!--End Header End-->
+<div class="i_bg bg_color">
+    <!--Begin 用户中心 Begin -->
+    <div class="m_content" style="margin: 0 auto">
+        <div class="m_left">
+            <div class="left_n">管理中心</div>
+            <div class="left_m">
+                <div class="left_m_t t_bg1">订单中心</div>
+                <ul>
+                    <li><a href="{:U('Home/Member/Orderform')}">我的订单</a></li>
+                    <li><a href="{:U('Home/Member/Orderform1')}">金币兑换订单</a></li>
+                    <li><a href="{:U('Home/Member/address')}">收货地址</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg2">会员中心</div>
+                <ul>
+
+                    <li><a href="{:U('Home/Member/MemberCentre')}">用户信息</a></li>
+                    <li><a href="{:U('Home/Member/showCollect')}">我的收藏</a></li>
+                    <li><a href="{:U('Home/Member/showcomment')}">我的评论</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg3">账户中心</div>
+                <ul>
+                    <li><a href="{:U('Member/safe')}">账户安全</a></li>
+                    <li><a href="{:U('Member/packet')}">我的红包</a></li>
+                    <li><a href="{:U('Member/money')}">资金管理</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">分销中心</div>
+                <ul>
+                    <li><a href="{:U('Member/myMember')}">我的会员</a></li>
+
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">金币中心</div>
+                <ul>
+                    <li><a href="{:U('Sign/sign')}">我的金币</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_right">
+            <p></p>
+            <div class="m_des">
+                <table border="0" style="width:870px; line-height:22px;" cellspacing="0" cellpadding="0">
+                    <volist name="userInfo" id="user">
+                    <tr valign="top">
+                        <td width="115"><img src="/UserImg/photo{$user.imgpath}{$user.imgname}" width="90" height="90" /></td>
+                        <td>
+                            <div class="m_user">{$user.username}</div>
+                            <p>
+                                等级：{$user.vipname} <br />
+                                <font color="#ff4e00">您当前积分为：{$user.score}分</font><br />
+                                上一次登录时间: {$user.lastlogin|date='Y-m-d H:i:s',###}<br />
+                            </p>
+                            <div class="m_notice">
+                        </div>
+                        </td>
+                    </tr>
+                    </volist>
+                </table>
+            </div>
+            <div class="mem_tit">
+                <span class="fr" style="font-size:12px; color:#55555; font-family:'宋体'; margin-top:5px;">共发现&nbsp;<span style="color: red;font-weight: bold;font-size: 14px;">{$count}</span>&nbsp;条记录</span>我的评论
+            </div>
+            <table border="0" class="order_tab" style="width:930px;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" width="420">商品图片</td>
+                    <td align="center" width="180">评价</td>
+                    <td align="center" width="180">类别</td>
+                    <td align="center" width="180">追加</td>
+                    <td align="center" width="180">回复</td>
+                    <td align="center" width="180">操作</td>
+                </tr>
+                <form action="" method="get" id="comment">
+                    <volist name="commentlist" id="v" empty="$empty">
+                        <tr>
+                            <td style="font-family:'宋体';">
+                                <div class="sm_img">
+                                    <a href="{:U('Home/Order/goodsdetail',array('gid'=>$v['gid']))}" style="width: 48px;height: 50px;display: inline-block;margin: 0;padding: 0;"><img src="/Uploads/{$v.imageurl}100_{$v.imagename}" alt="" width="48" height="50"/></a>
+                                </div>
+                                <span>{$v.ml}ml</span>
+                                <a href="{:U('Home/Order/goodsdetail',array('gid'=>$v['gid']))}">{:mb_substr($v['goodsname'],0,8,'utf-8')}</a>
+                            </td>
+                            <td align="center">{$v.content}</td>
+                            <td style="text-align: center;"><span>{$v.costatus}</span><br/><span style="color: #ccc;">{$v.coaddtime|date='Y-m-d H:i:s',###}</span></td>
+                            <if condition="$v.zuijiacount eq 1">
+                            <td align="center">{$v.zuijia}</td>
+                                <else/>
+                                <td align="center">用户还未追加哦</td>
+                            </if>
+                            <if condition="$v.respid eq 2">
+                                <td style="text-align: center;">{$v.response}</td>
+                                <else/>
+                                <td style="text-align: center;">卖家还未做出回复</td>
+                            </if>
+                            <td style="text-align: center;"><a href="javascript:;" class="deletecomment" gid="{$v.gid}" oid="{$v.oid}">删除</a></td>
+                        </tr>
+                    </volist>
+                </form>
+                </tr>
+            </table>
+            <div id="page" style="float: right;">
+                {$page}
+            </div>
+        </div>
+    </div>
+
+    <!--End 用户中心 End-->
+    <include file="public/footer"/>
+    <!--End Footer End -->
+</div>
+<include file="public/right"/>
+</body>
+<!--[if IE 6]>
+<script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+</html>
+<!--评论删除的异步-->
+<script type="text/javascript">
+    $(function(){
+        $(".deletecomment").click(function(){
+            var gid=$(this).attr('gid');
+            var oid=$(this).attr('oid');
+            a=$(this);
+            $.get("{:U('Member/deletecomment')}",{gid:gid,oid:oid},function(res){
+                if(res.status){
+                    layer.msg('删除成功',{time:800},function(){
+                        a.parents('tr').hide();
+                    });
+                }else{
+                    layer.msg('请稍后再试');
+                }
+            })
+        })
+    })
+</script>
+

@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>列表页</title>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/kindeditor/kindeditor-all.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/time/abc/timer/WdatePicker.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/layer/layer.js"></script>
+    <style type="text/css">
+        .paginList a, .paginList span{display: inline-block;width:18px;height:18px ;padding: 5px;margin: 2px;text-decoration: none;text-align: center;line-height: 18px;background: #cccccc;  color:#000000;  border: 1px solid #c2d2d7;  }
+        .paginList a:hover{background: mediumblue;color:#fff;  }
+        .paginList span{background: mediumblue;color: #fff;font-weight: bold;}
+    </style>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        KindEditor.ready(function (K) {
+            K.create('#content7', {
+                allowFileManager: true,
+                afterBlur: function () {  //利用该方法处理当富文本编辑框失焦之后，立即同步数据
+                    this.sync("#content7");
+                }
+            });
+        });
+    })
+  </script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".select1").uedSelect({
+		width : 345			  
+	});
+	$(".select2").uedSelect({
+		width : 167  
+	});
+	$(".select3").uedSelect({
+		width : 100
+	});
+});
+</script>
+</head>
+<body>
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">商品管理</a></li>
+    <li><a href="#">商品列表</a></li>
+    </ul>
+    </div>
+    <div class="formbody">
+        <div id="usual1" class="usual">
+            <div id="tab2" class="tabson">
+<form action="/index.php/Admin/Goods/search.html" method="get" id="form1">
+    <ul class="seachform">
+        <li><label>名称</label><input name="goodsname" type="text" class="scinput" value="水" style="width: 60px;height: 25px;"/></li>
+        <li><label>品牌</label><input name="bname" type="text" class="scinput" value="" style="width: 60px;height: 25px;"/></li>
+        <li><label>分类</label><input name="cname" type="text" class="scinput" value="" style="width: 60px;height: 25px;"/></li>
+        <li><label>销售价格</label><input name="saleprice1" type="text" class="scinput" value="" style="width: 60px;height: 25px;"/><span style="display: inline-block;">~</span><input name="saleprice2" value="" type="text" class="scinput" style="width: 60px;height: 25px;"/></li>
+        <li>
+            <label>发布时间：</label>
+            <input id="d11" type="text" onClick="WdatePicker()" style="width: 80px;height:25px;border: 1px solid #cccccc;" name="time1" value=""/>
+            <span style="display: inline-block;">-</span>
+            <input name="time2" class="Wdate" type="text" id="d15" onFocus="WdatePicker({isShowClear:false,readOnly:true})" style="width: 80px;height: 25px;border: 1px solid #cccccc;" value=""/>
+        </li>
+        <li><label>&nbsp;</label><input name="" type="submit" class="scbtn" value="查询" style="width: 60px;height: 25px;"/></li>
+        <li><label>&nbsp;</label><input name="" type="button" class="scbtn" id="exportdata" value="Excel表导出" style="width: 90px;height: 25px;margin:0;padding: 0;"/></li>
+    </ul>
+    </form>
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th style="font-size: 10px;">编号<i class="sort"><img src="/Public/Admin/images/px.gif" /></i></th>
+        <th style="font-size: 10px;">图片</th>
+        <th style="font-size: 10px;">名称</th>
+        <th style="font-size: 10px;">分类</th>
+        <th style="font-size: 10px;">品牌</th>
+        <th style="font-size: 10px;">积分</th>
+        <th style="font-size: 10px;">市场价格</th>
+        <th style="font-size: 10px;">折扣价格</th>
+        <th style="font-size: 10px;">销售价格</th>
+        <th style="font-size: 10px;">描述</th>
+        <th style="font-size: 10px;">库存</th>
+        <th style="font-size: 10px;">销售数量</th>
+        <th style="font-size: 10px;">发布时间</th>
+        <th style="font-size: 10px;">是否展示</th>
+        <th style="font-size: 10px;">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td style="font-size: 10px;">13</td>
+        <td><img src="/Uploads/2016-11-10/100_58245461b4860.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">御泥坊男士控油护肤套...</td>
+        <td style="font-size: 10px;">男性护肤</td>
+        <td style="font-size: 10px;">御泥坊</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">108.00</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">79.90</td>
+        <td style="font-size: 10px;">120ml,膏状,盒装,任何人群</td>
+        <td style="font-size: 10px;">5689</td>
+        <td style="font-size: 10px;">58</td>
+        <td style="font-size: 10px;">2016-11-14 09:24:15</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/56.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="56" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">14</td>
+        <td><img src="/Uploads/2016-11-10/100_58245593844db.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">御泥坊葡萄籽琉璃亮颜...</td>
+        <td style="font-size: 10px;">男性护肤</td>
+        <td style="font-size: 10px;">御泥坊</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">128.00</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">99.00</td>
+        <td style="font-size: 10px;">25ml,膏状,盒装,任何人群</td>
+        <td style="font-size: 10px;">1245</td>
+        <td style="font-size: 10px;">25</td>
+        <td style="font-size: 10px;">2016-11-14 09:23:25</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/58.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="58" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">15</td>
+        <td><img src="/Uploads/2016-11-10/100_582456106f194.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">御泥坊男士深海水动力...</td>
+        <td style="font-size: 10px;">男性护肤</td>
+        <td style="font-size: 10px;">御泥坊</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">59.00</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">39.90</td>
+        <td style="font-size: 10px;">100ml,膏状,盒装,任何人群</td>
+        <td style="font-size: 10px;">7895</td>
+        <td style="font-size: 10px;">55</td>
+        <td style="font-size: 10px;">2016-11-14 09:22:46</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/60.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="60" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">16</td>
+        <td><img src="/Uploads/2016-11-10/100_58245b07e14a0.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">雅诗兰黛香水正品 欢...</td>
+        <td style="font-size: 10px;">香水彩妆</td>
+        <td style="font-size: 10px;">雅思兰黛</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">456.00</td>
+        <td style="font-size: 10px;">20</td>
+        <td style="font-size: 10px;">332.00</td>
+        <td style="font-size: 10px;">50ml,液体,盒装,任何人群</td>
+        <td style="font-size: 10px;">4500</td>
+        <td style="font-size: 10px;">67</td>
+        <td style="font-size: 10px;">2016-11-14 09:20:34</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/65.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="65" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">17</td>
+        <td><img src="/Uploads/2016-11-10/100_58245c09d7382.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">雅诗兰黛小棕瓶眼霜+...</td>
+        <td style="font-size: 10px;">面部护理</td>
+        <td style="font-size: 10px;">雅思兰黛</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">126.00</td>
+        <td style="font-size: 10px;">5</td>
+        <td style="font-size: 10px;">103.00</td>
+        <td style="font-size: 10px;">15ml,块状,盒装,任何人群</td>
+        <td style="font-size: 10px;">8952</td>
+        <td style="font-size: 10px;">11</td>
+        <td style="font-size: 10px;">2016-11-14 09:19:39</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/67.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="67" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">18</td>
+        <td><img src="/Uploads/2016-11-10/100_58245d559ba4a.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">雅诗兰黛晶透沁白精华...</td>
+        <td style="font-size: 10px;">美妆单品</td>
+        <td style="font-size: 10px;">雅思兰黛</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">236.00</td>
+        <td style="font-size: 10px;">10</td>
+        <td style="font-size: 10px;">198.00</td>
+        <td style="font-size: 10px;">30ml,块状,盒装,任何人群</td>
+        <td style="font-size: 10px;">7891</td>
+        <td style="font-size: 10px;">1</td>
+        <td style="font-size: 10px;">2016-11-14 09:17:36</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/71.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="71" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">19</td>
+        <td><img src="/Uploads/2016-11-10/100_58245e2547df7.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">卡姿兰睫毛膏防水不晕...</td>
+        <td style="font-size: 10px;">香水彩妆</td>
+        <td style="font-size: 10px;">卡姿兰</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">89.00</td>
+        <td style="font-size: 10px;">5</td>
+        <td style="font-size: 10px;">36.00</td>
+        <td style="font-size: 10px;">30ml,块状,盒装,任何人群</td>
+        <td style="font-size: 10px;">2308</td>
+        <td style="font-size: 10px;">2</td>
+        <td style="font-size: 10px;">2016-11-14 09:17:07</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/72.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="72" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">20</td>
+        <td><img src="/Uploads/2016-11-10/100_58245eb553e4e.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">正品 卡姿兰眉粉 包...</td>
+        <td style="font-size: 10px;">香水彩妆</td>
+        <td style="font-size: 10px;">卡姿兰</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">88.00</td>
+        <td style="font-size: 10px;">5</td>
+        <td style="font-size: 10px;">45.00</td>
+        <td style="font-size: 10px;">30ml,块状,盒装,任何人群</td>
+        <td style="font-size: 10px;">2586</td>
+        <td style="font-size: 10px;">3</td>
+        <td style="font-size: 10px;">2016-11-14 09:16:42</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/73.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="73" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">21</td>
+        <td><img src="/Uploads/2016-11-10/100_5824602860665.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">卡姿兰BB霜专柜正品...</td>
+        <td style="font-size: 10px;">香水彩妆</td>
+        <td style="font-size: 10px;">卡姿兰</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">238.00</td>
+        <td style="font-size: 10px;">5</td>
+        <td style="font-size: 10px;">223.00</td>
+        <td style="font-size: 10px;">60ml,膏状,瓶装,任何人群</td>
+        <td style="font-size: 10px;">8591</td>
+        <td style="font-size: 10px;">70</td>
+        <td style="font-size: 10px;">2016-11-14 09:14:27</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/76.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="76" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">22</td>
+        <td><img src="/Uploads/2016-11-10/100_582458a804e2e.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">御泥坊清爽平衡矿物爽...</td>
+        <td style="font-size: 10px;">精华水</td>
+        <td style="font-size: 10px;">御泥坊</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">99.00</td>
+        <td style="font-size: 10px;">2</td>
+        <td style="font-size: 10px;">69.00</td>
+        <td style="font-size: 10px;">100ml,液体,瓶装,任何人群</td>
+        <td style="font-size: 10px;">2202</td>
+        <td style="font-size: 10px;">154</td>
+        <td style="font-size: 10px;">2016-11-10 19:23:20</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/61.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="61" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">23</td>
+        <td><img src="/Uploads/2016-11-10/100_5824531ae3f64.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">御泥坊美白睡眠面膜护...</td>
+        <td style="font-size: 10px;">美白</td>
+        <td style="font-size: 10px;">御泥坊</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">499.00</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">399.00</td>
+        <td style="font-size: 10px;">150ml,乳状,盒装,任何人群</td>
+        <td style="font-size: 10px;">7890</td>
+        <td style="font-size: 10px;">2</td>
+        <td style="font-size: 10px;">2016-11-10 18:59:39</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/52.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="52" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr><tr>
+        <td style="font-size: 10px;">24</td>
+        <td><img src="/Uploads/2016-11-10/100_582451f864203.jpg" alt="" width="50" height="50"/></td>
+        <td style="font-size: 10px;">御泥坊 矿物养肤霜(...</td>
+        <td style="font-size: 10px;">面霜</td>
+        <td style="font-size: 10px;">御泥坊</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">299.00</td>
+        <td style="font-size: 10px;">0</td>
+        <td style="font-size: 10px;">208.00</td>
+        <td style="font-size: 10px;">100ml,膏状,盒装,任何人群</td>
+        <td style="font-size: 10px;">9993</td>
+        <td style="font-size: 10px;">200</td>
+        <td style="font-size: 10px;">2016-11-10 18:54:48</td>
+        <td style="font-size: 10px;" class="zhuangtai">展示</td>
+        <td style="font-size: 10px;" class="par">
+            <a href="/index.php/Admin/Goods/editor/gid/50.html" class="tablelink">编辑&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a gid="50" class="tablelink updashow" style="cursor: pointer;">下架</a></td>
+        </tr>        </tbody>
+    </table>
+       <div class="pagin">
+        <div class="message">共<i class="blue" name="count">55</i>条记录，当前显示第&nbsp;<i class="blue current">&nbsp;7</i>页</div>
+      <div class="paginList">
+          <div> <a class="prev" href="/index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/1.html"><<</a> <a class="num" href="/index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/1.html">1</a><span class="current">2</span><a class="num" href="/index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/3.html">3</a><a class="num" href="/index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/4.html">4</a><a class="num" href="/index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/5.html">5</a> <a class="next" href="/index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/3.html">>></a> </div>      </div>
+    </div>
+    </div>
+	</div>
+	<script type="text/javascript"> 
+      $("#usual1 ul").idTabs(); 
+    </script>
+    <script type="text/javascript">
+	$('.tablelist tbody tr:odd').addClass('odd');
+        $(function(){
+            $('.updashow').click(function(){
+                gid=$(this).attr('gid');
+                cur=$(this);
+                $.post("/index.php/Admin/Goods/updateshow.html",{gid:gid},function(response){
+                    if(response.status){
+                        if(response.info==1){
+                            cur.text('下架');
+                            cur.parents('.par').prev('.zhuangtai').text('展示');
+                        }if(response.info==0){
+                            cur.text('展示');
+                            cur.parents('.par').prev('.zhuangtai').text('下架');
+                        }
+                    }
+                })
+            })
+        })
+	</script>
+    </div>
+
+
+</body>
+
+</html>
+<script type="text/javascript">
+    $(function(){
+        $("#exportdata").click(function(){
+            $.post("/index.php/Admin/Goods/export.html?goodsname=水&bname=&cname=&time1=&time2=&price1=&price2=",'',function(res){
+                if(res.status==1){
+                    window.open("/index.php/Admin/Goods/export.html?goodsname=水&bname=&cname=&time1=&time2=&price1=&price2=");
+                }else{
+                    layer.msg(res.info,{icon:5});
+                }
+            })
+        })
+    })
+</script>

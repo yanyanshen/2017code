@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>会员中心 - 我的订单</title> 
+  <meta name="keywords" content="" /> 
+  <meta name="description" content="" /> 
+  <meta charset="utf-8" /> 
+  <link rel="dns-prefetch" href="//ued.paixie.net" /> 
+  <link rel="dns-prefetch" href="//img-cdn2.paixie.net" /> 
+  <link rel="icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="bookmark" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="shortcut icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <meta http-equiv="X-UA-Compatible" content="edge" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+  <meta name="format-detection" content="telphone=no, email=no" /> 
+  <meta name="renderer" content="webkit" /> 
+  <meta name="HandheldFriendly" content="true" /> 
+  <meta name="MobileOptimized" content="320" /> 
+  <meta name="screen-orientation" content="portrait" /> 
+  <meta name="x5-orientation" content="portrait" /> 
+  <meta name="full-screen" content="yes" /> 
+  <meta name="x5-fullscreen" content="true" /> 
+  <meta name="browsermode" content="application" /> 
+  <meta name="x5-page-mode" content="app" /> 
+  <meta name="msapplication-tap-highlight" content="no" /> 
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" /> 
+  <script>var imgonload =function(){};var urls = window.location.href.split("#");try{ if(/^url:.+/.test(urls[1])){window.location.href=urls[1].slice(4);}}catch(e){}var _hmt = _hmt || [];var PX_HELP_DATA=['416148489@qq.com','i2jioq5184gbv9ts2qudnsgth4',['touch','member2.0','orderlist'],'2015/09/15 16:13:27',0]; var DOMIN = {MAIN:"http://www.paixie.net",HELP:"http://help.paixie.net",TUAN:"http://tuan.paixie.net",WAP:"http://wap.paixie.net",UNION:"http://union.weixiaodian.com",VIPSHOP:"http://go.paixie.net"};var DOMINS = {"main":"http:\/\/www.paixie.net","tuan":"http:\/\/tuan.paixie.net","help":"http:\/\/help.paixie.net","union":"http:\/\/union.weixiaodian.com","wap":"http:\/\/wap.paixie.net","touch":"http:\/\/m.paixie.net","vipshop":"http:\/\/go.paixie.net","ued":"http:\/\/ued.paixie.net"};</script> 
+  <link rel="stylesheet" href="__PUBLIC__/Mobile/css/zip.touch.member2_0.orderlist.v3907.css" type="text/css" /> 
+  <script type="text/javascript" src="__PUBLIC__/Mobile/js/zepto.min.js"></script>
+     <link rel="stylesheet" href="__PUBLIC__/Mobile/layer_mobile/need/layer.css" type="text/css" />
+     <script type="text/javascript" src="__PUBLIC__/Mobile/layer_mobile/layer.js"></script>
+     <style type="text/css">
+.m_header,.body{max-width: 640px;}
+.m_header{left:50%;margin-left: -320px;}
+.reason,.js_close{cursor: pointer}
+.m_tab a{width: 16%}
+     </style>
+     <script>
+         $(function(){
+             $('.m_tab a').click(function(){
+                 $(this).addClass('selected').sibling().removeClass('selected');
+             })
+         })
+     </script>
+  <script type="text/javascript">function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>640){w = 640;};$('html').css('font-size',100/640*w+'px');$('#js_style_for_pc').remove();$('body').append('<style id="js_style_for_pc">.m_header{margin-left: -'+w/2+'px;}.m_menu{margin-left: -'+w/2+'px;}</style>');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};</script> 
+ </head> 
+ <body> 
+  <div class="body"> 
+   <div class="m_header"> 
+<!--
+    <p> <a class="bt_prev" href="javascript:window.history.back();void(0);"> <span class="prev rotate45"></span> <span class="prev rotate135"></span> </a> </p>
+-->
+       <p> <a class="bt_prev" href="{:U('Member/index')}"> <span class="prev rotate45"></span> <span class="prev rotate135"></span> </a> </p>
+       <h1 class="ellipsis bt_title"> 我的订单 </h1>
+    <p> <a id="js_order_search"><i class="m_icon m_icon_search"></i></a> <a class="bt_menu" href="javascript:void(0)"> <span class="menu"></span> </a> </p> 
+   </div> 
+   <div class="m_menu hidden"> 
+    <div> 
+     <i class="rotate45"></i>
+        <a href="{:U('Mobile/Index/index')}"><span><i class="m_bg"></i></span>首页</a>
+        <a href="{:U('Mobile/Category/index')}"><span><i class="m_bg"></i></span>分类搜索</a>
+        <a href="{:U('Mobile/MyCart/mycart')}"><span><i class="m_bg"></i></span>购物车</a>
+        <a href="{:U('Mobile/Member/index')}"><span><i class="m_bg"></i></span>用户中心</a>
+    </div> 
+   </div> 
+   <div class="lib_content" id="js_lib_content"> 
+    <form autocomplete="off" id="js_search" method="get" action="{:U('Member/myOrder')}">
+     <input type="hidden" name="type" value="0" /> 
+     <div class="m_search" id="js_order_searchbox"> 
+      <div class="m_search_box"> 
+       <i class="m_icon m_icon_searchbox"></i> 
+       <input class="m_search_input" name="key" id="js_search_input" type="text" placeholder="搜索全部订单" /> 
+      </div> 
+      <span id="js_search_cancel" class="gray9">取消</span> 
+      <input id="js_search_ok" class="m_search_ok hidden" type="submit" value="确定" /> 
+     </div> 
+    </form>
+       <div class="m_tab m_tab_full m_tab_full5 bg_white">
+           <if condition="$status eq 1">
+           <a class="selected" href="{:U('Member/myOrder')}">全部</a>
+               <else/>
+               <a class="" href="{:U('Member/myOrder')}">全部</a>
+               </if>
+           <if condition="$status eq 2">
+               <a class="selected" href="{:U('Member/dfk')}">待付款</a>
+               <else/>
+               <a class="" href="{:U('Member/dfk')}">待付款</a>
+           </if>
+           <if condition="$status eq 3">
+               <a class="selected" href="{:U('Member/dfh')}">待发货</a>
+               <else/>
+               <a class="" href="{:U('Member/dfh')}">待发货</a>
+           </if>
+           <if condition="$status eq 4">
+               <a class="selected" href="{:U('Member/dsh')}">待收货</a>
+               <else/>
+               <a class="" href="{:U('Member/dsh')}">待收货</a>
+           </if>
+           <if condition="$status eq 5">
+               <a class="selected" href="{:U('Member/dpj')}">待评价</a>
+               <else/>
+               <a class="" href="{:U('Member/dpj')}">待评价</a>
+           </if>
+           <if condition="$status eq 6">
+               <a class="selected" href="{:U('Member/ypj')}">已评价</a>
+               <else/>
+               <a class="" href="{:U('Member/ypj')}">已评价</a>
+           </if>
+       </div>
+       <form action="" method="post" id="js_form" autocomplete="off">
+					    <div class="placeholder"></div>
+		<!--多个物流包-->
+        <volist name="orderList" id="val" empty="没有找到数据">
+
+            <div id="order_2015091516111878298" class="m_order">
+                <div class="m_order_title">
+                    <span class="m_order_pay gray6">订单号：
+                        <a href="{:U('Member/detail',array('oid'=>$val['id']))}" class="gray6">{$val.orderno}</a>
+                    </span>
+                    <span class="m_order_static">{$val.statusname}</span>
+                </div>
+
+                <if condition="$status neq 6">
+
+                <ul class="m_list m_list_top_line bg_white m_order_list">
+                    <volist name="val['goods']" id="v2">
+					<li data-goodsid="1115589" class="link">
+                        <a href="">
+                            <img truesrc="http://img1.paishoes.com/nike/guronglu/201508/27/ed39821be0_thumb_8080.jpg" fffsrc="http://ued.paixie.net/statics/site_touch/__PUBLIC__/Mobile/images/public/goods.png" src="/Uploads/{$v2.imageurl}{$v2.imagename}" class="img100">
+                            <div class="info">
+                                <p class="name gray3">{$v2.goodsname}</p>
+                                <p class="sku gray9">{$v2.ml}ml</p>
+                            </div>
+                            <div class="price">
+                                <p class="">¥ {$v2.saleprice}</p>
+                                <p>x{$v2.buynum}</p>
+                            </div>
+                        </a>
+                    </li>
+                    </volist>
+                </ul>
+                <div class="pay">
+                    <span class="freight gray9" style="float: left;margin-top: 4px">订单时间：{:date('Y-m-d H:i:s',$val['create_time'])}</span>
+                    <span class="freight gray9">共 {$val.buynum} 件，实付款</span>
+                    <span class="payprice orange">¥ {$val.price}</span>
+                </div>
+
+                    <else/>
+                        <ul class="m_list m_list_top_line bg_white m_order_list">
+                            <li data-goodsid="1115589" class="link">
+                                <a href="">
+                                    <img truesrc="http://img1.paishoes.com/nike/guronglu/201508/27/ed39821be0_thumb_8080.jpg" fffsrc="http://ued.paixie.net/statics/site_touch/__PUBLIC__/Mobile/images/public/goods.png" src="/Uploads/{$val.imageurl}{$val.imagename}" class="img100">
+                                    <div class="info">
+                                        <p class="name gray3">{$val.goodsname}</p>
+                                        <p class="sku gray9">{$val.ml}ml</p>
+                                    </div>
+                                    <div class="price">
+                                        <p class="">¥ {$val.saleprice}</p>
+                                        <p>x{$val.buynum}</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pay">
+                        <span class="freight gray9" style="float: left;margin-top: 4px">评价时间：{:date('Y-m-d H:i:s',$val['coaddtime'])}</span>
+                        <span class="freight gray9">共 {$val.buynum} 件，实付款</span>
+                        <span class="payprice orange">¥ {$val.saleprice}</span>
+                        </div>
+                    </if>
+
+                <div class="buttons">
+                <switch name="val.status">
+                    <case value="1">
+                        <a data-orderid="{$val.id}" href="javascript:void(0);" class="m_button js_cancle">取消订单</a>
+                        <a href="{:U('',array('oid'=>$val.id))}" class="m_button m_button_orange">立即付款</a>
+                    </case>
+                    <!--<case value="2">
+                        <a href="{:U('',array('oid'=>$val.id))}" class="m_button m_button_orange">提醒发货</a>
+                    </case>-->
+                    <case value="3">
+                        <a href="" class="m_button m_button_orange receipt" id="{$val.id}" >确认收货</a>
+                    </case>
+                    <case value="4">
+                        <a href="{:U('Mobile/Comment/commentgoods',array('oid'=>$val['id']))}" class="m_button m_button_orange">评价</a>
+                    </case>
+                    <case value="5">
+                        <a href="{:U('Mobile/Comment/zuijiacomment',array('oid'=>$val['id']))}" class="m_button m_button_orange">追加评价</a>
+                    </case>
+                    <case value="6">
+                        <a href="javascript:;" class="m_button m_button_orange" id="deleteorder" >删除订单</a>
+                    </case>
+                </switch>
+                </div>
+
+            </div>
+            <input type="hidden" name="oid" value="{$val.id}"/>
+        </volist>
+           <script type="text/javascript">
+               $(function(){
+                   oid=$('input[name="oid"]').val();
+                   $('#deleteorder').click(function(){
+                       $.post("{:U('Mobile/Comment/deleteorder')}",{oid:oid},function(res){
+                           if(res.status==1){
+                               layer.open({
+                                   content: '删除成功'
+                                   ,skin: 'msg'
+                                   ,time: 2//2秒后自动关闭
+                                   ,style:'line-heght:100px;'
+                                   ,end:function(){
+                                       location="{:U('Mobile/Member/myOrder')}";
+                                   }
+                               });
+
+                           }else{
+                               layer.open({
+                                   content: '请稍后再试'
+                                   ,skin: 'msg'
+                                   ,time: 2//2秒后自动关闭
+                                   ,style:'line-heght:100px;'
+                               });
+                           }
+                       },'json')
+                   })
+               })
+           </script>
+		<div class="placeholder"></div>
+	<div class="placeholder"></div>
+					</form> 
+    <div class="text-center"> 
+     <a class="m_button m_button_radius js_more" href="javascript:void(0);">查看更多<i class="m_icon m_icon_down"></i></a> 
+    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+   </div> 
+   <div class="m_footer clear"> 
+    <a class="m_icon m_icon_gotop hidden" href="javascript:void(0);"></a>
+       <include file="public/footer"/>
+   </div> 
+   <div style="display:none;"> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="__PUBLIC__/Mobile/js/zip.touch.member2_0.orderlist.v3621.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/Mobile/js/jweixin-1.0.0.js"></script>
+  <div class="p_order_canclereason" data-orderid="">
+   <p class="reason" data-reasonid="1">我不想买了</p> 
+   <p class="reason" data-reasonid="2">信息填写错误，重新拍</p> 
+   <p class="reason" data-reasonid="3">卖家缺货</p> 
+   <p class="reason" data-reasonid="4">面对面交易</p> 
+   <p class="reason" data-reasonid="5">其他原因</p> 
+   <div class="placeholder"></div> 
+   <p class="js_close">取消</p> 
+  </div> 
+  <script type="text/javascript">
+	var _type = 0;
+	var _page = 1;
+	var _total_page = 1;
+    var _key = "";
+</script>
+  <link rel="stylesheet" href="__PUBLIC__/Mobile/layer_mobile/need/layer.css" type="text/css" />
+  <script type="text/javascript" src="__PUBLIC__/Mobile/layer_mobile/layer.js"></script>
+  <script>
+     $("body").on("touchend mousedown", ".p_order_canclereason .reason", function() {
+         var $this = $(this);
+         var _orderid = $(this).parent().data("orderid");
+         var _reasonid = $this.data("reasonid");
+         //var _isdetail = $(".m_order_bottom").find(".js_cancle").data("isdetail");
+         var url = "{:U('Member/cancelOrder')}";
+         $(".m_mask").hide();
+         $this.parent().hide();
+         $.ajax({url: url, type: 'post', data: {order_id: _orderid, reasonid: _reasonid, act: 'cancel'}, dataType: 'json', error: function() {
+             layer.msg('取消订单失败!');
+         }, success: function(data) {
+             window.location.reload();
+             layer.msg('取消订单成功!',{icon:1});
+         }});
+     });
+      $(function(){
+          $('.receipt').click(function(){
+              var oid=$(this).attr('id');
+              $.post("{:U('Member/receipt')}",{oid:oid},function(res){
+                  if(res.status == 1){
+                      layer.open({
+                          content:res.info,
+                          skin:'msg',
+                          type:1,
+                          time:3,
+                          location:"{:U('Member/myOrder')}"
+                      })
+                  }else{
+                      layer.open({
+                          content:res.info,
+                          skin:'msg',
+                          type:1,
+                          time:3,
+                          location:"{:U('Member/myOrder')}"
+                      })
+                  }
+              })
+          })
+      })
+ </script>
+ </body>
+</html>

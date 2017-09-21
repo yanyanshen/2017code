@@ -1,0 +1,2580 @@
+[ 2016-11-26T10:23:04+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-26T10:23:11+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:23:21+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:25:05+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:25:20+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:25:23+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:29:44+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:29:55+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:29:58+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:31:14+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:31:25+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T10:31:29+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T10:38:26+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:33:11+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:33:12+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:33:46+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T11:33:48+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T11:33:50+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:33:59+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:34:01+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:34:04+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:34:39+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T11:35:26+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T11:35:38+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:35:40+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html?checkedDay=26
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T11:35:53+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-26T11:37:10+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T11:37:11+08:00 ] 127.0.0.1 /index.php/Mobile/Sign/sign.html?checkedDay=26
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_sign` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT * FROM `beauty_sign` WHERE `mid` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-26T11:39:02+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:39:02+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:39:06+08:00 ] 127.0.0.1 /index.php/Mobile/Login/LoginOut.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:39:19+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'beibei' AND `password` = '46d294deab9987e94ced5c0f7b478f5d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-26T11:39:26+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'beibei' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-26T11:39:33+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'beibei' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-26T11:40:20+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `beauty_user` SET `lastlogin`='1480131620' WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' [ RunTime:0.0690s ]
+
+[ 2016-11-26T11:40:57+08:00 ] 127.0.0.1 /index.php/Mobile/Login/LoginOut.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:41:09+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'chen' AND `password` = 'c88e8ae13e25993d3aed39a8c12ff02f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_user` SET `lastlogin`='1480131669' WHERE `username` = 'chen' AND `password` = 'c88e8ae13e25993d3aed39a8c12ff02f' [ RunTime:0.0480s ]
+
+[ 2016-11-26T11:41:17+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:41:17+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:41:29+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:41:30+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:41:32+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:41:32+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:41:33+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:41:33+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:41:34+08:00 ] 127.0.0.1 /index.php/Mobile/Member/myOrder/oid/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SELECT o.id,o.price,s.statusname,o.orderno,o.status,o.create_time FROM beauty_order o,beauty_order_status s WHERE `mid` = 35 AND ( o.status=s.id ) ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0060s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 25 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 24 AND ( og.gid=g.id )  [ RunTime:0.0020s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 23 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 22 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 21 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 14 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 13 AND ( og.gid=g.id )  [ RunTime:0.0020s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 12 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 10 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 8 AND ( og.gid=g.id )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 7 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:41:34+08:00 ] 127.0.0.1 /index.php/Mobile/Member/myOrder/oid/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SELECT o.id,o.price,s.statusname,o.orderno,o.status,o.create_time FROM beauty_order o,beauty_order_status s WHERE `orderno` LIKE '%%' AND `mid` = 35 AND ( o.status=s.id ) ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 25 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 24 AND ( og.gid=g.id )  [ RunTime:0.0020s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 23 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 22 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 21 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 14 AND ( og.gid=g.id )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 13 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 12 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 10 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 8 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 7 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:41:35+08:00 ] 127.0.0.1 /index.php/Mobile/Member/myOrder/oid/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SELECT o.id,o.price,s.statusname,o.orderno,o.status,o.create_time FROM beauty_order o,beauty_order_status s WHERE `mid` = 35 AND ( o.status=s.id ) ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 25 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 24 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 23 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 22 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 21 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 14 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 13 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 12 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 10 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 8 AND ( og.gid=g.id )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 7 AND ( og.gid=g.id )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-26T11:41:35+08:00 ] 127.0.0.1 /index.php/Mobile/Member/myOrder/oid/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SELECT o.id,o.price,s.statusname,o.orderno,o.status,o.create_time FROM beauty_order o,beauty_order_status s WHERE `mid` = 35 AND ( o.status=s.id ) ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 25 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 24 AND ( og.gid=g.id )  [ RunTime:0.0020s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 23 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 22 AND ( og.gid=g.id )  [ RunTime:0.0020s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 21 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 14 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 13 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 12 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 10 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 8 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 7 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:41:36+08:00 ] 127.0.0.1 /index.php/Mobile/Member/myOrder/oid/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SELECT o.id,o.price,s.statusname,o.orderno,o.status,o.create_time FROM beauty_order o,beauty_order_status s WHERE `orderno` LIKE '%%' AND `mid` = 35 AND ( o.status=s.id ) ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0060s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 25 AND ( og.gid=g.id )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 24 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 23 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 22 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 21 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 14 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 13 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 12 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 10 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 8 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 7 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:41:36+08:00 ] 127.0.0.1 /index.php/Mobile/Member/myOrder/oid/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SELECT o.id,o.price,s.statusname,o.orderno,o.status,o.create_time FROM beauty_order o,beauty_order_status s WHERE `mid` = 35 AND ( o.status=s.id ) ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 25 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 24 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 23 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 22 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 21 AND ( og.gid=g.id )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 14 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 13 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 12 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 10 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 8 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0040s ]
+SQL: SELECT og.buynum,og.ml,g.saleprice,g.goodsname,g.imageurl,g.imagename FROM beauty_order_goods og,beauty_goods g WHERE `oid` = 7 AND ( og.gid=g.id )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(buynum) AS tp_sum FROM `beauty_order_goods` WHERE `oid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 156 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+NOTIC: [8] Array to string conversion E:\php\yunhe\beauty\beauty\Runtime\Cache\Mobile\c7564403c0c1e8e3666104e7f200eb17.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:48:29+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:48:29+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:48:32+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:48:32+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:48:37+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:48:37+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:48:41+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:48:41+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:50:23+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:50:23+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:50:44+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='很好',`cstatus`='6' WHERE `oid` = 24 AND `gid` = 31 AND `mid` = 35 AND `ml` = 30 [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 24 [ RunTime:0.0590s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T11:50:47+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:50:47+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:50:52+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 25 [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 25 [ RunTime:0.0590s ]
+
+[ 2016-11-26T11:50:55+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 25 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:54:02+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:54:02+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:54:05+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:54:05+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:54:07+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 24 [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 24 [ RunTime:0.0520s ]
+
+[ 2016-11-26T11:54:09+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 24 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-26T11:54:15+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 24 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T11:55:04+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:55:04+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:55:28+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='很好很喜欢',`cstatus`='6' WHERE `oid` = 22 AND `gid` = 26 AND `mid` = 35 AND `ml` = 100 [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 22 [ RunTime:0.0580s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T11:55:30+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:55:30+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:55:34+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 23 [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 23 [ RunTime:0.0610s ]
+
+[ 2016-11-26T11:55:38+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:55:38+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:55:41+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 22 [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 22 [ RunTime:0.0760s ]
+
+[ 2016-11-26T11:55:43+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:55:43+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:56:45+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:56:45+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:56:50+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='12313213',`cstatus`='6' WHERE `oid` = 21 AND `gid` = 4 AND `mid` = 35 AND `ml` = 160 [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 21 [ RunTime:0.0670s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T11:56:52+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:56:52+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:56:55+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 21 [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 21 [ RunTime:0.0660s ]
+
+[ 2016-11-26T11:56:59+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:56:59+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:57:00+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2016-11-26T11:57:00+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:57:46+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:57:52+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:57:56+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:57:59+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-26T11:58:00+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-26T11:58:01+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:58:05+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:58:08+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:58:12+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:58:16+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:59:17+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:59:19+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:59:20+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:59:21+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:59:21+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T11:59:22+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:00:17+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:01:21+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:03:04+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('15','37','14','12323','1','35','1480132984','5') [ RunTime:0.0900s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 14 [ RunTime:0.0430s ]
+
+[ 2016-11-26T12:03:06+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:03:13+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='13213',`cstatus`='6' WHERE `oid` = 14 AND `gid` = 37 AND `mid` = 35 AND `ml` = 15 [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 14 [ RunTime:0.0560s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T12:03:15+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:03:58+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:03:59+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_order` WHERE `id` = 14  [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:04:04+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:04:10+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_order` WHERE `id` = 14  [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:04:14+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_order` WHERE `id` = 14  [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:04:28+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:04:31+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 14 [ RunTime:0.0660s ]
+
+[ 2016-11-26T12:04:37+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:05:13+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:06:07+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:06:12+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('100','26','13','1321','1','35','1480133172','5') [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 13 [ RunTime:0.0500s ]
+
+[ 2016-11-26T12:06:14+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:06:26+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='1321',`cstatus`='6' WHERE `oid` = 13 AND `gid` = 26 AND `mid` = 35 AND `ml` = 100 [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 13 [ RunTime:0.0520s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T12:06:29+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:06:36+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 13 [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 13 [ RunTime:0.0570s ]
+
+[ 2016-11-26T12:06:46+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:04+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:05+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:06+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:08+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:10+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:34+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('30','31','12','121','1','35','1480133254','5') [ RunTime:0.0590s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 12 [ RunTime:0.0520s ]
+
+[ 2016-11-26T12:07:37+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:41+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='1321',`cstatus`='6' WHERE `oid` = 12 AND `gid` = 31 AND `mid` = 35 AND `ml` = 30 [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 12 [ RunTime:0.0590s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T12:07:44+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:07:46+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 12 [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 12 [ RunTime:0.0920s ]
+
+[ 2016-11-26T12:07:59+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:06+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:07+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:08+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:12+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:13+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:16+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:17+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:18+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:19+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:08:57+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('50','59','10','1321','1','35','1480133337','5') [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 10 [ RunTime:0.0510s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('30','34','10','1234142','1','35','1480133337','5') [ RunTime:0.0400s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 10 [ RunTime:0.0510s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('30','66','10','3421322','1','35','1480133337','5') [ RunTime:0.0410s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 10 [ RunTime:0.0340s ]
+
+[ 2016-11-26T12:08:59+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:09:10+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='123443',`cstatus`='6' WHERE `oid` = 10 AND `gid` = 59 AND `mid` = 35 AND `ml` = 50 [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 10 [ RunTime:0.0600s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: UPDATE `beauty_comment` SET `zuijia`='2434',`cstatus`='6' WHERE `oid` = 10 AND `gid` = 34 AND `mid` = 35 AND `ml` = 30 [ RunTime:0.0400s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 10 [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: UPDATE `beauty_comment` SET `zuijia`='42354',`cstatus`='6' WHERE `oid` = 10 AND `gid` = 66 AND `mid` = 35 AND `ml` = 30 [ RunTime:0.0400s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 10 [ RunTime:0.0590s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T12:09:12+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:09:15+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:09:19+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:09:39+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:09:43+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 10 [ RunTime:0.0760s ]
+
+[ 2016-11-26T12:09:53+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:10:01+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:10:04+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 10 [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:10:06+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:10:07+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:10:15+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 10 [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:13:11+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:14:11+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0060s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 10 [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:14:15+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:14:19+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 10 [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:15:09+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:15:10+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:15:11+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order_goods` WHERE `oid` = 10 [ RunTime:0.0010s ]
+
+[ 2016-11-26T12:15:39+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:15:40+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0080s ]
+
+[ 2016-11-26T12:15:47+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:15:48+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+
+[ 2016-11-26T12:16:11+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:16:13+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 10 AND `mid` = 35 [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+
+[ 2016-11-26T12:16:19+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:16:24+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('30','34','8','1321','1','35','1480133783','5') [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 8 [ RunTime:0.0490s ]
+
+[ 2016-11-26T12:16:26+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:16:29+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='13143214321',`cstatus`='6' WHERE `oid` = 8 AND `gid` = 34 AND `mid` = 35 AND `ml` = 30 [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 8 [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T12:16:31+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:16:33+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:16:48+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T12:16:51+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 8 AND `mid` = 35 [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0070s ]
+
+[ 2016-11-26T14:09:58+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:10:00+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:10:00+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:10:01+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:10:02+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:10:02+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:10:03+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:10:10+08:00 ] 127.0.0.1 /index.php/Mobile/Login/LoginOut.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-26T14:10:28+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'chen' AND `password` = 'c33367701511b4f6020ec61ded352059' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-26T14:10:34+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`username`,`password` FROM `beauty_user` WHERE `username` = 'chen' AND `password` = 'c33367701511b4f6020ec61ded352059' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-26T14:19:20+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:19:39+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/usercomment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0090s ]
+SQL: INSERT INTO `beauty_comment` (`ml`,`gid`,`oid`,`content`,`cosid`,`mid`,`coaddtime`,`cstatus`) VALUES ('0','67','30','12313443245','1','5','1480141179','5') [ RunTime:0.0690s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: UPDATE `beauty_order` SET `status`='5' WHERE `id` = 30 [ RunTime:0.0670s ]
+
+[ 2016-11-26T14:19:41+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:19:46+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/zuijiasuccess.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [2] Illegal string offset 'ml' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 95 行.
+NOTIC: [2] Illegal string offset 'gid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 96 行.
+NOTIC: [2] Illegal string offset 'oid' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 97 行.
+NOTIC: [2] Illegal string offset 'content' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'pingjia' E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 99 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `beauty_comment` [ RunTime:0.0090s ]
+SQL: UPDATE `beauty_comment` SET `zuijia`='132143124242',`cstatus`='6' WHERE `oid` = 30 AND `gid` = 67 AND `mid` = 5 AND `ml` = 0 [ RunTime:0.0690s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0090s ]
+SQL: UPDATE `beauty_order` SET `status`='6' WHERE `id` = 30 [ RunTime:0.0570s ]
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+NOTIC: [8] Undefined index: imageurl E:\php\yunhe\beauty\beauty\Mobile\Controller\CommentController.class.php 第 115 行.
+
+[ 2016-11-26T14:19:49+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T14:19:50+08:00 ] 127.0.0.1 /index.php/Mobile/Comment/deleteorder.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0090s ]
+SQL: DELETE FROM `beauty_order` WHERE `id` = 30 AND `mid` = 5 [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `beauty_order_goods` [ RunTime:0.0090s ]
+
+[ 2016-11-26T14:19:52+08:00 ] 127.0.0.1 /index.php/Mobile/Member/ajax_member_order.php?type=0&page=1&ajax=1&key=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 非法操作:ajax_member_order.php
+
+[ 2016-11-26T15:22:25+08:00 ] 127.0.0.1 /index.php/Mobile/Search/collectGoods.html?gid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_collect` WHERE `gid` = 6 AND `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `beauty_collect` (`gid`,`mid`,`goodsname`,`imageurl`,`imagename`,`saleprice`) VALUES ('6','5','韩束玻尿酸补水面膜亮肤蚕丝紧致弹润面膜贴保湿美白晒后修复正品','2016-11-10/','58243439b4a1e.jpg','69.00') [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `beauty_goods` SET `collectnum`=collectnum+1 WHERE `id` = 6 [ RunTime:0.0640s ]
+
+[ 2016-11-26T15:22:27+08:00 ] 127.0.0.1 /index.php/Mobile/Search/collectGoods.html?gid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_collect` WHERE `gid` = 6 AND `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-26T15:22:48+08:00 ] 127.0.0.1 /index.php/Mobile/Search/collectGoods.html?gid=25
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_collect` WHERE `gid` = 25 AND `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_goods` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `beauty_collect` (`gid`,`mid`,`goodsname`,`imageurl`,`imagename`,`saleprice`) VALUES ('25','5','韩束红石榴爽肤水化妆水补水保湿','2016-11-10/','58243f8dac8b3.jpg','99.00') [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `beauty_goods` SET `collectnum`=collectnum+1 WHERE `id` = 25 [ RunTime:0.0650s ]
+
+[ 2016-11-26T15:24:24+08:00 ] 127.0.0.1 /index.php/Mobile/Collect/deletecollect.html?gid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_collect` [ RunTime:0.0090s ]
+SQL: DELETE FROM `beauty_collect` WHERE `mid` = 5 AND `gid` = 7 [ RunTime:0.0470s ]
+
+[ 2016-11-26T15:26:01+08:00 ] 127.0.0.1 /index.php/Mobile/Feedback/send.html?textarea=%0D%0A++++++++++++++++&way=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-26T15:26:10+08:00 ] 127.0.0.1 /index.php/Mobile/Feedback/send.html?textarea=%0D%0A++++++++++++++++1321321&way=1932314889%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_userfeedback` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_userfeedback` WHERE `idea` = '
+                1321321' AND `mobile` = '1932314889@qq.com' AND `mname` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `beauty_userfeedback` (`mname`,`idea`,`mobile`,`backtime`) VALUES ('yanyan','
+                1321321','1932314889@qq.com','1480145170') [ RunTime:0.0710s ]
+
+[ 2016-11-26T15:26:12+08:00 ] 127.0.0.1 /index.php/Mobile/Feedback/send.html?textarea=%0D%0A++++++++++++++++1321321&way=1932314889%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_userfeedback` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_userfeedback` WHERE `idea` = '
+                1321321' AND `mobile` = '1932314889@qq.com' AND `mname` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+

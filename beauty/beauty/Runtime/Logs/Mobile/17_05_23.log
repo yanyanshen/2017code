@@ -1,0 +1,913 @@
+[ 2017-05-23T15:32:43+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:32:50+08:00 ] 127.0.0.1 /index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:34:03+08:00 ] 127.0.0.1 /index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T15:34:05+08:00 ] 127.0.0.1 /index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0070s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,104) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '22%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (22,23,24,25,26,27,28,29,30,31,32) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33%'  [ RunTime:0.0010s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,103) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (53,54,55,56,57,60,61,62,63,64,65,66,67,68,69) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 83 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83%'  [ RunTime:0.0010s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (83,84,85,86,88,89,90,91,92,100,101,102) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '87%'  [ RunTime:0.0010s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (87,93,94,95,96,97,98,99) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0040s ]
+SQL: SELECT a.rules,a.aname, g.id,a.bid,g.goodsname,g.imageurl,g.imagename,a.starttime,a.stoptime
+               FROM beauty_activity a,beauty_brands b,beauty_goods g
+                where a.bid=b.id and b.id=g.bid and g.show=1 and a.astatus=1 and b.status=1 and a.aname="限时特卖"
+                ORDER BY a.addtime desc, g.salenum desc,g.addtime desc limit 0,2 [ RunTime:0.0010s ]
+SQL: SELECT `goodsname`,`saleprice`,`imageurl`,`imagename`,`id` FROM `beauty_goods` LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_advertise` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 0,1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 2,1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 4,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0050s ]
+SQL: SELECT `bname`,`blogopath`,`blogoname`,`id` FROM `beauty_brands` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `imageurl`,`imagename` FROM `beauty_goods` WHERE ( goodsname like "%男%" ) ORDER BY addtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `imageurl`,`imagename` FROM `beauty_goods` WHERE ( goodsname like "%女%" ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_message_user` [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `beauty_message_user` [ RunTime:0.0140s ]
+SQL: SELECT u.sendId,t.title,t.content FROM beauty_message_user u,beauty_messagetext t WHERE u.receiveId = null AND ( u.textId=t.id and u.status=1 ) ORDER BY u.id desc  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: beauty_ F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 24 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Undefined index: beauty_ F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 208 行.
+NOTIC: [8] Undefined index: beauty_ F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 212 行.
+NOTIC: [8] Undefined index: beauty_ F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:34:07+08:00 ] 127.0.0.1 /index.php/Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-05-23T15:34:11+08:00 ] 127.0.0.1 /index.php/Mobile/Search/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_keywords` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_keywords` WHERE `mid` = null ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keywords F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 50 行.
+NOTIC: [8] Undefined index: beauty_ F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 80 行.
+NOTIC: [8] Undefined index: beauty_ F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 84 行.
+NOTIC: [8] Undefined index: beauty_ F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T15:34:11+08:00 ] 127.0.0.1 /index.php/Mobile/Search/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Mobile/view/Search/index.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+
+[ 2017-05-23T15:34:14+08:00 ] 127.0.0.1 /index.php/Mobile/Search/search.html?keywords=%E5%8F%A3%E7%BA%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: header F:\WWW\beauty\ThinkPHP\Library\Org\Beauty\AjaxPage.class.php 第 121 行.
+NOTIC: [8] Undefined variable: order F:\WWW\beauty\beauty\Mobile\Controller\SearchController.class.php 第 57 行.
+SQL: SELECT * FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' LIMIT 0,3   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 1 AND `astatus` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 2 AND `astatus` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 5 AND `astatus` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 61 行.
+NOTIC: [8] Undefined index: price F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 71 行.
+NOTIC: [8] Undefined index: sale F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 77 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-23T15:34:33+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0140s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0150s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,104) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0020s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '22%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (22,23,24,25,26,27,28,29,30,31,32) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,103) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53%'  [ RunTime:0.0010s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (53,54,55,56,57,60,61,62,63,64,65,66,67,68,69) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 83 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83%'  [ RunTime:0.0010s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (83,84,85,86,88,89,90,91,92,100,101,102) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '87%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (87,93,94,95,96,97,98,99) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0070s ]
+SQL: SELECT a.rules,a.aname, g.id,a.bid,g.goodsname,g.imageurl,g.imagename,a.starttime,a.stoptime
+               FROM beauty_activity a,beauty_brands b,beauty_goods g
+                where a.bid=b.id and b.id=g.bid and g.show=1 and a.astatus=1 and b.status=1 and a.aname="限时特卖"
+                ORDER BY a.addtime desc, g.salenum desc,g.addtime desc limit 0,2 [ RunTime:0.0010s ]
+SQL: SELECT `goodsname`,`saleprice`,`imageurl`,`imagename`,`id` FROM `beauty_goods` LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_advertise` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 0,1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 2,1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 4,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0060s ]
+SQL: SELECT `bname`,`blogopath`,`blogoname`,`id` FROM `beauty_brands` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `imageurl`,`imagename` FROM `beauty_goods` WHERE ( goodsname like "%男%" ) ORDER BY addtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `imageurl`,`imagename` FROM `beauty_goods` WHERE ( goodsname like "%女%" ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_message_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `beauty_message_user` [ RunTime:0.0050s ]
+SQL: SELECT u.sendId,t.title,t.content FROM beauty_message_user u,beauty_messagetext t WHERE u.receiveId = null AND ( u.textId=t.id and u.status=1 ) ORDER BY u.id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 24 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 208 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 212 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:34:37+08:00 ] 127.0.0.1 /index.php/Mobile/Search/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Mobile/view/Search/index.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_keywords` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_keywords` WHERE `mid` = null ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keywords F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 50 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 80 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 84 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d8ab52459f0e80b1eb224dca6893ff9c.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T15:34:40+08:00 ] 127.0.0.1 /index.php/Mobile/Search/search.html?keywords=%E5%8F%A3%E7%BA%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: header F:\WWW\beauty\ThinkPHP\Library\Org\Beauty\AjaxPage.class.php 第 121 行.
+NOTIC: [8] Undefined variable: order F:\WWW\beauty\beauty\Mobile\Controller\SearchController.class.php 第 57 行.
+SQL: SELECT * FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 1 AND `astatus` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 2 AND `astatus` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 5 AND `astatus` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 61 行.
+NOTIC: [8] Undefined index: price F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 71 行.
+NOTIC: [8] Undefined index: sale F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 77 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-23T15:34:42+08:00 ] 127.0.0.1 /index.php/Mobile/Login/Dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T15:34:45+08:00 ] 127.0.0.1 /index.php/Mobile/MyCart/mycart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\WWW\beauty\beauty\Mobile\Controller\MyCartController.class.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\WWW\beauty\beauty\Mobile\Controller\MyCartController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: cartlist F:\WWW\beauty\beauty\Mobile\Controller\MyCartController.class.php 第 81 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d23a8d2e57452867d36d3b4f5685e7b1.php 第 52 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d23a8d2e57452867d36d3b4f5685e7b1.php 第 199 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d23a8d2e57452867d36d3b4f5685e7b1.php 第 203 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d23a8d2e57452867d36d3b4f5685e7b1.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:34:50+08:00 ] 127.0.0.1 /index.php/Mobile/Search/search/price/saleprice/keywords/%E5%8F%A3%E7%BA%A2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: header F:\WWW\beauty\ThinkPHP\Library\Org\Beauty\AjaxPage.class.php 第 121 行.
+SQL: SELECT * FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' ORDER BY saleprice LIMIT 0,3   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 5 AND `astatus` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 5 AND `astatus` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 1 AND `astatus` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 61 行.
+NOTIC: [8] Undefined index: sale F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 77 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:34:52+08:00 ] 127.0.0.1 /index.php/Mobile/Search/search/sale/salenum/keywords/%E5%8F%A3%E7%BA%A2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: header F:\WWW\beauty\ThinkPHP\Library\Org\Beauty\AjaxPage.class.php 第 121 行.
+SQL: SELECT * FROM `beauty_goods` WHERE `goodsname` LIKE '%口红%' ORDER BY salenum desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 2 AND `astatus` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 5 AND `astatus` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 5 AND `astatus` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 61 行.
+NOTIC: [8] Undefined index: price F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 99 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\d19b700038afc19a14d2d47d4997c648.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:34:54+08:00 ] 127.0.0.1 /index.php/Mobile/Search/smilarGoods/cid/33/keywords/%E5%8F%A3%E7%BA%A2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `cid` = 33 AND `show` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: header F:\WWW\beauty\ThinkPHP\Library\Org\Beauty\AjaxPage.class.php 第 121 行.
+NOTIC: [8] Undefined variable: order F:\WWW\beauty\beauty\Mobile\Controller\SearchController.class.php 第 156 行.
+SQL: SELECT * FROM `beauty_goods` WHERE `cid` = 33 AND `show` = 1 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 2 AND `astatus` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 2 AND `astatus` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_activity` WHERE `bid` = 5 AND `astatus` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: count F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 61 行.
+NOTIC: [8] Undefined index: price F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 71 行.
+NOTIC: [8] Undefined index: sale F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 77 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 93 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 93 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 93 行.
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 99 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\43406b83f772db1a6206d66eb8ae5d48.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:35:02+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0140s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0150s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,104) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '22%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (22,23,24,25,26,27,28,29,30,31,32) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33%'  [ RunTime:0.0010s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,103) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53%'  [ RunTime:0.0010s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (53,54,55,56,57,60,61,62,63,64,65,66,67,68,69) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 83 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (83,84,85,86,88,89,90,91,92,100,101,102) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '87%'  [ RunTime:0.0000s ]
+SQL: SELECT g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice,g.cid from beauty_goods g where
+        g.cid in (87,93,94,95,96,97,98,99) and g.show=1
+        and g.bid not in (select bid from beauty_activity where astatus=1) ORDER by g.addtime desc limit 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0060s ]
+SQL: SELECT a.rules,a.aname, g.id,a.bid,g.goodsname,g.imageurl,g.imagename,a.starttime,a.stoptime
+               FROM beauty_activity a,beauty_brands b,beauty_goods g
+                where a.bid=b.id and b.id=g.bid and g.show=1 and a.astatus=1 and b.status=1 and a.aname="限时特卖"
+                ORDER BY a.addtime desc, g.salenum desc,g.addtime desc limit 0,2 [ RunTime:0.0010s ]
+SQL: SELECT `goodsname`,`saleprice`,`imageurl`,`imagename`,`id` FROM `beauty_goods` LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_advertise` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 0,1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 2,1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `status` = 1 AND `position` = 5 LIMIT 4,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0040s ]
+SQL: SELECT `bname`,`blogopath`,`blogoname`,`id` FROM `beauty_brands` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `imageurl`,`imagename` FROM `beauty_goods` WHERE ( goodsname like "%男%" ) ORDER BY addtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `imageurl`,`imagename` FROM `beauty_goods` WHERE ( goodsname like "%女%" ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_message_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `beauty_message_user` [ RunTime:0.0030s ]
+SQL: SELECT u.sendId,t.title,t.content FROM beauty_message_user u,beauty_messagetext t WHERE u.receiveId = null AND ( u.textId=t.id and u.status=1 ) ORDER BY u.id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 24 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 184 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 208 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 212 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\b1410417a64a5a96d42048c874f6a380.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T15:35:07+08:00 ] 127.0.0.1 /index.php/Mobile/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `beauty_category` WHERE ( pid=0 )  [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0150s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,104) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1,2%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (2,3,4,5,6) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1,7%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (7,8,9,10) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1,11%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (11,104) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1,12%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (12,13,14,15,16) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '1,17%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (17,18,19,20,21) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '22%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (22,23,24,25,26,27,28,29,30,31,32) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '22,23%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (23,26,27,28) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '22,24%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (24,29,30) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '22,25%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (25,31,32) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,103) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33,34%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (34,38,39,40,41) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33,35%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (35,42,43,44,45) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33,36%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (36,46,47,48,49) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '33,37%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (37,50,51,52) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (53,54,55,56,57,60,61,62,63,64,65,66,67,68,69) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53,54%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (54) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53,55%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (55,60,61,62,63) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53,56%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (56,64,65,66) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '53,57%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (57,67,68,69) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '70%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (70,71,72,73,74,75,76,77,78,79,80,81,82) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '70,71%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (71,72,73,74,75) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '70,76%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (76,77,78,79) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '70,80%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (80,81,82) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 83 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (83,84,85,86,88,89,90,91,92,100,101,102) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83,84%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (84,92) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83,85%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (85,89,90) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0010s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 86 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83,86%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (86,88,91) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '83,100%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (100,101,102) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '87%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (87,93,94,95,96,97,98,99) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '87,93%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (93,97) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '87,94%'  [ RunTime:0.0000s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (94,96) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+SQL: SELECT `path`,`id`,`cname` FROM `beauty_category` WHERE `id` = 95 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cname` FROM `beauty_category` WHERE `path` LIKE '87,95%'  [ RunTime:0.0010s ]
+SQL: SELECT  g.id as gid,g.goodsname,g.imageurl,g.imagename,g.salenum,g.saleprice from beauty_goods g where
+        g.cid in (95,98,99) and g.show=1
+         ORDER by g.addtime desc limit 0,6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 156 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 156 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 156 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 165 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 165 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 165 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 174 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 174 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 174 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 200 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 200 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 200 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 208 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 208 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 220 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 268 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 268 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 268 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 277 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 277 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 277 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 295 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 304 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 304 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 326 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 326 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 344 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 353 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 384 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 384 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 384 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 424 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 424 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 424 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 433 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 433 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 433 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 460 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 460 行.
+NOTIC: [8] Undefined variable: six5 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 467 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 482 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 482 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 482 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 491 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 491 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 491 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 500 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 500 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 500 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 509 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 509 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 509 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 518 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 538 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 541 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ce6a0e521c7a5e763232bf06c4866aec.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-23T15:35:11+08:00 ] 127.0.0.1 /index.php/Mobile/Category/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0140s ]
+SQL: SELECT `bname`,`blogopath`,`blogoname`,`id` FROM `beauty_brands` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\e9974c1e36f8a7393888df695df99917.php 第 177 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\e9974c1e36f8a7393888df695df99917.php 第 180 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\e9974c1e36f8a7393888df695df99917.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-23T15:35:11+08:00 ] 127.0.0.1 /index.php/Mobile/Category/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-05-23T15:35:13+08:00 ] 127.0.0.1 /index.php/Mobile/GoodsList/brandList/bid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT `cname`,`id` FROM `beauty_category` WHERE ( pid=0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0110s ]
+SQL: SELECT `bname`,`id`,`blogopath`,`blogoname` FROM `beauty_brands` LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `bid` = 2 AND `show` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: header F:\WWW\beauty\ThinkPHP\Library\Org\Beauty\AjaxPage.class.php 第 121 行.
+NOTIC: [8] Undefined variable: order F:\WWW\beauty\beauty\Mobile\Controller\GoodsListController.class.php 第 264 行.
+SQL: SELECT * FROM `beauty_goods` WHERE `bid` = 2 AND `show` = 1 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sale F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 74 行.
+NOTIC: [8] Undefined index: price1 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 77 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 160 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 164 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-23T15:40:20+08:00 ] 127.0.0.1 /index.php/Mobile/GoodsList/brandList/bid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0120s ]
+SQL: SELECT `cname`,`id` FROM `beauty_category` WHERE ( pid=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0060s ]
+SQL: SELECT `bname`,`id`,`blogopath`,`blogoname` FROM `beauty_brands` LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_goods` WHERE `bid` = 2 AND `show` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: header F:\WWW\beauty\ThinkPHP\Library\Org\Beauty\AjaxPage.class.php 第 121 行.
+NOTIC: [8] Undefined variable: order F:\WWW\beauty\beauty\Mobile\Controller\GoodsListController.class.php 第 264 行.
+SQL: SELECT * FROM `beauty_goods` WHERE `bid` = 2 AND `show` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sale F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 74 行.
+NOTIC: [8] Undefined index: price1 F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 77 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 105 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 160 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 164 行.
+NOTIC: [8] Undefined index: mid F:\WWW\beauty\beauty\Runtime\Cache\Mobile\ef7c099c229f43e1e9c0cb1cb296db0f.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

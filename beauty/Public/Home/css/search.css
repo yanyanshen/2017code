@@ -1,0 +1,64 @@
+.rqphmain{ width:1200px; margin:0 auto;}
+.rqphtitle{ height:40px; line-height:40px; font-size:14px;}
+table{ border-collapse:collapse; border-spacing:0;}
+table td{  line-height:50px; border:solid 1px #CCCCCC; font-size: 13px  }
+table td a{ padding:6px 8px; text-align:center; margin:0 12px;}
+
+.td3 a:hover{background-color:#cc0003; color:#FFFFFF;}
+table td select{ margin-right:40px; width:120px; border:solid 1px #CCCCCC;}
+.td1{ background-color:#EEEEEE; text-align:center;  padding-left:0px; font-size:14px; font-weight:700;}
+.td2{ padding-left:260px; height:55px; line-height:55px;}
+.td2 a{ background-color:#b20000; color:#FFFFFF; margin-right:30px; padding:5px 35px; font-size:14px;  font-weight:700;}
+.pxtitle{ overflow:hidden;_height:30px; border-top:solid 2px #cc0404; background-color:#f2f2f2; padding:12px 30px;margin:20px 0;}
+.pxtitle a{ padding:6px 15px; height:30px; line-height:30px; background-color:#c2a07a; color:#FFFFFF; text-align:center;border-radius:5px; }
+.pxtitle a.active{background-color: #C91623}
+.pxtitle span{ float:right; line-height:24px;}
+.pxlistcon{ width:1200px;}
+.pxlistcon li{
+	float: left;
+	width: 238px;
+	height: 285px;
+	margin:10px 0px 10px 0px;
+	border: 1px solid #eee;
+	text-align: center;
+}
+
+.pxlistcon img{
+	position: relative;
+	width: 230px;
+	height: 230px;
+	border: 0;
+}
+
+.pxlistcon img:hover{
+	top:-1;
+	left:-2;
+}
+.pxlistcon a{
+	font: bold 13px "微软雅黑";
+	color: #333;
+}
+
+.pxlistcon a:hover{
+	
+	color: #f00;
+}
+
+.pxlistcon p{
+	display: inline-block;
+	padding: 4px 0;
+	margin-top: 4px;
+	width: 90%;
+	border-top:1px dotted #ccc;
+	color:#d00;
+	font-weight: bold; 
+	font-size: 14px;
+}
+
+
+.listpage{ padding:20px 0; text-align:center;}
+.listpage a{ padding:5px 10px;  text-align:center; border:solid 1px #CCCCCC;}
+.listpage a:hover{background-color: #C91623;color:#fff;font-weight: bold;}
+.listpage a.current{background-color: #C91623;color:#fff;font-weight: bold;}
+.listpage span{ margin:0 10px;}
+.listpage input{ width:30px; margin:0 5px; border:solid 1px #CCCCCC;}

@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/yhcss/style.css" />
+    <!--[if IE 6]>
+    <script src="__PUBLIC__/Home/map/yhjs/iepng.map" type="text/javascript"></script>
+        <script type="text/javascript">
+           EvPNG.fix('div, ul, img, li, input, a'); 
+        </script>
+    <![endif]-->
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/menu.js"></script>
+    <script src="__PUBLIC__/Home/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Admin/js/jquery.form.js" type="text/javascript"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/yhjs/select.js"></script>
+
+
+
+
+
+    <title>会员中心</title>
+</head>
+<body>  
+<!--Begin Header Begin-->
+<include file="public/header"/>
+<!--End Header End--> 
+<div class="i_bg bg_color">
+    <!--Begin 用户中心 Begin -->
+	<div class="m_content" style="margin: 0 auto">
+   		<div class="m_left">
+        	<div class="left_n">管理中心</div>
+            <div class="left_m">
+            	<div class="left_m_t t_bg1">订单中心</div>
+                <ul>
+                	<li><a href="{:U('Home/Member/Orderform')}">我的订单</a></li>
+                    <li><a href="{:U('Home/Member/address')}">收货地址</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+            	<div class="left_m_t t_bg2">会员中心</div>
+                <ul>
+                	<li><a href="{:U('Home/Member/MemberCentre')}">用户信息</a></li>
+                    <li><a href="{:U('Home/Member/showCollect')}">我的收藏</a></li>
+                    <li><a href="{:U('Home/Member/showcomment')}">我的评论</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+            	<div class="left_m_t t_bg3">账户中心</div>
+                <ul>
+                	<li><a href="{:U('Member/safe')}">账户安全</a></li>
+                    <li><a href="{:U('Member/packet')}">我的红包</a></li>
+                    <li><a href="{:U('Member/money')}">资金管理</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+            	<div class="left_m_t t_bg4">分销中心</div>
+                <ul>
+                	<li><a href="{:U('Member/myMember')}">我的会员</a></li>
+                </ul>
+            </div>
+            <div class="left_m">
+                <div class="left_m_t t_bg4">金币中心</div>
+                <ul>
+                    <li><a href="{:U('Sign/sign')}">我的金币</a></li>
+                </ul>
+            </div>
+
+        </div>
+		<div class="m_right">
+        	<div class="m_des" style="text-align: center">
+             <h1>头像上传</h1>
+            </div>
+            
+
+                  <ul>
+                  <form action="{:U('Member/addUserImg')}" method="post" enctype="multipart/form-data" id="form1">
+                       <li style="height: 40px">
+                      <label style="font-size: 16px">头像图片<b style="color: #ff0000">*</b></label>
+                      <div class="usercity" style="border:3px dashed #e6e6e6;width:520px;height:300px;position: relative">
+                          <p id="preview1" ><img id="imghead1"  border=0 src=''></p><span></span>
+                          <input type="file" id="image1" name="img" onchange="previewImage(this,'preview1','imghead1')" style="display:none; " >
+                          <label for="image1"  style="margin:130px 180px;color:#fff;text-align:center;border-radius:4px;width:130px;height:26px;line-height:26px;font-size:18px;background:#00b7ee;padding:8px 16px;cursor:pointer;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);">点击选择头像</label>
+                      </div>
+                       </li>
+
+                      <li style="height: 40px"><input style="margin:310px 180px;color:#fff;text-align:center;border-radius:4px;width:130px;height:40px;line-height:40px;font-size:18px;background:#FF4E00;padding:0px 16px;cursor:pointer;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);"
+                      type="button" id="submit" value="确定更换"/>
+                      </li>
+                  </form>
+                  </ul>
+        </div>
+    </div>
+	<!--End 用户中心 End-->
+ <include file="public/footer"/>
+    <!--End Footer End -->    
+</div>
+<include file="public/right"/>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+        $('#submit').click(function(){
+            $('#form1').ajaxSubmit(function (res) {
+                if (res.status == 1) {
+                    layer.msg('上传成功', {icon: 1,time:1000}, function () {
+                            location.href = "{:U('Member/index')}";
+
+                    })
+                }
+            });
+            return false;
+        })
+    })
+</script>
+
+<!--[if IE 6]>
+<script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+<script>
+    //图片上传预览    IE是用了滤镜。
+    function previewImage(file,pre,imag)
+    {
+        var MAXWIDTH  = 300;
+        var MAXHEIGHT = 300;
+        var div = document.getElementById(pre);
+        if( !file.value.match( /.jpg|.gif|.png|.bmp/i ) ){
+            //$(this).prev('span').text('图片格式无效！');
+            $('#'+pre).next('span').css({"color":"red","font-weight":"bold"}).text('图片类型无效！');
+            return false;
+        }else{
+            $('#'+pre).next('span').css({"color":"green","font-weight":"bold"}).text('');
+        }
+        if (file.files && file.files[0])
+        {
+            div.innerHTML ='<img id='+imag+'>';
+            var img = document.getElementById(imag);
+            img.onload = function(){
+                var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+                img.width  =  rect.width;
+                img.height =  rect.height;
+//                 img.style.marginLeft = rect.left+'px';
+                img.style.marginTop = rect.top+'px';
+            }
+            var reader = new FileReader();
+            reader.onload = function(evt){img.src = evt.target.result;}
+            reader.readAsDataURL(file.files[0]);
+        }
+        else //兼容IE
+        {
+            var sFilter='filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+            file.select();
+            file.blur();
+            var src = document.selection.createRange().text;
+            div.innerHTML ='<img id='+imag+'>';
+            var img = document.getElementById(imag);
+            img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+            var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+            status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
+        }
+
+        $(file).next('label').css({margin:0,top:0,position:'absolute',background:'rgba(0,0,0,0.4)',color:'#fff',fontSize:'14px'}).html('重新选择图片');
+    }
+    function clacImgZoomParam( maxWidth, maxHeight, width, height ){
+        var param = {top:0, left:0, width:width, height:height};
+        if( width>maxWidth || height>maxHeight )
+        {
+            rateWidth = width / maxWidth;
+            rateHeight = height / maxHeight;
+
+            if( rateWidth > rateHeight )
+            {
+                param.width =  maxWidth;
+                param.height = Math.round(height / rateWidth);
+            }else
+            {
+                param.width = Math.round(width / rateHeight);
+                param.height = maxHeight;
+            }
+        }
+
+        param.left = Math.round((maxWidth - param.width) / 2);
+        param.top = Math.round((maxHeight - param.height) / 2);
+        return param;
+    }
+</script>
+</html>

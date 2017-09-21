@@ -1,0 +1,157 @@
+<style>
+    .cartlist{color: black;height: 80px;}
+    .cartlist a{color: black;display:inline-block;line-height: 80px;height: 80px;}
+    .cartlist a span{color: black;display:inline-block;line-height: 80px;height: 80px;margin: 0 5px;}
+    .cartlist span img{margin-top: 10px;vertical-align: middle;width: 50px;height: 50px; }
+</style>
+<script type="text/javascript">
+    $(function(){
+        $('.cart_bd').mouseenter(function(){
+            $.post('{:U("Home/MyCart/getcartlist")}',function(res){
+                var str='';
+                var totalprice=0;
+                if(res.info){
+                    for(var i in res.info){
+                        str+='<dd class="cartlist">';
+                        str+='<a href="'+'{:U("Home/Order/goodsdetail")}?gid='+res.info[i]['gid']+'">';
+                        str+='<span><img src="/Uploads/'+res.info[i].imageurl+'/'+'100_'+res.info[i].imagename+'"/></span>';
+                        str+='<span style="height: 80px;line-height: 80px;">'+res.info[i].goodsname.substr(1,6)+'</span>';
+                        str+='<span>'+res.info[i].ml+'ml</span>';
+                        str+='<span>￥'+res.info[i].saleprice+'*'+res.info[i].buynum+'</span>';
+                        str+='<span>'+res.info[i].sumprice+'元'+'</span>';
+                        str+='</a>';
+                        str+= "<a href=javascript:; class='deletecart' style='color:black;' cid=" +res.info[i]['id']+">删除</a>";
+                        str+='</dd>';
+                        totalprice=totalprice+parseInt(res.info[i].sumprice);
+                    }
+                }
+                if(res.info==''){
+                       str='<dd class="message1" style="height: 40px;margin-top: 20px;line-height:40px;margin-left:30px;background: url(__PUBLIC__/Home/images/settleup-nogoods.png) no-repeat">购物车内暂无商品，赶紧选购吧!</dd>';
+                }
+
+                $('.good_cart').text(res.info.length);
+                $('.totalgoods').html('共&nbsp;'+res.info.length+'&nbsp;件商品');
+                $('.message dl').html(str);
+                $('.total').html('共计:&nbsp;'+totalprice+'&nbsp;元');
+            },'json');
+        });
+
+        $('.deletecart').live('click',function(){
+             a=$(this);
+             id=$(this).attr('cid');
+            $.post('{:U("Home/MyCart/deletecart")}',{cid:id},function(respon){
+              if(respon.status){
+                 a.parent().hide();
+                 layer.msg('删除成功',{time:500});
+              }
+            })
+        })
+    })
+</script>
+<div class="fixedBox" >
+    <ul class="fixedBoxList">
+        <li class="fixeBoxLi user"><a id="user_btn" name="{$Think.session.mname}" > <span class="fixeBoxSpan iconfont icon-yonghu"></span> <strong>用户</strong></a> </li>
+        <li class="fixeBoxLi cart_bd" style="display:block;" id="cartboxs">
+            <p class="good_cart">0</p>
+            <span class="fixeBoxSpan iconfont icon-cart"></span> <strong><a href="{:U('Home/MyCart/tocart')}">购物车</a></strong>
+            <div class="cartBox">
+                <div class="bjfff">
+                </div>
+                <div class="message"  style="color: #808080">
+                    <dl class="dl">
+
+                    </dl>
+                    <span class="totalgoods"></span>
+                    <span class="total" style="margin:0 25px;"></span>
+                    <a class='tocart'  href='{:U("Home/MyCart/tocart")}' style="background-color: red;color: white;display:inline-block;width: 60px;height: 30px;border-radius:5px;margin-top: 0;line-height: 30px;">去购物车</a>
+                </div>
+            </div>
+        </li>
+
+        <li class="fixeBoxLi Service "> <span class="fixeBoxSpan iconfont icon-service"></span> <strong>客服</strong>
+            <div class="ServiceBox">
+                <div class="bjfffs"></div>
+                <dl onclick="javascript:;">
+                    <dt><img style="width:80px;height:60px" src="__PUBLIC__/Home/images/logo.png"></dt>
+                    <dd><strong>艳艳</strong>
+                        <p class="p1">9:00-22:00</p>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1932314889&site=qq&menu=yes">
+                            <img border="0" src="http://wpa.qq.com/pa?p=2:1932314889:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                    </dd>
+                </dl>
+                <dl onclick="javascript:;">
+                    <dt><img style="width:80px;height:60px" src="__PUBLIC__/Home/images/logo.png"></dt>
+                    <dd> <strong>贝贝</strong>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1875431157&site=qq&menu=yes">
+                            <img border="0" src="http://wpa.qq.com/pa?p=2:1932314889:51" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </li>
+
+        <li class="fixeBoxLi code cart_bd " style="display:block;" id="cartboxs">
+            <span class="fixeBoxSpan iconfont icon-erweima"></span> <strong>微信</strong>
+            <div class="cartBox">
+                <div class="bjfff"></div>
+                <div class="QR_code">
+                    <p><img src="__PUBLIC__/Home/images/2wm.png" width="150px" height="150px" style=" margin-top:10px;" /></p>
+                    <p>微信扫一扫，关注我们</p>
+                </div>
+            </div>
+        </li>
+
+        <li class="fixeBoxLi cart_bd" id="collectGoods" name="{$Think.session.mname}">
+            <div class="collect"></div>
+            <span class="fixeBoxSpan iconfont  icon-shoucang"></span> <strong >收藏</strong>
+        </li>
+        <li class="fixeBoxLi Home" id="footprint" name="{$Think.session.mname}"> <span class="fixeBoxSpan iconfont  icon-zuji"></span> <strong>足迹</strong> </a> </li>
+        <li class="fixeBoxLi Home" id="feedback" name="{$Think.session.mname}"> <span class="fixeBoxSpan iconfont  icon-fankui"></span> <strong>反馈</strong> </a> </li>
+        <li class="fixeBoxLi BackToTop"> <span class="fixeBoxSpan iconfont icon-top"></span> <strong>返回顶部</strong> </li>
+    </ul>
+</div>
+<script>
+    //点击用户，如果没有登录，则跳到登录页面
+    $(function(){
+        $('#user_btn').click(function(){
+            var session1=$(this).attr('name');
+            //alert(session);
+            if(!session1){
+                    location="{:U('Home/Login/Login')}";
+            }else{
+                location="{:U('Home/Member/index')}";
+            }
+        });
+        /*点击收藏   如果是登录状态跳到用户中心  否则跳到登录页*/
+        $('#collectGoods').click(function(){
+            var session=$(this).attr('name');
+            if(!session){
+                    location.href="{:U('Home/Login/Login')}";
+            }else{
+                location.href="{:U('Home/Member/showCollect')}";
+            }
+        });
+
+
+        /*点击反馈*/
+        $('#feedback').click(function(){
+            var session=$(this).attr('name');
+            if(!session){
+                    location.href="{:U('Home/Login/Login')}";
+            }else{
+                location.href="{:U('Home/Feedback/index')}";
+            }
+        })
+    });
+
+/*点击足迹*/
+    $('#footprint').click(function(){
+        var session=$(this).attr('name');
+        if(!session){
+                location.href="{:U('Home/Login/Login')}";
+        }else{
+            location.href="{:U('Home/Footprint/footprint')}";
+        }
+    });
+
+</script>

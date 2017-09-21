@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+/*购物车的内容*/
+.shoppingMain{padding:70px 0 50px 0;width:985px;/*transform:translate(50%,0);*/margin: 0 auto;}
+.shoppingMain .title{background:url(../images/sc-ul.png) no-repeat;height:35px;margin-bottom: 20px;}
+.shoppingMain .title li{float:left;height:35px;width:328px;background: #ee2737;}
+.shoppingMain .title li p{line-height:35px;font-size:15px;color:#858585;color:#fff;}
+.shoppingMain .title li p span{padding:0 40px 0 20px;}
+/*.shoppingMain .title li.xuanzhong{background:url(../images/sc-hover.png);}*/
+.shoppingMain .title li.xuanzhong a p{color:#fff;}
+.shoppingMain .title li p.mycar{background: url(../images/shopcar1.png) no-repeat 35px 8px;}
+.shoppingMain .title li p.write{background: url(../images/write1.png) no-repeat 35px 8px;}
+.shoppingMain .title li p.pay{background: url(../images/sc-zhifu1.png) no-repeat 35px 8px;}
+.shoppingMain .myCar{border:1px solid #cccccc;padding: 30px;}
+.shoppingMain .myCar .success{height: 140px;background: #f3f3f3;padding: 5px;text-align:center;}
+.shoppingMain .myCar .success h3{font-size: 18px;font-weight: bold;color: #cc0000;padding-top: 35px;background: url(../images/nike.gif) no-repeat 300px 35px;}
+.shoppingMain .myCar .success .p1{font-size: 14px;padding-top: 10px;}
+.shoppingMain .myCar .success .p1 span{color:#f00;}
+.shoppingMain .myCar .success .p2{font-size: 14px;padding-top: 10px;}
+.shoppingMain .myCar .success .p2 span{color:#f00;}
+.shoppingMain .myCar .pay1{height: 184px;border: 1px solid #e6e6e6;margin-top: 30px;margin-bottom: 36px;}
+.shoppingMain .myCar .pay1 .chir_pay{height: 42px;background: #000;}
+.shoppingMain .myCar .pay1 .chir_pay a{width: 108px;height: 42px;display: inline-block;line-height: 42px;text-align: center; font-size: 14px;color: #fff;}
+.shoppingMain .myCar .pay1 .chir_pay .ac{background: #ee2932;}
+.shoppingMain .myCar .pay1 .chir_pay a:hover{background: #ee2932;}
+.shoppingMain .myCar .pay2{height: 50px;line-height: 50px;padding-left: 63px;}
+.shoppingMain .myCar .pay2 span{width: 12px;height: 12px;display: inline-block; background: #ee2737;}
+.shoppingMain .myCar .pay3{height: 90px;background: #fffcdb;}
+.shoppingMain .myCar .pay3 ul{padding-top: 30px;padding-left: 45px;}
+.shoppingMain .myCar .pay3 ul li{width: 105px;height: 35px;float: left;margin-right: : 16px;}
+.shoppingMain .myCar .pay3 input{margin-top: 12px;}
+.shoppingMain .myCar .pay3 ul li img{border: 1px solid #e6e6e6;}
+.shoppingMain .myCar p.p3{text-align: center;font-size: 14px;color: #cc0000;margin-bottom: 28px;}
+.shoppingMain .myCar .input1{height: 52px;width: 212px;margin-left: 356px;background: #ee2737;color: #fff;font-size: 14px;font-weight: bold;border: none;cursor: pointer;}
+/*footer样式*/
+.footer{text-align: center;}
+.footer ul{width:860px;margin: 0 auto;padding:15px 0px;margin-bottom:10px;border-bottom:1px solid #c3c3c3;}
+.footer ul li{width:190px;height: 65px;display: inline-block;}
+.footer ul li p{width: 70px;height: 65px;float: left;}
+.footer ul li h2{text-align: left;padding-top:10px;font-size: 18px;}
+.footer ul li h2 span{font-size: 14px;}
+.footer ul li.fli2{margin-left:150px; }
+.footer ul li.fli3 {margin-left:130px; }
+.footer ul li.fli1 p{background: url(../images/footer1.png) no-repeat;}
+.footer ul li.fli2 p{background: url(../images/footer2.png) no-repeat;}
+.footer ul li.fli3 p{background: url(../images/footer3.png) no-repeat;}
+.footer h3 img{margin:5px;}

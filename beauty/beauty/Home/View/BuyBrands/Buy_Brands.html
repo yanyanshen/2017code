@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="__PUBLIC__/Home/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Home/fonts/iconfont.css" rel="stylesheet" type="text/css" />
+    <script src="__PUBLIC__/Home/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/common_js.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/footer.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/Home/js/lrtk.js" type="text/javascript"></script>
+<title>限时团购</title>
+    <style>
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;
+            border: 1px solid #c2d2d7;
+        }
+        #page a:hover{
+            background: #333;
+            color:#fff;
+        }
+
+        #page span{
+            background: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<!--顶部图层-->
+<include file="public/header"/>
+<div class="Product_carousel" id="">
+    <div class="hd">
+        <ul><li></li><li></li><li></li></ul>
+    </div>
+    <div class="bd">
+        <ul>
+            <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/images/png1.jpg);
+                 background-repeat:no-repeat; background-position:center; height:437px; background-color:#FFF"></div></a></li>
+            <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/images/png.jpg);
+                 background-repeat:no-repeat; background-position:center; height:437px; background-color:#a1e2ff">
+
+            </div></a></li>
+            <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/AD_img/AD-111.jpg); background-repeat:no-repeat; background-position:center; height:437px; background-color:#FEF4E8"></div></a></li>
+        </ul>
+    </div>
+    <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+    <a class="prev" href="javascript:void(0)"></a>
+    <a class="next" href="javascript:void(0)"></a>
+</div>
+<script type="text/javascript">
+    jQuery(".Product_carousel").slide({mainCell:".bd ul",autoPlay:true});
+</script>
+<!--品牌团购样式-->
+ <div class="Inside_pages">
+  <div class="buy_brands">
+  <!--品牌-->
+    <!--团购列表-->
+    <div class="buy_brands_list">
+    <div class="title_name"><img src="__PUBLIC__/Home/images/title_buy_06.png" /></div>
+        <ul class="p_sell">
+            <volist name="list" id="date" empty="$empty">
+                    <input class="input" type="hidden" restTime="{$date['restTime']}"/>
+                    <script>
+                        var a=parseInt('{$i-1}');
+                        function timer(a){
+                            var ts = $(".input").eq(a).attr('restTime'); //设置目标时间，并计算剩余的毫秒数
+                            var dd = parseInt(ts/60/60/24);  //计算剩余天数
+                            var today=new Date();
+                            var hh=today.getHours();
+                            var mm=today.getMinutes();
+                            var ss=today.getSeconds();
+                            $('.times').eq(a).text('还剩'+dd+'天'+parseInt(24-hh)+'小时'+parseInt(60-mm)+'分'+parseInt(60-ss)+'秒');
+                        }
+                        setInterval('timer(parseInt("{$i-1}"))',1000); // 每隔1S执行一次
+                    </script>
+                    <li>
+                        <div class="img" style="width:160px; height:210px" >
+                            <img src="/Uploads/{$date.imageurl}500_{$date.imagename}" style="width:160px; height:190px" ></div>
+                        <div class="name">{$date.goodsname}</div>
+                        <div class="price">
+                            <table border="0" style=" color:#888888;" cellspacing="0" cellpadding="0">
+                                  <tbody><tr style="font-family:'宋体';">
+                                    <td style="width: 33%">原价:￥{$date.saleprice} </td><td style="width: 30%">{$date.salenum}人已参加</td>
+                                  </tr>
+                                  <tr style="color: #ff0000;border: 1px solid red">
+                                    <td style="color: #ff0000;border: 1px solid red"></td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="ch_bg">
+                            <span class="ch_txt"><font>团购价￥{$date.groupprice}</font></span>
+                            <a href="{:U('BuyBrands/groupdetail',array('gid'=>$date['id'],'tuan'=>$date['groupprice']))}" class="ch_a">查看</a>
+                        </div>
+                        <div class="times" style="margin-top: 20px;color: #000000;font-size: 14px"></div>
+                    </li>
+            </volist>
+        </ul>
+        <div id="page">{$page}</div>
+    </div>
+
+  <!--底部图层-->
+<include file="public/right"/>
+   <!--右侧菜单栏购物车样式-->
+<include file="public/footer"/>
+
+</body>
+</html>

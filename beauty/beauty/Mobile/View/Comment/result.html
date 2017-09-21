@@ -1,0 +1,25 @@
+<div class="commentlist">
+    <ul>
+        <li  style="width: 25%;">图片名称</li>
+        <li  style="width: 30%;">评价内容</li>
+        <li  style="width: 10%;">类别</li>
+        <li  style="width: 25%;">回复内容</li>
+        <li  style="width: 10%;">操作</li>
+    </ul>
+    <volist name="commentlist" id="list">
+        <ul style="margin: 5px 0;width: 100%;height:120px;text-align: center;">
+            <li style="width: 25%;height: 120px;"><img src="/Uploads/{$list.imageurl}100_{$list.imagename}" alt="" style="margin: 0;padding: 0;"/><br/><span style="margin: 0;padding: 0;">{$list.ml}ml</span></li>
+            <li style="width: 30%;height: 120px;line-height: 120px;"><textarea name="" rows="3" style="margin: 0;padding:0;width: 100%;height: 115px;border: none;background-color: aliceblue" readonly>{$list.content}</textarea></li>
+            <li style="width: 10%;height: 120px;line-height: 120px;">{$list.costatus}</li>
+            <if condition="$list.respid eq 2">
+                <li style="width: 25%;height: 120px;line-height: 120px;"><textarea name=""  rows="3" style="margin: 0;padding:0;width: 100%;height: 115px;border: none;background-color: aliceblue" readonly>{$list.response}</textarea></li>
+                <else/>
+                <li style="width: 25%;height: 120px;line-height: 120px;"><textarea name=""  rows="3" style="margin: 0;padding:0;width: 100%;height: 115px;border: none;background-color: aliceblue;" readonly>卖家还未做出回复</textarea></li>
+            </if>
+            <li style="width: 10%;height: 120px;line-height: 120px;">删除</li>
+        </ul>
+    </volist>
+    <div>
+        {$page}
+    </div>
+</div>

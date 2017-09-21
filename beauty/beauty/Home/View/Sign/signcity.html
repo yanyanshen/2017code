@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>beauty</title>
+    <style>
+        #test {
+            margin:0 auto;font-size: 16px;font-style: italic;position: absolute;
+            width: 192px;height: 105px;color: red;line-height: 30px ;
+            word-spacing: 5px;
+            top: 0px;left: 750px;
+            overflow:hidden;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<!--顶部图层-->
+<div id="header_top">
+    <!--头部-->
+    <include file="public/header"/>
+    <div class="Product_carousel" id="">
+        <div class="hd">
+            <ul><li></li><li></li><li></li></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/images/jinbi.jpg);
+                 background-repeat:no-repeat; background-position:center; height:437px; background-color:#FFF"></div></a></li>
+                <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/images/jinbi1.jpg); background-repeat:no-repeat; background-position:center; height:437px; background-color:#a1e2ff"></div></a></li>
+                <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/AD_img/AD-111.jpg); background-repeat:no-repeat; background-position:center; height:437px; background-color:#FEF4E8"></div></a></li>
+            </ul>
+        </div>
+        <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+        <a class="prev" href="javascript:void(0)"></a>
+        <a class="next" href="javascript:void(0)"></a>
+    </div>
+    <script type="text/javascript">
+        jQuery(".Product_carousel").slide({mainCell:".bd ul",autoPlay:true});
+    </script>
+<!--产品列表-->
+<div class="Inside_pages clearfix">
+    <div class="must_list like_p">
+        <img style="margin:0 auto;position: absolute;margin-left: 400px"  src="__PUBLIC__/Home/images/jin.png" />
+        <div style="margin:0 auto;text-align: center;font-size: 30px;font-style: italic;
+        border:dotted #a9a9a9 1px;width: 280px;height: 50px;opacity: 0.7;color: black;line-height: 50px ">
+            欢迎来到金币商城</div>
+        <div style="margin:0 auto;text-align: center;font-size: 30px;font-style: italic;
+        border:dotted #a9a9a9 1px;width: 280px;height: 50px;color: red;line-height: 50px ">
+            <a id="cj" style="color: red; " name="{$Think.session.mname}"  href="javascript:;">抽奖有礼</a>
+        </div>
+        <div id="test" >
+            <div id="test1">
+                欢迎来到金币商城！！！<br>
+                您的金币钱包空了吧？<br>
+                快点登录到金币商城<br>
+                点击左边的抽奖有礼！！！<br>
+                金币快速拿到手！！！<br>
+                每天三次机会！！！<br>
+                金币多多！！！<br>
+                机会多多哦！！！<br>
+                <img style="vertical-align: middle" src="__PUBLIC__/Home/images/jin.png" alt=""/>
+            </div>
+            <div id="test2"></div>
+        </div>
+            <div class="list">
+                <ul class="list_style">
+                    <volist name="goods" id="date">
+                        <li class="p_info_u">
+                            <div class="p_info_content">
+                                <a href="{:U('Order/goodsdetail',array('gid'=>$date['id']))}" class="p_img">
+                                    <img style="width: 230px;height:220px" src="/Uploads/{$date.imageurl}300_{$date.imagename}">
+                                </a>
+                                <a href="{:U('Order/goodsdetail',array('gid'=>$date['id']))}" class="name">
+                                    {$date.goodsname}
+                                </a>
+                            </div>
+                            <div class="Numeral">
+                                <span class="price">{$date.saleprice}个金币</span>
+                                <span class="Sales">销量<i>{$date.salenum}</i>件</span>
+                            </div>
+                            <div class="Brands_logo">
+                                <if condition="$Think.session.mid gt 0">
+                                <a class="sign"  href="javascript:;" ml="{$date['ml']}" gid="{$date['id']}" price="{$date['saleprice']}" style="font-size: 25px;margin-top: 15px">
+                                立即兑换
+                                </a>
+                                    <else/>
+                                    <a class="sign"  href="{:U('Login/Login')}" ml="{$date['ml']}" gid="{$date['id']}" price="{$date['saleprice']}" style="font-size: 25px;margin-top: 15px">
+                                        立即兑换
+                                    </a>
+                                </if>
+                            </div>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+            <div class="Paging">
+                <div class="Pagination"></div>
+            </div>
+        </div>
+        <!--底部图层-->
+        <include file="public/footer"/>
+        <!--底部-->
+        <!--右侧菜单栏购物车样式-->
+        <include file="public/right"/>
+</div>
+</div>
+</div>
+</body>
+</html>
+<script>
+    $(function(){
+        $('.sign').click(function(){
+            var gid=$(this).attr('gid');
+            var price=$(this).attr('price');
+            $.get('{:U("sign/addOrder")}?gid='+gid+'&price='+price,function(res){
+                if(res.status==0){
+                    layer.msg('您的积分余额不足',{icon:2},{time:500});
+                }else{
+                   location="{:U('Sign/showOrder')}?oid="+res.info;
+                }
+            })
+        })
+    })
+</script>
+
+<script>
+    $(function(){
+        $('#cj').click(function(){
+            var session1=$(this).attr('name');
+            if(!session1){
+                location="{:U('Home/Login/Login')}";
+            }else{
+                layer.open({
+                    type:2,
+                    shade:false,
+                    title:"抽奖有礼，每日三次，快来试试手气吧！！！",//false为不显示标题
+                    area:["600px",'600px'],
+                    content:"{:U('Home/Lucky/index')}"
+                });
+            }
+
+        });
+    })
+
+
+    $(function(){
+        $('#sign').click(function(){
+            var session1=$(this).attr('name');
+            //alert(session);
+            if(!session1){
+                location="{:U('Home/Login/Login')}";
+            }else{
+                location="{:U('Home/Sign/sign')}";
+            }
+        });
+    })
+
+
+    var test=document.getElementById("test");
+    var test1=document.getElementById("test1");
+    var test2=document.getElementById("test2");
+
+    test2.innerHTML=test1.innerHTML;
+    function move(){
+        if(test1.offsetHeight - test.scrollTop <= 0){
+            test.scrollTop-=test1.offsetHeight;
+        }
+        test.scrollTop++;
+
+        //window.document.title=test.scrollTop+",test1.offsetTop="+test2.offsetTop;
+    }
+
+    setInterval("move()", 50);
+
+</script>

@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>女士专区</title>
+    <style>
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;
+            border: 1px solid #c2d2d7;
+        }
+        #page a:hover{
+            background: #333;
+            color:#fff;
+        }
+
+        #page span{
+            background: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<!--顶部图层-->
+ <div id="header_top">
+<!--头部-->
+     <include file="public/header"/>
+<!--头部-->
+<!--菜单导航样式-->
+ <!--产品列表-->
+    <!-- 轮播图-->
+     <div class="Product_carousel" id="">
+         <div class="hd">
+             <ul><li></li><li></li><li></li></ul>
+         </div>
+         <div class="bd">
+             <ul>
+                 <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/images/png1.jpg);
+                 background-repeat:no-repeat; background-position:center; height:437px; background-color:#FFF"></div></a></li>
+                 <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/images/png.jpg);
+                 background-repeat:no-repeat; background-position:center; height:437px; background-color:#a1e2ff">
+
+                 </div></a></li>
+                 <li><a href="#"><div style="background-image: url(__PUBLIC__/Home/AD_img/AD-111.jpg); background-repeat:no-repeat; background-position:center; height:437px; background-color:#FEF4E8"></div></a></li>
+             </ul>
+         </div>
+         <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+         <a class="prev" href="javascript:void(0)"></a>
+         <a class="next" href="javascript:void(0)"></a>
+     </div>
+     <script type="text/javascript">
+         jQuery(".Product_carousel").slide({mainCell:".bd ul",autoPlay:true});
+     </script>
+
+  <div class="Inside_pages clearfix">
+
+   <div class="must_list like_p">
+       <div style="text-align: center;font-size: 25px;font-style: italic;opacity: 0.7;color: red;line-height: 50px ">
+           女士专区</div>
+       <div class="list">
+          <ul class="list_style">
+              <volist name="goodsInfo" id="date">
+                   <li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="{:U('Order/goodsdetail',array('gid'=>$date['id']))}" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/{$date.imageurl}300_{$date.imagename}"></a>
+                    <a href="{:U('Order/goodsdetail',array('gid'=>$date['id']))}" class="name">{$date.goodsname}</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>{$date.saleprice}</span><span class="Sales">销量<i>{$date.salenum}</i>件</span></div>
+                    <div class="Brands_logo"><a href="{:U('BrandGoods/showBrand',array('bid'=>$date['bid']))}"><img src="/Upload/logo{$date.blogopath}{$date.blogoname}"  width="130"/></a></div>
+                   </li>
+              </volist>
+          </ul>
+        </div>
+       <div id="page">{$page}</div>
+        <div class="Paging">
+            <div class="Pagination"></div>
+
+        </div>
+
+   </div>
+  <!--底部图层-->
+<include file="public/footer"/>
+<!--底部-->
+   <!--右侧菜单栏购物车样式-->
+      <include file="public/right"/>
+</div>
+</body>
+</html>

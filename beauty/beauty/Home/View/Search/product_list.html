@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/Home/css/common.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Home/fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<script src="__PUBLIC__/Home/js/jquery.min.1.8.2.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/common_js.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/footer.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/lrtk.js" type="text/javascript"></script>
+<title>产品列表</title>
+    <style>
+        .box{
+            width:1200px;
+            margin:0px auto;
+        }
+        #span{
+            font-size: 13px;color: orangered;
+        }
+        .span{
+            font-size: 12px;color: dimgray;
+        }
+        .span1{
+            font-size: 15px;color: red;font-weight: bolder;
+        }
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;  border: 1px solid #c2d2d7;
+        }
+        #page a:hover{  background: #333;  color:#fff;  }
+        #page span{background: #333;  color: #fff;  font-weight: bold;  }
+        .actived{color:#fff;background: #FF4A4A;width: 70px;border-radius: 5px;}
+
+
+        .gl-item.hover {
+            border: 1px solid #ddd;
+            z-index: 1;
+            border-color: #E9E9E9;
+            -webkit-box-shadow: 0 0 2px 2px #F8F8F8;
+            -moz-box-shadow: 0 0 2px 2px #f8f8f8;
+            box-shadow: 0 0 2px 2px #F8F8F8;
+        }
+
+
+        .em{
+            border: 1px solid #ddd;
+            z-index: 1;
+            border-color: #E9E9E9;
+            -webkit-box-shadow: 0 0 2px 2px #F8F8F8;
+            -moz-box-shadow: 0 0 2px 2px #f8f8f8;
+            box-shadow: 0 0 2px 2px #F8F8F8;
+        }
+    </style>
+</head>
+<script>
+<!--
+ //点击效果start
+
+ function infonav_more_up(index){
+  var infonav_height = 85;
+  $("div[class='p_f_name infonav_hidden']").eq(index).animate({height:infonav_height});
+  $(".infonav_more").eq(index).replaceWith('<p class="infonav_more"> <a class="more" onclick="infonav_more_down('+index+');' +
+  'return false;" href="javascript:">更多<em class="pullup"></em></a></p>');
+ }
+ function onclick(event) {
+  info_more_down();
+ return false;
+ }
+
+
+
+</script>
+
+
+
+
+<body>
+<!--顶部图层-->
+ <div id="header_top">
+   <include file="public/header"/>
+<!--菜单导航样式-->
+</div>
+<!--内容样式-->
+<div class="Inside_pages">
+ <!--位置-->
+  <div class="Location_link">
+  <!--<em></em><a href="#">搜索条件</a>  &lt;<a href="#">{$keywords}</a>-->
+ </div>
+   <!--筛选样式-->
+   <div id="Filter_style">
+    <!--推荐-->
+    <div class="page_recommend">
+      <div class="hd"><em></em>今日推荐<ul></ul></div>
+      <div class="bd">
+       <ul>
+           <volist name="recommendGoods" id="date">
+        <li>
+         <div class="img"><a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['id']))}">
+             <img src="/Uploads/{$date.imageurl}{$date.imagename}" width="120" height="120" /></a></div>
+         <div class="pro_info">
+          <a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['id']))}">{$date.goodsname|substr=0,18}...</a>
+          <p class="Price">￥{$date.saleprice}</p>
+          <p class="Sales">热销：<b>{$date.salenum}</b>件</p>
+         </div>
+        </li>
+           </volist>
+       </ul>
+      </div>
+      <a class="next" href="javascript:void(0)"><em class="iconfont icon-left"></em></a>
+      <a class="prev" href="javascript:void(0)"><em class="iconfont icon-right"></em></a>
+    </div>
+    <script type="text/javascript">
+		jQuery(".page_recommend").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:4,trigger:"click"});
+		</script>
+  <div class="Filter">
+  <div class="Filter_list clearfix">
+   <div class="Filter_title"><span>品牌：</span></div>
+   <div class="Filter_Entire">
+       <if condition="$Think.session.moren1 eq 'moren1'">
+           <a class="actived" href="{:U('Search/index',array('moren1'=>'moren1'))}">全部</a>
+           <else/>
+           <a style="color:#000000;background-color: #f5f5f5" href="{:U('Search/index',array('moren1'=>'moren1'))}">全部</a>
+       </if>
+   </div>
+   <div class="p_f_name infonav_hidden">
+        <volist name="brands" id="date">
+           <p>
+                <a href="javascript:;">{$date['brandtype']}</a>
+               <volist name="date['child']" id="date">
+                   <if condition="$Think.session.bid eq $date['id']">
+                       <a class="actived" href="{:U('Search/index',array('bid'=>$date['id']))}">{$date['bname']}</a>
+                       <else/>
+                       <a href="{:U('Search/index',array('bid'=>$date['id']))}">{$date['bname']}</a>
+                   </if>
+               </volist>
+           </p>
+        </volist>
+   </div>
+   <p class="infonav_more"><a href="#" class="more" onclick="infonav_more_down(0);return false;">更多<em class="pullup"></em></a></p>
+  </div>
+  <div class="Filter_list clearfix">
+  <div class="Filter_title"><span>价格：</span></div>
+  <div class="Filter_Entire">
+      <if condition="$Think.session.moren2 eq 'moren2'">
+          <a class="actived" href="{:U('Search/index',array('moren2'=>'moren2'))}">全部</a>
+          <else/>
+          <a style="color:#000000;background-color: #f5f5f5" href="{:U('Search/index',array('moren2'=>'moren2'))}">全部</a>
+      </if>
+
+  </div>
+  <div class="p_f_name">
+      <if condition="($Think.session.low eq '0') AND ($Think.session.high eq '50')">
+            <a class="actived" href="{:U('Search/index',array('price'=>'0-50'))}">0-50</a>
+         <else/>
+            <a href="{:U('Search/index',array('price'=>'0-50'))}">0-50</a>
+      </if>
+      <if condition="($Think.session.low eq '50') AND ($Think.session.high eq '150')">
+          <a class="actived" href="{:U('Search/index',array('price'=>'50-150'))}">50-150</a>
+          <else/>
+          <a href="{:U('Search/index',array('price'=>'50-150'))}">50-150</a>
+      </if>
+      <if condition="($Think.session.low eq '150') AND ($Think.session.high eq '500')">
+          <a class="actived" href="{:U('Search/index',array('price'=>'150-500'))}">150-500</a>
+          <else/>
+          <a href="{:U('Search/index',array('price'=>'150-500'))}">150-500</a>
+      </if>
+
+      <if condition="($Think.session.low eq '500') AND ($Think.session.high eq '1000')">
+          <a class="actived" href="{:U('Search/index',array('price'=>'500-1000'))}">500-1000</a>
+          <else/>
+          <a href="{:U('Search/index',array('price'=>'500-1000'))}">500-1000</a>
+      </if>
+      <if condition="($Think.session.low eq '1000') AND ($Think.session.high eq '2000')">
+          <a class="actived" href="{:U('Search/index',array('price'=>'1000-2000'))}">1000-2000</a>
+          <else/>
+          <a href="{:U('Search/index',array('price'=>'1000-2000'))}">1000-2000</a>
+      </if>
+  </div>
+  </div>
+ </div>
+ </div>
+ <!--样式-->
+  <div  class="scrollsidebar side_green clearfix" id="scrollsidebar"> 
+  <div class="show_btn" id="rightArrow"><span></span></div>
+   <div class="page_left_style side_content"  >
+  <!--浏览记录-->
+   <div class="side_title"><a title="隐藏" class="close_btn"><span></span></a></div>
+   <div class=" side_list">
+   <div class="Record">
+     <div class="title_name">浏览记录</div>
+	 <ul>
+
+	 <volist name="footInfo" id="date">
+	  <li>
+	   <a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['gid']))}">
+	   <p><img src="/Uploads/{$date.imageurl}{$date.imagename}"></p>
+	   <p class="p_name">{$date.goodsname|substr=0,18}...</p>
+	   </a>
+	   <p><span class="p_Price left">价格:<b>￥{$date['saleprice']}</b></span><span class="p_Sales right">销量：{$date['salenum']}件</span></p>
+	  </li>
+     </volist>
+	 </ul>
+   </div>
+   <!--销售排行-->
+    <div class="pro_ranking">
+    <div class="title_name"><em></em>销量排行</div>
+    <div class="ranking_list">
+     <ul id="tabRank">
+         <volist name="sale" id="date" key="k">
+               <li class="t_p">
+              <em class="icon_ranking">{$k}</em>
+              <dt><h3><a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['id']))}">{$date['goodsname']}</a></h3></dt>
+              <dd class="clearfix">
+              <a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['id']))}">
+                  <img src="/Uploads/{$date['imageurl']}{$date['imagename']}" width="90" height="90" /></a>
+              <span class="Price">￥{$date['saleprice']}</span>
+              </dd>
+              </li>
+         </volist>
+     </ul>
+    </div>
+    </div>
+    <script type="text/javascript">
+	jQuery("#tabRank li").hover(function(){ jQuery(this).addClass("on").siblings().removeClass("on")},function(){ });
+    jQuery("#tabRank").slide({ titCell:"dt h3",autoPlay:false,effect:"left",delayTime:300 });	</script>
+    </div>
+  </div>
+  <div class="page_right_style">
+ <!--排序样式-->
+ <script type="text/javascript"> 
+$(function() { 
+//	$("#scrollsidebar").fix({
+//		float : 'left',
+//		//minStatue : true,
+//		skin : 'green',
+//		durationTime : 600
+//	});
+});
+
+
+
+
+
+
+</script>
+ <div id="Sorted" class="fixToTop">
+ <div class="Sorted">
+  <div class="Sorted_style">
+      <if condition="$Think.session.moren eq 'moren'">
+          <a  href="{:U('Search/index',array('moren'=>'moren'))}" class="actived">综合<i class="iconfont icon-pullup"></i></a>
+      <else/>
+          <a href="{:U('Search/index',array('moren'=>'moren'))}" >综合<i class="iconfont icon-pullup"></i></a>
+
+      </if>
+
+      <if condition="$Think.session.saledesc eq 'salenum'">
+            <a class="actived " href="{:U('Search/index',array('saledesc'=>'salenum'))}">
+                销量优先<i class="iconfont icon-pullup"></i>
+            </a>
+      <else/>
+          <a  href="{:U('Search/index',array('saledesc'=>'salenum'))}">销量优先<i class="iconfont icon-pullup"></i></a>
+      </if>
+
+
+      <if condition="$Think.session.pricedesc eq 'saleprice'">
+            <a class="actived" href="{:U('Search/index',array('pricedesc'=>'saleprice'))}">价格<i class="iconfont icon-pullup"></i></a>
+          <else/>
+
+          <a href="{:U('Search/index',array('pricedesc'=>'saleprice'))}">价格<i class="iconfont icon-pullup"></i></a>
+      </if>
+
+      <if condition="$Think.session.newGoods eq 'addtime'">
+            <a class="actived" href="{:U('Search/index',array('newGoods'=>'addtime desc'))}">新品<i class="iconfont icon-pullup"></i></a>
+          <else/>
+          <a  href="{:U('Search/index',array('newGoods'=>'addtime'))}">新品<i class="iconfont icon-pullup"></i></a>
+      </if>
+   </div>
+   <!--产品搜索-->
+   <div class="product_search">
+       <form action="{:U('Search/index')}" method="get">
+            <input name="keywords" type="text" class="search_text" value="{$keywords?$keywords:'面膜'}"
+                   onfocus="this.value=''" onblur="if(!value){value=defaultValue;}">
+            <input  type="submit" value=""   class="search_btn">
+       </form>
+   </div>
+   <!--页数-->
+
+   </div>
+ </div>
+ <!--结束-->
+ <!--产品列表样式-->
+ <div class="p_list  clearfix">
+
+   <ul>
+       <form action="" method="post" id="goods">
+       <volist name="list" id="date"  empty="$empty">
+           <input type="hidden" gid="{$date.id}" value="{$date.id}"/>
+            <li class="gl-item em">
+                <div class="Borders">
+                     <div class="img"><a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['id']))}">
+                         <img src="/Uploads/{$date['imageurl']}{$date['imagename']}" style="width:220px;height:220px"></a></div>
+                     <div class="Price"><b>¥{$date['saleprice']}</b><span>[¥49.01/500g]</span></div>
+                     <div class="name"><a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['id']))}">{$date['goodsname']|mb_substr=0,13,utf8}...</a></div>
+                     <div class="Review" style="display: inline">已有<a href="javascript:;">{$date['collectnum']}</a>人收藏&nbsp;&nbsp;</div>
+                    <div class="Review" style="display: inline">已有<a href="javascript:;">销量:{$date['salenum']}</a></div>
+                    <a href="javascript:;" class=" "><em></em></a>
+                     <div class="p-operate">
+                      <a href="javascript:;" id="collect" gid="{$date.id}" class="p-o-btn Collect"><em ></em>收藏</a>
+                     </div>
+                 </div>
+            </li>
+       </volist>
+       </form>
+   </ul>
+
+   <div class="Paging">
+    <div class="Pagination" id="page">
+        {$page}
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<include file="public/footer"/>
+   <!--右侧菜单栏购物车样式-->
+<include file="public/right"/>
+</body>
+</html>
+<script>
+
+    $(function(){
+        $(".Collect").click(function(){
+            var gid=$(this).attr('gid');
+            $.get("{:U('Home/Collect/collectGoods')}",{gid:gid},function(res){
+                if(res.status==1){
+                    layer.msg('您已成功收藏该商品',{icon:1},function(){
+                        location='{:U("Search/index")}'
+                    });
+                }else{
+                    if(res.info=='该商品已经在收藏夹里哦'){
+                        layer.msg(res.info);
+                    }else if(res.info=='请先登录'){
+                        location.href='{:U("Login/Login")}'
+                    }
+                }
+            })
+        })
+    })
+</script>

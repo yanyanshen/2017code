@@ -1,0 +1,1487 @@
+[ 2016-11-30T11:12:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-30T11:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-30T11:12:21+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-30T11:12:26+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-30T11:12:30+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-30T11:12:30+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480475550',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0840s ]
+
+[ 2016-11-30T11:12:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480475550',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0570s ]
+
+[ 2016-11-30T11:12:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:32:20+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('9','产品列表','添加产品') [ RunTime:0.0020s ]
+SQL: SELECT `path` FROM `beauty_auth_rule` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_auth_rule` SET `path`='9,484' WHERE `id` = 484 [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:32:38+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:33:14+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 9  [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:33:28+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/editRule.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `path` FROM `beauty_auth_rule` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_auth_rule` SET `name`='Advertise/addGoods',`title`='产品列表',`pid`='9',`path`='9,484' WHERE `id` = 484 [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:33:39+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T14:33:48+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 9  [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:33:49+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/editRule.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT `path` FROM `beauty_auth_rule` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_auth_rule` SET `name`='Advertise/listGoods',`title`='产品列表',`pid`='9',`path`='9,484' WHERE `id` = 484 [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:34:55+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Advertise/addGoods') [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_auth_rule` SET `path`='485' WHERE `id` = 485 [ RunTime:0.0000s ]
+
+[ 2016-11-30T14:35:36+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:35:48+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 9  [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:35:52+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/editRule.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT `path` FROM `beauty_auth_rule` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_auth_rule` SET `name`='Admin/listGoods',`title`='产品列表',`pid`='9',`path`='9,484' WHERE `id` = 484 [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:36:13+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:36:36+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/getRuleByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `pid` = 9  [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:36:37+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/editRule.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT `path` FROM `beauty_auth_rule` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `beauty_auth_rule` SET `name`='Admin/Advertise/listGoods',`title`='产品列表',`pid`='9',`path`='9,484' WHERE `id` = 484 [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:37:27+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods') [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_auth_rule` SET `path`='486' WHERE `id` = 486 [ RunTime:0.0080s ]
+
+[ 2016-11-30T14:38:08+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:10+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:11+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:11+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:11+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:11+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:11+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:12+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:12+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:12+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0290s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:12+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:38:12+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+ERR: 1062:Duplicate entry 'Admin/Advertise/addGoods' for key 'name'
+ [ SQL语句 ] : INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','Admin/Advertise/addGoods')
+
+[ 2016-11-30T14:39:16+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-30T14:39:27+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-30T14:39:36+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('0','添加产品','123') [ RunTime:0.0020s ]
+SQL: UPDATE `beauty_auth_rule` SET `path`='487' WHERE `id` = 487 [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:40:36+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `id` = 485 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `path` LIKE '485%'  [ RunTime:0.0030s ]
+SQL: DELETE FROM `beauty_auth_rule` WHERE `path` LIKE '485%' [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:40:44+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `id` = 486 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `path` LIKE '486%'  [ RunTime:0.0010s ]
+SQL: DELETE FROM `beauty_auth_rule` WHERE `path` LIKE '486%' [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:40:57+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `id` = 487 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `path` LIKE '487%'  [ RunTime:0.0010s ]
+SQL: DELETE FROM `beauty_auth_rule` WHERE `path` LIKE '487%' [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:41:37+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_auth_rule` (`pid`,`title`,`name`) VALUES ('9','添加产品','Admin/Advertise/addGoods') [ RunTime:0.0000s ]
+SQL: SELECT `path` FROM `beauty_auth_rule` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_auth_rule` SET `path`='9,488' WHERE `id` = 488 [ RunTime:0.0010s ]
+
+[ 2016-11-30T14:44:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+SQL: UPDATE `beauty_admin` SET `username`='yanyan',`edittime`='1480488266' WHERE `id` = 7 [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_group_access` [ RunTime:0.0090s ]
+SQL: DELETE FROM `beauty_auth_group_access` WHERE `uid` = 7 [ RunTime:0.0010s ]
+SQL: INSERT INTO `beauty_auth_group_access` (`uid`,`group_id`) VALUES ('7','5') [ RunTime:0.0010s ]
+SQL: INSERT INTO `beauty_auth_group_access` (`uid`,`group_id`) VALUES ('7','6') [ RunTime:0.0020s ]
+SQL: INSERT INTO `beauty_auth_group_access` (`uid`,`group_id`) VALUES ('7','8') [ RunTime:0.0010s ]
+SQL: INSERT INTO `beauty_auth_group_access` (`uid`,`group_id`) VALUES ('7','10') [ RunTime:0.0010s ]
+SQL: INSERT INTO `beauty_auth_group_access` (`uid`,`group_id`) VALUES ('7','12') [ RunTime:0.0000s ]
+
+[ 2016-11-30T14:44:50+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/allocateRule.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_group` [ RunTime:0.0090s ]
+SQL: UPDATE `beauty_auth_group` SET `rules`='1,41,40,42,43,44,9,34,35,484,488,48,17,49,50' WHERE `id` = 5 [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:47:13+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_admin_nav` (`pid`,`navname`,`navurl`,`priority`) VALUES ('0','addGoods','Admin/Advertise/addGoods','703') [ RunTime:0.2600s ]
+SQL: UPDATE `beauty_admin_nav` SET `path`='58' WHERE `id` = 58 [ RunTime:0.0400s ]
+
+[ 2016-11-30T14:47:36+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin_nav` SET `navname`='添加产品',`navurl`='Admin/Advertise/addGoods' WHERE `id` = 58 [ RunTime:0.0570s ]
+
+[ 2016-11-30T14:48:46+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delete
+
+[ 2016-11-30T14:48:54+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:delete
+
+[ 2016-11-30T14:51:11+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_admin_nav` (`pid`,`navname`,`navurl`,`priority`) VALUES ('9','添加产品','Admin/Advertise/addGoods','703') [ RunTime:0.0720s ]
+SQL: SELECT `path` FROM `beauty_admin_nav` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `beauty_admin_nav` SET `path`='9,59' WHERE `id` = 59 [ RunTime:0.0560s ]
+
+[ 2016-11-30T14:52:43+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `beauty_admin_nav` (`pid`,`navname`,`navurl`,`priority`) VALUES ('9','添加产品','Admin/Advertise/addGoods','700') [ RunTime:0.0510s ]
+SQL: SELECT `path` FROM `beauty_admin_nav` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `beauty_admin_nav` SET `path`='9,60' WHERE `id` = 60 [ RunTime:0.0730s ]
+
+[ 2016-11-30T14:53:32+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin_nav` SET `navname`='产品列表',`navurl`='Admin/Advertise/listGoods' WHERE `id` = 60 [ RunTime:1.1431s ]
+
+[ 2016-11-30T14:53:54+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/setPriority.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `beauty_admin_nav` SET `priority`='704' WHERE `id` = 60 [ RunTime:0.0560s ]
+
+[ 2016-11-30T14:54:40+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/setPriority.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `beauty_admin_nav` SET `priority`='700' WHERE `id` = 58 [ RunTime:0.0370s ]
+
+[ 2016-11-30T14:55:03+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/setPriority.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `beauty_admin_nav` SET `priority`='704' WHERE `id` = 58 [ RunTime:0.0610s ]
+
+[ 2016-11-30T14:55:29+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/setPriority.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `beauty_admin_nav` SET `priority`='705' WHERE `id` = 58 [ RunTime:0.3300s ]
+
+[ 2016-11-30T14:57:13+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/allocateRule.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_group` [ RunTime:0.0090s ]
+SQL: UPDATE `beauty_auth_group` SET `rules`='1,41,40,42,43,44,2,13,14,3,15,16,18,20,21,19,4,22,23,5,24,25,6,26,27,7,28,51,9,34,35,484,488,8,29,30,31,32,33,54,10,36,37,11,38,52,53,45,46,47,12,39,48,17,49,50,55,56,57' WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2016-11-30T14:57:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0110s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:32:02+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:32:03+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:32:26+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0070s ]
+
+[ 2016-11-30T16:32:27+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0060s ]
+
+[ 2016-11-30T16:32:31+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0070s ]
+
+[ 2016-11-30T16:32:40+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:32:40+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-30T16:35:02+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:35:02+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:36:43+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:36:44+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:36:45+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-30T16:36:46+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:36:47+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:36:47+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:36:49+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-30T16:36:49+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2016-11-30T16:37:46+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:37:46+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:37:47+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:37:47+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:16+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:38:16+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:38:16+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:16+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:17+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:33+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:33+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:38:44+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:38:44+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:53+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:53+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:59+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:38:59+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0040s ]
+
+[ 2016-11-30T16:39:54+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-30T16:39:55+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:39:55+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0030s ]
+
+[ 2016-11-30T16:47:00+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `id` = 484 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `path` LIKE '484%'  [ RunTime:0.0010s ]
+
+[ 2016-11-30T16:47:25+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `id` = 59 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `path` LIKE '59%'  [ RunTime:0.0020s ]
+
+[ 2016-11-30T16:48:32+08:00 ] 127.0.0.1 /index.php/Admin/Advertise/addGoods.html
+ERR: 模板不存在:./beauty/Admin/View/Advertise/addGoods.html
+
+[ 2016-11-30T16:48:48+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `id` = 59 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `path` LIKE '59%'  [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:00:54+08:00 ] 127.0.0.1 /index.php/Admin/Advertise/addGoods.html
+ERR: 模板不存在:./beauty/Admin/View/Advertise/addGoods.html
+
+[ 2016-11-30T18:00:55+08:00 ] 127.0.0.1 /index.php/Admin/Advertise/addGoods.html
+ERR: 模板不存在:./beauty/Admin/View/Advertise/addGoods.html
+
+[ 2016-11-30T18:01:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0060s ]
+
+[ 2016-11-30T18:01:32+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `path` LIKE '60%'  [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:01:54+08:00 ] 127.0.0.1 /index.php/Admin/AuthRule/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `id` = 484 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_auth_rule` WHERE `path` LIKE '484%'  [ RunTime:0.0010s ]
+
+[ 2016-11-30T18:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0040s ]
+
+[ 2016-11-30T18:17:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:18:27+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0210s ]
+
+[ 2016-11-30T18:18:27+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:18:27+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0030s ]
+
+[ 2016-11-30T18:25:14+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-30T18:25:30+08:00 ] 127.0.0.1 /index.php/Admin/Foote/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_foote` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_foote` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-30T18:31:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0080s ]
+
+[ 2016-11-30T18:35:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:36:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-30T18:36:54+08:00 ] 127.0.0.1 /index.php/Admin/Feedback/Admin/Feedback/index?time1=2016-11-23&time1=
+ERR: 非法操作:Admin
+
+[ 2016-11-30T18:39:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0110s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-30T19:32:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0060s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-11-30T19:54:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-30T19:54:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-30T19:54:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-11-30T19:54:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-30T19:54:21+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-30T19:54:21+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-11-30T19:54:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-30T19:54:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-30T19:54:43+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480506882',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0700s ]
+
+[ 2016-11-30T19:54:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-30T19:54:53+08:00 ] 127.0.0.1 /index.php/Admin/Advertise/operate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_advertise` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_advertise` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_advertise` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0510s ]
+
+[ 2016-11-30T19:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2016-11-30T19:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T19:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0040s ]
+
+[ 2016-11-30T19:59:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T19:59:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:05:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:05:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:07:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:07:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0030s ]
+
+[ 2016-11-30T20:07:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:07:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/clearCache.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-30T20:10:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0050s ]
+
+[ 2016-11-30T20:10:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0030s ]
+
+[ 2016-11-30T20:10:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/clearCache.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-30T20:10:50+08:00 ] 127.0.0.1 /index.php/Admin/Sale/clearCache.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-30T20:26:40+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-11-30T20:26:40+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:27:35+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 83  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:28:39+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\yunhe\beauty\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `beauty_golds` (`goodsname`,`score`,`marketprice`,`discount`,`saleprice`,`num`,`description`,`cid`,`bid`,`addtime`,`imageurl`,`imagename`) VALUES ('丸美眼霜正品新肌丝滑眼乳霜 淡化细纹提拉紧致眼部补水','0','334','0','234','24562','适合任何人群','83','8','1480508919','2016-11-30/','583ec5f739970.jpg') [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `beauty_gtype` [ RunTime:0.0090s ]
+SQL: INSERT INTO `beauty_gtype` (`ml`,`gid`) VALUES ('20','68') [ RunTime:0.0690s ]
+
+[ 2016-11-30T20:56:06+08:00 ] 127.0.0.1 /index.php/Admin/Order/sendGoods.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_order` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_order` SET `status`='3' WHERE `id` = 87 [ RunTime:0.0720s ]
+
+[ 2016-11-30T20:56:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:56:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0030s ]
+
+[ 2016-11-30T20:56:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0040s ]
+
+[ 2016-11-30T20:57:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T20:58:58+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0190s ]
+
+[ 2016-11-30T20:58:58+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:11:34+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:14:04+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:15:13+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:15:51+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:16:49+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:22:39+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:24:11+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:35:07+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:35:17+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:35:44+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:35:59+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:36:09+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=%E4%B8%B8%E7%BE%8E&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:37:48+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=%E4%B8%B8%E7%BE%8E&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:41:12+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=%E4%B8%B8%E7%BE%8E&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: where E:\php\yunhe\beauty\beauty\Admin\Controller\GoldsController.class.php 第 359 行.
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0100s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:41:31+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=%E4%B8%B8%E7%BE%8E&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: where E:\php\yunhe\beauty\beauty\Admin\Controller\GoldsController.class.php 第 359 行.
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+
+[ 2016-11-30T21:41:47+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=%E4%B8%B8%E7%BE%8E&bname=&cname=&time1=&time2=&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: where E:\php\yunhe\beauty\beauty\Admin\Controller\GoldsController.class.php 第 359 行.
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:42:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:42:43+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=2016-11-15&time2=2016-12-10&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: where E:\php\yunhe\beauty\beauty\Admin\Controller\GoldsController.class.php 第 359 行.
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0090s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0020s ]
+
+[ 2016-11-30T21:43:40+08:00 ] 127.0.0.1 /index.php/Admin/Golds/export.html?goodsname=&bname=&cname=&time1=2016-11-15&time2=2016-12-10&price1=&price2=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where E:\php\yunhe\beauty\beauty\Admin\Controller\GoldsController.class.php 第 359 行.
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0080s ]
+SQL: SELECT * FROM beauty_golds g,beauty_brands b,beauty_category c WHERE ( g.bid=b.id and g.cid=c.id )  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where E:\php\yunhe\beauty\beauty\Admin\Controller\GoldsController.class.php 第 362 行.
+
+[ 2016-11-30T21:44:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2016-11-30T21:45:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2016-11-30T21:45:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-11-30T21:45:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+

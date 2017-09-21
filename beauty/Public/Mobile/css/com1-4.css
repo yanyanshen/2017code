@@ -1,0 +1,45 @@
+html{color:#000;background:#fff;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;}
+body{ margin:0; padding:0}
+a{ text-decoration:none}
+
+.header{ height:1rem; background:#ff5000; width:6.4rem; margin:0 auto}
+.header a{ background:url(../images/v2header.png) no-repeat; background-size:1.88rem 1.64rem;}
+.header .logo{ display:block; width:1.88rem; height:1rem; float:left;background-position:top left;}
+.header .member{ display:block; width:0.4rem; height:0.45rem; float:right; margin:0.28rem 0.23rem 0 0; background-position:-0.08rem -1.18rem;}
+.header .search{ float:left; margin:0.18rem 0 0 0; width:3.67rem; height:0.64rem; background-color:#dd4500; -moz-border-radius:0.1rem;-webkit-border-radius:0.1rem;border-radius:0.1rem; text-align:center;}
+.header .search a{ display:inline-block; background-position:-1.41rem -1.18rem; height:0.39rem; line-height:0.39rem; font-size:0.28rem; padding-left:0.4rem; font-family:\5FAE\8F6F\96C5\9ED1; color:#fff; margin-top:0.13rem;}
+
+.footer{width:100%; margin:0; text-align:center; font-family:\5FAE\8F6F\96C5\9ED1; background:#fbfbfb;}
+.footer .nav{ height:0.74rem; line-height:0.74rem; background:#e5e5e5; font-size:0.22rem; color:#666;}
+.footer .nav a{color:#666; padding:0 0.32rem;}
+.footer .nav a:first-child{ overflow: hidden;white-space: nowrap;text-overflow: ellipsis; display:inline-block; vertical-align:middle;}
+.footer .nav a:first-child span{ display: block;width: 1.2rem; overflow: hidden;text-overflow: ellipsis;}
+.footer .copy{ color:#999; line-height:0.32rem; font-size:0.22rem; padding:0.4rem;}
+
+.comtitle{width:6.4rem; height:0.88rem; text-align:center; margin:0 auto; background:#ff5000; position:relative; z-index:1; }
+.comtitle b{ font-weight:normal; font-size:0.34rem;color:#fff; line-height:0.88rem}
+.comtitle a.back,
+.comtitle a.more{height:0.88rem; background:url(../images/v2comtitle.png) no-repeat; background-size:1.58rem 0.88rem; display:block;}
+.comtitle a.back{ float:left; width:0.68rem; background-position:left top; }
+.comtitle a.more{ float:right; width:0.8rem; background-position:right top; }
+.comtitle .morebox{ float:right; position:relative;}
+.comtitle .morebox div{ display:none;}
+.comtitle .morebox:hover div{ display:block; position:absolute; top:0.88rem; right:0.04rem; width:2.96rem; background:#292c33;-moz-border-radius:0.06rem;-webkit-border-radius:0.06rem;border-radius:0.06rem;}
+.comtitle .morebox div a,
+.comtitle .morebox div span{ display:block; background:url(../images/v2nav.png) no-repeat;background-size:0.5rem 3.74rem;}
+.comtitle .morebox div a{padding-left:0.9rem; height:0.87rem; line-height:0.87rem; font-size:0.3rem; font-family:\5FAE\8F6F\96C5\9ED1; text-align:left; color:#949599; border-bottom:1px solid #1f2126;}
+.comtitle .morebox div a.home{ background-position:0.2rem -0.23rem}
+.comtitle .morebox div a.search{ background-position:0.2rem -1.115rem}
+.comtitle .morebox div a.cart{ background-position:0.2rem -1.99rem}
+.comtitle .morebox div a.member{ background-position:0.2rem -2.87rem}
+.comtitle .morebox div a:last-child{ border-bottom:none}
+.comtitle .morebox div span{ position:absolute; top:-0.2rem; width:0.4rem; height:0.2rem; right:0.14rem; background-position:-0.03rem -0.03rem;}
+
+.comserch{width:6.4rem; height:088rem; text-align:center; margin:0 auto; background:#ff5000; }
+.comserch a.close{height:0.88rem; width:0.8rem; background:url(../images/v2close.png) center center no-repeat; background-size:0.8rem 0.88rem; display:block; float:left;}
+.comserch div{ float:left; width:5.32rem; height:0.62rem; border:1px solid #dd4500; background:#dd4500; margin-top:0.12rem; -moz-border-radius:0.1rem;-webkit-border-radius:0.1rem;border-radius:0.1rem;}
+.comserch input{ border:0px; padding:0; margin:0; font-size:0.3rem;height:0.62rem; color:#fff; font-family:\5FAE\8F6F\96C5\9ED1}
+.comserch input.button{ float:right;height:0.62rem;width:0.92rem; background-color:#ff5000;
+border-bottom-right-radius:0.1rem;-moz-border-radius-bottomright:0.1rem;-webkit-border-bottom-right-radius:0.1rem;
+border-top-right-radius:0.1rem;-moz-border-radius-topright:0.1rem;-webkit-border-top-right-radius:0.1rem;}
+.comserch input.text{ float:left; margin-left:0.16rem; width:4.12rem; padding:0; line-height:0.62rem;background:#dd4500;}

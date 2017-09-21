@@ -1,0 +1,282 @@
+@media screen and (max-width: 479px) and (min-width: 0px) {
+	.com-header-area header .logo,.com-header-area .seeked,.com-header-area .email,.com-header-area .me,.com-header-area .buy,.com-footer-area .freepostage dt,.com-footer-area .returngoods dt,.com-footer-area .top,.com-header-area .search .magnifier,.com-header-area .seek {
+		background: url('../images/bg.png') no-repeat;
+		background-size: 125px 150px;
+	}
+	/*设备宽度为479px以下时，头部适配如下*/
+	.com-header-area header {
+		height: 50px;
+	}
+	.com-header-area header {
+		background-position: 0 0;
+	}
+	.com-header-area .seek {
+		background-position: -0px -36px;
+	}
+	.com-header-area .seeked {
+		background-position: -64px -128px;
+	}
+	.com-header-area .email {
+		background-position: -31px -36px;
+	}
+	.com-header-area .me {
+		background-position: -63px -36px;
+	}
+	.com-header-area .buy {
+		background-position: -93px -36px;
+	}
+	.com-header-area .search {
+		height: 46px;
+	}
+	.com-header-area .input input {
+		height: 46%;
+		font-size: 0.875em;
+	}
+	.com-header-area .search .magnifier {
+		background-position: -43px -127px;
+	}
+	.com-header-area .prompt {
+		bottom: -60px;
+		height: 60px;
+	}
+	.com-header-area .prompt li {
+		font-size: 0.75em;
+	}
+	.com-header-area .number {
+		font-size: 0.75em;
+	}
+	/*头部适配到此结束*/
+	/*尾部公共部分适配*/
+	.com-footer-area .functionarea {
+		height: 40px;
+		margin: 10px 0 0 2.5%;
+	}
+	.com-footer-area .functionarea li {
+		font-size: 0.875em;
+	}
+	.com-footer-area .functionarea li a {
+		line-height: 30.5px;
+	}
+	.com-footer-area .freepostage,.com-footer-area .returngoods {
+		height: 58px;
+		margin-top: 10px;
+	}
+	.com-footer-area .freepostage dt {
+		background-position: -2px -84px;	
+	}
+	.com-footer-area .returngoods dt {
+		background-position: -44px -84px;	
+	}
+	.com-footer-area .freepostage dd p,.com-footer-area .returngoods dd p {		
+		font-size: 0.75em;
+	}
+	.com-footer-area .register {
+		height: 44px;
+		margin:  7px 0 0 25.1%;
+	}
+	.com-footer-area .edition {	
+		height: 44px;
+	}
+	.com-footer-area .register li a,.com-footer-area .edition li a {
+		font-size: 0.8125em;
+	}
+	.com-footer-area footer {
+		height: 30px;
+		margin: 9px 0 0 12%;
+		font-size: 0.8125em;
+		padding-bottom: 10px;
+	}
+	.com-footer-area .top {
+		height: 44px;
+		background-position: -80px -84px;	
+	}
+	/*尾部结束*/
+}
+@media screen and (max-width: 639px) and (min-width: 480px) {
+	.com-header-area header .logo,.com-header-area .seeked,.com-header-area .email,.com-header-area .me,.com-header-area .buy,.com-footer-area .freepostage dt,.com-footer-area .returngoods dt,.com-footer-area .top,.com-header-area .search .magnifier,.com-header-area .seek {
+		background: url('../images/bg.png') no-repeat;
+		background-size: 188px 225px;
+	}
+	/*设备宽度为639px以下和480px以上时，头部适配如下*/
+	.com-header-area header {
+		height: 75px;
+	}
+	.com-header-area header .logo {
+		background-position: 0 0;
+	}
+	.com-header-area .seek {
+		background-position: -0px -54px;
+	}
+	.com-header-area .seeked {
+		background-position: -96px -192px;
+	}
+	.com-header-area .email {
+		background-position: -46px -54px;
+	}
+	.com-header-area .me {
+		background-position: -94px -54px;
+	}
+	.com-header-area .buy {
+		background-position: -139px -54px;
+	}
+	.com-header-area .search {
+		height: 69px;
+	}
+	.com-header-area .input input {
+		height: 63%;
+		font-size: 1.3125em;
+	}
+	.com-header-area .search .magnifier {
+		background-position: -65px -191px;
+	}
+	.com-header-area .prompt {
+		bottom: -90px;
+		height: 90px;
+	}
+	.com-header-area .prompt li {
+		font-size: 1.125em;
+	}
+	.com-header-area .number {
+		font-size: 1.125em;
+	}
+	/*头部适配到此结束*/
+	/*尾部公共部分适配*/
+	.com-footer-area .functionarea {
+		height: 60px;
+		margin: 15px 0 0 2.5%;
+	}
+	.com-footer-area .functionarea li {
+		font-size: 1.3125em;
+	}
+	.com-footer-area .functionarea li a {
+		line-height: 45.75px;
+	}
+	.com-footer-area .freepostage,.com-footer-area .returngoods {
+		height: 87px;
+		margin-top: 15px;
+	}
+	.com-footer-area .freepostage dt {	
+		background-position: -3px -126px;
+	}
+	.com-footer-area .returngoods dt {
+		background-position: -66px -126px;
+	}
+	.com-footer-area .freepostage dd p,.com-footer-area .returngoods dd p {		
+		font-size: 1.125em;
+	}
+	.com-footer-area .register {
+		height: 66px;
+		margin:  11px 0 0 25.1%;
+	}
+	.com-footer-area .edition {	
+		height: 66px;
+	}
+	.com-footer-area .register li a,.com-footer-area .edition li a {
+		font-size: 1.21875em;
+	}
+	.com-footer-area footer {
+		height: 45px;
+		margin: 14px 0 0 12%;
+		font-size: 1.21875em;
+		padding-bottom: 15px;
+	}
+	.com-footer-area .top {
+		height: 65px;
+		background-position: -120px -126px;
+	}
+	/*尾部适配结束*/
+}
+@media screen and (max-width: 3000px) and (min-width: 640px) {
+	.com-header-area header .logo,.com-header-area .seeked,.com-header-area .email,.com-header-area .me,.com-header-area .buy,.com-footer-area .freepostage dt,.com-footer-area .returngoods dt,.com-footer-area .top,.com-header-area .search .magnifier,.com-header-area .seek {
+		background: url('../images/bg.png') no-repeat;
+	}
+	/*设备屏幕大于640px时，进行头部公共部分适配*/
+	.com-header-area header {
+		height: 100px;
+	}
+	.com-header-area header .logo {
+		background-position: 0 0;
+	}
+	.com-header-area .seek {
+		background-position: -0px -72px;
+	}
+	.com-header-area .seeked {
+		background-position: -128px -256px;
+	}
+	.com-header-area .email {
+		background-position: -62px -72px;
+	}
+	.com-header-area .me {
+		background-position: -126px -72px;
+	}
+	.com-header-area .buy {
+		background-position: -186px -72px;
+	}
+	.com-header-area .search {
+		height: 92px;
+	}
+	.com-header-area .input input {
+		height: 74%;
+		font-size: 1.75em;
+	}
+	.com-header-area .search .magnifier {
+		top: 21.4%;
+		background-position: -87px -255px;
+	}
+	.com-header-area .prompt {
+		bottom: -120px;
+		height: 120px;
+	}
+	.com-header-area .prompt li {
+		font-size: 1.5em;
+	}
+	.com-header-area .number {
+		font-size: 1.5em;
+	}
+	/*头部公共模块适配结束*/
+	/*尾部公共模块进行适配*/
+	.com-footer-area .functionarea {
+		height: 80px;
+		margin: 20px 0 0 2.5%;
+	}
+	.com-footer-area .functionarea li {
+		font-size: 1.75em;
+	}
+	.com-footer-area .functionarea li a {
+		line-height: 61px;
+	}
+	.com-footer-area .freepostage,.com-footer-area .returngoods {
+		height: 117px;
+		margin-top: 20px;
+	}
+	.com-footer-area .freepostage dt {
+		background-position: -4px -167px;
+	}
+	.com-footer-area .returngoods dt {
+		background-position: -88px -167px;
+	}
+	.com-footer-area .freepostage dd p,.com-footer-area .returngoods dd p {		
+		font-size: 1.5em;
+	}
+	.com-footer-area .register {
+		height: 88px;
+		margin:  15px 0 0 25.1%;
+	}
+	.com-footer-area .edition {	
+		height: 88px;
+	}
+	.com-footer-area .register li a,.com-footer-area .edition li a {
+		font-size: 1.625em;
+	}
+	.com-footer-area footer {
+		height: 52px;
+		margin: 18px 0 0 12%;
+		font-size: 1.625em;
+		padding-bottom: 20px;
+	}
+	.com-footer-area .top {
+		height: 86px;
+		background-position: -160px -167px;
+	}
+	/*尾部适配结束*/
+}

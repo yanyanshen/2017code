@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>待发货订单页</title>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<!--<script type="text/javascript" src="/Public/Pay/map/jquery.map"></script>-->
+<script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/editor/kindeditor.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/layer/layer.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/time/abc/timer/WdatePicker.js"></script>
+    <style type="text/css" >
+        #page a,#page span{display: inline-block; width:18px;height:18px ;  padding: 5px;  margin: 2px;  text-decoration: none;  text-align: center;  line-height: 18px;  background: #f0ead8;  color:#000000;  border: 1px solid #c2d2d7;  }
+        #page a:hover{background: #EDF6FA;color:#333;}
+        #page span{background: #333;color: #fff;font-weight: bold;}
+        #page div{float:right;}
+    </style>
+<script type="text/javascript">
+    KE.show({
+        id : 'content7',
+        cssPath : './index.css'
+    });
+  </script>
+
+    <script type="text/javascript">
+        $(function() {
+            $('.layer').click(function () {
+                var id=$(this).attr('gid');
+                $.post('/index.php/Admin/Order/sendGoods.html',{id:id},function(res){
+                    if(res.status==1){
+                        layer.msg('发货完成',{time:1000},function(){
+                            location="/index.php/Admin/Order/dfh.html";
+                        });
+                    }
+                })
+            })
+        });
+    </script>
+
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">订单管理</a></li>
+    </ul>
+    </div>
+    
+    <div class="formbody">
+    
+    
+    <div id="usual1" class="usual"> 
+    
+  
+     
+  	<div id="tab2" class="tabson">
+
+    <form action="/index.php/Admin/Order/index.html" method="get">
+    <ul class="seachform">
+    <li><label>订单编号</label><input name="keywords" type="text" style="width: 80px;height:25px;border: 1px solid #cccccc;" class="scinput" value=""/></li>
+        <li>
+            <label>创建时间：</label>
+            <input id="d11" type="text" onClick="WdatePicker()" style="width: 80px;height:25px;border: 1px solid #cccccc;" name="time1" />
+            <span style="display: inline-block;">-</span>
+            <input name="time2" class="Wdate" type="text" id="d15" onFocus="WdatePicker({isShowClear:false,readOnly:true})" style="width: 80px;height: 25px;border: 1px solid #cccccc;"/>
+        </li>
+        <li><label>&nbsp;</label><input name="" type="submit" class="scbtn" style="width: 80px;height:25px;" value="查询"/></li>
+        <li><label>&nbsp;</label><input name="" type="button" class="scbtn" id="exportdata" value="Excel表导出" style="width: 90px;height: 25px;margin:0;padding: 0;"/></li>
+    </ul>
+    </form>
+    
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th><input name="" type="checkbox" value="" checked="checked"/></th>
+        <th><i class="sort"><img src="/Public/Admin/images/px.gif" /></i>编号</th>
+        <th>用户名</th>
+        <th>订单序列号</th>
+        <th>订单价格</th>
+        <th>订单创建时间</th>
+        <th>订单详情</th>
+        <th>订单状态</th>
+        <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>1</td>
+            <td>beibei</td>
+            <td>480f83fd645b603</td>
+            <td>368</td>
+            <td>2016-12-02 08:52:38</td>
+            <td><a href="/index.php/Admin/Order/detial/oid/34.html">查看详情</a></td>
+            <td>已付款</td>
+            <td><a href="#" class="layer" style="color:#ef5b00;" gid="34">发货</a> </td>
+        </tr><tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>2</td>
+            <td>beibei</td>
+            <td>4c34dc50597ff46</td>
+            <td>79</td>
+            <td>2016-12-02 08:50:46</td>
+            <td><a href="/index.php/Admin/Order/detial/oid/33.html">查看详情</a></td>
+            <td>已付款</td>
+            <td><a href="#" class="layer" style="color:#ef5b00;" gid="33">发货</a> </td>
+        </tr><tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>3</td>
+            <td>baiwenfei</td>
+            <td>e1836b8d26c7f22</td>
+            <td>109</td>
+            <td>2016-12-01 20:20:07</td>
+            <td><a href="/index.php/Admin/Order/detial/oid/32.html">查看详情</a></td>
+            <td>已付款</td>
+            <td><a href="#" class="layer" style="color:#ef5b00;" gid="32">发货</a> </td>
+        </tr><tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>4</td>
+            <td>beibei</td>
+            <td>9c981f290cfa41a</td>
+            <td>79</td>
+            <td>2016-12-01 19:46:22</td>
+            <td><a href="/index.php/Admin/Order/detial/oid/26.html">查看详情</a></td>
+            <td>已付款</td>
+            <td><a href="#" class="layer" style="color:#ef5b00;" gid="26">发货</a> </td>
+        </tr><tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>5</td>
+            <td>beibei</td>
+            <td>a25c0baba594506</td>
+            <td>109</td>
+            <td>2016-12-01 19:19:13</td>
+            <td><a href="/index.php/Admin/Order/detial/oid/16.html">查看详情</a></td>
+            <td>已付款</td>
+            <td><a href="#" class="layer" style="color:#ef5b00;" gid="16">发货</a> </td>
+        </tr><tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>6</td>
+            <td>beibei</td>
+            <td>4ef4fe4a1f8e61c</td>
+            <td>49</td>
+            <td>2016-12-01 19:16:51</td>
+            <td><a href="/index.php/Admin/Order/detial/oid/15.html">查看详情</a></td>
+            <td>已付款</td>
+            <td><a href="#" class="layer" style="color:#ef5b00;" gid="15">发货</a> </td>
+        </tr><tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>7</td>
+            <td>chen</td>
+            <td>e6d37332278479f</td>
+            <td>312</td>
+            <td>2016-12-01 19:14:24</td>
+            <td><a href="/index.php/Admin/Order/detial/oid/10.html">查看详情</a></td>
+            <td>已付款</td>
+            <td><a href="#" class="layer" style="color:#ef5b00;" gid="10">发货</a> </td>
+        </tr>        </tbody>
+
+    </table>
+        <div id="page"><div>    </div></div>
+    </div>  
+       
+	</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>金币商品发布</title>
+<link href="__PUBLIC__/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/kindeditor/kindeditor-all.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        KindEditor.ready(function (K) {
+            K.create('#content7', {
+                allowFileManager: true,
+                afterBlur: function () {  //利用该方法处理当富文本编辑框失焦之后，立即同步数据
+                    this.sync("#content7");
+                }
+            });
+        });
+    })
+</script>
+  
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".select1").uedSelect({
+		width : 345			  
+	});
+	$(".select2").uedSelect({
+		width : 167  
+	});
+	$(".select3").uedSelect({
+		width : 100
+	});
+
+    /*添加分类三级联动*/
+    var getCate=function(pid,name){
+        $.post('{:U("Admin/Golds/getCateByPid")}',{pid:pid},function(res){
+            if(res.status){
+                var str='<option value="0" selected>请选择</option>';
+                for(var i in res.info){
+                    str+='<option value="'+res.info[i].id +'">' + res.info[i].cname+ '</option>';
+                }
+                $('select[name="'+name+'"]').html(str);
+                $('select[name="'+name+'"]').parent().find(".uew-select-text").text($('select[name="'+name+'"]').find(':selected').text());
+            }
+        })
+    };
+    getCate(0,'firstCate');
+
+    $('select[name="firstCate"]').change(function(){
+        getCate($(this).find(':selected').val(),'secondCate');
+        $(this).parents('.vocation').next('.vocation').show();
+        $('select[name="thirdCate"]').empty().parents('.vocation').hide();
+    });
+
+    $('select[name="secondCate"]').change(function(){
+        getCate($(this).val(),'thirdCate');
+        $(this).parents('.vocation').next('.vocation').show();
+    });
+});
+</script>
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">商品管理</a></li>
+    <li><a href="#">商品发布</a></li>
+    </ul>
+    </div>
+    
+    <div class="formbody">
+    <div id="usual1" class="usual"> 
+  	<div id="tab1" class="tabson">
+ 
+    
+    <ul class="forminfo">
+    <li><label>商品名称<b>*</b></label><input name="" type="text" class="dfinput" value="请添加商品名称"  style="width:518px;"/></li>
+        <li><label>商品分类<b>*</b></label>
+            <div class="vocation">
+                <select class="select2" name="firstCate">
+                </select>
+            </div>
+            <div class="vocation" style="display:none">
+                <select class="select2" name="secondCate" >
+
+                </select>
+            </div>
+            <div class="vocation" style="display:none">
+                <select class="select2" name="thirdCate" >
+                </select>
+            </div>
+        </li>
+        <li><label>商品品牌<b>*</b></label><input name="bname" type="text" class="dfinput" value="{$val.bname}" style="width:345px;"></li>
+        <li><label>商品积分<b>*</b></label><input name="score" type="text" class="dfinput" value="{$val.score}" style="width:345px;"></li>
+        <li><label>市场价格<b>*</b></label><input name="marketprice" type="text" class="dfinput" value="{$val.marketprice}" style="width:345px;"></li>
+        <li><label>折扣价格<b>*</b></label><input name="discount" type="text" class="dfinput" value="{$val.discount}" style="width:345px;"></li>
+        <li><label>销售价格<b>*</b></label><input name="saleprice" type="text" class="dfinput" value="{$val.saleprice}" style="width:345px;"></li>
+        <li><label>库存<b>*</b></label><input name="num" type="text" class="dfinput" value="{$val.num}" style="width:345px;"></li>
+        <li>
+            <label>商品主图<b>*</b></label>
+            <input name="pic[]" type="file"  value=""  style="width:345px;margin-top:10px; "/>
+        </li>
+        <li><label>商品副图<b>*</b></label>
+            <input name="pic[]" type="file"  value=""  style="width:345px;margin-top:10px; "/>
+            <input name="pic[]" type="file"  value=""  style="width:345px;margin-top:10px; "/>
+            <input name="pic[]" type="file"  value=""  style="width:345px;margin-top:10px; "/>
+            <input name="pic[]" type="file"  value=""  style="width:345px;margin-top:10px; "/>
+        </li>
+        <li><label>商品详情<b>*</b></label>
+            <textarea id="content7" name="detail" style="width:700px;height:250px;visibility:hidden;"></textarea>
+        </li>
+        <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="马上发布"/></li>
+    </ul>
+        </form>
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
+

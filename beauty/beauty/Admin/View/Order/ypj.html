@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>已评价订单页</title>
+<link href="__PUBLIC__/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/select-ui.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/editor/kindeditor.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/time/abc/timer/WdatePicker.js"></script>
+    <style type="text/css" >
+        #page a,#page span{display: inline-block; width:18px;height:18px ;  padding: 5px;  margin: 2px;  text-decoration: none;  text-align: center;  line-height: 18px;  background: #f0ead8;  color:#000000;  border: 1px solid #c2d2d7;  }
+        #page a:hover{background: #EDF6FA;color:#333;}
+        #page span{background: #333;color: #fff;font-weight: bold;}
+        #page div{float:right;}
+    </style>
+<script type="text/javascript">
+    KE.show({
+        id : 'content7',
+        cssPath : './index.css'
+    });
+  </script>
+  
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".select1").uedSelect({
+		width : 345			  
+	});
+	$(".select2").uedSelect({
+		width : 167  
+	});
+	$(".select3").uedSelect({
+		width : 100
+	});
+});
+</script>
+
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">订单管理</a></li>
+    </ul>
+    </div>
+    
+    <div class="formbody">
+    
+    
+    <div id="usual1" class="usual"> 
+    
+  
+     
+  	<div id="tab2" class="tabson">
+
+    <form action="{:U('index')}" method="get">
+    <ul class="seachform">
+    <li><label>订单查询</label><input name="keywords" type="text" style="width: 80px;height:25px;border: 1px solid #cccccc;" class="scinput" value="{$keywords}"/></li>
+        <li>
+            <label>创建时间：</label>
+            <input id="d11" type="text" onClick="WdatePicker()" style="width: 80px;height:25px;border: 1px solid #cccccc;" name="time1" />
+            <span style="display: inline-block;">-</span>
+            <input name="time2" class="Wdate" type="text" id="d15" onFocus="WdatePicker({isShowClear:false,readOnly:true})" style="width: 80px;height: 25px;border: 1px solid #cccccc;"/>
+        </li>
+        <li><label>&nbsp;</label><input name="" type="submit" class="scbtn" style="width: 80px;height:25px;" value="查询"/></li>
+        <li><label>&nbsp;</label><input name="" type="button" class="scbtn" id="exportdata" value="Excel表导出" style="width: 90px;height: 25px;margin:0;padding: 0;"/></li>
+    </ul>
+    </form>
+    
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th><input name="" type="checkbox" value="" checked="checked"/></th>
+        <th><i class="sort"><img src="__PUBLIC__/Admin/images/px.gif" /></i>编号</th>
+        <th>用户名</th>
+        <th>订单序列号</th>
+        <th>订单价格</th>
+        <th>订单创建时间</th>
+        <th>订单详情</th>
+        <th>订单状态</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id="val" key="k">
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+            <td>{$k+$firstRow}</td>
+            <td>{$val.username}</td>
+            <td>{$val.orderno}</td>
+            <td>{$val.price}</td>
+            <td>{:date('Y-m-d H:i:s',$val['create_time'])}</td>
+            <td><a href="{:U('Admin/Order/detial',array('oid'=>$val['id']))}">查看详情</a></td>
+            <td>{$val.statusname}</td>
+
+        </tr>
+        </volist>
+        </tbody>
+    </table>
+
+
+
+        <div id="page">{$page}</div>
+  
+    
+    </div>  
+       
+	</div> 
+ 
+	<script type="text/javascript"> 
+      $("#usual1 ul").idTabs(); 
+    </script>
+    
+    <script type="text/javascript">
+	$('.tablelist tbody tr:odd').addClass('odd');
+	</script>
+
+    </div>
+
+</body>
+
+</html>

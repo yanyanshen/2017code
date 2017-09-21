@@ -1,0 +1,590 @@
+[ 2016-11-28T08:46:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-28T08:46:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-28T08:46:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480294012',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0530s ]
+
+[ 2016-11-28T08:46:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0040s ]
+
+[ 2016-11-28T08:47:00+08:00 ] 127.0.0.1 /index.php/Admin/Golds/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `beauty_brands`  [ RunTime:0.0020s ]
+
+[ 2016-11-28T08:47:00+08:00 ] 127.0.0.1 /index.php/Admin/Golds/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-28T08:47:03+08:00 ] 127.0.0.1 /index.php/Admin/Golds/addAct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_golds` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-28T08:47:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-11-28T08:47:20+08:00 ] 127.0.0.1 /index.php/Admin/Sale/clearCache.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-28T08:47:57+08:00 ] 127.0.0.1 /index.php/Admin/Sale/update.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_brands` [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `beauty_brands` WHERE `bname` = '御泥坊' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_activity` [ RunTime:0.0156s ]
+SQL: UPDATE `beauty_activity` SET `starttime`='1477497600',`stoptime`='1481817600',`aname`='限时团购',`rules`='团购减20',`bid`='3' WHERE `id` = 2 [ RunTime:0.0624s ]
+
+[ 2016-11-28T08:49:11+08:00 ] 127.0.0.1 /index.php/Admin/Category/export.html?time1=&time2=&keywords=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where1 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 207 行.
+SQL: SELECT * FROM `beauty_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2')  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','3')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','4')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','5')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','6')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','7')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','7','8')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','7','9')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','7','10')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','11')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','12')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','12','13')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','12','14')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','12','15')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','12','16')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','17')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','17','18')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','17','19')  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','17','20')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','17','21')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','23')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','24')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','25')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','23','26')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','23','27')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','23','28')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','24','29')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','24','30')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','25','31')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('22','25','32')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','34')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','35')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','36')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','37')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','34','38')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','34','39')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','34','40')  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','34','41')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','35','42')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','35','43')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','35','44')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','35','45')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','36','46')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','36','47')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','36','48')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','36','49')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','37','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','37','51')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','37','52')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','54')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','55')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','56')  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','57')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('54','58')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('54','59')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','55','60')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','55','61')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','55','62')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','55','63')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','56','64')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','56','65')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','56','66')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','57','67')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','57','68')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('53','57','69')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70')  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','71')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','71','72')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','71','73')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','71','74')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','71','75')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','76')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','76','77')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','76','78')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','76','79')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','80')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','80','81')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('70','80','82')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','84')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','85')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','86')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','86','88')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','85','89')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','85','90')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','86','91')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','84','92')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87','93')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87','94')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87','95')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87','94','96')  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87','93','97')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87','95','98')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('87','95','99')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','100')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','100','101')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('83','100','102')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('33','103')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','11','104')  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 1 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 2 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 3 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 4 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 5 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 6 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 7 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 8 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 9 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 10 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 11 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 12 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 13 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 14 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 15 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 16 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 17 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 18 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 19 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 20 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 21 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 22 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 23 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 24 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 25 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 26 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 27 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 28 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 29 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 30 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 31 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 32 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 33 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 34 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 35 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 36 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 37 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 38 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 39 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 40 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 41 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 42 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 43 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 44 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 45 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 46 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 47 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 48 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 49 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 50 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 51 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 52 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 53 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 54 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 55 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 56 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 57 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 58 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 59 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 60 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 61 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 62 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 63 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 64 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 65 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 66 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 67 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 68 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 69 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 70 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 71 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 72 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 73 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 74 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 75 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 76 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 77 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 78 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 79 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 80 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 81 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 82 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 83 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 84 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 85 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 86 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 87 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 88 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 89 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 90 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 91 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 92 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 93 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 94 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 95 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 96 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 97 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 98 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 99 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 100 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 101 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 102 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined offset: 103 E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+NOTIC: [8] Undefined index: path E:\php\yunhe\beauty\beauty\Admin\Controller\CategoryController.class.php 第 216 行.
+
+[ 2016-11-28T08:55:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0070s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-11-28T15:00:26+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-28T15:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-11-28T15:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-28T15:00:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' AND `password` = '7219b9b60d9d70a9a7014369d88ebefe' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-28T15:00:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003500s ]
+
+[ 2016-11-28T15:00:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-28T15:00:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-28T15:00:51+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480316450',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0605s ]
+
+[ 2016-11-28T15:00:51+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480316451',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0410s ]
+
+[ 2016-11-28T15:00:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-28T15:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `beauty_category` WHERE `pid` = 0  [ RunTime:0.0020s ]
+
+[ 2016-11-28T15:02:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0100s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-28T16:26:05+08:00 ] 127.0.0.1 /index.php/Admin/Admin/loginout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-28T16:26:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-11-28T16:26:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'yanyan' LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-28T16:26:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-11-28T16:26:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-28T16:26:26+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480321586',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0655s ]
+
+[ 2016-11-28T16:26:26+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\php\yunhe\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1480321586',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.1150s ]
+
+[ 2016-11-28T16:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0110s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0070s ]
+
+[ 2016-11-28T16:40:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-11-28T16:41:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+

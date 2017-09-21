@@ -1,0 +1,28 @@
+/* CSS Document */
+.com-footer-area .functionarea{margin-top: 0;}
+div.pingpai div{position: relative;width: 100%;max-width: 640px;margin: 0 auto;}
+div.pingpai div a{ padding:0; margin:0; border:0; text-decoration:none; font-family:黑体; font-weight:bolder; font-size:1em;}
+div.pingpai div a.white{ color:#FFF;}
+div.pingpai div a.black{ color:#000;}
+div.pingpai div a.grey{ color:#3e3e3e;}
+div.pingpai div table{ width:100%; text-align:center;}
+div.pingpai div table tr td a{ display:block; width:100%; height:100%;}
+div.pingpai div table.p-type1 tr td,
+div.pingpai div table.p-type2 tr td{ padding:15px 0; width:33.33%;}
+div.pingpai div table tr td.cell-type1{ border:#19c6e5 solid 1px; background:#f6f4f5;}
+div.pingpai div table tr td.cell-type2{ border:#19c6e5 solid 1px; background:#19c6e5;}
+div.pingpai div table tr td.cell-type3{ border-top:#6f6f6f solid 1px; border-right:#6f6f6f solid 1px; border-left:#3c3c3c solid 1px; border-bottom:#3c3c3c solid 1px; background:#4b4b4b}
+div.pingpai div table tr td.cell-type4{ border:#000 solid 1px; background:#35a8e9;}
+div.pingpai div table tr td.cell-type5{ border:#000 solid 1px; background:#e7e7e7;}
+div.pingpai div table tr td.cell-type6{ border:#fff solid 1px; background:#f97a9d;}
+div.pingpai div table tr td.cell-type7{ border:#4cc1f8 solid 1px; background:#fe8fd9;}
+div.pingpai div table tr td.cell-type8{ border:#4cc1f8 solid 1px; background:#4cc1f8;}
+div.pingpai div table tr td.cell-type9{ border:#fff solid 1px; background:url(images/imgBg1.jpg) no-repeat center center;}
+div.pingpai div table tr td.cell-type10{ border:#fff solid 1px; background:#975b9e;}
+div.pingpai div img{width: 100%;display: block; border: 0;}
+div.pingpai div table.p-type2 tr:first-child td{ border-top:none;}
+div.pingpai div table.p-type2 tr:last-child td{ border-bottom:none;}
+div.pingpai div table.p-type2 tr:first-child td:first-child,
+div.pingpai div table.p-type2 tr:last-child td:first-child{ border-left:none;}
+div.pingpai div table.p-type2 tr:first-child td:last-child,
+div.pingpai div table.p-type2 tr:last-child td:last-child{ border-right:none;}

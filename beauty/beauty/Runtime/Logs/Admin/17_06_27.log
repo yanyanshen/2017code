@@ -1,0 +1,617 @@
+[ 2017-06-27T11:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+
+[ 2017-06-27T11:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-27T11:17:54+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:17:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-27T11:17:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: validate F:\WWW\beauty\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `beauty_admin` SET `online`='1',`lastlogin`='1498533478',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0550s ]
+
+[ 2017-06-27T11:18:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-27T11:18:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Admin/view/Index/top.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `beauty_message_admin` [ RunTime:0.1130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_message_admin` WHERE `receiveId` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T11:18:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Admin/view/Index/left.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.054003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054003s ]
+SQL: SHOW COLUMNS FROM `beauty_admin_nav` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 0 ORDER BY priority  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_group_access` [ RunTime:0.0450s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM beauty_auth_group_access a INNER JOIN beauty_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `beauty_auth_rule` [ RunTime:0.0180s ]
+SQL: SELECT `condition`,`name` FROM `beauty_auth_rule` WHERE `id` IN ('1','41','40','42','43','44','2','13','14','3','15','16','18','20','21','19','4','22','23','5','24','25','6','26','27','7','28','51','9','34','35','8','29','30','31','32','33','54','10','36','37','11','38','52','53','45','46','47','12','39','48','17','49','50','55','56','57','58','59') AND `type` = 1 AND `status` = 1  [ RunTime:0.0190s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 1 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 2 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 48 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 3 ORDER BY priority  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 4 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 5 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 6 ORDER BY priority  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 7 ORDER BY priority  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 8 ORDER BY priority  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 9 ORDER BY priority  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 10 ORDER BY priority  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 11 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 12 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 45 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 55 ORDER BY priority  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_admin_nav` WHERE `pid` = 58 ORDER BY priority  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: v1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\deb2bdb6f40b9ba5a624590770c82b56.php 第 415 行.
+NOTIC: [8] Undefined variable: v1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\deb2bdb6f40b9ba5a624590770c82b56.php 第 415 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T11:18:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Admin/view/Index/footer.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.066004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-27T11:18:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.076004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076004s ]
+SQL: SHOW COLUMNS FROM `beauty_admin` [ RunTime:0.0110s ]
+SQL: SELECT `username`,`lastlogin`,`lastip` FROM `beauty_admin` WHERE `id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `beauty_goods` ORDER BY salenum desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_goods` ORDER BY num LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T11:18:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0040s ]
+SQL: SELECT `goodsname`,`salenum` FROM `beauty_goods` ORDER BY salenum desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-06-27T11:18:10+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Admin/view/Category/index.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_category` WHERE `cname` LIKE '%%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `cname` LIKE '%%' LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','3')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','4')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','5')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','2','3','2','6')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','7')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1','7','8')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 5 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 6 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 7 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:18:15+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html?keywords=%E9%9D%A2%E9%83%A8&time1=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_category` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `beauty_category` WHERE `cname` LIKE '%面部%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `beauty_category` WHERE `cname` LIKE '%面部%' LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `beauty_category` WHERE `id` IN ('1')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+NOTIC: [8] Undefined index: path F:\WWW\beauty\beauty\Admin\Controller\CategoryController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6b271a4e69b3622fb6c8a51d12f1d872.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:18:19+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html?keywords=%E9%9D%A2%E9%83%A8&time1=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Admin/view/Category/index.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+
+[ 2017-06-27T11:18:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./beauty/Admin/view/Goods/index.html F:\WWW\beauty\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 104 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028001s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM beauty_goods g,beauty_category c,beauty_brands b WHERE ( g.cid=c.id and g.bid=b.id ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0110s ]
+SQL: SELECT g.imagename,g.id,g.goodsname,g.imageurl,g.saleprice,g.marketprice,g.discount,c.cname,b.bname,g.score,g.description,g.num,g.salenum,g.addtime,g.show FROM beauty_goods g,beauty_category c,beauty_brands b WHERE ( g.cid=c.id and g.bid=b.id ) ORDER BY g.addtime desc LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goodsname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 58 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 59 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 60 行.
+NOTIC: [8] Undefined variable: saleprice1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: saleprice2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 64 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 66 行.
+NOTIC: [8] Undefined variable: goodsname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: goodsname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-27T11:18:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/search.html?goodsname=%E6%B0%B4&bname=&cname=&saleprice1=&saleprice2=&time1=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0050s ]
+SQL: SELECT g.id,g.goodsname,g.imagename,g.imageurl,g.saleprice,g.marketprice,g.discount,c.cname,b.bname,g.score,g.description,g.num,g.salenum,g.addtime,g.show FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) ORDER BY g.addtime desc LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 59 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 60 行.
+NOTIC: [8] Undefined variable: saleprice1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: saleprice2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 64 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 66 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:18:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT g.id,g.goodsname,g.imagename,g.imageurl,g.saleprice,g.marketprice,g.discount,c.cname,b.bname,g.score,g.description,g.num,g.salenum,g.addtime,g.show FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) ORDER BY g.addtime desc LIMIT 12,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 59 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 60 行.
+NOTIC: [8] Undefined variable: saleprice1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: saleprice2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 64 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 66 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:18:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT g.id,g.goodsname,g.imagename,g.imageurl,g.saleprice,g.marketprice,g.discount,c.cname,b.bname,g.score,g.description,g.num,g.salenum,g.addtime,g.show FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) ORDER BY g.addtime desc LIMIT 24,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 59 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 60 行.
+NOTIC: [8] Undefined variable: saleprice1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: saleprice2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 64 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 66 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:18:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0080s ]
+SQL: SELECT g.id,g.goodsname,g.imagename,g.imageurl,g.saleprice,g.marketprice,g.discount,c.cname,b.bname,g.score,g.description,g.num,g.salenum,g.addtime,g.show FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) ORDER BY g.addtime desc LIMIT 36,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 59 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 60 行.
+NOTIC: [8] Undefined variable: saleprice1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: saleprice2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 64 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 66 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-27T11:18:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/search/goodsname/%E6%B0%B4/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0070s ]
+SQL: SELECT g.id,g.goodsname,g.imagename,g.imageurl,g.saleprice,g.marketprice,g.discount,c.cname,b.bname,g.score,g.description,g.num,g.salenum,g.addtime,g.show FROM beauty_goods g,beauty_category c,beauty_brands b WHERE g.goodsname LIKE '%水%' AND ( g.cid=c.id and g.bid=b.id ) ORDER BY g.addtime desc LIMIT 48,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 59 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 60 行.
+NOTIC: [8] Undefined variable: saleprice1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: saleprice2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 64 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 66 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T11:18:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/search.html?goodsname=&bname=&cname=&saleprice1=&saleprice2=&time1=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM beauty_goods g,beauty_category c,beauty_brands b WHERE ( g.cid=c.id and g.bid=b.id ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `beauty_goods` [ RunTime:0.0060s ]
+SQL: SELECT g.id,g.goodsname,g.imagename,g.imageurl,g.saleprice,g.marketprice,g.discount,c.cname,b.bname,g.score,g.description,g.num,g.salenum,g.addtime,g.show FROM beauty_goods g,beauty_category c,beauty_brands b WHERE ( g.cid=c.id and g.bid=b.id ) ORDER BY g.addtime desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goodsname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 58 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 59 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 60 行.
+NOTIC: [8] Undefined variable: saleprice1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: saleprice2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 61 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 64 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 66 行.
+NOTIC: [8] Undefined variable: goodsname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 154 行.
+NOTIC: [8] Undefined variable: goodsname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: bname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: cname F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: time2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price1 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+NOTIC: [8] Undefined variable: price2 F:\WWW\beauty\beauty\Runtime\Cache\Admin\6de2d57f07a2bd599373360461da7243.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

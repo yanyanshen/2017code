@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>beauty</title>
+
+    <style>
+
+        .box{
+            width:1200px;
+            margin:0px auto;
+        }
+        #span{
+            font-size: 13px;color: orangered;
+        }
+        .span{
+            font-size: 12px;color: dimgray;
+        }
+        .span1{
+            font-size: 15px;color: red;font-weight: bolder;
+        }
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;
+            border: 1px solid #c2d2d7;
+        }
+        #page a:hover{
+            background: #333;
+            color:#fff;
+        }
+
+        #page span{
+            background: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<include file="public/header"/>
+<!-- 头部结束 -->
+<div class="box main">
+	<div class="rqphtitle">当前搜索条件：{$keywords}</div>
+	<div class="pxtitle">
+        <form action="{:U('Search/index')}" method="get">
+            <div style=" float:left;">
+                <select name="order">
+                    <option value="1" selected>综合排序</option>
+                    <option value="2">商品价格降序排序</option>
+                    <option value="3">商品价格升序排序</option>
+                </select>
+                <label style=" margin-left:30px;" >按品牌查询：</label>
+                    <select name="bname">
+                        <option value="">请选择</option>
+                        <volist name="brands" id="brands">
+                            <option value="{$brands.id}">{$brands.bname}</option>
+                        </volist>
+                    </select>
+                <label style=" margin-left:30px;" >按价格查询：</label>
+                    <input name="saleprice1" type="text" value="" class="scinput" />
+                --
+                <input name="saleprice2" type="text" value="" class="scinput" />
+                    <input type="submit" value="搜索"/>
+            </div>
+        </form>
+		<span>共搜索到<i style="color:#FF0000; margin:3px; font-size:14px; font-weight:700;">{$count}</i>件商品</span>
+	</div>
+	<div class="pxlistcon">
+		 <div class="pxlist" >
+                <ul>
+                    <volist name="list" id="date" empty="$empty">
+                        <li>
+                           <a href="{:U('Home/Order/goodsdetail',array('gid'=>$date['id']))}" title="">
+                                <img style="width:220px;height: 220px ;" src="/Uploads/{$date.imageurl}{$date.imagename}" alt="" />
+                                <span class="span" style="font-size: 15px;">{$date.goodsname|substr=0,27,utf8}...</span>
+                           </a><br>
+                            <span class="span" >销量：{$date.salenum}件</span>
+                                <span id="span" >价格￥{$date.saleprice}</span>
+                            <span class="span1" >拍下立减￥{$date.discount}</span>
+                        </li>
+                    </volist>
+                </ul>
+		   </div>
+	</div>
+	<div style="clear:both;"></div>
+	<div  class="listpage" >
+        <div id="page">{$page}</div>
+	</div>
+</div>
+</div>
+<!-- 尾部开始 -->
+<include file="public/footer"/>
+<!-- 尾部结束 -->
+
+<!-- 右边开始 -->
+<include file="public/right"/>
+<!-- 右边结束 -->
+<!--返回顶部结束-->
+</body>
+<script type="text/javascript">
+	$(function() {
+	  $('.cateList').hide();
+	});
+	
+	function sort(v) {
+		$(v).addClass('active').siblings().removeClass('active');				
+	}
+</script>
+</html>

@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>每日必看</title>
+</head>
+
+<body>
+<!--顶部图层-->
+ <div id="header_top">
+<!--头部-->
+     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/Public/Home/fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<!--<script src="/Public/Home/map/jquery-1.9.1.min.map" type="text/javascript"></script>-->
+<script src="/Public/Home/js/lrtk.js" type="text/javascript"></script>
+<link href="/Public/Home/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Home/fonts/iconfont.css"  rel="stylesheet" type="text/css" />
+<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="/Public/Admin/js/jquery.min.1.8.2.js" type="text/javascript"></script>
+    <script src="/Public/Admin/js/jquery.form.js" type="text/javascript"></script>
+    <script src="/Public/Home/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script src="/Public/Home/js/common_js.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Public/Home/js/layer/layer.js"></script>
+<script src="/Public/Home/js/footer.js" type="text/javascript"></script>
+    <script src="/Public/Home/js/jquery.lazyload.js" type="text/javascript"></script>
+    <script src="/Public/Home/js/jquery.reveal.js" type="text/javascript"></script>
+    <script src="/Public/Home/js/jquery.sumoselect.min.js" type="text/javascript"></script>
+    <script src="/Public/Home/js/jquery.jumpto.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/search.css">
+    <style>
+        .Navigation_name { padding:0; margin:0; list-style-type:none;}
+        .Navigation_name li { background:#fff;   color:#fff; }
+        .Navigation_name li a { display:block;text-align:center;line-height:32px; color:#fff; font-size:13px; text-decoration:none;}
+        .cur{ background-color: #d2d2d2;
+            padding: 0 5px; font-weight:bold;}
+    </style>
+</head>
+<script>
+    $(function() {
+        $('#OUT').click(function () {
+            $.post("/index.php/Home/Login/LoginOut.html",'', function (res) {
+              if (res.status == 1) {
+                    layer.msg(res.info,{icon:1},function(){
+                        location.href = "/index.php/Home/Index/index.html";
+                    });
+                } else {
+                    layer.open({
+                        content: '错误提示',
+                        type: 2,
+                        skin:'msg'
+                    });
+                }
+            }, 'json')
+        });
+
+/*头部我的收藏沈艳艳*/
+        $(".s_cart").mouseenter(function(){
+            $.post('/index.php/Home/Collect/collect.html',function(res){
+                var str='';
+                var count=''
+                if(res.status==1){
+                    for(var i in res.info){
+                        str+='<li>'
+                        str+='<div class="img">' + '<img src="/Uploads/'+res.info[i]['imageurl']+res.info[i]['imagename']+'">' +
+                        '</div>'
+                        str+='<div class="content"><p>'
+                        str+='<a href="'+'/index.php/Home/Order/goodsdetail.html?gid='+res.info[i]['gid']+'">';
+                        str+=res.info[i]['goodsname'].substr(0,10)+'</a></p><p>价格：￥'+res.info[i]['saleprice']+'</p></div>'
+                        str+='<div class="Operations">'
+                        str+='<p>'
+                        str+='<a href="javascript:;" class="deleteCollect" gid="'+res.info[i]['gid']+'">';
+                        str+= '删除</a>'
+                        str+='</p></div></li>'
+                    }if(res.info==1){
+                        str='<div class="prompt"></div>' +
+                        '<div class="nogoods"><b></b>您的收藏夹还没有宝贝哦，赶紧添加吧！！！！</div>'
+                    }
+                    $(".p_s_list").html(str);
+                }else{
+                        str='<div class="prompt"></div>' +
+                        '<div class="nogoods"><b></b>登录之后才能看哦！！！</div>'
+                         $(".dorpdown-layer").html(str);
+                }
+            });
+        });
+            $(".deleteCollect").live('click',function(){
+                var a=$(this);
+                var gid=$(this).attr('gid');
+                $.get("/index.php/Home/Collect/deleteCollect.html?gid="+gid,function(res){
+                    a.parents('li').hide();
+                })
+            });
+/*头部我的收藏*/
+    })
+</script>
+
+
+
+
+<div id="header_top">
+    <div id="top">
+        <div class="Inside_pages">
+            <div class="Collection">您好，欢迎光临yanyan！<a id="OUT"  style="color: #ff0000; cursor: pointer">退出</a>
+            </div>
+            <div class="hd_top_manu clearfix">
+                <ul class="clearfix">
+                    <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">
+                        欢迎光临本店！
+                        <a href="/index.php/Home/Login/Login.html" class="red">
+                                            </a>
+                                                <a href="/index.php/Home/Register/Register.html" class="red">
+                                                     </a>
+                    </li>
+                    <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="/index.php/Home/Index/index.html">我的首页</a></li>
+                    <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="/index.php/Home/Member/Orderform.html">我的订单</a></li>
+                    <li class="hd_menu_tit" data-addclass="hd_menu_hover"> <a href="/index.php/Home/MyCart/tocart.html">购物车</a> </li>
+                    <li class="hd_menu_tit list_name" data-addclass="hd_menu_hover">
+                        <a href="#" class="hd_menu">网站导航</a>
+                        <div class="hd_menu_list">
+                            <ul>
+                                <li><a href="/index.php/Home/Footprint/footprint.html">足迹</a></li>
+                                <li><a href="/index.php/Home/Feedback/index.html">反馈</a></li>
+                                <li><a href="/index.php/Home/Member/index.html">用户中心</a></li>
+                                <li><a href="/index.php/Home/Member/showCollect.html">我的收藏</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="hd_menu_tit phone_c" data-addclass="hd_menu_hover"><a href="#" class="hd_menu "><em class="iconfont icon-shouji"></em>手机版</a>
+                        <div class="hd_menu_list erweima">
+                            <ul>
+                                <img src="/Public/Home/images/mobile.png"  width="100px" height="100"/>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--样式-->
+    <!--顶部样式2-->
+<div id="header "  class="header page_style">
+    <div class="logo"><a href="/index.php/Home/Index/index.html"><img style="width: 210px;height: 122px" src="/Public/Mobile/images/Image-1.png" /></a></div>
+        <!--结束图层-->
+    <form action="/index.php/Home/Search/index.html" method="get">
+        <div class="Search">
+                <p><input name="keywords" value="面膜" type="text"  class="text" style="width: 450px;height: 32px"/>
+                <input name="" type="submit" value="搜 索"  class="Search_btn" style="padding: 0 15px;height: 38px"/></p>
+                <p class="Words">
+                    <a href="/index.php/Home/Search/index/cid/1.html">面部护理</a>
+                    <a href="/index.php/Home/Search/index/cid/22.html">身体护理</a>
+                    <a href="/index.php/Home/Search/index/cid/33.html">香水彩妆</a>
+                    <a href="/index.php/Home/Search/index/cid/53.html">洗发护发</a>
+                    <a href="/index.php/Home/Search/index/cid/70.html">男性护理</a>
+                    <a href="/index.php/Home/Search/index/cid/83.html">推荐品牌</a>
+                </p>
+        </div>
+    </form>
+        <!--购物车样式-->
+    <div class="hd_Shopping_list" id="Shopping_list">
+        <div class="s_cart"><a href="">我的收藏</a> <i class="ci-right">&gt;</i><i id="shopping-amount"></i></div>
+        <div class="dorpdown-layer">
+            <div class="spacer"></div>
+            <ul class="p_s_list">
+            </ul>
+            <div class="Shopping_style">
+                    <div class="p-total"></div>
+                    <a href="/index.php/Home/Member/showCollect.html" title="" id="btn-payforgoods" class="Shopping">查看更多</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Menu" class="clearfix">
+    <div class="index_style clearfix">
+        <div id="allSortOuterbox">
+            <div class="t_menu_img"></div>
+        </div>
+        <script>$("#allSortOuterbox").slide({ titCell:".Menu_list li",mainCell:".menv_Detail"});</script>
+        <!--菜单栏-->
+        <div class="Navigation" id="Navigation">
+            <ul class="Navigation_name" id="Navigation_name">
+                <li><a href="/index.php/Home/Index/index.html" target="_blank">首页</a></li>
+                <li><a href="/index.php/Home/MustSee/index.html" target="_blank">每日必看</a></li>
+                <li><a href="/index.php/Home/BuyBrands/groupBuy.html" target="_blank">限时团购</a></li>
+                <li><a href="/index.php/Home/MustSee/girl.html" target="_blank">女士专区</a></li>
+                <li><a href="/index.php/Home/MustSee/boy.html" target="_blank">男士专区</a></li>
+                <li><a href="/index.php/Home/Huiyuan/index.html" target="_blank">黄金会员专享</a></li>
+                <!--<li><a  id="cj" name="yanyan" href="javascript:;" >抽奖有礼</a><em class="hot_icon"></em></li>-->
+                <!--<li><a id="sign" name="yanyan" href="javascript:;" target="_blank">签到领金币</a></li>-->
+                <li><a  href="/index.php/Home/HongBao/showhongbao.html">双11领红包</a></li>
+                                </ul>
+        </div>
+        <script>$("#Navigation").slide({titCell:".Navigation_nameidcj li"});</script>
+        <a href="/index.php/Home/Sign/signCity.html" class="link_bg"  style="color: red;font-size: 20px;font-weight: bolder;
+        font-style: italic">
+            <img style="vertical-align: middle;margin-bottom:5px;"  src="/Public/Home/images/jin.png" />金币商城
+        </a>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    var urlstr = location.href;
+    //alert((urlstr + '/').indexOf($(this).attr('href')));
+    var urlstatus=false;
+    $("#Navigation_name a").each(function () {
+        if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+            $(this).addClass('cur'); urlstatus = true;
+        } else {
+            $(this).removeClass('cur');
+        }
+    });
+    if (!urlstatus) {$("#Navigation_name a").eq(0).addClass('cur'); }
+
+</script>
+
+
+
+
+<script>
+
+
+
+    $(function(){
+        $('#sign').click(function(){
+            var session1=$(this).attr('name');
+            //alert(session);
+            if(!session1){
+                location="/index.php/Home/Login/Login.html";
+            }else{
+                location="/index.php/Home/Sign/sign.html";
+            }
+        });
+    })
+
+</script>
+<!--头部-->
+<!--菜单导航样式-->
+ <!--产品列表-->
+    <!-- 轮播图-->
+     <div class="Product_carousel" id="">
+         <div class="hd">
+             <ul><li></li><li></li><li></li></ul>
+         </div>
+         <div class="bd">
+             <ul>
+                 <li><a href="#"><div style="background-image: url(/Public/Home/images/png1.jpg);
+                 background-repeat:no-repeat; background-position:center; height:437px; background-color:#FFF"></div></a></li>
+                 <li><a href="#"><div style="background-image: url(/Public/Home/images/png.jpg);
+                 background-repeat:no-repeat; background-position:center; height:437px; background-color:#a1e2ff">
+
+                 </div></a></li>
+                 <li><a href="#"><div style="background-image: url(/Public/Home/AD_img/AD-111.jpg); background-repeat:no-repeat; background-position:center; height:437px; background-color:#FEF4E8"></div></a></li>
+             </ul>
+         </div>
+         <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+         <a class="prev" href="javascript:void(0)"></a>
+         <a class="next" href="javascript:void(0)"></a>
+     </div>
+     <script type="text/javascript">
+         jQuery(".Product_carousel").slide({mainCell:".bd ul",autoPlay:true});
+     </script>
+
+  <div class="Inside_pages clearfix">
+   <div class="must_list like_p">
+       <div class="list">
+          <ul class="list_style">
+              <li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/24.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-11-10/300_58243f254f07d.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/24.html" class="name">正品拉芳 洗护套装神器包邮植物去屑洗发水+护发素止痒控油洗头膏</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>0.10</span><span class="Sales">销量<i>22</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000001.html"><img src="/Upload/logo2016-11-10/58242daaa5f5e.jpg"  width="130"/></a></div>
+                   </li><li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/81.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-12-02/300_5840ff1e430f0.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/81.html" class="name">13213</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>109.00</span><span class="Sales">销量<i>0</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000013.html"><img src="/Upload/logo2016-11-16/582bb1fd7bde5.jpg"  width="130"/></a></div>
+                   </li><li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/48.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-11-10/300_582450e911f7c.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/48.html" class="name">御泥坊红石榴矿物补水亮肤去黄10件套装亮肤保湿抗氧化去黄护肤品</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>189.00</span><span class="Sales">销量<i>165</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000003.html"><img src="/Upload/logo2016-11-10/58243a7dc0c35.jpg"  width="130"/></a></div>
+                   </li><li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/44.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-11-10/300_58244ee7ac2d1.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/44.html" class="name">御泥坊美白嫩肤护肤套装补水保湿滋润提亮肤色秋冬正</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>99.00</span><span class="Sales">销量<i>51</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000003.html"><img src="/Upload/logo2016-11-10/58243a7dc0c35.jpg"  width="130"/></a></div>
+                   </li><li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/55.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-11-10/300_58245418bf77c.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/55.html" class="name">御泥坊男士深海水动力面膜15片美白保湿补水提亮肤色去黑头护肤品</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>79.00</span><span class="Sales">销量<i>14</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000003.html"><img src="/Upload/logo2016-11-10/58243a7dc0c35.jpg"  width="130"/></a></div>
+                   </li><li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/1.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-11-10/300_5824302e8ff5f.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/1.html" class="name">韩束红BB六件套装红石榴套装专柜正品补水美白保湿去黄淡斑化妆品</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>0.10</span><span class="Sales">销量<i>6</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000003.html"><img src="/Upload/logo2016-11-10/58243a7dc0c35.jpg"  width="130"/></a></div>
+                   </li><li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/4.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-11-10/300_5824317e7ac5c.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/4.html" class="name">韩束雪白肌护肤品套装女 秋冬补水化妆品套装正品</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>0.10</span><span class="Sales">销量<i>1</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000001.html"><img src="/Upload/logo2016-11-10/58242daaa5f5e.jpg"  width="130"/></a></div>
+                   </li><li class="p_info_u">
+                    <div class="p_info_content">
+                    <a href="/index.php/Home/Order/goodsdetail/gid/42.html" class="p_img"><img style="width: 230px;height:220px" src="/Uploads/2016-11-10/300_58244e29c3673.jpg"></a>
+                    <a href="/index.php/Home/Order/goodsdetail/gid/42.html" class="name">御泥坊红石榴矿物蚕丝面膜贴21片30ml 深层保湿补水提亮抗氧化</a>
+                    </div>
+                    <div class="Numeral"><span class="price"><i>￥</i>79.00</span><span class="Sales">销量<i>5</i>件</span></div>
+                    <div class="Brands_logo"><a href="/index.php/Home/BrandGoods/showBrand/bid/0000000003.html"><img src="/Upload/logo2016-11-10/58243a7dc0c35.jpg"  width="130"/></a></div>
+                   </li>          </ul>
+        </div>
+        <div class="Paging">
+            <div class="Pagination"></div>
+        </div>
+   </div>
+  <!--底部图层-->
+<div class="phone_style">
+    <div class="index_style">
+        <span class="phone_number"><em class="iconfont icon-dianhua"></em>400-4565-345</span><span class="phone_title">客服热线 7X24小时 贴心服务</span>
+    </div>
+</div>
+<div class="footerbox clearfix">
+    <div class="clearfix">
+        <div class="">
+                    </div>
+    </div>
+    <div class="text_link">
+        <p>
+            <a href="#">关于我们</a>｜ <a href="#">公开信息披露</a>｜ <a href="#">加入我们</a>｜ <a href="#">联系我们</a>｜ <a href="#">版权声明</a>｜ <a href="#">隐私声明</a>｜ <a href="#">网站地图</a></p>
+        <p>蜀ICP备11017033号 Copyright ©2011 成都福际生物技术有限公司 All Rights Reserved. Technical support:CDDGG Group</p>
+    </div>
+</div>
+<!--底部-->
+   <!--右侧菜单栏购物车样式-->
+      <style>
+    .cartlist{color: black;height: 80px;}
+    .cartlist a{color: black;display:inline-block;line-height: 80px;height: 80px;}
+    .cartlist a span{color: black;display:inline-block;line-height: 80px;height: 80px;margin: 0 5px;}
+    .cartlist span img{margin-top: 10px;vertical-align: middle;width: 50px;height: 50px; }
+</style>
+<script type="text/javascript">
+    $(function(){
+        $('.cart_bd').mouseenter(function(){
+            $.post('/index.php/Home/MyCart/getcartlist.html',function(res){
+                var str='';
+                var totalprice=0;
+                if(res.info){
+                    for(var i in res.info){
+                        str+='<dd class="cartlist">';
+                        str+='<a href="'+'/index.php/Home/Order/goodsdetail.html?gid='+res.info[i]['gid']+'">';
+                        str+='<span><img src="/Uploads/'+res.info[i].imageurl+'/'+'100_'+res.info[i].imagename+'"/></span>';
+                        str+='<span style="height: 80px;line-height: 80px;">'+res.info[i].goodsname.substr(1,6)+'</span>';
+                        str+='<span>'+res.info[i].ml+'ml</span>';
+                        str+='<span>￥'+res.info[i].saleprice+'*'+res.info[i].buynum+'</span>';
+                        str+='<span>'+res.info[i].sumprice+'元'+'</span>';
+                        str+='</a>';
+                        str+= "<a href=javascript:; class='deletecart' style='color:black;' cid=" +res.info[i]['id']+">删除</a>";
+                        str+='</dd>';
+                        totalprice=totalprice+parseInt(res.info[i].sumprice);
+                    }
+                }
+                if(res.info==''){
+                       str='<dd class="message1" style="height: 40px;margin-top: 20px;line-height:40px;margin-left:30px;background: url(/Public/Home/images/settleup-nogoods.png) no-repeat">购物车内暂无商品，赶紧选购吧!</dd>';
+                }
+
+                $('.good_cart').text(res.info.length);
+                $('.totalgoods').html('共&nbsp;'+res.info.length+'&nbsp;件商品');
+                $('.message dl').html(str);
+                $('.total').html('共计:&nbsp;'+totalprice+'&nbsp;元');
+            },'json');
+        });
+
+        $('.deletecart').live('click',function(){
+             a=$(this);
+             id=$(this).attr('cid');
+            $.post('/index.php/Home/MyCart/deletecart.html',{cid:id},function(respon){
+              if(respon.status){
+                 a.parent().hide();
+                 layer.msg('删除成功',{time:500});
+              }
+            })
+        })
+    })
+</script>
+<div class="fixedBox" >
+    <ul class="fixedBoxList">
+        <li class="fixeBoxLi user"><a id="user_btn" name="yanyan" > <span class="fixeBoxSpan iconfont icon-yonghu"></span> <strong>用户</strong></a> </li>
+        <li class="fixeBoxLi cart_bd" style="display:block;" id="cartboxs">
+            <p class="good_cart">0</p>
+            <span class="fixeBoxSpan iconfont icon-cart"></span> <strong><a href="/index.php/Home/MyCart/tocart.html">购物车</a></strong>
+            <div class="cartBox">
+                <div class="bjfff">
+                </div>
+                <div class="message"  style="color: #808080">
+                    <dl class="dl">
+
+                    </dl>
+                    <span class="totalgoods"></span>
+                    <span class="total" style="margin:0 25px;"></span>
+                    <a class='tocart'  href='/index.php/Home/MyCart/tocart.html' style="background-color: red;color: white;display:inline-block;width: 60px;height: 30px;border-radius:5px;margin-top: 0;line-height: 30px;">去购物车</a>
+                </div>
+            </div>
+        </li>
+
+        <li class="fixeBoxLi Service "> <span class="fixeBoxSpan iconfont icon-service"></span> <strong>客服</strong>
+            <div class="ServiceBox">
+                <div class="bjfffs"></div>
+                <dl onclick="javascript:;">
+                    <dt><img style="width:80px;height:60px" src="/Public/Home/images/logo.png"></dt>
+                    <dd><strong>艳艳</strong>
+                        <p class="p1">9:00-22:00</p>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1932314889&site=qq&menu=yes">
+                            <img border="0" src="http://wpa.qq.com/pa?p=2:1932314889:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                    </dd>
+                </dl>
+                <dl onclick="javascript:;">
+                    <dt><img style="width:80px;height:60px" src="/Public/Home/images/logo.png"></dt>
+                    <dd> <strong>贝贝</strong>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1875431157&site=qq&menu=yes">
+                            <img border="0" src="http://wpa.qq.com/pa?p=2:1932314889:51" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </li>
+
+        <li class="fixeBoxLi code cart_bd " style="display:block;" id="cartboxs">
+            <span class="fixeBoxSpan iconfont icon-erweima"></span> <strong>微信</strong>
+            <div class="cartBox">
+                <div class="bjfff"></div>
+                <div class="QR_code">
+                    <p><img src="/Public/Home/images/2wm.png" width="150px" height="150px" style=" margin-top:10px;" /></p>
+                    <p>微信扫一扫，关注我们</p>
+                </div>
+            </div>
+        </li>
+
+        <li class="fixeBoxLi cart_bd" id="collectGoods" name="yanyan">
+            <div class="collect"></div>
+            <span class="fixeBoxSpan iconfont  icon-shoucang"></span> <strong >收藏</strong>
+        </li>
+        <li class="fixeBoxLi Home" id="footprint" name="yanyan"> <span class="fixeBoxSpan iconfont  icon-zuji"></span> <strong>足迹</strong> </a> </li>
+        <li class="fixeBoxLi Home" id="feedback" name="yanyan"> <span class="fixeBoxSpan iconfont  icon-fankui"></span> <strong>反馈</strong> </a> </li>
+        <li class="fixeBoxLi BackToTop"> <span class="fixeBoxSpan iconfont icon-top"></span> <strong>返回顶部</strong> </li>
+    </ul>
+</div>
+<script>
+    //点击用户，如果没有登录，则跳到登录页面
+    $(function(){
+        $('#user_btn').click(function(){
+            var session1=$(this).attr('name');
+            //alert(session);
+            if(!session1){
+                    location="/index.php/Home/Login/Login.html";
+            }else{
+                location="/index.php/Home/Member/index.html";
+            }
+        });
+        /*点击收藏   如果是登录状态跳到用户中心  否则跳到登录页*/
+        $('#collectGoods').click(function(){
+            var session=$(this).attr('name');
+            if(!session){
+                    location.href="/index.php/Home/Login/Login.html";
+            }else{
+                location.href="/index.php/Home/Member/showCollect.html";
+            }
+        });
+
+
+        /*点击反馈*/
+        $('#feedback').click(function(){
+            var session=$(this).attr('name');
+            if(!session){
+                    location.href="/index.php/Home/Login/Login.html";
+            }else{
+                location.href="/index.php/Home/Feedback/index.html";
+            }
+        })
+    });
+
+/*点击足迹*/
+    $('#footprint').click(function(){
+        var session=$(this).attr('name');
+        if(!session){
+                location.href="/index.php/Home/Login/Login.html";
+        }else{
+            location.href="/index.php/Home/Footprint/footprint.html";
+        }
+    });
+
+</script>
+</div>
+</body>
+</html>

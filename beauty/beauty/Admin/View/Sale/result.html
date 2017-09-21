@@ -1,0 +1,52 @@
+<form action="" method="get" >
+    <ul class="seachform">
+        <li><label>活动名称：</label><input type="text" class="scinput"  name="keywords" value="{$keywords}" placeholder="请用户输入关键字"/></li>
+        <li>
+            <label>发布时间：</label>
+            <input id="d11" name="time1" value="" type="text" onClick="WdatePicker()" style="width: 120px;height: 25px;border: 1px solid #cccccc;"/>
+            <span style="display: inline-block;">-</span>
+            <input class="Wdate"  name="time2" value="" type="text" id="d15" onFocus="WdatePicker({isShowClear:false,readOnly:true})" style="width: 120px;height: 25px;border: 1px solid #cccccc;"/>
+        </li>
+
+        <li><label>&nbsp;</label><input name="" type="submit" class="scbtn" value="查询"/></li>
+        <li><label>&nbsp;</label><input name="" type="reset" class="scbtn" value="重置"/></li>
+
+    </ul>
+</form>
+
+<table class="tablelist" style="text-align: center;">
+    <thead style="text-align: center;">
+    <tr >
+        <th style="text-align: center;">活动编号<i class="sort"><img src="__PUBLIC__/Admin/images/px.gif" /></i></th>
+        <th style="text-align: center;">活动名称</th>
+        <th style="text-align: center;">开始时间</th>
+        <th style="text-align: center;">结束时间</th>
+        <th style="text-align: center;">活动规则</th>
+        <th style="text-align: center;">参加活动的品牌</th>
+        <th style="text-align: center;">活动添加时间</th>
+        <th style="text-align: center;">状态</th>
+        <th style="text-align: center;">操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <volist name="list" id="val" key="k">
+        <tr>
+            <td>{$k+$firstRow}</td>
+            <td>{$val.aname}</td>
+            <td>{$val.starttime|date='Y-m-d',###}</td>
+            <td>{$val.stoptime|date='Y-m-d',###}</td>
+            <td>{$val.rules}</td>
+            <td>{$val.bname}</td>
+            <td>{$val.addtime|date='Y-m-d',###}</td>
+            <td>{$val['astatus']?'活动进行中':'活动已结束'}</td>
+            <td><a href="{:U('Admin/Sale/editor',array('id'=>$val['id'],'catename'=>$val['catename']))}" class="tablelink">编辑</a></td>
+        </tr>
+    </volist>
+    </tbody>
+</table>
+<div class="pagin">
+    <div class="message">共<i class="blue">{$count}</i>条记录，当前显示第&nbsp;<i class="blue">{$currentPage}</i>页</div>
+    <ul class="paginList" id="page">
+        {$page}
+    </ul>
+</div>

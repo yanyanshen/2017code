@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>购物车 - 订单结算</title> 
+  <meta charset="utf-8" /> 
+  <meta name="keywords" content="拍鞋网,拍鞋网官方网站,拍鞋网商城" /> 
+  <meta name="description" content="买鞋子哪个网站好，当然首选拍鞋网!中国最早成立的正品鞋子购物网站,国内最大的品牌鞋子销售广场。所售鞋子100%厂家授权,全国包邮,货到付款,提供最完美的购物体验！" /> 
+  <link rel="icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="bookmark" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="shortcut icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <meta content=" width = device-width , initial-scale = 1.0 , maximum-scale = 1.0 , user-scalable = no " id="viewport" name="viewport" /> 
+  <meta content="yes" name="apple-mobile-web-app-capable" /> 
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+  <meta content="telephone=no" name="format-detection" /> 
+ </head> 
+ <body> 
+  <!--改版后 com1-3.css可以去掉--> 
+  <link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/com1-3.css?2015091516" /> 
+  <!--新改的--> 
+  <link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/com1-4.css?2015091516" /> 
+  <link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/download.css?2015091516" /> 
+  <link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/public-adaptation1-1.css?2015091516" /> 
+  <script src="__PUBLIC__/Mobile/js/jquery.js?2015091516"></script> 
+  <script>var PX_HELP_DATA=['416148489@qq.com','i2jioq5184gbv9ts2qudnsgth4',['touch','order','trolly'],'2015/09/15 16:10:43',0,false]; var DOMIN = {MAIN:"http://m.paixie.net",HELP:"http://help.paixie.net",TUAN:"http://tuan.paixie.net",WAP:"http://wap.paixie.net",UNION:"http://union.weixiaodian.com",VIPSHOP:"http://go.paixie.net"};</script> 
+  <script>
+			var JAVASCRIPT_LIB = (('\v' !== 'v') ? 'zepto' : 'jquery');
+			JAVASCRIPT_LIB="jquery"; 
+            DOMIN.MAIN = 'http://m.paixie.net';
+			DOMIN.PAIXIE = 'http://www.paixie.net';
+            // uc浏览器添加书签功能   
+           window.onmessage = function(event){
+                if(event.data.message != ''){
+                    $('#otherPage').remove();
+                }else{
+                    $('#otherPage').show();
+                }
+            };
+        </script> 
+  <script src="__PUBLIC__/Mobile/js/com.js?2015091516"></script> 
+  <script src="__PUBLIC__/Mobile/js/px-verify.js?2015091516"></script> 
+  <script src="__PUBLIC__/Mobile/js/template.js?2015091516"></script> 
+  <!--红包分享，临时添加--> 
+  <!-- uc 浏览器添加书签 start ---> 
+  <iframe src="http://app.uc.cn/appstore/AppCenter/frame?uc_param_str=nieidnutssvebipfcp&amp;api_ver=2.0&amp;id=1904" width="100%" height="160" style="display:none" id="otherPage"></iframe> 
+  <!-- uc 浏览器添加书签 end   ----> 
+
+  <div class="com-content"> 
+   <script>
+			function open_notice(id){
+            	setCookie('touch_notice_close',1);
+                var url = '/new/info/'+id+'.html';
+                window.location.href=url;
+			};
+			var touch_notice_close = getCookie('touch_notice_close');
+			if(touch_notice_close == '1' && typeof(document.getElementById('js-com-notification2')) != 'undefined' && document.getElementById('js-com-notification2') != null){
+				document.getElementById('js-com-notification2').style.display = 'none';
+			}
+		</script> 
+   <script>
+			$(document).ready(function(e) {
+				publicHeadFoot(); // 首页公共部分进行头尾部公用
+				$('.dload a.close').click(function(){
+					$(this).parent().remove();
+					setCookie('tipdownapp',1);
+				});
+			});
+		</script>
+   <div class="com-header-area" style="display:none"> 
+    <header> 
+     <!--正常--> 
+     <a href="http://m.paixie.net/" class="logo" title="拍鞋网"><img src="__PUBLIC__/Mobile/images/250X70.gif" width="100%" alt="拍鞋网" /></a> 
+     <ul> 
+      <li><a rel="nofollow" class="seek" href="search.html"></a></li> 
+      <li><a rel="nofollow" class="email" href="http://m.paixie.net/member/user_msg"></a></li> 
+      <li><a rel="nofollow" class="me" href="http://m.paixie.net/member/"></a></li> 
+      <li> <a rel="nofollow" class="buy" href="http://m.paixie.net/cart/"> <span class="number spec-num">1</span> </a> </li> 
+     </ul> 
+    </header> 
+    <div class="search">
+    </div> 
+   </div> 
+   <div class="clearboth"></div> 
+   <div class="com-content-area" id="js-com-content-area"> 
+    <div class="mask hidden"></div> 
+    <!--content--> 
+    <style type="text/css">
+.m_bg{background-image: url(__PUBLIC__/Mobile/images/base.png);background-size: 345px 350px;}
+.holdspace{ height:50px;}
+.com-title{ position:fixed; height:45px; left:0; z-index:3; top:0; width:100%; font-family:微软雅黑 !important;}
+.com-title .home_menu{display: inline-block;vertical-align: middle; right:2%; top:-4%; width:10%;}
+.com-title .home_menu span:after,
+.com-title .home_menu span:before,
+.com-title .home_menu span{display: inline-block;vertical-align: middle;width: 6px;height: 6px;border-radius: 3px;background: #ffffff;position: relative;}
+.com-title .home_menu span:after{content: ' ';position: absolute;right:-10px;top:0;}
+.com-title .home_menu span:before{content: ' ';position: absolute;left:-10px;top:0;}
+.rotate45{webkit-transform:rotate(45deg) scale(1.00,1.00) translate(0px,0px) skew(0deg,0deg); transform:rotate(45deg) scale(1.00,1.00) translate(0px,0px) skew(0deg,0deg)}
+.m_menu{z-index: 20;position: fixed;top:45px;right:5px;margin-left: -320px;}
+.m_menu>div{margin-left:340px;width: 160px;background: #292c33;border-radius: 6px;}
+.m_menu>div>i{width: 26px;height: 26px;position: absolute;right:15px;top:-12px;background: #292c33;}
+.m_menu>div>a{color: #949599;text-decoration: none;display: block;height: 50px;line-height: 50px;border-bottom:2px solid #1f2126;padding-left:65px;position: relative;}
+.m_menu>div>a:last-child{border-bottom:0;line-height: 50px;}
+.m_menu>div>a>span{position: absolute;top:0;left:24px;}
+.m_menu>div>a>span>i{width: 23px;height: 21px;display: inline-block;vertical-align: middle;}
+.m_menu>div>a:nth-child(2)>span>i{background-position: 0 -251px;}
+.m_menu>div>a:nth-child(3)>span>i{background-position: -25px -251px;}
+.m_menu>div>a:nth-child(4)>span>i{background-position: -52px -251px;}
+.m_menu>div>a:nth-child(5)>span>i{background-position: -78px -251px;}
+.spaceholder{ height:45px;}
+.hidden{ display:none;}
+.mask{ background: #FFF; opacity: 0.01;z-index: 19; width: 100%;height: 100%; position: absolute;top: 0;left: 0;}
+</style> 
+    <script type="text/javascript">
+$(document).ready(function() {
+    var $header = $('.com-title');
+    if($header.length){
+        $header.find('.home_menu').click(function(){
+               // var _menu = $('.m_menu')
+				//if(_menu.hasClass('hidden')){_menu.removeClass('hidden');}else{_menu.addClass('hidden');}
+				var _menu = $('.m_menu').removeClass('hidden');
+				var _mask = $('.mask').removeClass('hidden');
+                _menu.unbind('click').click(function(){
+                    _mask.click();
+                });
+                _mask.click(function(){
+                    _menu.addClass('hidden');
+                    _mask.addClass('hidden');
+                });
+            })
+    };
+});
+</script>
+    <div class="page-role cart-page cart-trolly-page" id="js-cart-trolly-page"> 
+     <link type="text/css" rel="stylesheet" href="__PUBLIC__/Mobile/css/checkout.css" /> 
+     <script src="__PUBLIC__/Mobile/js/consignee.js"></script> 
+     <!--<div class="page-title"><a href="/cart/index" class="return">返 回</a>购物结算</div>--> 
+     <div class="com-title"> 
+      <a title="返回" href="javascript:history.back();void(0)" class="return"></a> 
+      <a title="菜单" href="javascript:void(0);" class="home_menu"> <span></span> </a> 购物结算 
+     </div> 
+     <div class="m_menu hidden"> 
+      <div> 
+       <i class="rotate45"></i>
+          <a href="{:U('Mobile/Index/index')}"><span><i class="m_bg"></i></span>首页</a>
+          <a href="{:U('Mobile/Category/index')}"><span><i class="m_bg"></i></span>分类搜索</a>
+          <a href="{:U('Mobile/MyCart/mycart')}"><span><i class="m_bg"></i></span>购物车</a>
+          <if condition="$Think.session.mid gt '0'">
+              <a href="{:U('Mobile/Member/index')}"><span><i class="m_bg"></i></span>用户中心</a>
+              <else/>
+              <a href="{:U('Mobile/Login/Dologin')}"><span><i class="m_bg"></i></span>用户中心</a>
+          </if>
+      </div> 
+     </div> 
+     <div class="spaceholder"></div> 
+<!--     <div class="pxui-area" id="js-trolly-loading"> 
+      <img src="__PUBLIC__/Mobile/images/loading.gif" width="32" height="32" /> 正在加载请稍后... 
+     </div> -->
+     <form id="js-trolly-form" action="/order/order"> 
+      <div class="pxui-area" id="js-trolly" style="display:block"> 
+       <h1>选择收货地址</h1> 
+       <div class="address"> 
+        <a id="js-other-use-address-2" style="display:none">您还未添加任何地址，请先添加地址！</a> 
+        <span> <input type="hidden" id="js-trolly-address-id" value="3182547" /> 
+         <!--<input type="hidden" id="js-trolly-address-zipcode" value="223200"/>--> <span id="js-trolly-address-name">黄金林</span>&nbsp;&nbsp;&nbsp;&nbsp; <span id="js-trolly-address-phone">18005151538</span><br /> <span id="js-trolly-address-province">江苏省</span> <span id="js-trolly-address-city">淮安市</span> <span id="js-trolly-address-area">楚州区</span> <span id="js-trolly-address-address">南阳路33号</span> <span id="js-trolly-address-zipcode">223200</span> <br /> </span> 
+        <a class="a" style="display:block;" id="js-other-use-address"><b>+</b> 使用其他收货地址</a> 
+       </div> 
+       <h1>选择支付方式</h1> 
+       <div class="paytype" id="js-paytype"> 
+        <!----> 
+        <a id="js-pay-4" value="4,">货到付款<i></i></a> 
+        <a id="js-pay-1" value="1,200">支付宝<i></i></a> 
+        <a value="1,201">财付通<i></i></a> 
+        <a value="1,208" abc="">中国建设银行<i></i></a> 
+        <a value="1,20011">兴业银行<i></i></a> 
+        <a value="1,209">邮储银行<i></i></a> 
+        <a value="1,217">翼支付<i></i></a> 
+        <!--				<a value="1,223">中国工商银行<i></i></a>--> 
+        <a value="1,224">和包支付<i></i></a> 
+        <a value="1,20010">招商银行<i></i></a> 
+        <!----> 
+       </div> 
+       <h1>订单信息</h1> 
+       <div class="goodlist" id="js-item-list"></div> 
+       <h1>优惠</h1> 
+       <div class="offer alloffer" id="js-all-offers"> 
+        <a class="a" id="js-use-pxgold-button">使用拍鞋币<i class="arrow-right"></i></a> 
+        <a class="a" id="js-use-card-button">使用优惠券<i class="arrow-right"></i></a> 
+       </div> 
+       <h1>订单留言</h1> 
+       <div class="message"> 
+        <textarea id="js-trolly-message" maxlength="100" placeholder="订单留言，最多支持100个字符！"></textarea> 
+       </div> 
+       <h1>结算明细</h1> 
+       <div class="total"> 
+        <ul> 
+         <li>商品数量：<b class="pxui-color-red" id="js-goodnums-text">0</b></li> 
+         <li>商品金额：<b class="pxui-color-red" id="js-goodtotal-text">￥400.00</b></li> 
+         <li>邮<i style="padding: 0 0 0 2em;"></i>费：<b class="pxui-color-red" id="js-shipcost-text">-</b></li> 
+         <li id="js-pxgold-show-box">拍鞋币：<b class="pxui-color-red" id="js-use-pxgold">-￥400.00</b></li> 
+        </ul> 
+        <p style="text-align: right;"> 可获得<b id="js-get-pxgold"></b>个拍鞋币 </p> 
+        <p> <b>应付总额：<strong class="pxui-color-red" id="js-total-text"></strong></b> </p> 
+       </div> 
+       <div class="total"> 
+        <input type="submit" id="js-submit-order" class="pxui-light-button" value="提交订单" /> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+    <script>
+	$(document).ready(function() {
+		if (typeof (WebViewJavascriptBridge) === "object") {//异度支付
+			$('#js-pay-215').addClass('selected').siblings().remove();
+		} else {
+			$('#js-pay-215').remove();
+		}
+	});
+</script> 
+    <script>
+	/*如果已经登录者设置为true*/
+	window['VerifyPhone'] = true;
+	window['VerifyCode'] = '';
+//var Business = {"self":{"businessid":"self","items":{"5453655580":{"itemid":"545365","sizeid":"558","num":"1"},"4682135560":{"itemid":"468213","sizeid":"556","num":"1"},"5428575570":{"itemid":"542857","sizeid":"557","num":"1"}}}};
+	var Business = {"31101":{"items":{"11155895640":{"itemid":"1115589","num":"1","sizeid":"564"}}}} ;
+	var ProvinceList = [{"Value":"\u5317\u4eac","Name":"\u5317\u4eac"},{"Value":"\u5b89\u5fbd\u7701","Name":"\u5b89\u5fbd\u7701"},{"Value":"\u798f\u5efa\u7701","Name":"\u798f\u5efa\u7701"},{"Value":"\u7518\u8083\u7701","Name":"\u7518\u8083\u7701"},{"Value":"\u5e7f\u4e1c\u7701","Name":"\u5e7f\u4e1c\u7701"},{"Value":"\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a","Name":"\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a"},{"Value":"\u8d35\u5dde\u7701","Name":"\u8d35\u5dde\u7701"},{"Value":"\u6d77\u5357\u7701","Name":"\u6d77\u5357\u7701"},{"Value":"\u6cb3\u5317\u7701","Name":"\u6cb3\u5317\u7701"},{"Value":"\u6cb3\u5357\u7701","Name":"\u6cb3\u5357\u7701"},{"Value":"\u9ed1\u9f99\u6c5f\u7701","Name":"\u9ed1\u9f99\u6c5f\u7701"},{"Value":"\u6e56\u5317\u7701","Name":"\u6e56\u5317\u7701"},{"Value":"\u6e56\u5357\u7701","Name":"\u6e56\u5357\u7701"},{"Value":"\u5409\u6797\u7701","Name":"\u5409\u6797\u7701"},{"Value":"\u6c5f\u82cf\u7701","Name":"\u6c5f\u82cf\u7701"},{"Value":"\u6c5f\u897f\u7701","Name":"\u6c5f\u897f\u7701"},{"Value":"\u8fbd\u5b81\u7701","Name":"\u8fbd\u5b81\u7701"},{"Value":"\u5185\u8499\u53e4\u81ea\u6cbb\u533a","Name":"\u5185\u8499\u53e4\u81ea\u6cbb\u533a"},{"Value":"\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a","Name":"\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a"},{"Value":"\u9752\u6d77\u7701","Name":"\u9752\u6d77\u7701"},{"Value":"\u5c71\u4e1c\u7701","Name":"\u5c71\u4e1c\u7701"},{"Value":"\u5c71\u897f\u7701","Name":"\u5c71\u897f\u7701"},{"Value":"\u9655\u897f\u7701","Name":"\u9655\u897f\u7701"},{"Value":"\u4e0a\u6d77","Name":"\u4e0a\u6d77"},{"Value":"\u56db\u5ddd\u7701","Name":"\u56db\u5ddd\u7701"},{"Value":"\u5929\u6d25","Name":"\u5929\u6d25"},{"Value":"\u897f\u85cf\u81ea\u6cbb\u533a","Name":"\u897f\u85cf\u81ea\u6cbb\u533a"},{"Value":"\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a","Name":"\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a"},{"Value":"\u4e91\u5357\u7701","Name":"\u4e91\u5357\u7701"},{"Value":"\u6d59\u6c5f\u7701","Name":"\u6d59\u6c5f\u7701"},{"Value":"\u91cd\u5e86","Name":"\u91cd\u5e86"},{"Value":"\u53f0\u6e7e\u7701","Name":"\u53f0\u6e7e\u7701"},{"Value":"\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a","Name":"\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a"},{"Value":"\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a","Name":"\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a"}];</script> 
+
+    <!--content-end--> 
+   </div> 
+   <include file="public/footer1"/>
+  </div>
+  <script type="text/javascript">
+top.ztetbdata = null; 
+</script>  
+  <script src="__PUBLIC__/Mobile/js/trolly.js?12"></script>
+ </body>
+</html>

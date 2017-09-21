@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*top样式*/
+.top{width:100%;min-width:1200px;background:#ef1c55;line-height: 40px;color:#fff;}
+.top .topCont {position:relative;}
+.top .topCont p span{padding:0 30px 0 10px;background:url(../images/index_top.png) no-repeat 90% 50%;cursor:pointer;display:inline-block;}
+.top .topCont p a:link{color:#fff;}
+.top .topCont p a:visited{color:#fff;}
+.top .topCont p img{position:absolute;top:40px;right:0;display:none;width:110px;z-index: 9999;}
+.top .topCont p span:hover{background:url(../images/index_top2.png) #fff no-repeat 90% 50%;color:#e80040;}
+.top .topCont p span:hover img{display: block;}
+/*topNav样式*/
+.topNav{width:100%;min-width: 1200px;padding:15px 0 20px;}
+.topNav .topNavCont h1{padding:12px 60px 20px 33px;}
+.topNav .topNavCont ul{padding:30px 0;}
+.topNav .topNavCont ul li{float:left;line-height: 57px;padding:0 23px;font-size: 16px;color:#565656;}
+.topNav .topNavCont ul li:hover{background: #ef1c55;}
+.topNav .topNavCont ul li:hover a{color:#fff;}
+.topNav .topNavCont ul li.focus a{color:#fff;}
+.topNav .topNavCont ul li.focus{background: #ef1c55;}
+.topNav .topNavCont form{padding-top:40px;}
+.topNav .topNavCont form .text{border:1px solid #ddd;height:41px;width:232px;float:left;}
+.topNav .topNavCont form #submit{background:url(../images/topNav_search.png) no-repeat;width:65px;height:43px;cursor: pointer;float:left;}
+
+
+/*bottomNav样式*/
+.bottomNav{width:100%;min-width: 1200px;padding:56px 0 56px;border-bottom:1px solid #dfdfdf;}
+.bottomNav .bottomNavCont{}
+.bottomNav .bottomNavCont .head ul{padding:20px 0 40px;}
+.bottomNav .bottomNavCont .head ul li{float:left;padding:12px 70px;font-size: 16px;color:#333; background:url(../images/bottomNav_1.png) no-repeat center;}
+.bottomNav .bottomNavCont .head ul li a:link{color:#666;}
+.bottomNav .bottomNavCont .head ul li a:visited{color:#666;}
+.bottomNav .bottomNavCont .head ul li a:hover{color:#e80040;}
+.bottomNav .bottomNavCont .head ul li.li2{background-position:-248px }
+.bottomNav .bottomNavCont .head ul li.li3{background-position:-488px }
+.bottomNav .bottomNavCont .head ul li.li4{background-position:-718px }
+.bottomNav .bottomNavCont .head ul li.li5{background-position:-958px }
+/*.bottomNav .bottomNavCont .btm{padding-right: 42px;}*/
+.bottomNav .bottomNavCont .btm .left{width:736px;border-right: 1px solid #dfdfdf;}
+.bottomNav .bottomNavCont .btm .left ul li.li_big{float:left;text-align: center;padding-left:25px;padding-right:60px;line-height: 50px;}
+.bottomNav .bottomNavCont .btm .left ul li.li_big ul{font-size: 20px;color:#333;}
+.bottomNav .bottomNavCont .btm .left ul li.li_big ul li{font-size: 14px;text-align: left;line-height:26px;}
+.bottomNav .bottomNavCont .btm .right{margin-right:36px;}
+.bottomNav .bottomNavCont .btm .right p{float:left;padding-right: 42px;text-align: center;font-size: 16px;line-height:50px;}
+/*bottom样式*/
+.bottom{width:100%;min-width: 1200px;padding:32px 0 16px;text-align: center;line-height: 26px;}
+.bottom img{padding-top: 8px;}
+
+
+/*置顶导航istop样式*/
+.istop{width:100%;min-width: 1200px;position:fixed;top:0;left:0;z-index: 999999; display: none;background:#fff;-webkit-transition:all 0.4s;-moz-transition:all 0.4s;-ms-transition:all 0.4s;-o-transition:all 0.4s;box-shadow: 2px 2px 12px #dfdfdf;}
+.istop .istopCont h1{padding:12px 60px 20px 33px;}
+.istop .istopCont ul{padding:30px 0;}
+.istop .istopCont ul li{float:left;line-height: 57px;padding:0 23px;font-size: 16px;color:#565656;}
+.istop .istopCont ul li.focus a{color:#fff;}
+.istop .istopCont ul li.focus{background: #e80040;}
+.istop .istopCont form{padding-top:40px;}
+.istop .istopCont form .text{border:1px solid #ddd;height:41px;width:232px;float:left;}
+.istop .istopCont form #submit{background:url(../images/topNav_search.png) no-repeat;width:65px;height:43px;cursor: pointer;float:left;}
+
+
+/*侧面导航*/
+/*rightNav样式*/
+.rightNav{position:fixed;width:40px;height:1000px;background:#464950;top:0px;right:0px;}
+.rightNav ul li.li1{width:40px;height:50px;margin-top:150px;z-index:5;padding-bottom: 20px;cursor: pointer;position: relative;}
+.rightNav ul li.li1 img{margin-left: 9px;margin-top: 20px;}
+.rightNav ul li.li1:hover{background: #dd0034;}
+.rightNav ul li.li1 ul{width:240px;height:280px;position: absolute;top:-24px;left:-240px;display:none;background: #fff;color:#e5e5e5;}
+.rightNav ul li.li1 ul li h1{margin-left: 190px;}
+.rightNav ul li.li1 ul li h2{margin-left: 70px;}
+.rightNav ul li.li1 ul li b a:link{color:#dd0034;}
+.rightNav ul li.li1 ul li b a:visited{color:#dd0034;}
+.rightNav ul li.li1 ul li b a:hover{color:#dd0034;}
+.rightNav ul li.li1 ul li b{display:block;font-weight: normal;width:160px;margin-top: 15px;margin-left: 45px;color:#222;}
+.rightNav ul li.li1 ul li h5{width:220px;height:1px;border-bottom:1px dotted #e5e5e5;margin-top: 10px;}
+
+.rightNav ul li.li1 ul li .span2{display: inline-block;width:80px;height:30px;position:absolute;background:#e5e5e5;line-height:30px;text-align:center;cursor:pointer;margin-top:28px;color:#000;margin-left: 32px;}
+.rightNav ul li.li1 ul li h6{width:80px;height:30px;float:left;margin-left:120px;background:#e5e5e5;line-height:30px;text-align:center;cursor:pointer;margin-top:28px;color:#000;font-size:16px;}
+.rightNav ul li.li1 ul li .span2:hover{border:1px solid #fcafaf;background:#f4e4e4;}
+.rightNav ul li.li1 ul li h6:hover{border:1px solid #fcafaf;background:#f4e4e4; }
+
+
+
+.rightNav ul li.li1:hover ul{display: block;}
+.rightNav h4{margin-left:7px;}
+.rightNav h5{margin-left:7px;}
+.rightNav ul li.li2{height:190px;cursor: pointer;}
+.rightNav ul li.li2 h3{width:40px;height:70px;text-align: center;}
+.rightNav ul li.li2 h3 img{margin-top: 30px;}
+.rightNav ul li.li2:hover{background: #dd0034;}
+.rightNav ul li.li2 p{display: block;width:10px;margin-left: 12px;color:#e5e5e5;}
+.rightNav ul li.li2 h1{width:25px;height:25px;border-radius: 12.5px;background:#dd0034;color:#e5e5e5;font-size:14px;font-weight: normal;text-align: center;line-height: 25px;margin-left: 8px;margin-top:15px;}
+.rightNav ul li{font-size: 16px;width:40px;}
+.rightNav ul li.li3{width:80px;height:40px;margin-top: 15px;position: relative;padding-left: 8px;cursor: pointer;}
+.rightNav ul li.li3 img{margin-top: 10px;}
+.rightNav ul li.li3 p{width:80px;height:40px;position: absolute;top:0px;left:-80px;display:none;text-align: center;background: #464950;color:#e5e5e5;line-height: 40px;}
+.rightNav ul li.li3:hover{background: #dd0034;}
+.rightNav ul li.li3:hover p{display: block;}
+.rightNav ul li.li4{width:80px;height:40px;margin-top: 15px;position: relative;padding-left: 8px;cursor: pointer;}
+.rightNav ul li.li4 img{margin-top: 10px;}
+.rightNav ul li.li4 p{width:100px;height:40px;position: absolute;top:0px;left:-100px;display:none;text-align: center;background: #464950;color:#e5e5e5;line-height: 40px;}
+.rightNav ul li.li4:hover{background: #dd0034;}
+.rightNav ul li.li4:hover p{display: block;}
+.rightNav ul li.li5{width:80px;height:40px;margin-top: 15px;position: relative;padding-left: 8px;cursor: pointer;}
+.rightNav ul li.li5 img{margin-top: 10px;}
+.rightNav ul li.li5 p{width:80px;height:40px;position: absolute;top:0px;left:-80px;display:none;text-align: center;background: #464950;color:#e5e5e5;line-height: 40px;}
+.rightNav ul li.li5:hover{background: #dd0034;}
+.rightNav ul li.li5:hover p{display: block;}
+.rightNav ul li.li6{width:80px;height:40px;margin-top:180px;position: relative;padding-left: 8px;cursor: pointer;}
+.rightNav ul li.li6 img{margin-top: 10px;}
+.rightNav ul li.li6 p{width:160px;height:160px;position: absolute;top:-60px;left:-160px;display:none;text-align: center;background: #464950;color:#e5e5e5;line-height: 40px;}
+.rightNav ul li.li6:hover{background: #dd0034;}
+.rightNav ul li.li6:hover p{display: block;}
+.rightNav ul li.li7{width:80px;height:40px;margin-top: 15px;position: relative;padding-left: 8px;cursor: pointer;}
+.rightNav ul li.li7 img{margin-top: 10px;}
+.rightNav ul li.li7 p{width:80px;height:40px;position: absolute;top:0px;left:-80px;display:none;text-align: center;background: #464950;color:#e5e5e5;line-height: 40px;}
+.rightNav ul li.li7:hover{background: #dd0034;}
+.rightNav ul li.li7:hover p{display: block;}
+.rightNav ul li.li8{width:80px;height:40px;margin-top: 15px;position: relative;padding-left: 8px;cursor: pointer; border:1px solid red;}
+.rightNav ul li.li8 img{margin-top: 10px;transition:all 0.5s;cursor:pointer;/*display: none;*/z-index: 9999999;}
+.rightNav ul li.li8 p{width:80px;height:40px;position: absolute;top:0px;left:-80px;/*display:none;*/text-align: center;background: #464950;color:#e5e5e5;line-height: 40px;}
+.rightNav ul li.li8:hover{background: #dd0034;}
+/*.rightNav ul li.li8:hover p{display: block;}*/
+
+

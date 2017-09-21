@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>会员中心 - 订单详情</title> 
+  <meta name="keywords" content="" /> 
+  <meta name="description" content="" /> 
+  <meta charset="utf-8" /> 
+  <link rel="dns-prefetch" href="//ued.paixie.net" /> 
+  <link rel="dns-prefetch" href="//img-cdn2.paixie.net" /> 
+  <link rel="icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="bookmark" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="shortcut icon" href="__PUBLIC__/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <meta http-equiv="X-UA-Compatible" content="edge" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+  <meta name="format-detection" content="telphone=no, email=no" /> 
+  <meta name="renderer" content="webkit" /> 
+  <meta name="HandheldFriendly" content="true" /> 
+  <meta name="MobileOptimized" content="320" /> 
+  <meta name="screen-orientation" content="portrait" /> 
+  <meta name="x5-orientation" content="portrait" /> 
+  <meta name="full-screen" content="yes" /> 
+  <meta name="x5-fullscreen" content="true" /> 
+  <meta name="browsermode" content="application" /> 
+  <meta name="x5-page-mode" content="app" /> 
+  <meta name="msapplication-tap-highlight" content="no" /> 
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" /> 
+  <script>var imgonload =function(){};var urls = window.location.href.split("#");try{ if(/^url:.+/.test(urls[1])){window.location.href=urls[1].slice(4);}}catch(e){}var _hmt = _hmt || [];var PX_HELP_DATA=['416148489@qq.com','i2jioq5184gbv9ts2qudnsgth4',['touch','member2.0','orderdetail'],'2015/09/15 16:12:29',0]; var DOMIN = {MAIN:"http://www.paixie.net",HELP:"http://help.paixie.net",TUAN:"http://tuan.paixie.net",WAP:"http://wap.paixie.net",UNION:"http://union.weixiaodian.com",VIPSHOP:"http://go.paixie.net"};var DOMINS = {"main":"http:\/\/www.paixie.net","tuan":"http:\/\/tuan.paixie.net","help":"http:\/\/help.paixie.net","union":"http:\/\/union.weixiaodian.com","wap":"http:\/\/wap.paixie.net","touch":"http:\/\/m.paixie.net","vipshop":"http:\/\/go.paixie.net","ued":"http:\/\/ued.paixie.net"};</script> 
+  <link rel="stylesheet" href="__PUBLIC__/Mobile/css/zip.touch.member2_0.orderdetail.v3907.css" type="text/css" /> 
+  <script type="text/javascript" src="__PUBLIC__/Mobile/js/zepto.min.js"></script> 
+  <style type="text/css">
+.m_header,
+.body{max-width: 640px;}
+.m_header{left:50%;margin-left: -320px;}
+</style> 
+  <script type="text/javascript">function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>640){w = 640;};$('html').css('font-size',100/640*w+'px');$('#js_style_for_pc').remove();$('body').append('<style id="js_style_for_pc">.m_header{margin-left: -'+w/2+'px;}.m_menu{margin-left: -'+w/2+'px;}</style>');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};</script> 
+ </head> 
+ <body> 
+  <div class="body"> 
+   <div class="m_header"> 
+    <p> <a class="bt_prev" href="javascript:window.history.back();void(0);"> <span class="prev rotate45"></span> <span class="prev rotate135"></span> </a> <a class="bt_ltext" href="javascript:void(0);"></a> </p> 
+    <h1 class="ellipsis bt_title"> 订单详情 </h1> 
+    <p> <a class="bt_rtext" href="javascript:void(0);"></a> <a class="bt_menu" href="javascript:void(0)"> <span class="menu"></span> </a> </p> 
+   </div> 
+   <div class="m_menu hidden"> 
+    <div> 
+     <i class="rotate45"></i>
+        <a href="{:U('Mobile/Index/index')}"><span><i class="m_bg"></i></span>首页</a>
+        <a href="{:U('Mobile/Category/index')}"><span><i class="m_bg"></i></span>分类搜索</a>
+        <a href="{:U('Mobile/MyCart/mycart')}"><span><i class="m_bg"></i></span>购物车</a>
+        <a href="{:U('Mobile/Member/index')}"><span><i class="m_bg"></i></span>用户中心</a>
+    </div> 
+   </div>
+
+      <volist name="orderList" id="val">
+      <div class="lib_content" id="js_lib_content">
+    <ul class="m_list bg_white order_detail">
+     <li> <i class="m_icon m_icon_orderstatic"></i> <span class="f28 gray3">订单状态：</span> <span class="f28 orange"> 
+       <!--待付款发货--> {$val.statusname} </span>
+      <!--待付款发货--> <i class="m_icon m_icon_clock"></i> <span class="gray6" id="js_countdown" data-second="259129" data-orderid="2015091516111878298">还剩<em class="orange" id="js_hours"></em>时<em class="orange" id="js_minute"></em>分</span> <br /> <span class="f24 gray9">订单金额（含运费）：&yen; {$val.price} </span> <br /> <span class="f24 gray9">运费：&yen;0.00</span> </li>
+        <volist name="addresses" id="v1">
+        <li> <i class="m_icon m_icon_receiver"></i> <span class="f28 gray3">收货人：{$v1.username}</span> <span class="f28 gray3 fr">{$v1.mobile}</span> <br /> <span class="f24 gray9">收货地址：{$v1.area}{$v1.address}</span> </li>
+        </volist>
+    </ul>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div> 
+    <ul class="m_list m_list_top_line bg_white"> 
+     <li class="link"> <a href="http://guronglu.m.paixie.net" class="gray3"> <!--<i class="m_icon m_icon_shop"></i> 古戎鹿运动专营店 -->
+       <div class="right"> 
+        <span class="m_arrow"> <i class="rotate45"></i> <i class="rotate135"></i> </span> 
+       </div> </a> </li> 
+    </ul>
+
+          <volist name="val['goods']" id="v2">
+          <ul class="m_list bg_white m_order_list">
+     <li> <a href="/shoe-nike-683632-010-1115589.html"> <img class="img100" src="/Uploads/{$v2.imageurl}{$v2.imagename}" />
+       <div class="info"> 
+        <p class="name gray3">{$v2.goodsname}</p>
+        <p class="sku gray9">{$v2.ml}</p>
+       </div> 
+       <div class="price"> 
+        <p class="gray3">&yen;{$v2.saleprice}</p>
+        <p class="gray9">x{$v2.buynum}</p>
+       </div> </a> 
+      <div class="text_right"> 
+      </div> </li>
+    </ul> 
+    <div class="detail_price"> 
+     <p><span class="gray9 text-left">优惠金额：</span><span class="gray3 text-right">&yen;0.00</span></p>
+     <p><span class="gray9 text-left">运费：</span><span class="gray3 f28 text-right">￥0.00</span></p> 
+     <p><span class="gray9 text-left">实付款（含运费）：</span><span class="orange f28 text-right">&yen;{$v2.saleprice}</span></p>
+    </div> 
+    <div class="detail_text gray9 f24">
+      买家留言：{$v2.inform}
+    </div>
+          </volist>
+
+          <div class="placeholder"></div>
+    <div class="placeholder"></div> 
+    <div class="detail_text gray9 f24">
+      订单号：{$val.orderno}
+     <br /> 生成时间：{:date('Y-m-d H:i:s',$val['create_time'])}
+    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="m_order_bottom"> 
+     <!--待付款发货--> 
+     <!--<a class="m_button js_cancle" data-orderid="{$val.id}" data-isdetail="1">取消订单</a>
+     <a class="m_button m_button_orange" href="{:U('',array('oid'=>$val.id))}">&nbsp;&nbsp;&nbsp;付款&nbsp;&nbsp;&nbsp;</a>-->
+
+        <switch name="val.status">
+            <case value="1">
+                <a data-orderid="{$val.id}" href="javascript:void(0);" class="m_button js_cancle">取消订单</a>
+                <a href="{:U('',array('oid'=>$val.id))}" class="m_button m_button_orange">立即付款</a>
+            </case>
+            <!--<case value="2">
+                <a href="{:U('',array('oid'=>$val.id))}" class="m_button m_button_orange">提醒发货</a>
+            </case>-->
+            <case value="3">
+                <!--<a href="{:U('',array('oid'=>$val.id))}" class="m_button m_button_orange">确认收货</a>-->
+                <a href="" class="m_button m_button_orange receipt" id="{$val.id}" >确认收货</a>
+            </case>
+            <case value="4">
+                <a href="{:U('',array('oid'=>$val.id))}" class="m_button m_button_orange">评价</a>
+            </case>
+        </switch>
+
+    </div> 
+   </div>
+      </volist>
+
+      <div class="m_footer clear">
+    <a class="m_icon m_icon_gotop hidden" href="javascript:void(0);"></a>
+          <include file="public/footer"/>
+   </div> 
+   <div style="display:none;"> 
+   </div> 
+   <div class="placeholder"></div>
+   <div class="placeholder"></div>
+   <div class="placeholder"></div>
+   <div class="placeholder"></div>
+   <div class="placeholder"></div> 
+   <div class="placeholder"></div>
+   <div class="placeholder"></div>
+   <div class="placeholder"></div>
+   <div class="placeholder"></div>
+   <div class="placeholder"></div> 
+   <div class="placeholder"></div>
+   <div class="placeholder"></div> 
+  </div> 
+  <script type="text/javascript" src="__PUBLIC__/Mobile/js/zip.touch.member2_0.orderdetail.v3621.js"></script> 
+  <script type="text/javascript" src="__PUBLIC__/Mobile/js/jweixin-1.0.0.js"></script> 
+  <script type="text/javascript">
+$(document).ready(function(){
+	$.ajax({
+		url: "ajax.php",
+		type: "post",
+		datatype: "json",
+		success: function (data) {
+			data = $.parseJSON(data);
+			wx.config({
+				debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+				appId: data["appId"], // 必填，公众号的唯一标识
+				timestamp: data["timestamp"], // 必填，生成签名的时间戳
+				nonceStr: data["nonceStr"], // 必填，生成签名的随机串
+				signature: data["signature"],// 必填，签名，见附录1
+				jsApiList: ['onMenuShareTimeline',"onMenuShareAppMessage"] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+			});
+		}
+	});
+	//微信分享
+		document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+		//获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
+		if(window.shareData==undefined){
+			window.shareData = {
+				"link": window.location.href,   
+				"imgUrl": "http://ued.paixie.net/template/statics/site_touch/__PUBLIC__/Mobile/images/public/weixin_paixie.jpg",
+				"title": "拍鞋网-会员中心",
+				"desc": ""			
+			};
+		}
+			//获取“分享给朋友”按钮点击状态及自定义分享内容接口
+			wx.onMenuShareAppMessage({
+				title: window.shareData.title, // 分享标题
+				desc: window.shareData.desc, // 分享描述
+				link: window.shareData.link, // 分享链接
+				imgUrl: window.shareData.imgUrl, // 分享图标
+				type: 'link', // 分享类型,music、video或link，不填默认为link
+				dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+				success: function () { 
+					// 用户确认分享后执行的回调函数
+				},
+				cancel: function () { 
+					// 用户取消分享后执行的回调函数
+				}
+			});
+			// 获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
+			wx.onMenuShareTimeline({
+				title: window.shareData.title, // 分享标题
+				link: window.shareData.link, // 分享链接
+				imgUrl: window.shareData.imgUrl, // 分享图标
+				success: function () { 
+					// 用户确认分享后执行的回调函数
+				},
+				cancel: function () { 
+					// 用户取消分享后执行的回调函数
+				}
+			});
+			
+			//获取“分享到QQ”按钮点击状态及自定义分享内容接口
+			wx.onMenuShareQQ({
+				title: window.shareData.title, // 分享标题
+				desc: window.shareData.desc, // 分享描述
+				link: window.shareData.link, // 分享链接
+				imgUrl: window.shareData.imgUrl, // 分享图标
+				success: function () { 
+				   // 用户确认分享后执行的回调函数
+				},
+				cancel: function () { 
+				   // 用户取消分享后执行的回调函数
+				}
+			});
+			
+			wx.onMenuShareWeibo({
+				title: window.shareData.title, // 分享标题
+				desc: window.shareData.desc, // 分享描述
+				link: window.shareData.link, // 分享链接
+				imgUrl: window.shareData.imgUrl, // 分享图标
+				success: function () { 
+				   // 用户确认分享后执行的回调函数
+				},
+				cancel: function () { 
+					// 用户取消分享后执行的回调函数
+				}
+			});
+			
+			wx.onMenuShareQZone({
+				title: window.shareData.title, // 分享标题
+				desc: window.shareData.desc, // 分享描述
+				link: window.shareData.link, // 分享链接
+				imgUrl: window.shareData.imgUrl, // 分享图标
+				success: function () { 
+				   // 用户确认分享后执行的回调函数
+				},
+				cancel: function () { 
+					// 用户取消分享后执行的回调函数
+				}
+			});
+			
+			
+			
+			
+		});
+});
+</script>  
+  <div class="p_order_canclereason" data-orderid=""> 
+   <p class="reason" data-reasonid="1">我不想买了</p> 
+   <p class="reason" data-reasonid="2">信息填写错误，重新拍</p> 
+   <p class="reason" data-reasonid="3">卖家缺货</p> 
+   <p class="reason" data-reasonid="4">面对面交易</p> 
+   <p class="reason" data-reasonid="5">其他原因</p> 
+   <div class="placeholder"></div> 
+   <p class="js_close">取消</p> 
+  </div>
+ </body>
+ <link rel="stylesheet" href="__PUBLIC__/Mobile/layer_mobile/need/layer.css" type="text/css" />
+ <script type="text/javascript" src="__PUBLIC__/Mobile/layer_mobile/layer.js"></script>
+ <script>
+     $("body").on("touchend mousedown", ".p_order_canclereason .reason", function() {
+         var $this = $(this);
+         var _orderid = $(this).parent().data("orderid");
+         var _reasonid = $this.data("reasonid");
+         var _isdetail = $(".m_order_bottom").find(".js_cancle").data("isdetail");
+         alert(_orderid);
+         var url = "{:U('Member/cancelOrder')}";
+         $(".m_mask").hide();
+         $this.parent().hide();
+         $.ajax({url: url, type: 'post', data: {order_id: _orderid, reasonid: _reasonid, act: 'cancel'}, dataType: 'json', error: function() {
+             layer.msg('取消订单失败!');
+         }, success: function(data) {
+             window.location.reload();
+             layer.msg('取消订单成功!',{icon:1});
+         }});
+     });
+     $(function(){
+         $('.receipt').click(function(){
+             var oid=$(this).attr('id');
+             $.post("{:U('Member/receipt')}",{oid:oid},function(res){
+                 if(res.status == 1){
+                     layer.open({
+                         content:res.info,
+                         skin:'msg',
+                         type:1,
+                         time:3,
+                         location:"{:U('Member/myOrder')}"
+                     })
+                 }else{
+                     layer.open({
+                         content:res.info,
+                         skin:'msg',
+                         type:1,
+                         time:3,
+                         location:"{:U('Member/myOrder')}"
+                     })
+                 }
+             })
+         })
+     })
+ </script>
+</html>

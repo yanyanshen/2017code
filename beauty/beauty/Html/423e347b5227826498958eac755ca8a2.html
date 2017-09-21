@@ -1,0 +1,604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>列表页</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
+
+    <script>
+        $(function(){
+            $('.del').click(function(){
+                var id=$(this).attr('id');
+                $.post("/index.php/Admin/AuthRule/del.html",{id:id},function(res){
+                    if(res.status==1){
+                        layer.msg('删除成功',{icon:6,time:2000},function(){
+                            location="/index.php/Admin/AuthRule/index.html";
+                        })
+                    }else{
+                        layer.msg('删除失败',{icon:5,time:2000},function(){
+                            location="/index.php/Admin/AuthRule/index.html";
+                        })
+                    }
+                })
+            })
+        })
+    </script>
+</head>
+
+<body>
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">系统设置</a></li>
+    </ul>
+</div>
+<div class="formbody">
+    <div id="usual1" class="usual">
+        <div id="tab2" class="tabson">
+            <table class="tablelist">
+                <thead>
+                <tr>
+                    <th>权限名称</th>
+                    <th>权限规则</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                        <td>|--后台首页</td>
+                        <td>Admin/Index/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/1/pname/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/1.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/1.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="1">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--后台头部</td>
+                        <td>Admin/Index/top</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/40/pname/%E5%90%8E%E5%8F%B0%E5%A4%B4%E9%83%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/40.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/40.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="40">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--后台尾部</td>
+                        <td>Admin/Index/footer</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/41/pname/%E5%90%8E%E5%8F%B0%E5%B0%BE%E9%83%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/41.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/41.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="41">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--后台主页</td>
+                        <td>Admin/Index/main</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/42/pname/%E5%90%8E%E5%8F%B0%E4%B8%BB%E9%A1%B5.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/42.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/42.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="42">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--后台左边</td>
+                        <td>Admin/Index/left</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/43/pname/%E5%90%8E%E5%8F%B0%E5%B7%A6%E8%BE%B9.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/43.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/43.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="43">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--后台退出</td>
+                        <td>Admin/Admin/loginout</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/44/pname/%E5%90%8E%E5%8F%B0%E9%80%80%E5%87%BA.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/44.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/44.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="44">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--活动管理</td>
+                        <td>Admin/Nav/Sale</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/10/pname/%E6%B4%BB%E5%8A%A8%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/10.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/10.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="10">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--活动列表</td>
+                        <td>Admin/Sale/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/36/pname/%E6%B4%BB%E5%8A%A8%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/36.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/36.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="36">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加活动</td>
+                        <td>Admin/Sale/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/37/pname/%E6%B7%BB%E5%8A%A0%E6%B4%BB%E5%8A%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/37.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/37.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="37">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--评论管理</td>
+                        <td>Admin/Nav/Comment</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/11/pname/%E8%AF%84%E8%AE%BA%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/11.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/11.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="11">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--评论列表</td>
+                        <td>Admin/Comment/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/38/pname/%E8%AF%84%E8%AE%BA%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/38.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/38.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="38">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已回复列表</td>
+                        <td>Admin/Comment/yiresponse</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/52/pname/%E5%B7%B2%E5%9B%9E%E5%A4%8D%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/52.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/52.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="52">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--未回复列表</td>
+                        <td>Admin/Comment/weiresponse</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/53/pname/%E6%9C%AA%E5%9B%9E%E5%A4%8D%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/53.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/53.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="53">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--反馈管理</td>
+                        <td>Admin/Nav/Feedback</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/12/pname/%E5%8F%8D%E9%A6%88%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/12.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/12.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="12">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--反馈列表</td>
+                        <td>Admin/Feedback/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/39/pname/%E5%8F%8D%E9%A6%88%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/39.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/39.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="39">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--系统管理</td>
+                        <td>Admin/Nav/System</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/2/pname/%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/2.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/2.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="2">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--菜单列表</td>
+                        <td>Admin/AdminNav/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/13/pname/%E8%8F%9C%E5%8D%95%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/13.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/13.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="13">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加菜单</td>
+                        <td>Admin/AdminNav/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/14/pname/%E6%B7%BB%E5%8A%A0%E8%8F%9C%E5%8D%95.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/14.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/14.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="14">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--权限管理</td>
+                        <td>Admin/Nav/Auth</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/3/pname/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/3.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/3.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="3">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--管理员列表</td>
+                        <td>Admin/Admin/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/15/pname/%E7%AE%A1%E7%90%86%E5%91%98%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/15.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/15.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="15">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加管理员</td>
+                        <td>Admin/Admin/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/16/pname/%E6%B7%BB%E5%8A%A0%E7%AE%A1%E7%90%86%E5%91%98.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/16.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/16.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="16">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--管理组列表</td>
+                        <td>Admin/AuthGroup/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/18/pname/%E7%AE%A1%E7%90%86%E7%BB%84%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/18.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/18.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="18">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加管理组</td>
+                        <td>Admin/AuthGroup/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/19/pname/%E6%B7%BB%E5%8A%A0%E7%AE%A1%E7%90%86%E7%BB%84.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/19.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/19.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="19">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--权限列表</td>
+                        <td>Admin/AuthRule/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/20/pname/%E6%9D%83%E9%99%90%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/20.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/20.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="20">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加权限</td>
+                        <td>Admin/AuthRule/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/21/pname/%E6%B7%BB%E5%8A%A0%E6%9D%83%E9%99%90.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/21.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/21.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="21">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--品牌管理</td>
+                        <td>Admin/Nav/Brand</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/4/pname/%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/4.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/4.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="4">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--品牌列表</td>
+                        <td>Admin/Brand/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/22/pname/%E5%93%81%E7%89%8C%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/22.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/22.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="22">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加品牌</td>
+                        <td>Admin/AddBrand/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/23/pname/%E6%B7%BB%E5%8A%A0%E5%93%81%E7%89%8C.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/23.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/23.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="23">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--金币管理</td>
+                        <td>Admin/Nav/Golds</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/45/pname/%E9%87%91%E5%B8%81%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/45.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/45.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="45">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--金币商品列表</td>
+                        <td>Admin/Golds/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/46/pname/%E9%87%91%E5%B8%81%E5%95%86%E5%93%81%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/46.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/46.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="46">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加金币商品</td>
+                        <td>Admin/Golds/addAct</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/47/pname/%E6%B7%BB%E5%8A%A0%E9%87%91%E5%B8%81%E5%95%86%E5%93%81.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/47.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/47.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="47">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--信息管理</td>
+                        <td>Admin/Nav/Message</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/48/pname/%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/48.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/48.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="48">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--个人信息修改</td>
+                        <td>Admin/Admin/changeInfo</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/17/pname/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%BF%AE%E6%94%B9.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/17.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/17.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="17">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--我的站内信</td>
+                        <td>Admin/Message/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/49/pname/%E6%88%91%E7%9A%84%E7%AB%99%E5%86%85%E4%BF%A1.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/49.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/49.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="49">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--发送站内信</td>
+                        <td>Admin/Message/sendMessage</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/50/pname/%E5%8F%91%E9%80%81%E7%AB%99%E5%86%85%E4%BF%A1.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/50.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/50.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="50">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--分类管理</td>
+                        <td>Admin/Nav/Category</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/5/pname/%E5%88%86%E7%B1%BB%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/5.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/5.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="5">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--分类列表</td>
+                        <td>Admin/Category/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/24/pname/%E5%88%86%E7%B1%BB%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/24.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/24.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="24">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加分类</td>
+                        <td>Admin/Category/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/25/pname/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/25.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/25.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="25">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--底部管理</td>
+                        <td>Admin/Nav/Footer</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/55/pname/%E5%BA%95%E9%83%A8%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/55.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/55.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="55">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--底部列表</td>
+                        <td>Admin/Foote/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/56/pname/%E5%BA%95%E9%83%A8%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/56.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/56.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="56">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加底部</td>
+                        <td>Admin/Foote/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/57/pname/%E6%B7%BB%E5%8A%A0%E5%BA%95%E9%83%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/57.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/57.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="57">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--微信管理</td>
+                        <td>Admin/Nav/WeiXin</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/58/pname/%E5%BE%AE%E4%BF%A1%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/58.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/58.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="58">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--微信菜单</td>
+                        <td>Admin/WeiXin/createMenu</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/59/pname/%E5%BE%AE%E4%BF%A1%E8%8F%9C%E5%8D%95.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/59.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/59.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="59">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--商品管理</td>
+                        <td>Admin/Nav/Goods</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/6/pname/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/6.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/6.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="6">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--商品列表</td>
+                        <td>Admin/Goods/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/26/pname/%E5%95%86%E5%93%81%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/26.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/26.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="26">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加商品</td>
+                        <td>Admin/Goods/addAct</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/27/pname/%E6%B7%BB%E5%8A%A0%E5%95%86%E5%93%81.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/27.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/27.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="27">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--会员管理</td>
+                        <td>Admin/Nav/User</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/7/pname/%E4%BC%9A%E5%91%98%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/7.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/7.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="7">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--会员列表</td>
+                        <td>Admin/User/UserList</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/28/pname/%E4%BC%9A%E5%91%98%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/28.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/28.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="28">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--发送站内信</td>
+                        <td>Admin/User/sendUserMessage</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/51/pname/%E5%8F%91%E9%80%81%E7%AB%99%E5%86%85%E4%BF%A1.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/51.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/51.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="51">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--订单管理</td>
+                        <td>Admin/Nav/Order</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/8/pname/%E8%AE%A2%E5%8D%95%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/8.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/8.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="8">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--订单列表</td>
+                        <td>Admin/Order/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/29/pname/%E8%AE%A2%E5%8D%95%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/29.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/29.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="29">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--待付款订单</td>
+                        <td>Admin/Order/dfk</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/30/pname/%E5%BE%85%E4%BB%98%E6%AC%BE%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/30.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/30.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="30">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--待发货订单</td>
+                        <td>Admin/Order/dfh</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/31/pname/%E5%BE%85%E5%8F%91%E8%B4%A7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/31.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/31.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="31">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已发货订单</td>
+                        <td>Admin/Order/yfh</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/32/pname/%E5%B7%B2%E5%8F%91%E8%B4%A7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/32.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/32.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="32">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已收货订单</td>
+                        <td>Admin/Order/ysh</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/33/pname/%E5%B7%B2%E6%94%B6%E8%B4%A7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/33.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/33.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="33">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--已评价订单</td>
+                        <td>Admin/Order/ypj</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/54/pname/%E5%B7%B2%E8%AF%84%E4%BB%B7%E8%AE%A2%E5%8D%95.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/54.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/54.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="54">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>|--广告管理</td>
+                        <td>Admin/Nav/Advertise</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/9/pname/%E5%B9%BF%E5%91%8A%E7%AE%A1%E7%90%86.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/9.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/9.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="9">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--广告列表</td>
+                        <td>Admin/Advertise/index</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/34/pname/%E5%B9%BF%E5%91%8A%E5%88%97%E8%A1%A8.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/34.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/34.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="34">删除</a>
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--添加广告</td>
+                        <td>Admin/Advertise/add</td>
+                        <td>
+                            <a href="/index.php/Admin/AuthRule/add/pid/35/pname/%E6%B7%BB%E5%8A%A0%E5%B9%BF%E5%91%8A.html" class="tablelink">添加子菜单</a> |
+                            <a href="/index.php/Admin/AuthRule/edit/id/35.html" class="tablelink">编辑</a> |
+                            <!--<a href="/index.php/Admin/AuthRule/delete/id/35.html" class="tablelink">删除</a>-->
+                            <a href="#" class="tablelink del" id="35">删除</a>
+                        </td>
+                    </tr>                </tbody>
+            </table>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+        $("#usual1 ul").idTabs();
+        $('.tablelist tbody tr:odd').addClass('odd');
+    })
+
+</script>
+</html>

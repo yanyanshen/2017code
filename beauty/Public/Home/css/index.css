@@ -1,0 +1,111 @@
+/*广告层*/
+.adArea{
+   height: 390px;
+   margin-bottom: 10px;
+}
+
+
+/*楼层*/
+.main .floor{
+	width: 1200px;
+	height: 600px;
+}
+
+.main .floor .floorTitle{
+	height: 2em;
+	width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 2em; 
+
+}
+.main .floor .floorOne{
+	color:#E93052;
+	border-bottom: 2px solid #E93052;
+}
+.main .floor .floorTwo{
+	color:#19C8A9;
+	border-bottom: 2px solid #19C8A9;
+}
+
+.main .floor .floorThree{
+	color:#00C4F6;
+	border-bottom: 2px solid #00C4F6;
+}
+
+
+.main .floor .floorContent{
+	width: 100%;
+
+	
+}
+.main .floor .floorContent .goodList{
+	width: 930px;	
+}
+
+.main .floor .floorContent .goodList li{
+	float: left;
+	width: 220px;
+	height: 265px;
+	margin:10px 10px 0px 0px;
+	border: 1px solid #eee;
+	text-align: center;
+}
+
+.main .floor .floorContent .goodList img{
+	position: relative;
+	width: 210px;
+	height: 210px;
+	border: 0;
+}
+
+.main .floor .floorContent .goodList img:hover{
+	top:-1;
+	left:-2;
+}
+.main .floor .floorContent .goodList li a{
+	font: bold 13px "微软雅黑";
+	color: #333;
+}
+
+.main .floor .floorContent .goodList li a:hover{
+	
+	color: #f00;
+}
+
+.main .floor .floorContent .goodList li p{
+	display: inline-block;
+	padding: 4px 0;
+	margin-top: 4px;
+	width: 90%;
+	border-top:1px dotted #ccc;
+	color:#d00;
+	font-weight: bold; 
+	font-size: 14px;
+}
+.main .floor .floorContent .goodAd{
+	margin-top: 10px;
+	width: 270px;
+	height: 544px; 
+	background: #ccc;   
+}
+.main .floor .floorContent .goodAd img{
+	width: 270px;
+	height: 544px;
+	border: 0px;
+}
+
+.main .floor .floorContent .goodAd span{
+	position: relative;
+    top: -48px;
+	display: block;
+    width: 270px;
+    height: 45px;
+    color:#fff;
+    border: 0;
+    text-align: center;
+    font:bold 14px/45px "微软雅黑" ;
+    background: rgba(0,0,0,0.5);
+}
+#myFocus{margin:0 auto;border:0;z-index: -1}

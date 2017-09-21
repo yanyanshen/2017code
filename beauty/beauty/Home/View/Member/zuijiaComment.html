@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>beauty</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="Thu, 01 Jan 1970 00:00:01 GMT" />
+    <meta name="spm-id" content="a1z0b" />
+    <style>
+        #page {width: 950px;min-height: 400px;        }
+
+        .xubitu1{
+            width: 20px;height: 18px;background-image: url(__PUBLIC__/Home/images/commentimages/comment.png);
+            background-position: 0 -100px;background-repeat: no-repeat;display: inline-block;
+        }
+        .xubitu2{
+            width: 20px;height: 18px;background-image: url(__PUBLIC__/Home/images/commentimages/comment.png);
+            background-position: 0 -50px;background-repeat: no-repeat;display: inline-block;
+        }
+        .xubitu3{
+            width: 20px;height: 18px;background-image: url(__PUBLIC__/Home/images/commentimages/comment.png);
+            background-position: 0 0;background-repeat: no-repeat;display: inline-block;
+        }
+    </style>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/commentcss/global-min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/commentcss/common-min.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/js/webuploader/webuploader.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/commentcss/index-min.css"/>
+ <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.min.1.8.2.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.form.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/webuploader/webuploader.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/upload.js"></script>
+</head>
+<body data-spm="8135601">
+<include file="public/header"/>
+
+<!-- S GLOBAL HTML -->
+<div id="J_SiteNav" class="site-nav">
+    <div id="J_SiteNavBd" class="site-nav-bd">
+        <ul id="J_SiteNavBdL" class="site-nav-bd-l"></ul>
+        <ul id="J_SiteNavBdR" class="site-nav-bd-r"></ul>
+    </div>
+</div>
+<!-- -->
+<!-- 全网顶通 -->
+<!-- E GLOBAL HTML   -->
+<div id="page">
+    <div id="content">
+        <form class="tb-rate-pt-l" id="rateListForm" name="addfeedback" target="_top" novalidate  method="post" action="{:U('Home/Member/zuijiasuccess')}">
+            <div class="tb-rate-con-tabbed-box">
+                <div class="tabbed-box-hd">
+                    <h3 class="title">评价宝贝</h3>
+                    <ul class="help-nav">
+
+                        <li class="tb-rate-hover-drop">
+                            <a href="javascript:;">评价须知 <i class="tb-rate-icf">&#xe606;</i></a>
+                            <div class="dropping">
+
+                                <div class="tb-rate-eula">
+                                    <h3>评价须知（2009-2-15开始实行）：</h3>
+                                    <p>请您根据本次交易，给予真实、客观、仔细地评价。您的评价将是其他会员的参考，也将影响卖家的信用。</p>
+                                    <p><strong>累积信用计分规则：</strong>中评不计分，但会影响卖家的好评率，请慎重给予。每个自然月中，相同买家和卖家之间的信用评价计分不超过6分。评价后30天内，您有一次机会删除给对方的中评或差评，或者修改成好评。</p>
+                                    <p><strong>动态店铺评分计分规则：</strong>店铺评分是匿名的。每个自然月中，相同买家和卖家之间的店铺评分计分次数不超过3次。店铺评分成功后无法修改。</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabbed-box-bd">
+                    <volist name="goodsInfo" id="v">
+                        <input type="hidden" name="{$v.id}{$v.ml}[oid]" value="{$oid}"/>
+                        <input type="hidden" name="{$v.id}{$v.ml}[gid]" value="{$v.id}"/>
+                        <input type="hidden" name="{$v.id}{$v.ml}[ml]" value="{$v.ml}"/>
+                      <!--  <input type="hidden" name="gid[]" value="{$v.id}"/>-->
+                    <div class="itemlist">
+                        <ul class="rate-list">
+                            <li data-id="2472159552941165" class="rate-box" data-prompt="亲，写点评价吧，你的评价对其他买家有很大帮助的。">
+                                <div>
+                                </div>
+                                <div class="item-rate-info" data-spm="1000328">
+                                    <div class="item-detail">
+                                        <a href="{:U('Home/Order/goodsdetail',array('gid'=>$v['id']))}" target="_blank" class="item-d-img">
+                                            <img src="/Uploads/{$v.imageurl}100_{$v.imagename}" />
+                                        </a>
+                                        {$v.ml}ml
+                                        <div class="item-title">
+                                            <a href="//trade.taobao.com/trade/detail/trade_snap.htm?trade_id=2472159552941165" target="_blank" title="巴黎香榭水果茶果粒茶果味茶罐装花果茶450g洛神花茶法国进口配方">{$v.goodsname}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-rate-main">
+                                    <div class="item-rate-act">
+                                        <div class="rate-control">
+                                            <ul id="lis">
+                                                <li class="good">
+                                                    <label for="rate-good-2472159552941165">
+                                                        <input type="radio" class="good-rate" id="rate-good-2472159552941165"  name="{$v.id}{$v.ml}[pingjia][]" value="1" checked />
+                                                        <i class="tb-rate-ico ico-good" title="好评"><span class="xubitu1"></span></i>
+                                                    </label>
+                                                </li>
+                                                <li class="normal">
+                                                    <label for="rate-normal-2472159552941165">
+                                                        <input type="radio" class="noraml-rate" id="rate-normal-2472159552941165"   name="{$v.id}{$v.ml}[pingjia][]" value="2" />
+                                                        <i class="tb-rate-ico ico-neutral" title="中评"><span class="xubitu2"></span></i>
+                                                    </label>
+                                                </li>
+                                                <li class="bad">
+                                                    <label for="rate-bad-2472159552941165">
+                                                        <input type="radio" class="bad-rate" id="rate-bad-2472159552941165"   name="{$v.id}{$v.ml}[pingjia][]" value="3" />
+                                                        <i class="tb-rate-ico ico-bad" title="差评"><span class="xubitu3"></span></i>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                            <p id="inner" style="color: #999;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="msg">
+                                        <ul class="stop">
+                                            <li>中评或差评时，需要填写评论内容；</li>
+                                        </ul>
+                                    </div>
+                                    <div class="rate-msg-box">
+
+                                        <div class="bd">
+                                            <div class="textinput ph-hide">
+                                                <span class="ph-label"></span>
+                                                <textarea name="{$v.id}{$v.ml}[content]" maxlength="500" aria-labelby="label-ti-2472159552941165" placeholder="追加评价再送5积分哦" class="rate-msg"></textarea>
+                                                <div class="text-counter"><strong class="r-t-counter">500</strong>字</div>
+                                            </div>
+                                        </div>
+                                        <div class="ft">
+                                            <div class="J_photo_uploader photo-uploader">
+                                                    <div class="usercity" style="border:3px dashed #e6e6e6;width:80px;height:80px;position: relative">
+                                                        <p style="width:80px;height:80px;" id="preview{$v.id}{$v.ml}" ><img id="imghead{$v.id}{$v.ml}"  border=0 src='' style="width:80px;height:80px;"></p><span></span>
+                                                        <input type="file" id="image{$v.id}{$v.ml}" name="image{$v.id}{$v.ml}" onchange='previewImage(this,"preview{$v.id}{$v.ml}","imghead{$v.id}{$v.ml}")' style="display:none;width: 80px;height: 80px;" >
+                                                        <label for="image{$v.id}{$v.ml}" class="uploadbut"  style="color:#fff;text-align:center;border-radius:4px;width:50px;height:10px;line-height:10px;font-size:10px;padding:5px;background:#00b7ee;cursor:pointer;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);">晒图</label>
+                                                    </div>
+                                            </div>
+                                            <div class="share-box">
+                                                <label for="privacy-radio-public-2472159552941165">
+                                                    <input type="radio" name="{$v.id}{$v.ml}['anony2472159552941165'][]" value="0" id="privacy-radio-public-2472159552941165" class="privacy-control" /> 公开
+                                                </label>
+                                                <label for="privacy-radio-anony-2472159552941165">
+                                                    <input type="radio" name="{$v.id}{$v.ml}['anony2472159552941165'][]" value="1" id="privacy-radio-anony-2472159552941165" class="privacy-control" checked /> 匿名
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="share-selector invisible">
+                                        <span class="sns-site-holder"></span>
+                                        <a class="sns-setting" href="//t.taobao.com/cooperate/connect/connect_manager.htm">设置</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    </volist>
+                </div>
+            </div>
+            <div class="submitbox">
+                <a class="btn" style="width: 120px;background-color: red;color:white;text-decoration:none;cursor:pointer;height: 25px;border-radius: 5px;display: inline-block;line-height: 25px;text-align: center;">发表追加</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+<script>
+var good=document.getElementById("rate-good-2472159552941165"),nor=document.getElementById("rate-normal-2472159552941165"),
+        bad=document.getElementById("rate-bad-2472159552941165"),ul=document.getElementById("lis"),lis=ul.getElementsByTagName("li");
+console.log(lis.length);
+for(var i=0;i<lis.length;i++){
+   /* lis[i].*/
+   /* lis[i].addEventListene("click",function(){
+    }});*/
+    lis[i].onclick=function(){
+        var inner=document.getElementById("inner");
+        if(good.checked) {
+            good.parentNode.parentNode.setAttribute("class"," good rate-checked");
+            nor.parentNode.parentNode.setAttribute("class"," good ");
+            bad.parentNode.parentNode.setAttribute("class"," good ");
+            inner.innerHTML="亲，好评无法修改和删除，请验货后再对商品和购物感受做出评论。";
+/* alert("123456789");*/
+        }else if(nor.checked) {
+           nor.parentNode.parentNode.setAttribute("class"," good rate-checked");
+            good.parentNode.parentNode.setAttribute("class"," good ");
+            bad.parentNode.parentNode.setAttribute("class"," good ");
+            inner.innerHTML="亲，很抱歉没能给您带来良好的购物体验，如有不满，您可联系卖家协商或发起售后维权。";
+            /* alert("123456789");*/
+        }else if(bad.checked) {
+            bad.parentNode.parentNode.setAttribute("class"," good rate-checked");
+            nor.parentNode.parentNode.setAttribute("class"," good ");
+            good.parentNode.parentNode.setAttribute("class"," good ");
+            inner.innerHTML="亲，很抱歉没能给您带来良好的购物体验，如有不满，您可联系卖家协商或发起售后维权。";
+            /* alert("123456789");*/
+        }
+    }
+
+}
+
+</script>
+
+<script type="text/javascript">
+    $(function(){
+        $('.btn').click(function(){
+            if( $('.tabbed-box-bd textarea').val().length<10){
+                layer.msg('评价内容不能低于10个字',{time:800,icon:1});
+            }else{
+                $('#rateListForm').ajaxSubmit(function(res){
+                    if(res.status==1){
+                        layer.msg('追加成功',{time:500},function(){
+                            location='{:U("Home/Member/showcomment")}';
+                        });
+                    }
+                })
+            }
+        })
+    })
+
+</script>
+</html>
+<script>
+    //图片上传预览    IE是用了滤镜。
+    function previewImage(file,pre,imag)
+    {
+        var MAXWIDTH  = 80;
+        var MAXHEIGHT = 80;
+        var div = document.getElementById(pre);
+        if( !file.value.match( /.jpg|.gif|.png|.bmp/i ) ){
+            //$(this).prev('span').text('图片格式无效！');
+            $('#'+pre).next('span').css({"color":"red","font-weight":"bold"}).text('图片类型无效！');
+            return false;
+        }else{
+            $('#'+pre).next('span').css({"color":"green","font-weight":"bold"}).text('');
+        }
+        if (file.files && file.files[0])
+        {
+            div.innerHTML ='<img id='+imag+'>';
+            var img = document.getElementById(imag);
+            img.onload = function(){
+                var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+                img.width  =  rect.width;
+                img.height =  rect.height;
+//                 img.style.marginLeft = rect.left+'px';
+                img.style.marginTop = rect.top+'px';
+            }
+            var reader = new FileReader();
+            reader.onload = function(evt){img.src = evt.target.result;}
+            reader.readAsDataURL(file.files[0]);
+        }
+        else //兼容IE
+        {
+            var sFilter='filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+            file.select();
+            file.blur();
+            var src = document.selection.createRange().text;
+            div.innerHTML ='<img id='+imag+'>';
+            var img = document.getElementById(imag);
+            img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+            var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+            status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
+        }
+
+        $(file).next('label').css({margin:0,top:0,position:'absolute',background:'rgba(0,0,0,0.4)',color:'#fff',fontSize:'14px'}).html('重新选择主图');
+    }
+    function clacImgZoomParam( maxWidth, maxHeight, width, height ){
+        var param = {top:0, left:0, width:width, height:height};
+        if( width>maxWidth || height>maxHeight )
+        {
+            rateWidth = width / maxWidth;
+            rateHeight = height / maxHeight;
+
+            if( rateWidth > rateHeight )
+            {
+                param.width =  maxWidth;
+                param.height = Math.round(height / rateWidth);
+            }else
+            {
+                param.width = Math.round(width / rateHeight);
+                param.height = maxHeight;
+            }
+        }
+
+        param.left = Math.round((maxWidth - param.width) / 2);
+        param.top = Math.round((maxHeight - param.height) / 2);
+        return param;
+    }
+</script>

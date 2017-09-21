@@ -1,0 +1,798 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>左侧菜单页</title>
+<link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson .header").click(function(){
+		var $parent = $(this).parent();
+		$(".menuson>li.active").not($parent).removeClass("active open").find('.sub-menus').hide();
+		
+		$parent.addClass("active");
+		if(!!$(this).next('.sub-menus').size()){
+			if($parent.hasClass("open")){
+				$parent.removeClass("open").find('.sub-menus').hide();
+			}else{
+				$parent.addClass("open").find('.sub-menus').show();	
+			}					
+		}
+	});
+	
+	// 三级菜单点击
+	$('.sub-menus li').click(function(e) {
+        $(".sub-menus li.active").removeClass("active")
+		$(this).addClass("active");
+    });
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('.menuson').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('.menuson').slideUp();
+		}else{
+			$(this).next('.menuson').slideDown();
+		}
+	});
+})	
+</script>
+
+
+</head>
+
+<body style="background:#f0f9fd;">
+	<div class="lefttop"><span></span>后台管理</div>
+
+    <!--<dl class="leftmenu">
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                <a href="/index.php/Admin/Index/main.html" target="rightFrame">后台首页</a>
+            </div>
+        </dd>
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>系统管理
+            </div>
+            <ul class="menuson">
+                &lt;!&ndash;<li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Index/main.html" target="rightFrame">后台首页</a>
+                        <i></i>
+                    </div>
+                  &lt;!&ndash;   <ul class="sub-menus">
+                      <li><a href="javascript:;">文件管理</a></li>
+                      <li><a href="javascript:;">模型信息配置</a></li>
+                      <li><a href="javascript:;">基本内容</a></li>
+                      <li><a href="javascript:;">自定义</a></li>
+                  </ul> &ndash;&gt;
+                </li>&ndash;&gt;
+
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/AdminNav/index.html" target="rightFrame">菜单列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/AdminNav/add.html" target="rightFrame">添加菜单</a>
+                        <i></i>
+                    </div>
+                </li>
+
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>权限管理
+            </div>
+            <ul class="menuson">
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Pay/index.html" target="rightFrame">管理员列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Pay/add.html" target="rightFrame">添加管理员</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Pay/changeInfo.html" target="rightFrame">个人信息修改</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/AuthGroup/index.html" target="rightFrame">管理组列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/AuthGroup/add.html" target="rightFrame">添加管理组</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/AuthRule/index.html" target="rightFrame">权限列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/AuthRule/add.html" target="rightFrame">添加权限</a>
+                        <i></i>
+                    </div>
+                </li>
+
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>品牌管理
+            </div>
+        	<ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Brand/index.html" target="rightFrame">品牌列表</a>
+                        <i></i>
+                    </div>
+                  &lt;!&ndash;   <ul class="sub-menus">
+                      <li><a href="javascript:;">文件管理</a></li>
+                      <li><a href="javascript:;">模型信息配置</a></li>
+                      <li><a href="javascript:;">基本内容</a></li>
+                      <li><a href="javascript:;">自定义</a></li>
+                  </ul> &ndash;&gt;
+                </li>
+
+                <li>
+                    <div class="header">
+                    <cite></cite>
+                    <a href="/index.php/Admin/AddBrand/add.html" target="rightFrame">添加品牌</a>
+                    <i></i>
+                    </div>
+                </li>
+
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>分类管理
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Category/index.html" target="rightFrame">分类列表</a>
+                        <i></i>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="header">
+                    <cite></cite>
+                    <a href="/index.php/Admin/Category/add.html" target="rightFrame">添加分类</a>
+                    <i></i>
+                    </div>
+                </li>
+
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>商品管理
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Goods/index.html" target="rightFrame">商品列表</a>
+                        <i></i>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="header">
+                    <cite></cite>
+                    <a href="/index.php/Admin/Goods/addAct.html" target="rightFrame">添加商品</a>
+                    <i></i>
+                    </div>
+                </li>
+
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>会员管理
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/User/UserList.html" target="rightFrame">会员列表</a>
+                        <i></i>
+                    </div>
+                </li>
+
+               &lt;!&ndash; <li>
+                    <div class="header">
+                    <cite></cite>
+                    <a href="/index.php/Admin/BrandAdd/UserAdd.html" target="rightFrame">添加会员</a>
+                    <i></i>
+                    </div>
+                </li>&ndash;&gt;
+
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>订单管理
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Order/index.html" target="rightFrame">订单列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Order/dfk.html" target="rightFrame">待付款订单</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Order/dfh.html" target="rightFrame">待发货订单</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Order/yfh.html" target="rightFrame">已发货订单</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Order/ysh.html" target="rightFrame">已收货订单</a>
+                        <i></i>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>广告管理
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Advertise/index.html" target="rightFrame">广告列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Admin/Advertise/add.html" target="rightFrame">添加广告</a>
+                        <i></i>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>活动发布
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Sale/index.html" target="rightFrame">活动列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Sale/add.html" target="rightFrame">添加活动</a>
+                        <i></i>
+                    </div>
+                </li>
+
+            </ul>
+        </dd>
+
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>评论管理
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Comment/index.html" target="rightFrame">评论列表</a>
+                        <i></i>
+                    </div>
+                </li>
+            </ul>
+             <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Comment/index.html" target="rightFrame">已回复</a>
+                        <i></i>
+                    </div>
+                </li>
+            </ul>
+             <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Comment/index.html" target="rightFrame">未回复</a>
+                        <i></i>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>反馈管理
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Feedback/index.html" target="rightFrame">反馈列表</a>
+                        <i></i>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+
+        <dd>
+            <div class="title">
+                <span><img src="/Public/Pay/images/leftico01.png" /></span>金币商城
+            </div>
+            <ul class="menuson">
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Golds/index.html" target="rightFrame">商品列表</a>
+                        <i></i>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="header">
+                        <cite></cite>
+                        <a href="/index.php/Pay/Golds/addAct.html" target="rightFrame">添加商品</a>
+                        <i></i>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+    </dl>-->
+    <!--<a href="/index.php/Admin/Index/left.html" target="rightFrame"></a>-->
+    <dl class="leftmenu" style="height: 20px">
+        <dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    系统管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            系统管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/AdminNav/index.html" target="rightFrame">菜单列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/AdminNav/add.html" target="rightFrame">添加菜单</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    信息管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            信息管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Admin/changeInfo.html" target="rightFrame">个人信息修改</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Message/index.html" target="rightFrame">我的站内信</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Message/sendMessage.html" target="rightFrame">发送站内信</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    权限管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            权限管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Admin/index.html" target="rightFrame">管理员列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Admin/add.html" target="rightFrame">添加管理员</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/AuthGroup/index.html" target="rightFrame">管理组列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/AuthGroup/add.html" target="rightFrame">添加管理组</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/AuthRule/index.html" target="rightFrame">权限列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/AuthRule/add.html" target="rightFrame">添加权限</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    品牌管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            品牌管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Brand/index.html" target="rightFrame">品牌列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/AddBrand/add.html" target="rightFrame">添加品牌</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    分类管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            分类管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Category/index.html" target="rightFrame">分类列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Category/add.html" target="rightFrame">添加分类</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    商品管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            商品管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Goods/index.html" target="rightFrame">商品列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Goods/addAct.html" target="rightFrame">添加商品</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    会员管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            会员管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/User/UserList.html" target="rightFrame">会员列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/User/sendUserMessage.html" target="rightFrame">发送站内信</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    订单管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            订单管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Order/index.html" target="rightFrame">订单列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Order/dfk.html" target="rightFrame">待付款订单</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Order/dfh.html" target="rightFrame">待发货订单</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Order/yfh.html" target="rightFrame">已发货订单</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Order/ysh.html" target="rightFrame">已收货订单</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Order/ypj.html" target="rightFrame">已评价订单</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    广告管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            广告管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Advertise/index.html" target="rightFrame">广告列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Advertise/add.html" target="rightFrame">添加广告</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    活动发布                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            活动发布                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Sale/index.html" target="rightFrame">活动列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Sale/add.html" target="rightFrame">添加活动</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    评论管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            评论管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Comment/index.html" target="rightFrame">评论列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Comment/yiresponse.html" target="rightFrame">已回复列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Comment/weiresponse.html" target="rightFrame">未回复列表</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    反馈管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            反馈管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Feedback/index.html" target="rightFrame">反馈列表</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    金币管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            金币管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Golds/index.html" target="rightFrame">金币商品列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Golds/addAct.html" target="rightFrame">添加金币商品</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    底部管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            底部管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Foote/index.html" target="rightFrame">底部列表</a>
+                                        <i></i>
+                                    </div>
+                                </li><li class=>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/Foote/add.html" target="rightFrame">添加底部</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd><dd>
+                    <!--<div class="title">
+                        <span><img src="/Public/Pay/images/leftico01.png" /></span>
+                                                    微信管理                    </div>-->
+                                            <div class="title" style="height: 25px;line-height: 25px">
+                            <span >
+                                <img src="/Public/Admin/images/leftico01.png"/>
+                            </span>
+                            微信管理                        </div>                    <ul class="menuson">
+                        <li class=active>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="/index.php/Admin/WeiXin/createMenu.html" target="rightFrame">微信菜单</a>
+                                        <i></i>
+                                    </div>
+                                </li>                    </ul>
+                </dd>    </dl>
+    
+</body>
+</html>

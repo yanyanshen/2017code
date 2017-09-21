@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台首页</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.tablelist tbody tr:even').addClass('odd');
+        })
+    </script>
+    <style>
+        .ratio1{float: left;height: 16px;margin-left: 10px;margin-top: 10px;background: #71B565;}
+        .ratio2{float: left;height: 16px;margin-top: 10px;background: #DADADA;}
+        .ratio3{float: left;height: 16px;margin-left: 10px;margin-top: 10px;background: #ef5b00;}
+        .ratio4{float: left;height: 16px;margin-top: 10px;background: #ef5b00;}
+    </style>
+</head>
+<body>
+
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">首页</a></li>
+    </ul>
+</div>
+
+<div class="mainindex">
+
+    <div class="welinfo">
+            <span><img src="/Public/Admin/images/sun.png" alt="天气" /></span>
+            <b>admin  早上好，欢迎使用后台管理系统</b>
+        </div>
+
+        <div class="welinfo">
+            <span><img src="/Public/Admin/images/time.png" alt="时间" /></span>
+            <i>您上次登录的时间：2017-08-24 16:19:16</i> <i>您上次登录IP：127.0.0.1</i> 如非本人操作，请及时更改密码
+        </div>
+    <!--<ul class="iconlist">
+    <li><img src="/Public/Pay/images/ico01.png" /><p><a href="#">管理设置</a></p></li>
+    <li><img src="/Public/Pay/images/ico02.png" /><p><a href="#">发布文章</a></p></li>
+    <li><img src="/Public/Pay/images/ico03.png" /><p><a href="#">数据统计</a></p></li>
+    <li><img src="/Public/Pay/images/ico04.png" /><p><a href="#">文件上传</a></p></li>
+    <li><img src="/Public/Pay/images/ico05.png" /><p><a href="#">目录管理</a></p></li>
+    <li><img src="/Public/Pay/images/ico06.png" /><p><a href="#">查询</a></p></li>
+    </ul>
+
+
+    <div class="xline"></div> -->
+
+    <!--<div class="box"></div>
+
+    <div class="welinfo">
+        <span><img src="/Public/Pay/images/dp.png" alt="提醒" /></span>
+        <b>服务器信息</b>
+    </div>
+
+    <ul class="infolist">
+    <li><span>服务器软件：</span></li>
+    <li><span>开发语言：</span></li>
+    <li><span>数据库:</span></li>
+    </ul>
+
+    <div class="xline"></div>
+
+    <div class="uimakerinfo"><b>版权所有：易购网</b>(<a href="http://www.egoods.com" target="_blank">www.egoods.com</a>)</div>-->
+
+    <div class="xline"></div>
+
+    <div class="box"></div>
+    <div class="welinfo">
+        <span><img src="/Public/Admin/images/icon10.png" alt="提醒" /></span>
+        <b>商品销售信息</b>
+    </div>
+    <div id="main" style="width: 100%;height:400px;"></div>
+
+
+    <div class="welinfo">
+        <span><img src="/Public/Admin/images/ico03.png" alt="提醒" /></span>
+        <b>商品销量信息</b>
+    </div>
+    <table class="tablelist">
+        <tr>
+            <th width="5%">编号</th>
+            <th width="35%">商品名称</th>
+            <th width="20%">商品销量</th>
+            <th width="40%">商品销售率</th>
+        </tr>
+        <tr>
+                <td>1</td>
+                <td>御泥坊竹萃玫瑰热销面膜控油收毛孔补水保湿套装正冬</td>
+                <td>4000</td>
+                <td>
+                    <div class="ratio1" style="width: 305.05243088656px"></div>
+                                            <div class="ratio4" style="width: 94.947569113441px"></div>                    76.26%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 305.05243088656px"></div>
+                    <div class="ratio2" style="width: 94.947569113441px"></div>
+                    76.26%
+                </td>-->
+            </tr><tr>
+                <td>2</td>
+                <td>韩束紫竹控油八件套装女士洗面奶爽肤水乳液抗痘祛痘补水正品包邮</td>
+                <td>1000</td>
+                <td>
+                    <div class="ratio1" style="width: 36.363636363636px"></div>
+                    <div class="ratio2" style="width: 363.63636363636px"></div>
+                                            9.09%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 36.363636363636px"></div>
+                    <div class="ratio2" style="width: 363.63636363636px"></div>
+                    9.09%
+                </td>-->
+            </tr><tr>
+                <td>3</td>
+                <td>韩束墨菊巨补水秋冬化妆品保湿补水美白滋润乳液爽肤水护肤品套装</td>
+                <td>801</td>
+                <td>
+                    <div class="ratio1" style="width: 29.666666666667px"></div>
+                    <div class="ratio2" style="width: 370.33333333333px"></div>
+                                            7.42%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 29.666666666667px"></div>
+                    <div class="ratio2" style="width: 370.33333333333px"></div>
+                    7.42%
+                </td>-->
+            </tr><tr>
+                <td>4</td>
+                <td>御泥坊矿物养肤霜滋润型50g补水锁水保湿持久面霜秋冬 护肤品男女</td>
+                <td>501</td>
+                <td>
+                    <div class="ratio1" style="width: 1.5907539411643px"></div>
+                    <div class="ratio2" style="width: 398.40924605884px"></div>
+                                            0.4%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 1.5907539411643px"></div>
+                    <div class="ratio2" style="width: 398.40924605884px"></div>
+                    0.4%
+                </td>-->
+            </tr><tr>
+                <td>5</td>
+                <td>韩束雪莲玻尿酸补水亮肤蚕丝巨补水面膜</td>
+                <td>500</td>
+                <td>
+                    <div class="ratio1" style="width: 19.047619047619px"></div>
+                    <div class="ratio2" style="width: 380.95238095238px"></div>
+                                            4.76%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 19.047619047619px"></div>
+                    <div class="ratio2" style="width: 380.95238095238px"></div>
+                    4.76%
+                </td>-->
+            </tr>    </table>
+
+
+    <div class="box"></div>
+    <div class="welinfo">
+        <span><img src="/Public/Admin/images/dingdan.png" alt="提醒" /></span>
+        <b>商品库存量信息</b>
+    </div>
+    <table class="tablelist">
+        <thead>
+        <tr>
+            <th width="5%">编号</th>
+            <th width="35%">商品名称</th>
+            <th width="20%">商品库存量</th>
+            <th width="40%">商品库存率</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>御泥坊美白嫩肤护肤套装补水保湿滋润提亮肤色秋冬正</td>
+                <td>1194</td>
+                <td>
+                    <div class="ratio1" style="width: 383.61445783133px"></div>
+                                            <div class="ratio2" style="width: 16.385542168675px"></div>
+                    95.9%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 383.61445783133px"></div>
+                    <div class="ratio2" style="width: 16.385542168675px"></div>
+                    95.9%
+                </td>-->
+            </tr>
+            </tbody><tbody>
+            <tr>
+                <td>2</td>
+                <td>御泥坊竹萃玫瑰热销面膜控油收毛孔补水保湿套装正冬</td>
+                <td>1245</td>
+                <td>
+                                            <div class="ratio3" style="width: 94.947569113441px"></div>                    <div class="ratio2" style="width: 305.05243088656px"></div>
+                    23.74%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 94.947569113441px"></div>
+                    <div class="ratio2" style="width: 305.05243088656px"></div>
+                    23.74%
+                </td>-->
+            </tr>
+            </tbody><tbody>
+            <tr>
+                <td>3</td>
+                <td>御泥坊葡萄籽琉璃亮颜黑面膜21片美白保湿补水去黄淡斑去暗沉男女</td>
+                <td>1245</td>
+                <td>
+                    <div class="ratio1" style="width: 392.12598425197px"></div>
+                                            <div class="ratio2" style="width: 7.8740157480315px"></div>
+                    98.03%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 392.12598425197px"></div>
+                    <div class="ratio2" style="width: 7.8740157480315px"></div>
+                    98.03%
+                </td>-->
+            </tr>
+            </tbody><tbody>
+            <tr>
+                <td>4</td>
+                <td>御泥坊芦荟补水保湿凝胶150g 补水保湿晒后修护补水保湿</td>
+                <td>1452</td>
+                <td>
+                    <div class="ratio1" style="width: 374.22680412371px"></div>
+                                            <div class="ratio2" style="width: 25.773195876289px"></div>
+                    93.56%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 374.22680412371px"></div>
+                    <div class="ratio2" style="width: 25.773195876289px"></div>
+                    93.56%
+                </td>-->
+            </tr>
+            </tbody><tbody>
+            <tr>
+                <td>5</td>
+                <td>御泥坊清爽平衡矿物爽肤水150ml补水清爽控油清洁收缩毛孔化妆水</td>
+                <td>2202</td>
+                <td>
+                    <div class="ratio1" style="width: 373.85398981324px"></div>
+                                            <div class="ratio2" style="width: 26.146010186757px"></div>
+                    93.46%
+                </td>
+                <!--<td>
+                    <div class="ratio1" style="width: 373.85398981324px"></div>
+                    <div class="ratio2" style="width: 26.146010186757px"></div>
+                    93.46%
+                </td>-->
+            </tr>
+            </tbody>
+    </table>
+
+</div>
+</body>
+<script type="text/javascript" src="/Public/Admin/js/echarts.min.js"></script>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    /* var option = {
+     title: {
+     text: '商品销量TOP10'
+     },
+     tooltip: {},
+     legend: {
+     data:['销量']
+     },
+     xAxis: {
+     data: []
+     },
+     yAxis: {},
+     series: [{
+     name: '销量',
+     type: 'line',
+     data: []
+     }]
+     };*/
+
+    var option = {
+        title : {
+            text: '商品销量Top10',
+            //subtext: '销量Top10',
+            x:'center'
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        legend: {
+            orient : 'vertical',
+            x : 'left',
+            data:['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                dataView : {show: true, readOnly: false},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel'],
+                    option: {
+                        funnel: {
+                            x: '25%',
+                            width: '50%',
+                            funnelAlign: 'left',
+                            max: 1548
+                        }
+                    }
+                },
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'访问来源',
+                type:'pie',
+                radius : '55%',
+                center: ['50%', '60%'],
+                data:[
+                    {value:335, name:'直接访问'},
+                    {value:310, name:'邮件营销'},
+                    {value:234, name:'联盟广告'},
+                    {value:135, name:'视频广告'},
+                    {value:1548, name:'搜索引擎'}
+                ]
+            }
+        ]
+    };
+
+    // 异步加载数据
+    /*  $.get('/index.php/Admin/Index/getGoodsTop.html').done(function (data) {
+     // 填入数据
+     myChart.setOption({
+     xAxis: {
+     data: data.info.x
+     },
+     series: [{
+     // 根据名字对应到相应的系列
+     name: '销量1',
+     data: data.info.y
+     }]
+     });
+     });*/
+
+    $.get('/index.php/Admin/Index/getGoodsTop.html').done(function (data) {
+        // 填入数据
+        myChart.setOption({
+            legend: {
+                orient : 'vertical',
+                x : 'left',
+                data:data.info.x
+            },
+            series : [
+                {
+                    name:'访问来源',
+                    type:'pie',
+                    radius : '55%',
+                    center: ['50%', '60%'],
+                    data:data.info.y
+                }
+            ]
+        });
+    });
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+</html>

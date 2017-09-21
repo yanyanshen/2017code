@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Admin/css/select.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.min.1.8.2.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.idTabs.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/select-ui.min.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
+    <style>
+        .btn{margin-top: 30px;margin-left: 30px;border-radius: 10px}
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            //异步提交表单
+            $('.btn1').click(function(){
+                $.post("/index.php/Admin/AuthGroup/addMember.html",$('#form1').serialize(),function(res){
+                    if(res.status==1){
+                        layer.msg(res.info, {icon:1}, function(){
+                            location.href=res.url;
+                        });
+                    }else{
+                        layer.msg(res.info,{icon:5});
+                    }
+                })
+                return false;
+            })
+            $('.btn2').click(function(){
+                $.post("/index.php/Admin/AuthGroup/addMember.html",$('#form2').serialize(),function(res){
+                    if(res.status==1){
+                        layer.msg(res.info, {icon:1}, function(){
+                            location.href=res.url;
+                        });
+                    }else{
+                        layer.msg(res.info,{icon:5});
+                    }
+                })
+                return false;
+            })
+        })
+  </script>
+</head>
+
+<body>
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">权限管理</a></li>
+        <li><a href="#">添加组员</a></li>
+    </ul>
+</div>
+
+<div class="formbody">
+    <div id="usual1" class="usual">
+        <div id="tab1" class="tabson">
+            <form action="" method="post" id="form1">
+            <ul class="forminfo">
+                <li style="display: none"><label>管理组ID<b>*</b></label><input name="gid" value="13" type="text" class="dfinput" style="width:200px;"/></li>
+                <li><label>管理员名字<b>*</b></label><input name="username" type="text" class="dfinput" placeholder="请填写管理员名字" style="width:200px;"/></li>
+                <li><label>&nbsp;</label><input name="" type="button" class="btn btn1" value="确认添加"/></li>
+            </ul>
+            </form>
+        </div>
+    </div>
+    <div class="tabson" style="margin-top: 100px">
+        <form action="" method="post" id="form2">
+            <ul class="forminfo">
+                <!--<li><input type="hidden" value="Array" name="id"/></li>-->
+                <li style="display: none"><label>管理组ID<b>*</b></label><input name="gid" value="13" type="text" class="dfinput" style="width:200px;"/></li>
+                <li>
+                    <label>管理员<b>*</b></label>
+                    <div style="margin-left: 120px;">
+                    <span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="admin" style="width: 70px;">admin</label>
+                        <input name="uid[]" id="admin" type="checkbox" value="1" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="admin" style="width: 70px;">admin</label>
+                        <input name="uid[]"  id="admin" type="checkbox" value="1" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="totti" style="width: 70px;">totti</label>
+                        <input name="uid[]" id="totti" type="checkbox" value="2" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="totti" style="width: 70px;">totti</label>
+                        <input name="uid[]"  id="totti" type="checkbox" value="2" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="dawang" style="width: 70px;">dawang</label>
+                        <input name="uid[]" id="dawang" type="checkbox" value="3" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="dawang" style="width: 70px;">dawang</label>
+                        <input name="uid[]"  id="dawang" type="checkbox" value="3" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="baiwenfei" style="width: 70px;">baiwenfei</label>
+                        <input name="uid[]" id="baiwenfei" type="checkbox" value="4" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="baiwenfei" style="width: 70px;">baiwenfei</label>
+                        <input name="uid[]"  id="baiwenfei" type="checkbox" value="4" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="songhao" style="width: 70px;">songhao</label>
+                        <input name="uid[]" id="songhao" type="checkbox" value="5" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="songhao" style="width: 70px;">songhao</label>
+                        <input name="uid[]" checked id="songhao" type="checkbox" value="5" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="beibei" style="width: 70px;">beibei</label>
+                        <input name="uid[]" id="beibei" type="checkbox" value="6" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="beibei" style="width: 70px;">beibei</label>
+                        <input name="uid[]" checked id="beibei" type="checkbox" value="6" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="yanyan" style="width: 70px;">yanyan</label>
+                        <input name="uid[]" id="yanyan" type="checkbox" value="7" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="yanyan" style="width: 70px;">yanyan</label>
+                        <input name="uid[]"  id="yanyan" type="checkbox" value="7" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="admin1" style="width: 70px;">admin1</label>
+                        <input name="uid[]" id="admin1" type="checkbox" value="8" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="admin1" style="width: 70px;">admin1</label>
+                        <input name="uid[]"  id="admin1" type="checkbox" value="8" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="admin2" style="width: 70px;">admin2</label>
+                        <input name="uid[]" id="admin2" type="checkbox" value="9" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="admin2" style="width: 70px;">admin2</label>
+                        <input name="uid[]"  id="admin2" type="checkbox" value="9" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="admin3" style="width: 70px;">admin3</label>
+                        <input name="uid[]" id="admin3" type="checkbox" value="10" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="admin3" style="width: 70px;">admin3</label>
+                        <input name="uid[]"  id="admin3" type="checkbox" value="10" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="admin4" style="width: 70px;">admin4</label>
+                        <input name="uid[]" id="admin4" type="checkbox" value="11" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="admin4" style="width: 70px;">admin4</label>
+                        <input name="uid[]"  id="admin4" type="checkbox" value="11" class="dfinput"  style="width:18px;"/>
+
+                        </span><span style="margin-right: 25px;border: 1px solid #ffffff">
+                        <!--<label for="admin5" style="width: 70px;">admin5</label>
+                        <input name="uid[]" id="admin5" type="checkbox" value="12" class="dfinput"  style="width:18px;"/>-->
+
+                        <label for="admin5" style="width: 70px;">admin5</label>
+                        <input name="uid[]"  id="admin5" type="checkbox" value="12" class="dfinput"  style="width:18px;"/>
+
+                        </span>                    </div>
+                </li>
+                <li><label>&nbsp;</label><input name="" type="button" class="btn btn2" value="确认添加"/></li>
+            </ul>
+        </form>
+    </div>
+</div>
+</body>
+</html>

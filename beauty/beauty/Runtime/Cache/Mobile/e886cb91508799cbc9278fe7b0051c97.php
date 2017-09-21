@@ -1,0 +1,175 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+ <head> 
+  <title>登录</title> 
+  <meta name="keywords" content="" /> 
+  <meta name="description" content="" /> 
+  <meta charset="utf-8" /> 
+  <link rel="dns-prefetch" href="//ued.paixie.net" /> 
+  <link rel="dns-prefetch" href="//img-cdn2.paixie.net" /> 
+  <link rel="icon" href="/Public/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="bookmark" href="/Public/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <link rel="shortcut icon" href="/Public/Mobile/images/favicon.ico" type="image/x-icon" /> 
+  <meta http-equiv="X-UA-Compatible" content="edge" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+  <meta name="format-detection" content="telphone=no, email=no" /> 
+  <meta name="renderer" content="webkit" /> 
+  <meta name="HandheldFriendly" content="true" /> 
+  <meta name="MobileOptimized" content="320" /> 
+  <meta name="screen-orientation" content="portrait" /> 
+  <meta name="x5-orientation" content="portrait" /> 
+  <meta name="full-screen" content="yes" /> 
+  <meta name="x5-fullscreen" content="true" /> 
+  <meta name="browsermode" content="application" /> 
+  <meta name="x5-page-mode" content="app" /> 
+  <meta name="msapplication-tap-highlight" content="no" /> 
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" /> 
+  <script>var imgonload =function(){};var urls = window.location.href.split("#");try{ if(/^url:.+/.test(urls[1])){window.location.href=urls[1].slice(4);}}catch(e){}var _hmt = _hmt || [];var PX_HELP_DATA=['','i2jioq5184gbv9ts2qudnsgth4',['touch','login2.0','index'],'2015/09/15 16:19:45',0]; var DOMIN = {MAIN:"http://www.paixie.net",HELP:"http://help.paixie.net",TUAN:"http://tuan.paixie.net",WAP:"http://wap.paixie.net",UNION:"http://union.weixiaodian.com",VIPSHOP:"http://go.paixie.net"};var DOMINS = {"main":"http://www.paixie.net","tuan":"http://tuan.paixie.net","help":"http://help.paixie.net","union":"http://union.weixiaodian.com","wap":"http://wap.paixie.net","touch":"http://m.paixie.net","vipshop":"http://go.paixie.net","ued":"http://ued.paixie.net"};</script> 
+  <link rel="stylesheet" href="/Public/Mobile/css/zip.touch.login2_0._all_.v3901.css" type="text/css" />
+
+     <script type="text/javascript" src="/Public/Mobile/js/jquery.min.1.8.2.js"></script>
+     <script src="/Public/Home/js/jquery.validate.min.js" type="text/javascript"></script>
+     <script type="text/javascript" src="/Public/Mobile/js/layer_mobile/layer.js"></script>
+  <script type="text/javascript" src="/Public/Mobile/js/zepto.min.js"></script> 
+  <style type="text/css">
+.m_header,
+.body{max-width: 640px;}
+.m_header{left:50%;margin-left: -320px;}
+</style> 
+  <script type="text/javascript">function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>640){w = 640;};$('html').css('font-size',100/640*w+'px');$('#js_style_for_pc').remove();$('body').append('<style id="js_style_for_pc">.m_header{margin-left: -'+w/2+'px;}.m_menu{margin-left: -'+w/2+'px;}</style>');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};</script> 
+ </head> 
+ <body> 
+  <div class="body"> 
+   <div class="m_header"> 
+    <p> <a class="bt_prev" href="javascript:window.history.back();void(0);"> <span class="prev rotate45"></span> <span class="prev rotate135"></span> </a> </p> 
+    <h1 class="ellipsis bt_title"> 登录 </h1> 
+    <p> </p> 
+   </div> 
+   <div class="lib_content" >
+    <div class="placeholder"></div>
+       <div class="placeholder"></div>
+       <div class="placeholder"></div>
+       <form action="" method="post" id="form1">
+       <ul class="m_list m_list_form m_list_form_separate">
+      <li class="select-text"> <label for="js_username"> 账户 </label> <input id="js_username" placeholder="手机号/邮箱" type="text" value="" name="username" />
+      <div class="right text-v"> 
+       <a class="m_icon m_icon_del"> <dfn class="rotate45"></dfn> <dfn class="rotate135"></dfn> </a> 
+       <span class="m_arrow rotate90"> <i class="rotate45"></i> <i class="rotate135"></i> </span> 
+      </div> </li> 
+     <li class="password"> <label for="js_password"> 登录密码 </label> <input id="js_password" placeholder="请输入密码" type="password" name="password" />
+      <div class="right text-v"> 
+       <a class="m_icon m_icon_del"> <dfn class="rotate45"></dfn> <dfn class="rotate135"></dfn> </a> 
+       <label class="m_setting m_setting_password"> <i></i> <span><b><dfn></dfn><dfn></dfn><dfn></dfn></b></span> <strong><b>ABC</b></strong> <input type="checkbox" /> </label> 
+      </div> </li> 
+    </ul>
+    <input id="btn" class="m_button m_button_orange m_button_block" type="button" value="登录">
+       </form>
+    <div class="w600"> 
+     <a class="gray9" href="../Register/reg_mobile.html">快速注册</a>
+     <a class="gray9 right" href="<?php echo U('Register/changpwd');?>">找回密码</a>
+    </div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+    <div class="placeholder"></div> 
+
+    <script>
+var login_success_goto = '/member/';
+</script> 
+   </div>
+
+
+
+
+
+      <script type="text/javascript" src="/Public/Mobile/js/zip.touch.login2_0._all_.v361.js"></script>
+   <script type="text/javascript" src="/Public/Mobile/js/jweixin-1.0.0.js"></script>
+      <style>
+          input.error { border: 1px solid #EA5200;background: #ffdbb3;}
+          span.error{
+              color:#ff0300;
+              display: block;
+              font-weight: bold;
+              font-size: 14px;
+          }
+          span.ok {
+              color:green;
+          }
+      </style>
+
+  </div>
+ </body>
+
+ <script>
+
+     $(function(){
+         //validate表单验证
+         var validate=$('#form1').validate({
+             //设置验证规则
+             rules:{
+                 username:{
+                     required:true
+
+
+                 },
+                 password:{
+                     required:true
+
+                 }
+             },
+
+
+             messages: {
+                 username: {
+                     required: '用户名不能为空'
+
+                 },
+                 password: {
+                     required: '密码不能为空'
+
+                 }
+
+
+             },
+             success: function(span) {
+                 span.addClass("ok").text('OK');
+             },
+             validClass:'ok',
+             errorElement:'span'
+         });
+         $('#btn').click(function(){
+             //表单提交之前判断前端验证是否通过，只有通过时才提交表单
+             if(validate.form()){
+                 $.post("<?php echo U('Mobile/Login/Dologin');?>",$('#form1').serialize(),function(res){
+                     if(res.status==1){
+                         layer.open({
+                             content:'登录成功'
+                             ,skin:'msg'
+                             ,type:1
+                             ,time:3
+                             ,end:function(){
+                                     location.href=res.info;
+                             }
+                         })
+                     }else{
+                         layer.open({
+                             content:'用户名和密码错误',
+                             type:1,
+                             skin:'msg',
+                             time:3,
+                             end:function(){
+//                                 location.href="<?php echo U('Mobile/Login/Dologin');?>"
+                             }
+                         });
+                     };
+                 },'json')
+             }
+         })
+     })
+ </script>
+</html>

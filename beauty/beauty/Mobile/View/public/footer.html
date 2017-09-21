@@ -1,0 +1,47 @@
+<script type="text/javascript" src="__PUBLIC__/Mobile/js/layer_mobile/layer.js"></script>
+
+<div class="userinfo">
+    <if condition="$Think.session.mid gt 0">
+        <a class="gray6 ellipsis" href="{:U('Mobile/Member/index')}">{$Think.session.mname }</a>
+        <else/> <a style="color:#666666 " href="{:U('Mobile/Login/Dologin')}"> 登录</a>
+    </if>
+
+    <span></span>
+    <if condition="$Think.session.mid gt 0">
+        <a class="gray6" id="OUT" href="javascript:;">退出</a>
+        <else/><a class="gray6" href="{:U('Mobile/Register/index')}">注册</a>
+    </if>
+    <span></span>
+    <if condition="$Think.session.mid gt 0">
+        <a class="gray6" href="{:U('Mobile/Feedback/index')}">用户反馈</a>
+        <else/>
+        <a class="gray6" href="{:U('Mobile/Login/Dologin')}">用户反馈</a>
+    </if>
+    <span></span>
+    <a class="gray6" href="/help/app.html#button">客户端</a>
+</div>
+<div class="copyright gray9">© 2007-2015 Paixie All Rights Reserved<br>闽B2-20110084</div>
+<script>
+    $(function() {
+        $('#OUT').click(function () {
+            $.post("{:U('Mobile/Login/LoginOut')}", '', function (res) {
+                if (res.status == 1) {
+                    layer.open({
+                        content: res.info,
+                        type:1,
+                        skin:'msg',
+                        time:3,
+                        end: function () {
+                            location.href = "{:U('Mobile/index/index')}";
+                        }
+                    })
+                } else {
+                    layer.open({
+                        content: res.info,
+                        type:1
+                    });
+                }
+            }, 'json')
+        });
+    })
+ </script>
