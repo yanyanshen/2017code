@@ -1,0 +1,2884 @@
+[ 2017-03-14T09:08:13+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T09:08:27+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() expects exactly 2 parameters, 3 given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:09:51+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:12:24+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:12:29+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:12:42+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:12:51+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T09:13:00+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:13:26+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:13:48+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: temp_name F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:14:14+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:15:02+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:15:02) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpE9E8.tmp' to './Exceldest/app.xls_2017-03-14 09:15:02' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:15:24+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:15:24) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php4004.tmp' to './Exceldest/app.xls_2017-03-14 09:15:24' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:15:39+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:15:39) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php7BEC.tmp' to './Exceldest/app.xls_2017-03-14 09:15:39' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:16:04+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:16:04) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpDC83.tmp' to './Exceldest/app.xls_2017-03-14 09:16:04' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:16:09+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T09:16:17+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:16:17) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpE4D.tmp' to './Exceldest/app.xls_2017-03-14 09:16:17' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:16:21+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T09:16:29+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:16:29) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php3F4D.tmp' to './Exceldest/app.xls_2017-03-14 09:16:29' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:17:27+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:17:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:17:32) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php3456.tmp' to './Exceldest/app.xls_2017-03-14 09:17:32' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:17:55+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:17:55) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php8D30.tmp' to './Exceldest/app.xls_2017-03-14 09:17:55' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:17:59+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T09:18:07+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:18:07) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpBDF1.tmp' to './Exceldest/app.xls_2017-03-14 09:18:07' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:18:30+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:18:30) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php17F3.tmp' to './Exceldest/app.xls_2017-03-14 09:18:30' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:18:34+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T09:18:35+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T09:18:38+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T09:18:44+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:18:44) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php4BA1.tmp' to './Exceldest/app.xls_2017-03-14 09:18:44' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 34 行.
+
+[ 2017-03-14T09:19:35+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:19:35) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php1334.tmp' to './Exceldest/app.xls_2017-03-14 09:19:35' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:19:44+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:19:44) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php38DE.tmp' to './Exceldest/app.xls_2017-03-14 09:19:44' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:20:06+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:20:06) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php8DF1.tmp' to './Exceldest/app.xls_2017-03-14 09:20:06' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:20:29+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:21:35+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-14T09:21:54+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T09:22:14+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:22:39+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls-2017-03-14 09:22:39) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpE365.tmp' to './Exceldest/app.xls-2017-03-14 09:22:39' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:23:03+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls-2017-03-14 09:23:03) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php4083.tmp' to './Exceldest/app.xls-2017-03-14 09:23:03' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:26:11+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T09:26:21+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:26:58+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls2017-03-14 09:26:58) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpD8B0.tmp' to './Exceldest/app.xls2017-03-14 09:26:58' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:27:15+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls2017-03-14 09:27:15) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php187E.tmp' to './Exceldest/app.xls2017-03-14 09:27:15' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:27:41+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] A non well formed numeric value encountered F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file(./Exceldest/2017-03-14 09:27:41) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php7D78.tmp' to './Exceldest/2017-03-14 09:27:41' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:28:04+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/2017-03-14 09:28:04app.xls) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpD874.tmp' to './Exceldest/2017-03-14 09:28:04app.xls' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:28:09+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/2017-03-14 09:28:09app.xls) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpEA8F.tmp' to './Exceldest/2017-03-14 09:28:09app.xls' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:28:19+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/2017-03-14 09:28:19app.xls) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php14BB.tmp' to './Exceldest/2017-03-14 09:28:19app.xls' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:33:13+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:33:48+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-03-14T09:34:22+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:22:34) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php9D5D.tmp' to './Exceldest/app.xls_2017-03-14 09:22:34' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:34:33+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/app.xls_2017-03-14 09:33:34) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpC835.tmp' to './Exceldest/app.xls_2017-03-14 09:33:34' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:36:51+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 29 行.
+NOTIC: [2] move_uploaded_file(./Exceldest/file_2017-03-14 09:51:36_2017-03-14 09:51:36) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpE43E.tmp' to './Exceldest/file_2017-03-14 09:51:36_2017-03-14 09:51:36' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:37:46+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 29 行.
+NOTIC: [2] move_uploaded_file(./Exceldest/file_2017-03-14 09:46:37_2017-03-14 09:46:37) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpB85F.tmp' to './Exceldest/file_2017-03-14 09:46:37_2017-03-14 09:46:37' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:38:08+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/file_2017-03-14 09:08:38_2017-03-14 09:08:38) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php11D5.tmp' to './Exceldest/file_2017-03-14 09:08:38_2017-03-14 09:08:38' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:38:33+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 29 行.
+NOTIC: [2] move_uploaded_file(./Exceldest/file_2017-03-14 09:33:38_2017-03-14 09:33:38) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php7318.tmp' to './Exceldest/file_2017-03-14 09:33:38_2017-03-14 09:33:38' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:39:01+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/file_2017-03-14 09:01:39_2017-03-14 09:01:39) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpDF72.tmp' to './Exceldest/file_2017-03-14 09:01:39_2017-03-14 09:01:39' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:39:24+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/file_2017-03-14 09:24:39_2017-03-14 09:24:39) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php3A4F.tmp' to './Exceldest/file_2017-03-14 09:24:39_2017-03-14 09:24:39' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:40:09+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] move_uploaded_file(./Exceldest/file_2017-03-14_2017-03-14 09:09:40) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpE760.tmp' to './Exceldest/file_2017-03-14_2017-03-14 09:09:40' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 33 行.
+
+[ 2017-03-14T09:40:31+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T09:41:11+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T09:41:48+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T09:42:34+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:43:08+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T09:57:15+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:19:31+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:53:54+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:54:28+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:56:04+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T10:56:23+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T10:58:39+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:59:06+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:00:37+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:02:21+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-14T11:09:24+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:10:16+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:10:29+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:14:06+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:15:01+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:15:29+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:20:52+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T11:21:19+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:22:06+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:22:23+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:22:33+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-14T11:24:13+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('masterid','1',NULL,NULL,NULL),('phone','1',NULL,NULL,NULL),('address','1',NULL,NULL,NULL),('listtime',NULL,NULL,NULL,NULL),('objectid','1',NULL,NULL,NULL),('remark   备注    ','1',NULL,NULL,NULL),('mode    ','1',NULL,NULL,NULL),('price','1',NULL,NULL,NULL),('paidnum','1',NULL,NULL,NULL),('stucount','1',NULL,NULL,NULL),('state','1',NULL,NULL,NULL),('applymode','1',NULL,NULL,NULL),('listid',NULL,NULL,NULL,NULL),('masname',NULL,NULL,NULL,NULL),('couponmode','1',NULL,NULL,NULL),('listname','1',NULL,NULL,NULL),('description','1',NULL,NULL,NULL),('classid',NULL,NULL,NULL,NULL),('flag',NULL,NULL,NULL,NULL),('duration',NULL,NULL,NULL,NULL) [ RunTime:0.0160s ]
+
+[ 2017-03-14T11:24:27+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('masterid','1',NULL,NULL,NULL),('phone','1',NULL,NULL,NULL),('address','1',NULL,NULL,NULL),('listtime',NULL,NULL,NULL,NULL),('objectid','1',NULL,NULL,NULL),('remark   备注    ','1',NULL,NULL,NULL),('mode    ','1',NULL,NULL,NULL),('price','1',NULL,NULL,NULL),('paidnum','1',NULL,NULL,NULL),('stucount','1',NULL,NULL,NULL),('state','1',NULL,NULL,NULL),('applymode','1',NULL,NULL,NULL),('listid',NULL,NULL,NULL,NULL),('masname',NULL,NULL,NULL,NULL),('couponmode','1',NULL,NULL,NULL),('listname','1',NULL,NULL,NULL),('description','1',NULL,NULL,NULL),('classid',NULL,NULL,NULL,NULL),('flag',NULL,NULL,NULL,NULL),('duration',NULL,NULL,NULL,NULL) [ RunTime:0.0010s ]
+
+[ 2017-03-14T11:25:18+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+SQL: INSERT INTO `exam_test` () VALUES () [ RunTime:0.0000s ]
+
+[ 2017-03-14T11:25:56+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+SQL: INSERT INTO `exam_test` () VALUES () [ RunTime:0.0000s ]
+
+[ 2017-03-14T11:26:13+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+NOTIC: [8] Undefined index: C F:\WWW\test\Application\Common\Common\function.php 第 69 行.
+NOTIC: [8] Undefined index: D F:\WWW\test\Application\Common\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: E F:\WWW\test\Application\Common\Common\function.php 第 71 行.
+NOTIC: [8] Undefined index: F F:\WWW\test\Application\Common\Common\function.php 第 72 行.
+SQL: INSERT INTO `exam_test` () VALUES () [ RunTime:0.0000s ]
+
+[ 2017-03-14T11:27:24+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:27:43+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:35:02+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:37:26+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:37:41+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:39:15+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:43:42+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:43:56+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\test\Application\Common\Common\function.php:53) F:\WWW\test\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-03-14T11:46:36+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\test\Application\Common\Common\function.php:53) F:\WWW\test\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-03-14T11:47:15+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\test\Application\Common\Common\function.php:53) F:\WWW\test\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-03-14T11:48:18+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:48:39+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\test\Application\Common\Common\function.php:53) F:\WWW\test\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-03-14T11:48:50+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:49:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T11:49:36+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T11:49:45+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:56:56+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T11:57:10+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:57:33+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\test\Application\Common\Common\function.php:53) F:\WWW\test\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-03-14T11:57:54+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\test\Application\Common\Common\function.php:53) F:\WWW\test\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-03-14T12:28:12+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T12:31:46+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:16:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T13:27:48+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+
+[ 2017-03-14T13:28:46+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+
+[ 2017-03-14T13:29:02+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+
+[ 2017-03-14T13:29:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+
+[ 2017-03-14T13:29:51+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+
+[ 2017-03-14T13:30:49+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+
+[ 2017-03-14T13:31:07+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+
+[ 2017-03-14T13:36:00+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0000s ]
+
+[ 2017-03-14T13:36:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+
+[ 2017-03-14T13:38:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0000s ]
+
+[ 2017-03-14T13:39:35+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE (  question )  [ RunTime:0.0010s ]
+
+[ 2017-03-14T13:40:16+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+
+[ 2017-03-14T13:43:36+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+
+[ 2017-03-14T13:45:52+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question1','1','2','3','4') [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question2','11','22','33','44') [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question1','1','2','3','4') [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question1','1','2','3','4') [ RunTime:0.0000s ]
+
+[ 2017-03-14T13:47:05+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question1','1','2','3','4') [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question2','11','22','33','44') [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question1','1','2','3','4') [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`) VALUES ('question1','1','2','3','4') [ RunTime:0.0000s ]
+
+[ 2017-03-14T13:49:12+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question4','1','2','3','4','1') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-14T13:49:25+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 25 行.
+
+[ 2017-03-14T13:54:24+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T13:55:41+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T13:58:14+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-14T13:59:40+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-14T14:00:53+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+
+[ 2017-03-14T14:01:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-14T14:01:45+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+
+[ 2017-03-14T14:01:58+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T14:02:55+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question2','1','2','3','4','1') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question1','1','2','3','4','1') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-14T14:03:31+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('问题','A选项','B选项','C选项','D选项','正确答案') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question2','1','2','3','4','1') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question1','1','2','3','4','1') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-14T14:04:22+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question2','1','2','3','4','1') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question1','1','2','3','4','1') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T14:05:20+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+NOTIC: [2] array_flip() [<a href='function.array-flip'>function.array-flip</a>]: Can only flip STRING and INTEGER values! F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 8 行.
+
+[ 2017-03-14T14:06:35+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+
+[ 2017-03-14T14:06:54+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+
+[ 2017-03-14T14:07:14+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+
+[ 2017-03-14T14:08:23+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question2','11','22','33','44','44') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`) VALUES ('question1','1','2','3','4','1') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T14:10:25+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T14:10:26+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T14:10:28+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T14:10:29+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T14:10:30+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T14:10:35+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T14:19:14+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T14:19:35+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T14:20:36+08:00 ] ::1 /test/index.php/Admin/Golds/index.html
+ERR: 无法加载控制器:Golds
+
+[ 2017-03-14T14:21:07+08:00 ] ::1 /test/index.php/Admin/Admin/index.html
+ERR: 无法加载控制器:Admin
+
+[ 2017-03-14T14:35:05+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T14:35:11+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T14:38:31+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 24 行.
+
+[ 2017-03-14T15:15:53+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 23 行.
+
+[ 2017-03-14T15:20:53+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T15:28:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-14T15:32:19+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T15:32:32+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T15:32:44+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`) VALUES ('question3','1','2','3','4','C','0','3') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`) VALUES ('question4','10','20','40','20','A,B','1','4') [ RunTime:0.0000s ]
+
+[ 2017-03-14T15:33:49+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`create_time`) VALUES ('question5','1','2','3','4','A','0','3','1489476829') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`create_time`) VALUES ('question2','11','22','33','44','B','0','3','1489476829') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`create_time`) VALUES ('question3','1','2','3','4','C','0','3','1489476829') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`create_time`) VALUES ('question4','10','20','40','20','A,B','1','4','1489476829') [ RunTime:0.0000s ]
+
+[ 2017-03-14T15:37:48+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 32 行.
+
+[ 2017-03-14T15:38:39+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 32 行.
+
+[ 2017-03-14T15:38:50+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T15:38:54+08:00 ] ::1 /test/index.php/Admin/Golds/addAct.html
+ERR: 无法加载控制器:Golds
+
+[ 2017-03-14T15:38:58+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T15:39:06+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 32 行.
+
+[ 2017-03-14T15:39:10+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 32 行.
+
+[ 2017-03-14T15:49:24+08:00 ] ::1 /test/index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-14T15:49:24+08:00 ] ::1 /test/index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-14T15:49:24+08:00 ] ::1 /test/index.php/Admin/Goods/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-14T15:49:24+08:00 ] ::1 /test/index.php/Admin/Goods/brandlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-14T15:51:50+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T15:51:50+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T15:51:50+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T15:56:55+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T16:00:29+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T16:00:33+08:00 ] ::1 /test/index.php/Admin/Test/addtest.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T16:01:00+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T16:01:06+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:02:01+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T16:02:31+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T16:02:38+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T16:02:47+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 32 行.
+
+[ 2017-03-14T16:03:06+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T16:03:10+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:03:25+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:17:57+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:22:32+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:22:32+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:23:33+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:23:33+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:24:04+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:24:05+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:28:08+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:28:08+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:29:32+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:29:32+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:32:13+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:32:13+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:32:32+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:32:32+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:32:33+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:32:33+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:33:06+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:33:06+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:33:06+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:33:07+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:33:21+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:33:21+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:33:21+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:34:53+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:34:54+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:34:54+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:34:54+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:35:11+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:35:12+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:35:12+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:35:12+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:35:30+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:35:30+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:37:34+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:06+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:06+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:25+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:25+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:27+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:30+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:32+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:36+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:38:36+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:42:54+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:42:54+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:45:13+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:45:13+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:45:57+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:45:57+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:46:19+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:46:19+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:47:01+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:47:01+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:47:01+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:47:45+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:49:44+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:49:47+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:49:48+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:51:56+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:52:35+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:53:24+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:53:25+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:54:24+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:54:24+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:54:25+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:54:28+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:54:31+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:55:16+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:55:24+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:55:27+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:55:30+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:57:39+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:57:42+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T16:57:44+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:01:46+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:02:06+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:02:54+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:03:03+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:03:05+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:03:10+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:03:14+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:06:46+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:06:46+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:08:37+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:08:38+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:09:10+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:09:10+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:09:59+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:10:00+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:10:23+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:10:23+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:10:27+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-14T17:52:50+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T17:52:54+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T17:53:04+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T17:53:11+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T17:55:27+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T17:59:15+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T17:59:25+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:00+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:11+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:48+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test?type=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:51+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:51+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:52+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:52+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:52+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:52+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:53+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:53+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:53+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:53+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:01:57+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/add_test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:02:39+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/test_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:02:46+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/test_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:02:48+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/test_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:02:48+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/test_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:02:48+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/test_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:03:21+08:00 ] ::1 /test/index.php/Admin/Test/Admin/Test/test_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:Admin
+
+[ 2017-03-14T18:03:28+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:03:28+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T18:03:29+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:04:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:04:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:04:55+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:04:55+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:04:56+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:05:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T18:05:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:06:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:06:14+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:06:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:06:23+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:06:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:06:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:07:11+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:07:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:32+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T18:09:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:37+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:41+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:09:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:09:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:10:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T18:10:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:10:49+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:10:51+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:10:53+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T18:10:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:11:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:11:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:11:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:11:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:11:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:11:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:11:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:11:49+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:11:49+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:11:49+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:11:58+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T18:12:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:14:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:14:23+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?firstCate=0&cname=&cname=&cname=&cname=&cname=&cname=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T18:14:24+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T18:14:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add11.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:test_add11
+
+[ 2017-03-14T18:14:38+08:00 ] ::1 /test/index.php/Admin/Test/test_add11.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:test_add11
+
+[ 2017-03-14T18:15:04+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T18:15:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:15:51+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?type=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:16:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html?type=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:20:04+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T18:23:44+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T18:24:16+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T18:27:07+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T18:30:09+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-14T18:35:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-14T18:35:08+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T18:36:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T18:37:07+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+

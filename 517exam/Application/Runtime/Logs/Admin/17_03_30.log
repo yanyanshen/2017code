@@ -1,0 +1,57 @@
+[ 2017-03-30T14:59:42+08:00 ] 127.0.0.1 /Admin/Login/chkVerify.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-30T14:59:43+08:00 ] 127.0.0.1 /Admin/Login/chkAdmin.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-30T14:59:44+08:00 ] 127.0.0.1 /Admin/Login/login.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: validate F:\WWW\test\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1490857184',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0400s ]
+
+[ 2017-03-30T14:59:45+08:00 ] 127.0.0.1 /Admin/Login/login.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\WWW\test\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1490857185',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0470s ]
+
+[ 2017-03-30T14:59:47+08:00 ] 127.0.0.1 /Admin/Index/getGoodsTop.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-30T15:01:50+08:00 ] 127.0.0.1 /Admin/Test/import_excel.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111情感11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`category`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('问题1111情感11','1','2','3','4','B','1','0','3','1','0','1490857310') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1112情感11' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`category`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('问题1112情感11','1','2','3','4','D','1','0','3','1','0','1490857310') [ RunTime:0.0000s ]
+

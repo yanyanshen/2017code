@@ -1,0 +1,1205 @@
+[ 2017-03-17T09:18:51+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T09:19:31+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T09:23:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','问题1','1','0','0','1489713806','你好','你好','你好','你好','a','3') [ RunTime:0.0320s ]
+
+[ 2017-03-17T09:23:28+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T09:24:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('1','1','问题2','2','0','0','1489713847','问题2','问题2','问题2','问题2','a,b','4') [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:24:09+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T09:24:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T09:24:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T09:24:56+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-17T09:25:08+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T09:25:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '图片'  [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:25:11+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '图片'  [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:25:12+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '图片'  [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:25:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '图片'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','图片','2','1','1','1489713919','123','12','13','13','b','3') [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0030s ]
+SQL: INSERT INTO `exam_test_pic` (`test_id`,`picurl`,`picname`) VALUES ('3','2017-03-17/','58cb3aff29501.png') [ RunTime:0.0000s ]
+
+[ 2017-03-17T09:25:21+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T09:26:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '图片'  [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:26:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '图片213'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0150s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('1','1','图片213','3','0','0','1489713970','123','123','132','13','a,b,c','4') [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:26:12+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T09:28:52+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '图片多'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','图片多','2','1','1','1489714132','1321','21313','123','1313','d','3') [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0040s ]
+SQL: INSERT INTO `exam_test_pic` (`test_id`,`picurl`,`picname`) VALUES ('5','2017-03-17/','58cb3bd4627d5.png') [ RunTime:0.0000s ]
+
+[ 2017-03-17T09:28:54+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T09:29:28+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `question` = '简答1'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+SQL: INSERT INTO `exam_testshort` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`right_answer`,`score`) VALUES ('2','1','简答1','2','1','1','1489714167','12313231431     ','10') [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_picshort` [ RunTime:0.0040s ]
+SQL: INSERT INTO `exam_test_picshort` (`test_id`,`create_time`,`picurl`,`picname`) VALUES ('1','1489714168','2017-03-17/','58cb3bf804042.png') [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:29:31+08:00 ] ::1 /test/index.php/Admin/Test/shortlist.html
+ERR: 模板不存在:./Application/Admin/View/Test/shortlist.html
+
+[ 2017-03-17T09:29:55+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `question` = '简答2'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+SQL: INSERT INTO `exam_testshort` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`right_answer`,`score`) VALUES ('2','1','简答2','2','0','0','1489714195','dfdgfdgsg                 ','10') [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:29:58+08:00 ] ::1 /test/index.php/Admin/Test/shortlist.html
+ERR: 模板不存在:./Application/Admin/View/Test/shortlist.html
+
+[ 2017-03-17T09:30:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `question` = '简答1'  [ RunTime:0.0010s ]
+
+[ 2017-03-17T09:41:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题22'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','问题22','1','0','0','1489714882','12','12','12','12','b','3') [ RunTime:0.0000s ]
+
+[ 2017-03-17T09:41:24+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T09:44:38+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T09:54:24+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T09:54:53+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T09:56:41+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T10:10:05+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T10:10:09+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:10:32+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:10:35+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:10:36+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:10:55+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:10:56+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:11:07+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T10:11:10+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:18:38+08:00 ] ::1 /test/index.php/Admin/Test/one_list.html
+ERR: Think\Controller:assing方法不存在！
+
+[ 2017-03-17T10:20:50+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T10:39:51+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-17T10:39:55+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T10:44:23+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T10:44:28+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:46:15+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T10:46:22+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:47:19+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T10:47:29+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T10:47:50+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:47:52+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:49:20+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T10:49:32+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:51:47+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T10:51:54+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T10:52:57+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T10:53:04+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T10:53:07+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T10:53:11+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:53:14+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:53:19+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:53:24+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:53:29+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0020s ]
+
+[ 2017-03-17T10:53:32+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:53:44+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:53:55+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T10:54:00+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T10:58:22+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:00:57+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T11:01:03+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-03-17T11:01:08+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:07:53+08:00 ] ::1 /test/index.php/Admin/Test/one_pic_list.html
+ERR: 1054:Unknown column 'p.piccurl' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.question,b.cname,a.A,a.B,a.C,a.D,a.right_answer,a.status,a.create_time,p.piccurl,p.picname,p.id as pid FROM exam_test a,exam_test_category b,exam_test_pic p WHERE ( a.category=b.id and a.id=p.test_id and ifImg=1 and type=1 ) ORDER BY a.create_time desc LIMIT 0,12  
+
+[ 2017-03-17T11:20:41+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '1231'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','1231','1','0','0','1489720841','1231','123','13','33','D','3') [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:20:43+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T11:23:12+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-17T11:23:27+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T11:23:33+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T11:24:12+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T11:28:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '242342'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','242342','1','1','1','1489721283','23','23','23','23','B','3') [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0030s ]
+SQL: INSERT INTO `exam_test_pic` (`test_id`,`picurl`,`picname`) VALUES ('8','2017-03-17/','58cb57c3d9e27.png') [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:28:06+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T11:29:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '456465'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','456465','1','1','1','1489721350','5644','56','46','46','C','3') [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0030s ]
+SQL: INSERT INTO `exam_test_pic` (`test_id`,`picurl`,`picname`) VALUES ('9','2017-03-17/','58cb58069c511.png') [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:29:12+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T11:33:59+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '2342'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','2342','2','0','0','1489721639','3','3','3','3','C','3') [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:34:01+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T11:34:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'wrewr'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('0','1','wrewr','2','1','1','1489721679','we','3','3','3','A','3') [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0030s ]
+SQL: INSERT INTO `exam_test_pic` (`test_id`,`picurl`,`picname`) VALUES ('11','2017-03-17/','58cb594f58a43.png') [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:34:41+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T11:39:00+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T11:40:39+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 11 [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:40:40+08:00 ] ::1 /test/index.php/Admin/Test/one_list_pic.html
+ERR: 非法操作:one_list_pic
+
+[ 2017-03-17T11:41:01+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 9 [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:41:06+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 11 [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:43:17+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-03-17T11:48:03+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '3453543'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: INSERT INTO `exam_test` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`A`,`B`,`C`,`D`,`right_answer`,`score`) VALUES ('1','1','3453543','2','1','1','1489722482','34','3','3','3','A,D','4') [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0040s ]
+SQL: INSERT INTO `exam_test_pic` (`test_id`,`picurl`,`picname`) VALUES ('12','2017-03-17/','58cb5c72e4864.png') [ RunTime:0.0000s ]
+
+[ 2017-03-17T11:48:05+08:00 ] ::1 /test/index.php/Admin/Test/selectlist.html
+ERR: 非法操作:selectlist
+
+[ 2017-03-17T12:01:00+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-17T12:01:17+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-17T12:01:20+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-17T12:01:35+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-17T12:01:50+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 164 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 177 行.
+
+[ 2017-03-17T12:02:24+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 164 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 10 [ RunTime:0.0010s ]
+
+[ 2017-03-17T12:02:37+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_testshort` SET `status`='0' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-03-17T13:24:23+08:00 ] ::1 /test/index.php/Admin/Test/short_pic_list.html
+ERR: 1054:Unknown column 'a.A' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.question,b.cname,a.A,a.B,a.C,a.D,a.right_answer,a.status,a.create_time,p.picurl,p.picname,p.id as pid,a.type FROM exam_testshort a,exam_test_category b,exam_test_pic p WHERE ( a.category=b.id and a.id=p.test_id and ifImg=1 and type=2 ) ORDER BY a.create_time desc LIMIT 0,12  
+
+[ 2017-03-17T13:28:18+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_testshort` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-03-17T13:28:23+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_testshort` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-03-17T13:28:44+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `question` = '嘟嘟嘟'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0030s ]
+SQL: INSERT INTO `exam_testshort` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`right_answer`,`score`) VALUES ('2','1','嘟嘟嘟','3','0','0','1489728524','nindfangisaegnsi       ','10') [ RunTime:0.0010s ]
+
+[ 2017-03-17T13:28:46+08:00 ] ::1 /test/index.php/Admin/Test/shortlist.html
+ERR: 非法操作:shortlist
+
+[ 2017-03-17T13:29:29+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T13:29:35+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_testshort` WHERE `question` = '嘟嘟嘟的嘟嘟嘟+'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0050s ]
+SQL: INSERT INTO `exam_testshort` (`type`,`status`,`question`,`category`,`ifImg`,`Imgurl`,`create_time`,`right_answer`,`score`) VALUES ('2','1','嘟嘟嘟的嘟嘟嘟+','3','1','1','1489728575','嘟嘟嘟嘟嘟嘟            ','10') [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `exam_test_picshort` [ RunTime:0.0040s ]
+SQL: INSERT INTO `exam_test_picshort` (`test_id`,`create_time`,`picurl`,`picname`) VALUES ('4','1489728575','2017-03-17/','58cb743fa4ec1.png') [ RunTime:0.0000s ]
+
+[ 2017-03-17T13:29:37+08:00 ] ::1 /test/index.php/Admin/Test/shortlist.html
+ERR: 非法操作:shortlist
+
+[ 2017-03-17T13:54:56+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '24324'  [ RunTime:0.0010s ]
+
+[ 2017-03-17T13:55:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '24324'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: test_id F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 274 行.
+
+[ 2017-03-17T13:56:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '3543'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: test_id F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 274 行.
+
+[ 2017-03-17T13:56:16+08:00 ] ::1 /test/index.php/Admin/Test/editor.html
+ERR: 非法操作:editor
+
+[ 2017-03-17T14:06:15+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T14:06:19+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T14:11:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T14:15:54+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T14:49:43+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/6/type/0.html
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM exam_test a,exam_test_category b WHERE `id` = 6 AND a.ccategory = 'b.id' 
+
+[ 2017-03-17T14:49:55+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/6/type/0.html
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM exam_test a,exam_test_category b WHERE `id` = 6 AND a.category = 'b.id' 
+
+[ 2017-03-17T15:14:01+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T15:45:43+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T15:46:01+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T16:05:39+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/2/ifImg/0.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ifImg=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT a.ifImg,a.A,a.B,a.C,a.D,a.question,a.right_answer,a.id,a.type,b.cname,b.id as bid,a.type FROM exam_test a,exam_test_category b WHERE ( a.id=2 and a.category=b.id and type= and ifImg=0 ) LIMIT 1  
+
+[ 2017-03-17T16:07:24+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T16:15:21+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:17:26+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:17:34+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:17:53+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T16:18:28+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:18:33+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:21:49+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T16:22:02+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T16:22:35+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-17T16:22:38+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-17T16:37:41+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:37:47+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T16:37:50+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-17T16:37:53+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/6/type/0/ifImg/undefined
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT a.ifImg,a.A,a.B,a.C,a.D,a.question,a.right_answer,a.id,a.type,b.cname,b.id as bid,a.type FROM exam_test a,exam_test_category b WHERE ( a.id=6 and a.category=b.id and type=0 and ifImg=undefined ) LIMIT 1  
+
+[ 2017-03-17T16:39:38+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: qname F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 46 行.
+
+[ 2017-03-17T16:39:44+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: qname F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 46 行.
+
+[ 2017-03-17T16:41:24+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:41:32+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T16:42:01+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T16:42:09+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T17:01:50+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-17T17:01:57+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: right_answer F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 62 行.
+
+[ 2017-03-17T17:09:28+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: right_answer F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 62 行.
+
+[ 2017-03-17T17:09:38+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:09:42+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: right_answer F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 62 行.
+
+[ 2017-03-17T17:10:24+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T17:10:26+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:10:47+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T17:10:50+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: right_answer F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 62 行.
+
+[ 2017-03-17T17:10:53+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: right_answer F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 62 行.
+
+[ 2017-03-17T17:10:54+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: right_answer F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 62 行.
+
+[ 2017-03-17T17:10:58+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T17:11:12+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:11:16+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:11:19+08:00 ] ::1 /test/index.php/Admin/Test/editorShortTest/tid/2/type/2/ifImg/undefined
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT a.ifImg,a.question,a.right_answer,a.id,a.type,b.cname,b.id as bid,a.type FROM exam_testshort a,exam_test_category b WHERE ( a.id=2 and a.category=b.id and type=2 and ifImg=undefined ) LIMIT 1  
+
+[ 2017-03-17T17:14:27+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:14:31+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T17:14:34+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 67 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-17T17:14:37+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/2/type/1/ifImg/undefined
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT a.ifImg,a.A,a.B,a.C,a.D,a.question,a.right_answer,a.id,a.type,b.cname,b.id as bid,a.type FROM exam_test a,exam_test_category b WHERE ( a.id=2 and a.category=b.id and type=1 and ifImg=undefined ) LIMIT 1  
+
+[ 2017-03-17T17:19:29+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:31:28+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:31:34+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0140s ]
+SQL: UPDATE `exam_test` SET `question`='2342筵宴',`type`='0',`category`='1',`right_answer`='C' WHERE `id` = 10 [ RunTime:0.0010s ]
+
+[ 2017-03-17T17:31:47+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T17:31:58+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_test` SET `question`='2342筵宴12',`type`='1',`category`='1',`right_answer`='Cd' WHERE `id` = 10 [ RunTime:0.0040s ]
+
+[ 2017-03-17T17:33:50+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:33:54+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T17:33:59+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: UPDATE `exam_test` SET `score`='4',`question`='问题1筵宴',`type`='1',`category`='2',`right_answer`='Ad' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-03-17T17:38:16+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:38:29+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0130s ]
+SQL: UPDATE `exam_testshort` SET `question`='简答2222222',`type`='2',`category`='2',`right_answer`='筵宴                                    ' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-03-17T17:39:10+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0040s ]
+SQL: UPDATE `exam_testshort` SET `question`='简答2222222',`type`='2',`category`='1',`right_answer`='                            筵宴                                                            ' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-03-17T17:41:03+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0150s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='问题22',`type`='0',`category`='2',`right_answer`='B' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T17:41:06+08:00 ] ::1 /test/index.php/Admin/Test/editorTest.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.category=b.id and type= and ifImg= ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT a.ifImg,a.A,a.B,a.C,a.D,a.question,a.right_answer,a.id,a.type,b.cname,b.id as bid,a.type FROM exam_test a,exam_test_category b WHERE ( a.id= and a.category=b.id and type= and ifImg= ) LIMIT 1  
+
+[ 2017-03-17T17:41:22+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='1231',`type`='0',`category`='3',`right_answer`='D' WHERE `id` = 7 [ RunTime:0.0010s ]
+
+[ 2017-03-17T17:41:25+08:00 ] ::1 /test/index.php/Admin/Test/editorTest.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.category=b.id and type= and ifImg= ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT a.ifImg,a.A,a.B,a.C,a.D,a.question,a.right_answer,a.id,a.type,b.cname,b.id as bid,a.type FROM exam_test a,exam_test_category b WHERE ( a.id= and a.category=b.id and type= and ifImg= ) LIMIT 1  
+
+[ 2017-03-17T17:42:37+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='1231',`type`='0',`category`='3',`right_answer`='D' WHERE `id` = 7 [ RunTime:0.0010s ]
+
+[ 2017-03-17T17:42:43+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='1231',`type`='0',`category`='3',`right_answer`='D' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-03-17T17:42:53+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0080s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='问题22',`type`='0',`category`='2',`right_answer`='B' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-03-17T17:43:00+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='问题22',`type`='0',`category`='1',`right_answer`='B' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-17T17:43:12+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 306 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-03-17T17:43:20+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T17:43:23+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-17T17:43:30+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ifimg F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_test` SET `score`='4',`question`='问题2',`type`='1',`category`='3',`right_answer`='ab' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-03-17T17:58:23+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/11/ifImg/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ifImg=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT a.id,a.ifImg,a.question,b.cname,a.A,a.B,a.C,a.D,a.right_answer,a.status,a.create_time,p.picurl,p.picname,p.id as pid,a.type FROM exam_test a,exam_test_category b,exam_test_pic p WHERE ( a.id=11 and a.category=b.id and type= and ifImg=1 ) LIMIT 1  
+
+[ 2017-03-17T18:00:59+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-17T18:17:12+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T18:29:43+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T18:29:53+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='图片多',`type`='0',`category`='3',`right_answer`='D' WHERE `id` = 5 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-17T18:29:56+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/5/type/0/ifImg/undefined
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT a.ifImg,a.A,a.B,a.C,a.D,a.question,a.right_answer,a.id,a.type,b.cname,b.id as bid,a.type FROM exam_test a,exam_test_category b WHERE ( a.id=5 and a.category=b.id and type=0 and ifImg=undefined  ) LIMIT 1  
+
+[ 2017-03-17T18:31:11+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='wrewr',`type`='0',`category`='2',`right_answer`='A' WHERE `id` = 11 [ RunTime:0.0000s ]
+
+[ 2017-03-17T18:31:46+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='wrewr',`type`='0',`category`='2',`right_answer`='A' WHERE `id` = 11 [ RunTime:0.0010s ]
+
+[ 2017-03-17T18:32:54+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='wrewr',`type`='0',`category`='2',`right_answer`='A' WHERE `id` = 11 [ RunTime:0.0000s ]
+
+[ 2017-03-17T18:36:56+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T18:37:02+08:00 ] ::1 /test/index.php/Admin/Goods/editor.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-03-17T18:46:07+08:00 ] ::1 /test/index.php/Admin/Test/editorShortTest/tid/4/type/2/ifImg/1.html
+ERR: 1054:Unknown column 'a.A' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.ifImg,a.question,b.cname,a.A,a.B,a.C,a.D,a.right_answer,a.create_time,p.picurl,p.picname,p.id as pid,a.type FROM exam_testshort a,exam_test_category b,exam_test_picshort p WHERE ( a.id=4 and a.category=b.id and type=2 and ifImg=1 and p.test_id=a.id ) LIMIT 1  
+

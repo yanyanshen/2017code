@@ -1,0 +1,2202 @@
+[ 2017-03-15T09:07:56+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T09:17:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T09:17:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T09:46:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T09:48:05+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T09:48:06+08:00 ] ::1 /test/index.php/Admin/Golds/addAct.html
+ERR: 无法加载控制器:Golds
+
+[ 2017-03-15T09:48:22+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T10:00:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:00:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:01:25+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:01:25+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:01:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:01:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T10:01:52+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T10:01:52+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T10:02:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T10:02:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T10:41:14+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:41:15+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:41:16+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:41:17+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:41:18+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:41:19+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:41:20+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T10:41:23+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:41:24+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: Think\Model:test_category方法不存在！
+
+[ 2017-03-15T10:42:58+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: 1146:Table 'exam.exam_testcategory' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_testcategory`
+
+[ 2017-03-15T10:42:59+08:00 ] ::1 /test/index.php/Admin/Test/addtestshow.html
+ERR: 1146:Table 'exam.exam_testcategory' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_testcategory`
+
+[ 2017-03-15T10:43:41+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:43:41+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T10:44:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T10:44:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:45:08+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T10:45:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T10:45:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:45:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T10:45:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:13:03+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 35 行.
+
+[ 2017-03-15T11:13:33+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('question3','1','2','3','4','C','0','3','1','0','1489547613') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-15T11:18:26+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T11:54:06+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T11:55:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:55:23+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T11:55:23+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:55:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T11:55:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:55:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:55:35+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T11:55:57+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:56:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:56:23+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-15T11:56:40+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:56:40+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:56:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:56:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T11:57:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:57:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:57:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:57:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:58:25+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T11:58:25+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:12:51+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T12:37:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T12:37:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T12:38:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T12:38:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:38:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:40:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:53:25+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:53:34+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T12:53:38+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T12:53:44+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:53:44+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:58:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:58:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:58:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T12:58:33+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T12:58:38+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T12:58:41+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T12:59:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T12:59:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:01:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:03:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:03:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:03:44+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:05:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:05:24+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T13:05:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:05:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:05:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:05:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:05:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:07:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:07:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:08:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:08:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:08:38+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:08:41+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-03-15T13:08:41+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:11:37+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:11:37+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:18:58+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:19:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:19:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T13:19:23+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T13:20:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:20:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:21:18+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:21:23+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T13:21:29+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T13:21:56+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T13:29:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T13:30:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: question F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:31:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:31:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:32:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:32:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:33:01+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T14:33:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:33:32+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:33:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:34:11+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:34:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:34:23+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T14:34:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:34:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:34:58+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:35:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:35:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:36:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:36:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:36:23+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T14:36:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:36:46+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T14:36:55+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:37:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:38:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:39:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 57 行.
+
+[ 2017-03-15T14:39:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:39:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:39:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:40:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:40:53+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:41:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 58 行.
+
+[ 2017-03-15T14:41:40+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T14:41:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:41:44+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:41:45+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:41:45+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:41:45+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:42:22+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T14:42:29+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:42:51+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T14:43:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T14:43:40+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 58 行.
+
+[ 2017-03-15T14:43:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T14:44:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 58 行.
+
+[ 2017-03-15T14:45:18+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 58 行.
+
+[ 2017-03-15T14:45:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:00:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:00:21+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T15:00:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:00:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:01:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:02:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:03:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T15:03:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:03:28+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:03:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:03:36+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 66 行.
+
+[ 2017-03-15T15:03:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 66 行.
+
+[ 2017-03-15T15:05:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:05:35+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:05:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:05:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:05:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:12:35+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:12:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T15:14:17+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T15:14:23+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-03-15T15:14:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-15T15:15:12+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:15:14+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:15:52+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:16:00+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:16:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:16:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T15:16:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:16:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-15T15:16:28+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:16:40+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:17:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:26:44+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T15:26:59+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 66 行.
+
+[ 2017-03-15T15:27:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 66 行.
+
+[ 2017-03-15T15:27:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 66 行.
+
+[ 2017-03-15T15:27:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 66 行.
+
+[ 2017-03-15T15:28:08+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 66 行.
+
+[ 2017-03-15T15:33:14+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T15:33:32+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+
+[ 2017-03-15T15:33:37+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:33:45+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+
+[ 2017-03-15T15:33:52+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:34:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:34:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+
+[ 2017-03-15T15:35:21+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:35:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T15:36:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+
+[ 2017-03-15T15:36:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+
+[ 2017-03-15T15:37:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 65 行.
+
+[ 2017-03-15T15:37:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:37:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:37:59+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:38:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:38:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:38:29+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:38:36+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:39:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:39:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:39:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:40:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:40:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:40:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:40:30+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T15:40:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:40:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:40:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:40:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:41:03+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:41:08+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:41:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:43:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:43:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:44:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:44:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:44:25+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T15:45:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:45:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:45:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:45:29+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:45:51+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:45:56+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:46:44+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:46:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:47:12+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:47:25+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:47:37+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:47:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:47:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:47:53+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:47:56+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:48:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 108 行.
+
+[ 2017-03-15T15:49:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:49:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:49:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:49:37+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:50:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:50:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:50:51+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:51:32+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T15:51:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:51:49+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:52:59+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:53:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:53:24+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-15T15:53:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:53:40+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:53:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:53:56+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:54:00+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:54:03+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:54:36+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:54:55+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:55:08+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:55:18+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:55:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:55:49+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:56:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:56:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:56:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:57:28+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:57:36+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:57:38+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:57:51+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:59:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T15:59:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T15:59:11+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:59:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:59:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T15:59:51+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:00:04+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:00:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:00:32+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:00:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:01:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:01:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:01:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:01:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:01:44+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:02:03+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:02:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:02:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:02:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 71 行.
+
+[ 2017-03-15T16:03:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 73 行.
+
+[ 2017-03-15T16:03:29+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:03:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 73 行.
+
+[ 2017-03-15T16:03:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 73 行.
+
+[ 2017-03-15T16:03:34+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 73 行.
+
+[ 2017-03-15T16:03:40+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 73 行.
+
+[ 2017-03-15T16:04:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:04:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:04:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:05:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:05:11+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:07:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T16:07:31+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:07:38+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:08:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier '{' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 73 行.
+
+[ 2017-03-15T16:08:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier '{' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 73 行.
+
+[ 2017-03-15T16:09:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:09:50+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T16:09:53+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:09:57+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:10:01+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:10:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:10:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:10:36+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:10:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:10:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:10:45+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:10:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:10:54+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:11:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:11:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:11:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:11:13+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:22:32+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:22:35+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:22:39+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:22:47+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:24:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:24:26+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:25:59+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:26:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:26:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:26:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:26:23+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:26:27+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:28:11+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:28:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:28:19+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:28:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:28:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:28:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:28:51+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:29:12+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:29:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:29:20+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T16:29:32+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:29:33+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T16:29:37+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T16:29:43+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 82 行.
+
+[ 2017-03-15T18:25:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:25:12+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:25:16+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:25:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:25:46+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T18:26:05+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fristCate F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 109 行.
+
+[ 2017-03-15T18:26:36+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: testarea F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 115 行.
+
+[ 2017-03-15T18:27:06+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:28:18+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-15T18:28:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T18:28:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T18:31:07+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:31:10+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-15T18:31:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:31:22+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T18:31:42+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:31:48+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-15T18:31:53+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:31:55+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:31:59+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:32:02+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T18:32:06+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 91 行.
+
+[ 2017-03-15T18:32:09+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T18:32:15+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 91 行.
+
+[ 2017-03-15T18:32:17+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T18:32:24+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-15T18:32:30+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 91 行.
+
+[ 2017-03-15T18:32:36+08:00 ] ::1 /test/index.php/Admin/Test/test_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: image F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 143 行.
+

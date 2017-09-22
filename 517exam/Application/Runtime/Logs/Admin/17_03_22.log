@@ -1,0 +1,1462 @@
+[ 2017-03-22T09:09:26+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:15:05+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:15:19+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:16:49+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:19:49+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:20:02+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:20:47+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:24:02+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:24:11+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:24:59+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:26:16+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:29:36+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:30:13+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:42:21+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:42:50+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:43:08+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:43:44+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:58:17+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T09:58:26+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:02:20+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:06:10+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:17:58+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:22:16+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:30:37+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:32:00+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:33:42+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:33:56+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:34:11+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:36:34+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:36:55+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:37:34+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:37:59+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:38:42+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:42:27+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:44:26+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:46:22+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:47:36+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:48:00+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:48:26+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:49:01+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:50:08+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:50:23+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:50:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:51:17+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:51:35+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:52:08+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:54:23+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:54:46+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:56:22+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T10:56:52+08:00 ] ::1 /test/index.php/Admin/Index/short_list
+ERR: 非法操作:short_list
+
+[ 2017-03-22T10:57:01+08:00 ] ::1 /test/index.php/Admin/Member/short_list
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ms.type=2 )' at line 1
+ [ SQL语句 ] : SELECT ms.answer,ms.right_answer,ts.question,m.cometime,m.starttime,m.stoptime,ms.userid,ms.type,ms.qid,ts.ifImg FROM exam_member_answer ms,exam_testshort ts,exam_member m WHERE ( ms.qid=ts.id and ms.userid=m.id and userid= and ms.type=2 ) 
+
+[ 2017-03-22T10:57:17+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T10:57:44+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T10:57:55+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T10:58:07+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T10:58:30+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T10:59:02+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T10:59:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:00:17+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:00:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:01:25+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:02:18+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:02:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:02:34+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:02:42+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:02:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:03:14+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:03:40+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:05:27+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:06:53+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:07:28+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:09:13+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:10:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:10:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:11:43+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:12:16+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:12:49+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:13:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:13:13+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:13:25+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:13:32+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:13:46+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:13:53+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:14:08+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:14:47+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:14:55+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:15:25+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:15:38+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:15:48+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:16:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:16:22+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:16:25+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:16:41+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:17:15+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:17:23+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:17:37+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:18:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:18:08+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:18:24+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:18:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:19:05+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:19:16+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:19:18+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:19:24+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:19:52+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:20:18+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:21:03+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:21:36+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:22:29+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:22:33+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:23:48+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:24:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:24:08+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:25:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:25:36+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:25:39+08:00 ] ::1 /test/index.php/Admin/Member/short_list
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ms.type=2 )' at line 1
+ [ SQL语句 ] : SELECT ms.answer,ms.right_answer,ts.question,m.cometime,m.starttime,m.stoptime,ms.userid,ms.type,ms.qid,ts.ifImg FROM exam_member_answer ms,exam_testshort ts,exam_member m WHERE ( ms.qid=ts.id and ms.userid=m.id and userid= and ms.type=2 ) 
+
+[ 2017-03-22T11:25:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T11:27:51+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T11:30:53+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:31:22+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:31:29+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:31:38+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:31:44+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:31:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:32:47+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:32:54+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:32:56+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:33:20+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:33:22+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:33:28+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:33:44+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:33:57+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:34:04+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:34:18+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:34:34+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:34:41+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:34:47+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:34:54+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:34:59+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:35:04+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:36:37+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:36:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:37:19+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:37:28+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:37:35+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:38:03+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:38:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:38:12+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:38:58+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:39:16+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:39:55+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:40:21+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:40:33+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:40:55+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:41:22+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:42:28+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:42:36+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:42:44+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:43:10+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:43:12+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:43:14+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:43:25+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:43:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:44:32+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:45:22+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:45:38+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:45:58+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:46:16+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:46:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:49:09+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:50:24+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:50:52+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:51:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:52:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:52:20+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:52:35+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:53:03+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:53:16+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:53:40+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:53:59+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:54:45+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:55:33+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:57:33+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:58:17+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:58:19+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T11:58:48+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T12:00:00+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T12:00:17+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T12:04:27+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T12:21:42+08:00 ] ::1 /test/index.php/Admin/Member/culScores.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:culScores
+
+[ 2017-03-22T12:22:41+08:00 ] ::1 /test/index.php/Admin/Member/culScores.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:culScores
+
+[ 2017-03-22T12:22:57+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T13:08:00+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0060s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `exam_member_answer` WHERE `userid` = 17 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-22T13:08:12+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0030s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `exam_member_answer` WHERE `userid` = 17 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-22T13:53:22+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T13:53:37+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T13:53:49+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T13:55:18+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T13:55:28+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:16:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T14:17:12+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T14:23:16+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-22T14:23:22+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-22T14:26:44+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T14:27:01+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:28:36+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:29:17+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:29:32+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:30:26+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-22T14:30:43+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-22T14:30:55+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:31:27+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:32:08+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-22T14:32:29+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:32:35+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:32:46+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:33:08+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:33:27+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:33:48+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:34:26+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:34:37+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:36:41+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:37:47+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:37:56+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:40:57+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-22T14:43:22+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T14:46:00+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T14:46:20+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-22T14:46:58+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T14:51:15+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-22T14:51:36+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-22T14:55:07+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: score F:\WWW\test\Application\Admin\Controller\MemberController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: userid F:\WWW\test\Application\Admin\Controller\MemberController.class.php 第 57 行.
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`total_score`='14' WHERE `id` = null [ RunTime:0.0010s ]
+
+[ 2017-03-22T14:55:17+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T14:55:33+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0090s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`total_score`='36' WHERE `id` = 19 [ RunTime:0.0010s ]
+
+[ 2017-03-22T14:56:22+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0070s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='22',`total_score`='36' WHERE `id` = 19 [ RunTime:0.0040s ]
+
+[ 2017-03-22T15:06:01+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0080s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='18',`total_score`='32' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-03-22T15:09:33+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id F:\WWW\test\Application\Admin\Controller\MemberController.class.php 第 77 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\WWW\test\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = null AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = null AND `type` = 2 AND `qid` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = null AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = null AND `type` = 2 AND `qid` = 1
+
+[ 2017-03-22T15:10:06+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: id F:\WWW\test\Application\Admin\Controller\MemberController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: set F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = null AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = null AND `type` = 2 AND `qid` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = null AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = null AND `type` = 2 AND `qid` = 1
+
+[ 2017-03-22T15:10:35+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: set F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1
+
+[ 2017-03-22T15:11:39+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: set F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed F:\WWW\test\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1' at line 1
+ [ SQL语句 ] : UPDATE `exam_member_answer` SET  WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1
+
+[ 2017-03-22T15:15:14+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='18',`total_score`='32' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-03-22T15:16:21+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='18',`total_score`='32' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-03-22T15:16:51+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0090s ]
+SQL: UPDATE `exam_member_answer` SET `score`='12' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1 [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member_answer` SET `score`='2' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 2 [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member_answer` SET `score`='2' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 3 [ RunTime:0.0010s ]
+SQL: UPDATE `exam_member_answer` SET `score`='2' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0090s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='18',`total_score`='32' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-03-22T15:20:14+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0090s ]
+SQL: UPDATE `exam_member_answer` SET `score`='12' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1 [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member_answer` SET `score`='2' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 2 [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member_answer` SET `score`='2' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 3 [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member_answer` SET `score`='2' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 4 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0080s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='18',`total_score`='32' WHERE `id` = 19 [ RunTime:0.0010s ]
+
+[ 2017-03-22T15:20:25+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0080s ]
+SQL: UPDATE `exam_member_answer` SET `score`='0' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1 [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member_answer` SET `score`='0' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 2 [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member_answer` SET `score`='0' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 3 [ RunTime:0.0010s ]
+SQL: UPDATE `exam_member_answer` SET `score`='0' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0080s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='0',`total_score`='14' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-03-22T15:22:07+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0050s ]
+SQL: UPDATE `exam_member_answer` SET `score`='3' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `exam_member_answer` SET `score`='3' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `exam_member_answer` SET `score`='0' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 3 [ RunTime:0.0010s ]
+SQL: UPDATE `exam_member_answer` SET `score`='4' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0050s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='10',`total_score`='24' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-03-22T15:22:24+08:00 ] ::1 /test/index.php/Admin/Member/culScore.html?userid=19&score=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_member_answer` SET `score`='1' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `exam_member_answer` SET `score`='2' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `exam_member_answer` SET `score`='3' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 3 [ RunTime:0.0000s ]
+SQL: UPDATE `exam_member_answer` SET `score`='0' WHERE `userid` = '19' AND `type` = 2 AND `qid` = 4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0020s ]
+SQL: UPDATE `exam_member` SET `correct_papers`='1',`score_short`='6',`total_score`='20' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-03-22T15:24:04+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T15:28:52+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T15:31:23+08:00 ] ::1 /test/index.php/Admin/Member/short_list/id/19/score/14/name/jack4.html
+ERR: 1054:Unknown column 'ms.correct_papers' in 'field list'
+ [ SQL语句 ] : SELECT ms.answer,ms.right_answer,ts.question,m.cometime,m.starttime,m.stoptime,ms.userid,ms.type,ms.qid,ts.ifImg,ms.score,ms.correct_papers FROM exam_member_answer ms,exam_testshort ts,exam_member m WHERE ( ms.qid=ts.id and ms.userid=m.id and userid=19 and ms.type=2 ) 
+
+[ 2017-03-22T15:44:22+08:00 ] ::1 /test/index.php/Admin/Member/test_list/id/19/score/14/name/jack4/score_short/6.html
+ERR: 非法操作:test_list
+
+[ 2017-03-22T16:07:45+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:08:27+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:11:09+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:12:06+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:12:25+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:12:38+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:13:20+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:14:07+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:14:40+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:19:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:19:30+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:19:44+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:20:03+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:23:15+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:23:30+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:23:32+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:24:09+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:26:49+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:27:18+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:27:50+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:28:05+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:28:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:29:17+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:31:07+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:31:58+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:33:04+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:34:01+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:34:31+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:35:20+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:36:25+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:36:35+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:36:37+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:36:53+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:37:20+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:37:26+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:37:27+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:37:57+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:38:22+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:38:44+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:38:52+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:39:00+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:39:27+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:39:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:41:15+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:42:18+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:42:44+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:43:21+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:43:30+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:50:34+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T16:54:48+08:00 ] ::1 /test/index.php/Admin/Member/test_detail?id=19
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT `question_id`,`name`,`score`,`` FROM `exam_member` WHERE `id` = 19 LIMIT 1  
+
+[ 2017-03-22T16:55:05+08:00 ] ::1 /test/index.php/Admin/Member/test_detail?id=19
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT `question_id`,`name`,`score`,`` FROM `exam_member` WHERE `id` = 19 LIMIT 1  
+
+[ 2017-03-22T16:55:23+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:00:17+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:13:18+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:14:23+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:14:30+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:15:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:18:10+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:18:48+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:18:51+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:21:13+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:23:03+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:23:40+08:00 ] ::1 /test/index.php/Admin/Member/style.css
+ERR: 非法操作:style.css
+
+[ 2017-03-22T17:24:31+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:24:58+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:25:24+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:25:43+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:26:15+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:26:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:27:02+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:28:44+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:29:57+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:29:58+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-22T17:30:06+08:00 ] ::1 /test/index.php/Admin/Member/test_detail/userid/style.css
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`type`,`ifImg`,`a`,`b`,`c`,`d`,`right_answer` FROM `exam_test` WHERE `id` IN () 
+
+[ 2017-03-22T17:32:56+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:35:44+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:35:52+08:00 ] ::1 /test/index.php/Admin/Member/test_detail/userid/style.css
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`type`,`ifImg`,`a`,`b`,`c`,`d`,`right_answer` FROM `exam_test` WHERE `id` IN () 
+
+[ 2017-03-22T17:37:12+08:00 ] ::1 /test/index.php/Admin/Member/test_detail/userid/style.css
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`type`,`ifImg`,`a`,`b`,`c`,`d`,`right_answer` FROM `exam_test` WHERE `id` IN () 
+
+[ 2017-03-22T17:37:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:37:46+08:00 ] ::1 /test/index.php/Admin/Member/test_detail/userid/style.css
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`type`,`ifImg`,`a`,`b`,`c`,`d`,`right_answer` FROM `exam_test` WHERE `id` IN () 
+
+[ 2017-03-22T17:38:06+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:38:16+08:00 ] ::1 /test/index.php/Admin/Member/test_detail/userid/style.css
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`type`,`ifImg`,`a`,`b`,`c`,`d`,`right_answer` FROM `exam_test` WHERE `id` IN () 
+
+[ 2017-03-22T17:38:30+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-22T17:39:47+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:39:49+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:40:15+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-22T17:40:20+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-22T17:40:23+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+

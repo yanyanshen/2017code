@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>客服销售考试信息列表页</title>
+    <link href="__PUBLIC__/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/css/select.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.idTabs.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/select-ui.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/editor/kindeditor.js"></script>
+
+    <style type="text/css">
+        #page a,#page span{
+            display: inline-block;
+            width:18px;
+            height:18px ;
+            padding: 5px;
+            margin: 2px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 18px;
+            background: #f0ead8;
+            color:#000000;
+            border: 1px solid #c2d2d7;
+        }
+        #page a:hover{
+            background:#F27602;
+            color:#FF0000;
+        }
+        #page span{
+            background:#F27602;
+            color:#FF0000;
+            font-weight: bold;
+        }
+        #page{
+            float: right
+        }
+
+
+    </style>
+
+    <script type="text/javascript">
+        KE.show({
+            id : 'content7',
+            cssPath : './index.css'
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $(".select1").uedSelect({
+                width : 345
+            });
+            $(".select2").uedSelect({
+                width : 167
+            });
+            $(".select3").uedSelect({
+                width : 100
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">系统设置</a></li>
+    </ul>
+</div>
+
+<div class="formbody">
+
+
+    <div id="usual1" class="usual">
+
+
+
+        <div id="tab2" class="tabson">
+
+            <form action="{:U('Admin/Member/index')}" method="get" class="form">
+                <ul class="seachform">
+                    <li><label>综合查询</label><input name="keywords" value="{$keywords}" type="text" class="scinput" placeholder="请输入应聘者姓名" /></li>
+                    <li><label>&nbsp;</label><input name="" type="submit" class="scbtn" value="查询"/></li>
+                </ul>
+            </form>
+
+            <table class="tablelist">
+                <thead>
+                <tr>
+                    <th>编号<i class="sort"><img src="__PUBLIC__/Admin/images/px.gif" /></i></th>
+                    <th>应聘者姓名</th>
+                    <th>tel</th>
+                    <th>考试时间</th>
+                    <th>选择题分数</th>
+                    <th>简答题分数</th>
+                    <th>总分</th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="arr" id="val" key="k">
+                    <tr>
+                        <td>{$k+$firstRows}</td>
+                        <td>{$val.name}</td>
+                        <td>{$val.tel} </td>
+                        <td>{$val.time|date='Y-m-d',###} </td>
+                        <td>
+                            {$val.score}
+                            <a href="{:U('Admin/Member/test_detail',array('userid'=>$val['id']))}" style="color:#088017">点击查看详情</a>
+                        </td>
+                        <td>
+                            <if condition="$val.correct_papers eq 1">
+                                {$val.score_short}&nbsp;&nbsp;
+                                <a href="{:U('Admin/Member/short_list',array('id'=>$val['id']))}" style="color:#088017">点击查看详情</a>
+                                <elseif condition="$val.memberorder eq 0"/>
+                                <a href="{:U('Admin/Member/short_list',array('id'=>$val['id']))}" style="color:#088017">前去批改</a>
+                            </if>
+                        </td>
+                        <td>
+                            <if condition="$val.correct_papers eq 1"> {$val.total_score}
+                                <elseif condition="$val.memberorder eq 0"/> 还未合计
+                            </if>
+                        </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+
+            <div class="pagin">
+                <div class="message">共<i class="blue">{$count}</i>条记录，当前显示第&nbsp;<i class="blue">{$nowPage}&nbsp;</i>页</div>
+                <div id="page">{$Page}</div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        $("#usual1 ul").idTabs();
+    </script>
+
+    <script type="text/javascript">
+        $('.tablelist tbody tr:odd').addClass('odd');
+    </script>
+
+
+
+
+
+</div>
+
+
+</body>
+
+</html>

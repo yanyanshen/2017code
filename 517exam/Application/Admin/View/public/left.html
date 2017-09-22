@@ -1,0 +1,279 @@
+﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>左侧菜单页</title>
+<link href="__PUBLIC__/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__PUBLIC__/Admin/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	//导航切换
+	$(".menuson .header").click(function(){
+		var $parent = $(this).parent();
+		$(".menuson>li.active").not($parent).removeClass("active open").find('.sub-menus').hide();
+
+		$parent.addClass("active");
+		if(!!$(this).next('.sub-menus').size()){
+			if($parent.hasClass("open")){
+				$parent.removeClass("open").find('.sub-menus').hide();
+			}else{
+				$parent.addClass("open").find('.sub-menus').show();
+			}
+		}
+	});
+
+	// 三级菜单点击
+	$('.sub-menus li').click(function(e) {
+        $(".sub-menus li.active").removeClass("active")
+		$(this).addClass("active");
+    });
+
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('.menuson').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('.menuson').slideUp();
+		}else{
+			$(this).next('.menuson').slideDown();
+		}
+	});
+})
+</script>
+
+
+</head>
+
+<body style="background:#f0f9fd;">
+	<div class="lefttop"><span></span>后台管理</div>
+
+    <!--<dl class="leftmenu">-->
+        <!--<dd>-->
+            <!--<div class="title">-->
+                <!--<span><img src="__PUBLIC__/Pay/images/leftico01.png" /></span>-->
+                <!--<a href="{:U('Index/main')}" target="rightFrame">后台首页</a>-->
+            <!--</div>-->
+        <!--</dd>-->
+
+        <!--<dd>-->
+            <!--<div class="title">-->
+                <!--<span><img src="__PUBLIC__/Pay/images/leftico01.png" /></span>权限管理-->
+            <!--</div>-->
+            <!--<ul class="menuson">-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/index')}" target="rightFrame">管理员列表</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/add')}" target="rightFrame">添加管理员</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/changeInfo')}" target="rightFrame">个人信息修改</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('AuthGroup/index')}" target="rightFrame">管理组列表</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('AuthGroup/add')}" target="rightFrame">添加管理组</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('AuthRule/index')}" target="rightFrame">权限列表</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('AuthRule/add')}" target="rightFrame">添加权限</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+
+            <!--</ul>-->
+        <!--</dd>-->
+        <!--<dd>-->
+            <!--<div class="title">-->
+                <!--<span><img src="__PUBLIC__/Pay/images/leftico01.png" /></span>系统管理-->
+            <!--</div>-->
+            <!--<ul class="menuson">-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('AdminNav/index')}" target="rightFrame">菜单列表</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('AdminNav/add')}" target="rightFrame">添加菜单</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+
+            <!--</ul>-->
+        <!--</dd>-->
+        <!---->
+        <!--<dd>-->
+            <!--<div class="title">-->
+                <!--<span><img src="__PUBLIC__/Pay/images/leftico01.png" /></span>应聘信息-->
+            <!--</div>-->
+            <!--<ul class="menuson">-->
+                <!--<li class="active">-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Member/index')}" target="rightFrame">应聘者列表</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</dd>-->
+
+        <!--<dd>-->
+            <!--<div class="title">-->
+                <!--<span><img src="__PUBLIC__/Pay/images/leftico01.png" /></span>分类管理-->
+            <!--</div>-->
+            <!--<ul class="menuson">-->
+                <!--<li class="active">-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/TestCategory/index')}" target="rightFrame">分类列表</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/TestCategory/add')}" target="rightFrame">添加分类</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+
+            <!--</ul>-->
+        <!--</dd>-->
+        <!--<dd>-->
+            <!--<div class="title active">-->
+                <!--<span><img src="__PUBLIC__/Pay/images/leftico01.png" /></span>试题添加-->
+            <!--</div>-->
+            <!--<ul class="menuson">-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Test/one_list')}" target="rightFrame">单选题</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Test/one_pic_list')}" target="rightFrame">单选题（图片）</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Test/two_list')}" target="rightFrame">多选题</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Test/two_pic_list')}" target="rightFrame">多选题（图片）</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Test/short_list')}" target="rightFrame">简答题</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Test/short_pic_list')}" target="rightFrame">简答题(图片)</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<div class="header">-->
+                        <!--<cite></cite>-->
+                        <!--<a href="{:U('Pay/Test/addtestshow')}" target="rightFrame">添加试题</a>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</dd>-->
+
+    <!--</dl>-->
+    <!--<a href="{:U($v1['navurl'])}" target="rightFrame">{$v1.navname}</a>-->
+    <dl class="leftmenu">
+        <notempty name="navList">
+            <volist name="navList" id="v1">
+                <dd>
+                    <!--<div class="title">
+                        <span><img src="__PUBLIC__/Pay/images/leftico01.png" /></span>
+                        <empty name="v1['child']">
+                            <a href="{:U($v1['navurl'])}" target="rightFrame">{$v1.navname}</a>
+                            <else/>
+                            {$v1.navname}
+                        </empty>
+                    </div>-->
+                    <empty name="v1['child']">
+                        <a href="{:U($v1['navurl'])}" target="rightFrame">
+                            <div class="title">
+                                <span><img src="__PUBLIC__/Admin/images/leftico01.png" /></span>
+                                {$v1.navname}
+                            </div>
+                        </a>
+                        <else/>
+                        <div class="title">
+                            <span><img src="__PUBLIC__/Admin/images/leftico01.png" /></span>
+                            {$v1.navname}
+                        </div>
+                    </empty>
+                    <ul class="menuson">
+                        <notempty name="v1['child']">
+                            <volist name="v1['child']" id="v2" key="k">
+                                <li class={$k==1?"active":''}>
+                                    <div class="header">
+                                        <cite></cite>
+                                        <a href="{:U($v2['navurl'])}" target="rightFrame">{$v2.navname}</a>
+                                        <i></i>
+                                    </div>
+                                </li>
+                            </volist>
+                        </notempty>
+                    </ul>
+                </dd>
+            </volist>
+        </notempty>
+    </dl>
+    
+</body>
+</html>

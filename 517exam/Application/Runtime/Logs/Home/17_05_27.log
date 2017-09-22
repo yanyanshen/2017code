@@ -1,0 +1,207 @@
+[ 2017-05-27T10:10:31+08:00 ] 127.0.0.1 /index.php/Home/Index/addMember.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `exam_member` WHERE `name` = '测试员' AND `tel` = '15138275762' AND `sex` = '1' LIMIT 1   [ RunTime:0.0260s ]
+SQL: INSERT INTO `exam_member` (`name`,`sex`,`age`,`tel`,`score_short`,`time`) VALUES ('测试员','1','20','15138275762','0','1495851030') [ RunTime:0.0010s ]
+
+[ 2017-05-27T10:11:32+08:00 ] 127.0.0.1 /index.php/Home/Index/submit_exam.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0440s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('41','3','0','A','3','A') [ RunTime:0.0060s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('79','3','1','AC','0','CD') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 50 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('50','3','0','B','3','B') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('57','3','0','D','0','B') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('60','3','0','D','0','B') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('93','3','1','AD','0','BC') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 48 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('48','3','0','A','0','B') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('16','3','0','A','0','C') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 101 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('101','3','1','BC','0','AD') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('87','3','1','AB','0','CD') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('55','3','0','B','3','B') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('76','3','1','AD','0','CD') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('37','3','1','A','0','CD') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 73 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('73','3','1','A','0','CD') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('24','3','0','B','0','C') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('21','3','0','C','0','A') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('32','3','0','B','3','B') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 103 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('103','3','0','B','0','D') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('100','3','1','C','0','AD') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('3','3','0','A','0','B') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('69','3','0','C','0','B') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('63','3','0','C','0','B') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('29','3','0','C','3','C') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('8','3','0','C','0','B') [ RunTime:0.0010s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('11','3','0','B','0','A') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('64','3','0','B','3','B') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('27','3','1','BC','2','ABCD') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('47','3','0','C','0','B') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('91','3','1','C','2','CD') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score`,`id` FROM `exam_test` WHERE `id` = 102 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`qid`,`userid`,`type`,`answer`,`score`,`right_answer`) VALUES ('102','3','0','A','0','B') [ RunTime:0.0000s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `exam_member_answer` WHERE `userid` = '3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0070s ]
+SQL: UPDATE `exam_member` SET `score`='22',`time`='1495851092' WHERE `id` = 3 [ RunTime:0.0010s ]
+
+[ 2017-05-27T10:12:01+08:00 ] 127.0.0.1 /index.php/Home/Index/short_submit_exam.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0030s ]
+SQL: SELECT `type`,`right_answer`,`score` FROM `exam_testshort` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_member_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `exam_member_answer` (`userid`,`qid`,`type`,`right_answer`,`answer`,`score`) VALUES ('3','6','2','13','测试
+                                                ','0') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score` FROM `exam_testshort` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`userid`,`qid`,`type`,`right_answer`,`answer`,`score`) VALUES ('3','12','2','wr','测试
+                                                ','0') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score` FROM `exam_testshort` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`userid`,`qid`,`type`,`right_answer`,`answer`,`score`) VALUES ('3','2','2','nindfangisaegnsi        ','测试
+
+                                                ','0') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score` FROM `exam_testshort` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_member_answer` (`userid`,`qid`,`type`,`right_answer`,`answer`,`score`) VALUES ('3','13','2','wt','测试
+                                                ','0') [ RunTime:0.0000s ]
+SQL: SELECT `type`,`right_answer`,`score` FROM `exam_testshort` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_member_answer` (`userid`,`qid`,`type`,`right_answer`,`answer`,`score`) VALUES ('3','3','2','nindfangisaegnsi       ','测试
+                                                ','0') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_member` SET `score_short`='0',`correct_papers`='0',`time`='1495851121' WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-05-27T10:12:09+08:00 ] 127.0.0.1 /index.php/Home/Index/test_detail/userid/style.css
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`type`,`ifImg`,`a`,`b`,`c`,`d`,`right_answer` FROM `exam_test` WHERE `id` IN () 
+
+[ 2017-05-27T10:12:47+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-27T10:13:32+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试y' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-27T10:13:33+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试yu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-27T10:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试yuan' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-27T10:13:35+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试元' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-27T10:13:36+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试yuan' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-27T10:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-27T10:13:38+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试y' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-27T10:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试yua' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-27T10:13:41+08:00 ] 127.0.0.1 /index.php/Home/Index/checkUsername.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_member` WHERE `name` = '测试员' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

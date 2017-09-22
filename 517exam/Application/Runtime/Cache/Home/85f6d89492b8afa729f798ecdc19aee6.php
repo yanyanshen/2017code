@@ -1,0 +1,37 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+    <title>★我要去学车客服销售考试结果简答题查看★</title>
+    <link href="/Public/Home/exam/style/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="/Public/Home/exam/style/jquery.mmenu.all.css" rel="stylesheet" />
+    <script type="text/javascript" src="/Public/Home/exam/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/Public/Home/exam/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Public/Home/exam/js/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="/Public/Home/exam/js/jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript" src="/Public/Home/exam/layer/layer.js"></script>
+    <script src="/Public/Home/exam/js/wxm-core.js"></script>
+
+    <style>
+        #body{
+            width:700px;background-color: #f5f5f5;
+        }
+        li{width: 700px;}
+    </style>
+</head>
+<body id="test1" class="test1">
+<div id="content">
+
+    <div class="container" style="width: 1300px;margin: 0 auto">
+            <div  class="panel" style="text-align: center">
+                    <h1 style="color: green">对不起，您的其他信息可能填写有误，请重新填写 <a href="<?php echo U('Home/Index/result');?>" style="text-decoration: none">返回查询页</a> </h1>
+            </div>
+    </div>
+
+</div>
+</body>
+</html>

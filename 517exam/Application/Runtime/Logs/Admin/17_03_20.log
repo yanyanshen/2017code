@@ -1,0 +1,1762 @@
+[ 2017-03-20T09:38:45+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T09:39:04+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/12/ifImg/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ifImg=1 and p.test_id=a.id ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT a.id,a.ifImg,a.question,b.cname,a.A,a.B,a.C,a.D,a.right_answer,a.create_time,p.picurl,p.picname,p.id as pid,a.type FROM exam_test a,exam_test_category b,exam_test_pic p WHERE ( a.id=12 and a.category=b.id and type= and ifImg=1 and p.test_id=a.id ) LIMIT 1  
+
+[ 2017-03-20T09:39:40+08:00 ] ::1 /test/index.php/Admin/Test/editorTest/tid/12/ifImg/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ifImg=1 and p.test_id=a.id ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT a.id,a.ifImg,a.question,b.cname,a.A,a.B,a.C,a.D,a.right_answer,a.create_time,p.picurl,p.picname,p.id as pid,a.type FROM exam_test a,exam_test_category b,exam_test_pic p WHERE ( a.id=12 and a.category=b.id and type= and ifImg=1 and p.test_id=a.id ) LIMIT 1  
+
+[ 2017-03-20T09:42:22+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T09:43:57+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T09:44:03+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='wrewr',`type`='0',`category`='1',`right_answer`='A' WHERE `id` = 11 [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0040s ]
+SQL: SELECT `picurl`,`picname` FROM `exam_test_pic` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: imageurl F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 538 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `exam_test_pic` SET `picurl`='2017-03-20/',`picname`='58cf33e2c59b2.jpg' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-03-20T09:45:34+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T09:47:22+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T09:49:09+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='242342',`type`='0',`category`='2',`right_answer`='B' WHERE `id` = 8 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0030s ]
+SQL: SELECT `picurl`,`picname` FROM `exam_test_pic` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: imageurl F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 536 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `exam_test_pic` SET `picurl`='2017-03-20/',`picname`='58cf351598d17.jpg' WHERE `id` = 3 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/100_58cb57c3d9e27.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 558 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/200_58cb57c3d9e27.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 559 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/250_58cb57c3d9e27.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 560 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/300_58cb57c3d9e27.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 561 行.
+
+[ 2017-03-20T09:50:14+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T09:50:20+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_testshort` SET `question`='简答1',`type`='2',`category`='1',`right_answer`='                            12313231431                             ' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test_picshort` [ RunTime:0.0090s ]
+SQL: SELECT `picurl`,`picname` FROM `exam_test_picshort` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: imageurl F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 536 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `exam_test_picshort` SET `create_time`='1489974620',`picurl`='2017-03-20/',`picname`='58cf355bdcf03.jpg' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/TestShortPic/2017-03-17/100_58cb3bf804042.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 558 行.
+NOTIC: [2] unlink(./Uploads/TestShortPic/2017-03-17/200_58cb3bf804042.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 559 行.
+NOTIC: [2] unlink(./Uploads/TestShortPic/2017-03-17/250_58cb3bf804042.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 560 行.
+NOTIC: [2] unlink(./Uploads/TestShortPic/2017-03-17/300_58cb3bf804042.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 561 行.
+
+[ 2017-03-20T10:09:43+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+NOTIC: [2] move_uploaded_file(./Uploads/Exceldest/file_2017-03-20/app.xls_2017-03-20) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 171 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\phpAF28.tmp' to './Uploads/Exceldest/file_2017-03-20/app.xls_2017-03-20' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 171 行.
+
+[ 2017-03-20T10:10:25+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+NOTIC: [2] move_uploaded_file(./Uploads/Exceldest/file_2017-03-20/app.xls_2017-03-20) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 171 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php544E.tmp' to './Uploads/Exceldest/file_2017-03-20/app.xls_2017-03-20' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 171 行.
+
+[ 2017-03-20T10:10:37+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+NOTIC: [2] move_uploaded_file(./Uploads/Exceldest/file_2017-03-20/app.xls_2017-03-20) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 171 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Windows\temp\php81D4.tmp' to './Uploads/Exceldest/file_2017-03-20/app.xls_2017-03-20' F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 171 行.
+
+[ 2017-03-20T10:11:48+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T10:12:16+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T10:13:01+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T10:14:23+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:15:17+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:15:22+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:16:05+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:16:19+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:17:56+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:18:00+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:18:37+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 167 行.
+
+[ 2017-03-20T10:18:47+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T10:19:37+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`status`,`ifImg`,`create_time`) VALUES ('单选','情感','question5','1','2','3','1','0','1489976377') [ RunTime:0.0250s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '多选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`status`,`ifImg`,`create_time`) VALUES ('多选','11','question4','10','20','40','1','0','1489976377') [ RunTime:0.0000s ]
+
+[ 2017-03-20T10:20:14+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '多选' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 35 行.
+
+[ 2017-03-20T10:20:56+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '多选' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result F:\WWW\test\Application\Admin\Model\TestModel.class.php 第 35 行.
+
+[ 2017-03-20T10:22:48+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '多选' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T10:23:16+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '单选' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '多选' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:24:22+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+
+[ 2017-03-20T10:24:36+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+
+[ 2017-03-20T10:29:35+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+
+[ 2017-03-20T10:32:13+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('question2','11','22','33','44','B','0','3','1','0','1489977133') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('question3','1','2','3','4','C','0','3','1','0','1489977133') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = 'question4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('question4','10','20','40','20','AB','1','4','1','0','1489977133') [ RunTime:0.0000s ]
+
+[ 2017-03-20T10:35:28+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('哈哈2','11','22','33','44','B','0','3','1','0','1489977328') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('哈哈3','1','2','3','4','C','0','3','1','0','1489977328') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('哈哈4','10','20','40','20','AB','1','4','1','0','1489977328') [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:35:32+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:36:05+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:36:12+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:37:33+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('哈哈1','1','2','3','4','A','0','3','1','0','1489977453') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:38:08+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('哈哈12','1','2','3','4','A','0','3','1','0','1489977488') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈22' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('哈哈22','11','22','33','44','B','0','3','1','0','1489977488') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈32' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('哈哈32','1','2','3','4','C','0','3','1','0','1489977488') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T10:38:18+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈22' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈32' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:38:46+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈12' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈22' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈32' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:39:03+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈22' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈32' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:39:53+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈22' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈32' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T10:40:52+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈22' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈32' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '哈哈4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:06:14+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T11:12:10+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T11:12:15+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:12:16+08:00 ] ::1 /test/index.php/Admin/Category/index.html
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:12:18+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:12:19+08:00 ] ::1 /test/index.php/Admin/Category/index.html
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:12:21+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:12:22+08:00 ] ::1 /test/index.php/Admin/Category/index.html
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:13:07+08:00 ] ::1 /test/index.php/Admin/Category/index.html
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:13:08+08:00 ] ::1 /test/index.php/Admin/Category/index.html
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:13:10+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+ERR: 1146:Table 'exam.exam_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_category`
+
+[ 2017-03-20T11:16:47+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:16:48+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:16:48+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:16:49+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:17:11+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:17:11+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:17:12+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:17:12+08:00 ] ::1 /test/index.php/Admin/Category/add.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:17:14+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T11:17:14+08:00 ] ::1 /test/index.php/Admin/TestCategory/add.html
+ERR: 无法加载控制器:TestCategory
+
+[ 2017-03-20T11:17:15+08:00 ] ::1 /test/index.php/Admin/TestCategory/add.html
+ERR: 无法加载控制器:TestCategory
+
+[ 2017-03-20T11:17:15+08:00 ] ::1 /test/index.php/Admin/TestCategory/add.html
+ERR: 无法加载控制器:TestCategory
+
+[ 2017-03-20T11:17:59+08:00 ] ::1 /test/index.php/Admin/TestCategory/add.html
+ERR: 模板不存在:./Application/Admin/View/TestCategory/add.html
+
+[ 2017-03-20T11:17:59+08:00 ] ::1 /test/index.php/Admin/TestCategory/add.html
+ERR: 模板不存在:./Application/Admin/View/TestCategory/add.html
+
+[ 2017-03-20T11:19:36+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:19:36+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:20:53+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:21:24+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:21:24+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:21:27+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T11:21:28+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T11:23:33+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:23:34+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:23:43+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:26:22+08:00 ] ::1 /test/index.php/Admin/TestCategory/addCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T11:28:04+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:28:24+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:28:37+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:28:38+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:29:43+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:29:44+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:30:02+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:30:03+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:30:11+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T11:30:13+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:31:06+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:31:07+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:31:09+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:31:59+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:32:00+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:32:03+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:32:12+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:32:15+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:32:19+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:32:23+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 3  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:32:28+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 4  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:33:03+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:33:07+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:33:18+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:33:20+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:33:22+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:33:37+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:33:44+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 2  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:33:48+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:33:49+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:34:40+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 3  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:36:34+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:36:35+08:00 ] ::1 /test/index.php/Admin/TestCategory/addCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+ERR: 1146:Table 'exam.beauty_test_category' doesn't exist
+ [ SQL语句 ] : select cname from beauty_test_category where cname='123'
+ERR: 1146:Table 'exam.beauty_test_category' doesn't exist
+ [ SQL语句 ] : select cname from beauty_test_category where cname='123'
+
+[ 2017-03-20T11:37:17+08:00 ] ::1 /test/index.php/Admin/TestCategory/addCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0080s ]
+SQL: select cname from exam_test_category where cname='123' [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test_category` (`cname`,`pid`) VALUES ('123','1') [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `exam_test_category` WHERE `cname` = '123' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `path` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `path`='1,5' WHERE `id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:38:33+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:38:34+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:38:38+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:38:41+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 5  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:38:45+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:38:48+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 2  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:38:52+08:00 ] ::1 /test/index.php/Admin/TestCategory/addCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: select cname from exam_test_category where cname='454' [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test_category` (`cname`,`pid`,`status`,`create_time`) VALUES ('454','2','1','1489981132') [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `exam_test_category` WHERE `cname` = '454' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `path` FROM `exam_test_category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `path`='2,6' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:38:57+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:38:58+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:39:01+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 2  [ RunTime:0.0020s ]
+
+[ 2017-03-20T11:39:07+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 6  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:39:08+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T11:39:10+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T11:39:12+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:24:03+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test_category` SET `status`='0' WHERE `id` IN ('1','5') [ RunTime:0.0010s ]
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+
+[ 2017-03-20T12:24:06+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0080s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0000s ]
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+
+[ 2017-03-20T12:24:11+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0080s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0010s ]
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+
+[ 2017-03-20T12:25:15+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+
+[ 2017-03-20T12:26:08+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `status`='0' WHERE `id` IN ('6') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: UPDATE `exam_test` SET `status`='0' [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+SQL: UPDATE `exam_testshort` SET `status`='0' [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:26:15+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0090s ]
+
+[ 2017-03-20T12:26:17+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0090s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0090s ]
+
+[ 2017-03-20T12:26:20+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0090s ]
+
+[ 2017-03-20T12:26:25+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+
+[ 2017-03-20T12:26:27+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+
+[ 2017-03-20T12:26:55+08:00 ] ::1 /test/index.php/Admin/Category/editorCate/id/1.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T12:29:40+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:30:13+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0090s ]
+
+[ 2017-03-20T12:30:15+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0100s ]
+
+[ 2017-03-20T12:30:17+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0070s ]
+
+[ 2017-03-20T12:30:22+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0080s ]
+
+[ 2017-03-20T12:30:26+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+
+[ 2017-03-20T12:30:32+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+
+[ 2017-03-20T12:30:40+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+
+[ 2017-03-20T12:30:47+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0140s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0080s ]
+
+[ 2017-03-20T12:30:54+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0070s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0040s ]
+
+[ 2017-03-20T12:31:02+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+
+[ 2017-03-20T12:31:09+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0030s ]
+
+[ 2017-03-20T12:31:17+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+
+[ 2017-03-20T12:31:24+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+
+[ 2017-03-20T12:31:32+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '3,%'  [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `status`='0' WHERE `id` IN ('3') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: UPDATE `exam_test` SET `status`='0' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+SQL: UPDATE `exam_testshort` SET `status`='0' [ RunTime:0.0000s ]
+
+[ 2017-03-20T12:31:39+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '3,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+
+[ 2017-03-20T12:32:03+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0090s ]
+
+[ 2017-03-20T12:32:10+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0100s ]
+
+[ 2017-03-20T12:33:00+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0050s ]
+
+[ 2017-03-20T12:33:07+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0070s ]
+
+[ 2017-03-20T12:33:18+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0090s ]
+
+[ 2017-03-20T12:34:03+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0100s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0040s ]
+
+[ 2017-03-20T12:34:10+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0090s ]
+
+[ 2017-03-20T12:34:17+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0100s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0080s ]
+
+[ 2017-03-20T12:34:39+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `status`='1' WHERE `id` IN ('6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `category` IN ('6') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0060s ]
+SQL: UPDATE `exam_testshort` SET `status`='1' WHERE `category` IN ('6') [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:34:46+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,5,%'  [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `status`='1' WHERE `id` IN ('5') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `category` IN ('5') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0080s ]
+SQL: UPDATE `exam_testshort` SET `status`='1' WHERE `category` IN ('5') [ RunTime:0.0000s ]
+
+[ 2017-03-20T12:34:52+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '3,%'  [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `status`='1' WHERE `id` IN ('3') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `category` IN ('3') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0050s ]
+SQL: UPDATE `exam_testshort` SET `status`='1' WHERE `category` IN ('3') [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:34:58+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '1,%'  [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `status`='1' WHERE `id` IN ('1','5') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `category` IN ('1','5') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0120s ]
+SQL: UPDATE `exam_testshort` SET `status`='1' WHERE `category` IN ('1','5') [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:35:18+08:00 ] ::1 /test/index.php/Admin/Category/editorCate/id/6.html
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T12:35:24+08:00 ] ::1 /test/index.php/Admin/Category/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-03-20T12:39:32+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:39:40+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:39:44+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-03-20T12:39:48+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 4  [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:39:54+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 5  [ RunTime:0.0020s ]
+
+[ 2017-03-20T12:39:59+08:00 ] ::1 /test/index.php/Admin/TestCategory/editorCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT `path` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `path` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test_category` SET `path`='1,5,1',`pid`='5',`cname`='情感' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: update exam_test_category set path=replace(path,'1','1,5,1')  where path like '1%' [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:41:19+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T12:41:21+08:00 ] ::1 /test/index.php/Admin/TestCategory/editorCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `path`='1',`pid`='0',`cname`='情感' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: update exam_test_category set path=replace(path,'1,5,1,5,1,5,1','1')  where path like '1,5,1,5,1,5,1%' [ RunTime:0.0000s ]
+
+[ 2017-03-20T12:42:02+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-20T12:42:05+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 1  [ RunTime:0.0020s ]
+
+[ 2017-03-20T12:42:06+08:00 ] ::1 /test/index.php/Admin/TestCategory/editorCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path` FROM `exam_test_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `path` FROM `exam_test_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `path`='1,5',`pid`='1',`cname`='123' WHERE `id` = 5 [ RunTime:0.0010s ]
+SQL: update exam_test_category set path=replace(path,'1,5,1,5','1,5')  where path like '1,5,1,5%' [ RunTime:0.0010s ]
+
+[ 2017-03-20T13:08:46+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T13:13:50+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T17:15:47+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T17:15:55+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0110s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test_category` SET `status`='0' WHERE `id` IN ('6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `category` IN ('6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0110s ]
+SQL: UPDATE `exam_testshort` SET `status`='0' WHERE `category` IN ('6') [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:16:01+08:00 ] ::1 /test/index.php/Admin/TestCategory/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`status` FROM `exam_test_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `path` LIKE '2,6,%'  [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test_category` SET `status`='1' WHERE `id` IN ('6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `category` IN ('6') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_testshort` [ RunTime:0.0070s ]
+SQL: UPDATE `exam_testshort` SET `status`='1' WHERE `category` IN ('6') [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:16:10+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:16:20+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 8 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:16:32+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 3 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:16:50+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:16:58+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 12 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:17:50+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 16 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:17:53+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 15 [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:17:54+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 19 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:17:56+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 18 [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:17:58+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 21 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:18:02+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `status`='0' WHERE `id` = 15 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:18:03+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:18:06+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 24 [ RunTime:0.0020s ]
+
+[ 2017-03-20T17:18:08+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 22 [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:18:14+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 15 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:18:22+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 20 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:18:27+08:00 ] ::1 /test/index.php/Admin/Test/updateshow.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 319 行.
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `exam_test` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:33:54+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`category`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('问题1111','1','2','3','4','B','B','0','3','1','0','1490002434') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`category`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('问题3','1','2','3','4','C','C','0','3','1','0','1490002434') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`category`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('问题4','1','2','3','4','ABCD','ABCD','1','4','1','0','1490002434') [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:35:44+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('问题2222','1','2','3','4','D','0','3','1','0','1490002544') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:37:13+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:37:33+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:38:06+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:39:24+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:40:03+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T17:40:05+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:40:16+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:41:14+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:42:17+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-20T17:42:38+08:00 ] ::1 /test/index.php/Admin/Test/import_excel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题1111' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_test` SET `question`='问题1111',`A`='1',`B`='2',`C`='3',`D`='4',`right_answer`='B',`category`='1',`type`='0',`score`='3',`status`='1',`ifImg`='0',`create_time`='1490002958' WHERE `id` = 25 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题2222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `question`='问题2222',`A`='1',`B`='2',`C`='3',`D`='4',`right_answer`='D',`category`='2',`type`='0',`score`='3',`status`='1',`ifImg`='0',`create_time`='1490002958' WHERE `id` = 28 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题3333' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `exam_test` (`question`,`A`,`B`,`C`,`D`,`right_answer`,`category`,`type`,`score`,`status`,`ifImg`,`create_time`) VALUES ('问题3333','1','2','3','4','C','4','0','3','1','0','1490002958') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_test_category`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_test` WHERE `question` = '问题4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_test` SET `question`='问题4',`A`='1',`B`='2',`C`='3',`D`='4',`right_answer`='ABCD',`category`='1',`type`='1',`score`='4',`status`='1',`ifImg`='0',`create_time`='1490002958' WHERE `id` = 27 [ RunTime:0.0000s ]
+
+[ 2017-03-20T17:47:34+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+

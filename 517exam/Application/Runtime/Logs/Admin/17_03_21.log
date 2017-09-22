@@ -1,0 +1,342 @@
+[ 2017-03-21T11:29:07+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T11:29:19+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-21T11:29:30+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='图片多',`type`='0',`category`='2',`right_answer`='D' WHERE `id` = 5 [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0090s ]
+SQL: SELECT `picurl`,`picname` FROM `exam_test_pic` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: imageurl F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 539 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `exam_test_pic` SET `picurl`='2017-03-21/',`picname`='58d09e1a9d101.png' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/100_58cb3bd4627d5.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 561 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/200_58cb3bd4627d5.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 562 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/250_58cb3bd4627d5.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 563 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/300_58cb3bd4627d5.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 564 行.
+
+[ 2017-03-21T11:29:45+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-21T11:29:51+08:00 ] ::1 /test/index.php/Admin/Test/editorAddData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test` [ RunTime:0.0110s ]
+SQL: UPDATE `exam_test` SET `score`='3',`question`='图片',`type`='0',`category`='1',`right_answer`='B' WHERE `id` = 3 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `exam_test_pic` [ RunTime:0.0090s ]
+SQL: SELECT `picurl`,`picname` FROM `exam_test_pic` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: imageurl F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 539 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\test\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `exam_test_pic` SET `picurl`='2017-03-21/',`picname`='58d09e2ec88eb.png' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/100_58cb3aff29501.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 561 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/200_58cb3aff29501.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 562 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/250_58cb3aff29501.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 563 行.
+NOTIC: [2] unlink(./Uploads/TestPic/2017-03-17/300_58cb3aff29501.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\WWW\test\Application\Admin\Controller\TestController.class.php 第 564 行.
+
+[ 2017-03-21T18:28:08+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:28:19+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:28:21+08:00 ] ::1 /test/index.php/Admin/User/UserList.html
+ERR: 无法加载控制器:User
+
+[ 2017-03-21T18:30:20+08:00 ] ::1 /test/index.php/Admin/User/UserList.html
+ERR: 无法加载控制器:User
+
+[ 2017-03-21T18:30:21+08:00 ] ::1 /test/index.php/Admin/User/UserList.html
+ERR: 无法加载控制器:User
+
+[ 2017-03-21T18:30:21+08:00 ] ::1 /test/index.php/Admin/User/UserList.html
+ERR: 无法加载控制器:User
+
+[ 2017-03-21T18:30:21+08:00 ] ::1 /test/index.php/Admin/User/UserList.html
+ERR: 无法加载控制器:User
+
+[ 2017-03-21T18:30:21+08:00 ] ::1 /test/index.php/Admin/User/UserList.html
+ERR: 无法加载控制器:User
+
+[ 2017-03-21T18:30:22+08:00 ] ::1 /test/index.php/Admin/User/UserList.html
+ERR: 无法加载控制器:User
+
+[ 2017-03-21T18:30:23+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:30:24+08:00 ] ::1 /test/index.php/Admin/Member/UserList.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:25+08:00 ] ::1 /test/index.php/Admin/Member/UserList.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:45+08:00 ] ::1 /test/index.php/Admin/Member/UserList.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:45+08:00 ] ::1 /test/index.php/Admin/Member/UserList.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:45+08:00 ] ::1 /test/index.php/Admin/Member/UserList.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:46+08:00 ] ::1 /test/index.php/Admin/Member/UserList.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:47+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:30:49+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:50+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:30:50+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:31:31+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:31:32+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:31:33+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:31:34+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:31:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:31:43+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:31:50+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:33:28+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-03-21T18:33:40+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:33:41+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:33:42+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:33:43+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:34:38+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:34:51+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:34:52+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:18+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:19+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:19+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:19+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:19+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:19+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:20+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:20+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:20+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:20+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:20+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:20+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:37:21+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:06+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:38:07+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:08+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:08+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:09+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:38:09+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:38:09+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:38:10+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:10+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:38:11+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:11+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:38:11+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:12+08:00 ] ::1 /test/index.php/Admin/BrandAdd/UserAdd.html
+ERR: 无法加载控制器:BrandAdd
+
+[ 2017-03-21T18:38:14+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:38:23+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-03-21T18:38:24+08:00 ] ::1 /test/index.php/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2017-03-21T18:42:17+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:44:12+08:00 ] ::1 /test/index.php/Admin/TestCategory/getCateByPid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_test_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_test_category` WHERE `pid` = 0  [ RunTime:0.0030s ]
+
+[ 2017-03-21T18:55:37+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:56:13+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:56:53+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:57:08+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T18:57:39+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T19:02:05+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T19:02:58+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T19:03:59+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-03-21T19:05:41+08:00 ] ::1 /test/index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+

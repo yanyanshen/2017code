@@ -1,0 +1,559 @@
+[ 2017-06-09T18:30:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:30:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:30:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:31:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:35:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/Login.asp
+ERR: 非法操作:Login.asp
+
+[ 2017-06-09T18:35:08+08:00 ] 127.0.0.1 /index.php/Admin/Login/Login.asp
+ERR: 非法操作:Login.asp
+
+[ 2017-06-09T18:35:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:35:20+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-09T18:35:21+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:35:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:35:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:37:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:37:27+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:37:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+ERR: 1146:Table 'exam.exam_pay' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_pay`
+
+[ 2017-06-09T18:38:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:41:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:41:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:41:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497004867',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0590s ]
+
+[ 2017-06-09T18:42:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:42:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497004954',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0430s ]
+
+[ 2017-06-09T18:50:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:50:43+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:50:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497005445',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0460s ]
+
+[ 2017-06-09T18:50:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497005446',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0360s ]
+
+[ 2017-06-09T18:50:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497005447',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0430s ]
+
+[ 2017-06-09T18:54:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:54:30+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497005670',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0500s ]
+
+[ 2017-06-09T18:54:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497005671',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0510s ]
+
+[ 2017-06-09T18:57:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T18:57:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T18:57:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497005845',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0470s ]
+
+[ 2017-06-09T18:57:26+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497005846',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0480s ]
+
+[ 2017-06-09T18:57:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+ERR: 1146:Table 'exam.exam_message_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_message_admin`
+
+[ 2017-06-09T18:57:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+
+[ 2017-06-09T18:58:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+ERR: 1146:Table 'exam.exam_message_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_message_admin`
+
+[ 2017-06-09T18:58:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+
+[ 2017-06-09T18:58:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+ERR: 1146:Table 'exam.exam_message_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_message_admin`
+
+[ 2017-06-09T18:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+
+[ 2017-06-09T18:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+ERR: 1146:Table 'exam.exam_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_goods`
+
+[ 2017-06-09T18:59:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+ERR: 1146:Table 'exam.exam_message_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_message_admin`
+
+[ 2017-06-09T18:59:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T18:59:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T18:59:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T18:59:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:00:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:00:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:01:02+08:00 ] 127.0.0.1 /index.php/Admin/Admin/loginout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0050s ]
+SQL: UPDATE `exam_admin` SET `online`='0' WHERE `id` = 1 [ RunTime:0.0390s ]
+
+[ 2017-06-09T19:01:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T19:01:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T19:01:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497006076',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0440s ]
+
+[ 2017-06-09T19:01:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497006077',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0350s ]
+
+[ 2017-06-09T19:01:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:01:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:02:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 非法操作:index.html
+
+[ 2017-06-09T19:02:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 非法操作:index.html
+
+[ 2017-06-09T19:02:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:02:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:02:53+08:00 ] 127.0.0.1 /index.php/Admin/Admin/loginout.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0140s ]
+SQL: UPDATE `exam_admin` SET `online`='0' WHERE `id` = 1 [ RunTime:0.0350s ]
+
+[ 2017-06-09T19:02:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkVerify.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-09T19:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkAdmin.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T19:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497006180',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0460s ]
+
+[ 2017-06-09T19:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `exam_admin` SET `online`='1',`lastlogin`='1497006181',`lastip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0440s ]
+
+[ 2017-06-09T19:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:05:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.asp
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:05:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:05:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/getGoodsTop.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getGoodsTop
+
+[ 2017-06-09T19:07:27+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/setPriority.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin_nav` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `exam_admin_nav` SET `priority`='40' WHERE `id` = 2 [ RunTime:0.0430s ]
+
+[ 2017-06-09T19:07:34+08:00 ] 127.0.0.1 /index.php/Admin/AdminNav/setPriority.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam_admin_nav` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\WWW\517exam\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `exam_admin_nav` SET `priority`='50' WHERE `id` = 2 [ RunTime:0.0300s ]
+

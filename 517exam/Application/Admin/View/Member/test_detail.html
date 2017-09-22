@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+    <title>★我要去学车客服销售考试★</title>
+    <link href="__STATIC__/exam/style/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="__STATIC__/exam/style/jquery.mmenu.all.css" rel="stylesheet" />
+    <script type="text/javascript" src="__STATIC__/exam/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/exam/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/exam/js/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/exam/js/jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript" src="__STATIC__/exam/layer/layer.js"></script>
+    <script src="__STATIC__/exam/js/wxm-core.js"></script>
+    <style>
+
+        li{width: 390px;float: left}
+    </style>
+</head>
+<body id="test1" class="test1">
+<div id="content" >
+    <div class="container" style="width: 95%">
+        <div class="text-center header" >
+            <h1 class="bold" style="color: #ff992c">
+                ★选择题★
+            </h1>
+            <span>
+                <p style="color: #464646" id="timeshow">
+                    <div>
+                        <dl>
+                            <dd>姓名:{$name}&nbsp;&nbsp;
+                                <if condition="$score_short neq 0" >
+                                    简答题得分:{$score_short}&nbsp;&nbsp;
+                                </if>
+                                选择题得分:{$score}
+                            </dd>
+                        </dl>
+                    </div>
+                </p>
+            </span>
+        </div>
+
+        <div id="bd" class="panel">
+            <div id="panel2" class="panel-body" >
+                <volist name="arr" id="data" key="k">
+                    <if condition="$data.type eq 1">
+                        <div style="width:400px;float: left;margin-left: 40px">
+                            <dl style="text-align: left">
+                                <dd>{$k}.{$data.question} (多选题)</dd>
+                            </dl>
+                            <ul class="list-group" style="text-align: left;float:left;">
+                                <li class="list-group-item" >
+                                    A.{$data.a}
+                                </li>
+                                <li class="list-group-item">
+                                    B.{$data.b}
+                                </li>
+                                <li class="list-group-item">
+                                    C.{$data.c}
+                                </li>
+                                <li class="list-group-item" >
+                                    D.{$data.d}
+                                </li>
+                                <li class="list-group-item" >
+                                    正确选项：{$data.right_answer} &nbsp;&nbsp;&nbsp;您的选项是：
+                                    <if condition="($data['info']['score'] eq 0) or ($data['info']['score'] eq 2)">
+                                        <span style="color: red">{$data['info']['answer']}</span>
+                                        <else/>
+                                        <span style="color: green">{$data['info']['answer']}</span>
+                                    </if>
+                                    <if condition="$data['info']['answer'] eq ''">
+                                        <span style="color: red">答案为空</span>
+                                    </if>
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="float:left;margin-top: 40px;width:243px;height: 210px;margin-left: 20px">
+                            <if condition="$data.ifimg eq 1">
+                                <img style="width:240px;height: 180px;" src="{$server}/uploads/TestPic/{$data['image']['picurl']}300_{$data['image']['picname']}" alt=""/>
+                            </if>
+                        </div>
+                    </if>
+
+                    <if condition="$data.type eq 0">
+                        <div style="width:400px;float: left;margin-left: 40px">
+                            <dl style="text-align: left">
+                                <dd>{$k}.{$data.question} (单选题)</dd>
+                            </dl>
+                            <ul class="list-group" style="text-align: left;float:left;">
+                                <li class="list-group-item" >
+                                    A.{$data.a}
+                                </li>
+                                <li class="list-group-item">
+                                    B.{$data.b}
+                                </li>
+                                <li class="list-group-item">
+                                    C.{$data.c}
+                                </li>
+                                <li class="list-group-item" >
+                                    D.{$data.d}
+                                </li>
+                                <li class="list-group-item" >
+                                    正确选项：{$data.right_answer} &nbsp;&nbsp;&nbsp;您的选项是：
+                                    <if condition="($data['info']['score'] eq 0) or ($data['info']['score'] eq 2)">
+                                        <span style="color: red">{$data['info']['answer']}</span>
+                                        <else/>
+                                        <span style="color: green">{$data['info']['answer']}</span>
+                                    </if>
+                                    <if condition="$data['info']['answer'] eq ''">
+                                        <span style="color: red">答案为空</span>
+                                    </if>
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="float:left;margin-top: 40px;width:243px;height: 210px;margin-left: 20px">
+                            <if condition="$data.ifimg eq 1">
+                                <img style="width:240px;height: 180px;" src="{$server}/uploads/TestPic/{$data['image']['picurl']}300_{$data['image']['picname']}" alt=""/>
+                            </if>
+                        </div>
+                    </if>
+                </volist>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

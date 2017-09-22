@@ -1,0 +1,11 @@
+[ 2017-04-12T18:42:55+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1049] Unknown database 'exam'
+
+[ 2017-04-12T19:42:02+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'exam.exam_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_member`
+
+[ 2017-04-12T19:42:26+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'exam.exam_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_member`
+
